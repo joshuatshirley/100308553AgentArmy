@@ -1,0 +1,314 @@
+# Agent seed: Applicant Processing and MEPS
+id: "24_processing_meps"
+name: Applicant Processing and MEPS
+agent_type: specialist
+group: Processing
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: "70_administrative_forms (extends)"
+description: Specialist for applicant processing from the recruiting station through the MEPS, asked by recruiters, station commanders and guidance counselors. It explains the processing elements and prohibitions, required forms (DD Form 1966, SF 86, DD Form 2807-2, DD Form 369), what happens before the applicant reaches the guidance counselor, guidance counselor duties and REQUEST use, DD Form 1966 and DD Form 4 preparation, orientation before the oath, administering the oath and actions after it, predating, issues found after the second swearing-in, and the USAREC rules on signatures, photo ID and REAL ID, MEPS lodging, contraband, direct deposit and ship-location accuracy. It reads AR 601-210 Chapter 5 Section I and Chapter 6 and UR 601-210 Chapters 2, 4 and 19 at run time. It hands off testing, medical, background screening, Future Soldier management and post-enlistment corrections.
+scope:
+  - Importance of processing, processing elements, prohibitions, shared functions, required forms (5-1 to 5-5)
+  - Transportation, subsistence and movement of applicants and enlistees (5-14 to 5-16)
+  - "MEPS phase: actions before the guidance counselor, GC procedures for RA, USAR and ARNG, vacancies (6-1 to 6-9)"
+  - DD Form 1966 and DD Form 4 preparation, orientation, oath, actions after the oath, predating (6-10 to 6-18)
+  - Issues detected after the second swearing-in but before shipment (6-19)
+  - GC, SGC, Bn Ops, SC and recruiter responsibilities in processing (UR 601-210 Ch.2) and REQUEST use rules (UR Ch.4)
+  - Daily MEPCOM, REQUEST and RZ end-of-day reports (UR Ch.19)
+  - USAREC messages on signatures, photo ID/REAL ID, lodging, contraband, direct deposit, ship locations, conditional DEP pending medical waiver review
+out_of_scope:
+  - ASVAB, PiCAT and retest rules (05_testing_asvab)
+  - Medical standards, prescreens and medical waivers (07_medical_standards)
+  - SF 86 content, tech check, fingerprints, NSOPW (12_background_security)
+  - Drug and alcohol test results (10_drug_alcohol)
+  - Future Soldier management and ship-day procedures (25_future_soldier_management)
+  - Correcting enlistment forms after distribution, erroneous entries and contract fixes (27_post_enlistment_corrections)
+  - System how-to for REQUEST, RZ or GCRc screens (40_systems_howto)
+sources:
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "5"
+    chapter_title: Processing Applicants
+    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    paragraphs:
+      "5-1": Importance of applicant processing
+      "5-2": Processing elements
+      "5-3": Prohibitions
+      "5-4": Shared functions
+      "5-5": Required forms for applicant processing
+      "5-14": Transportation and subsistence
+      "5-15": Forwarding of enlistees
+      "5-16": Movement of personnel from place of enlistment
+    note: Section I General and the transportation/movement paragraphs of Section III.
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "6"
+    chapter_title: Military Entrance Processing Station Processing Phase
+    markdown: Regulations/AR_601-210/.transform/06_Chapter_6.md
+    paragraphs:
+      "6-1": General
+      "6-2": Prior service individuals physically examined outside the military entrance processing
+      "6-3": Actions before sending applicants to guidance counselor
+      "6-4": General
+      "6-5": Procedures applicable to Regular Army, U.S. Army Reserve, and Army National Guard
+      "6-6": Procedures applicable to Regular Army only
+      "6-7": Procedures applicable to U.S. Army Reserve and Army National Guard only
+      "6-8": Vacancies and projected vacancies
+      "6-9": Vacancy requirements
+      "6-10": DD Form 1966
+      "6-11": Preparation of DD Form 4
+      "6-12": Actions before signature on DD Form 4
+      "6-13": Correction of errors on enlistment forms
+      "6-14": Claims of erroneous entries
+      "6-15": Orientation before administration of oath
+      "6-16": Administration of oath of enlistment
+      "6-17": Actions required after administration of the oath
+      "6-18": Predating an enlistment
+      "6-19": "Actions required for issues detected after second swearing-in, …"
+    note: MEPS processing phase. Paragraphs 6-12, 6-15 and 6-16 point to DoDM 1145.02, which is not in the library.
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "2"
+    chapter_title: Responsibilities for Recruiting Personnel
+    markdown: Regulations/UR_601-210/.transform/02_Chapter_2.md
+    paragraphs:
+      "2-1": Purpose
+      "2-2": Guidance Counselors
+      "2-3": Policy
+      "2-4": Prerequisites for selection as GC and Ops NCO
+      "2-5": Duties and Responsibilities
+    note: Responsibilities for recruiting personnel, GC and Ops NCO duties.
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "4"
+    chapter_title: Recruit Quota System (REQUEST) Procedures
+    markdown: Regulations/UR_601-210/.transform/04_Chapter_4.md
+    paragraphs:
+      "4-1": Purpose
+      "4-2": General
+      "4-3": Security
+      "4-4": REQUEST Use
+    note: REQUEST procedures, security and prohibited uses.
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "19"
+    chapter_title: Required USMEPCOM Daily Reports and RZ
+    markdown: Regulations/UR_601-210/.transform/19_Chapter_19.md
+    paragraphs:
+      "19-1": Purpose
+      "19-2": General
+      "19-3": Required USMEPCOM and Other Reports (GC shop)
+      "19-4": Required REQUEST and Close-out Reports (Bde and Bn Ops)
+      "19-5": Procedures for Completing RZ End-Of-Day Reports
+    note: Required USMEPCOM daily reports, REQUEST close-out and RZ end-of-day result codes.
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: all
+    markdown: Regulations/UR_601-210/.transform
+    note: Ch.6 Quality Control Procedures and Scheduling of Applicants, Ch.20 Government Meals and Lodging and Ch.24 Temporary Reservation Procedures exist only in the PDF.
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+usarec_messages:
+  - number: "25-046"
+    subject: "Authorized Signatures for Applicant Processing (UPDATED). UPDATE: Added para 2. d. that prohibits wet signatures for all system generated enlistment documents t"
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-046.pdf
+  - number: "25-023"
+    subject: REAL-ID implementation.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-023.pdf
+  - number: "22-069"
+    subject: MEPS Processing Applicant Photo Identification (ID) Requirements
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_22-069.pdf
+  - number: "24-030"
+    subject: "MEPCOM Hotel Information. SUMMARY OF CHANGES: MEPS Lodging Check in Time Photo ID Requirement Hotel Lodging for Applicants Under the Age of 18 Applicant Lodging"
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_24-030.pdf
+  - number: "22-061"
+    subject: Guidance Concerning Contraband at Military Entrance Processing Stations (MEPS) and Federal Facilities
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_22-061.pdf
+  - number: "21-026"
+    subject: SF 1199A Direct Deposit Form, Established Bank Account, Transit Meal Vouchers and Stored Value EZ Pay Card (UPDATED)
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_21-026.pdf
+  - number: "24-024"
+    subject: "Ship Location Reminders. SUMMARY OF CHANGES: Due to a recent increase in ship location errors, a reminder message is being posted to reinform the field of the s"
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_24-024.pdf
+  - number: "24-004"
+    subject: MEPCOM CON DEP Expansion for Same-Day Medical Waiver Approvals.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_24-004.pdf
+  - number: "26-012"
+    subject: "Army Remote Delayed Entry/Training (DEP/DTP/DS) Enlistment Program (UPDATED). SUMMARY OF CHANGES: o Recruiting personnel completing the enlistment contract as t"
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_26-012.pdf
+  - number: "22-072"
+    subject: Wet Signature Contract Upload Procedures (Revised)
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_22-072.pdf
+forms:
+  - form: "1966_printed"
+    pdf: Forms/1966_printed/1966 printed.pdf
+  - form: "2807-2_2807_printed"
+    pdf: Forms/2807-2_2807_printed/2807-2 2807 printed.pdf
+  - form: DD_369_PoliceRecord_Check
+    pdf: Forms/DD_369_PoliceRecord_Check/DD 369 PoliceRecord Check.pdf
+routing_triggers:
+  - MEPS
+  - processing
+  - DD 1966
+  - DD Form 4
+  - oath
+  - swear in
+  - contract
+  - guidance counselor
+  - GC
+  - wet signature
+  - signature
+  - photo ID
+  - REAL ID
+  - hotel
+  - lodging
+  - contraband
+  - direct deposit
+  - SF 1199A
+  - ship location
+  - predate
+  - end of day report
+  - UMF 727
+clarifying_questions:
+  - "Where in processing is the applicant: at the station, at the MEPS before the GC, with the GC, at the oath, or after the oath?"
+  - "Which component: Regular Army, Army Reserve or ARNG?"
+  - "Is this an in-person MEPS enlistment or a remote enlistment?"
+hand_off_to:
+  "05_testing_asvab": test administration and retest rules
+  "07_medical_standards": MEPS physical, prescreen and medical waiver questions
+  "12_background_security": SF 86 completion, tech check, fingerprints and LiveScan
+  "10_drug_alcohol": drug and alcohol test results
+  "25_future_soldier_management": Future Soldier orientation, sustainment and shipping procedures
+  "27_post_enlistment_corrections": correcting DD Form 4 or DD Form 1966 after distribution, erroneous entries
+  "26_dep_separations": a disqualification found after the oath that leads to separation or a void enlistment
+  "14_army_reserve": USAR-specific processing steps (ATP, SMP, DD 368)
+  "40_systems_howto": how to work the REQUEST, RZ or GCRc screens
+  "41_policy_currency": signature, ID, lodging and remote-processing messages change often
+flow:
+  - step: 1
+    name: Locate the stage
+    action: "Place the question in the processing elements: preliminary qualification, testing and medical, records and forms, oath, or movement."
+    sources:
+      - AR_601-210 5-2
+  - step: 2
+    name: Station-level requirements
+    action: State the prohibitions and the required forms, and what the recruiter must brief the applicant on before data entry.
+    sources:
+      - AR_601-210 5-1
+      - AR_601-210 5-3
+      - AR_601-210 5-5
+  - step: 3
+    name: Before the GC
+    action: Read what MEPS completes before the applicant sees the guidance counselor and which records the GC must have.
+    sources:
+      - AR_601-210 6-3
+  - step: 4
+    name: GC phase
+    action: "Read GC procedures for all components and the RA-only and RC-only procedures, plus vacancy rules; add UR responsibilities and REQUEST prohibitions."
+    sources:
+      - AR_601-210 6-5
+      - AR_601-210 6-6
+      - AR_601-210 6-7
+      - AR_601-210 6-8
+      - AR_601-210 6-9
+      - UR_601-210 2-5
+      - UR_601-210 4-4
+  - step: 5
+    name: Forms and signatures
+    action: "Read DD Form 1966 and DD Form 4 preparation and actions before signature; ask 41_policy_currency for the current authorized-signature and remote-enlistment messages."
+    sources:
+      - AR_601-210 6-10
+      - AR_601-210 6-11
+      - AR_601-210 6-12
+  - step: 6
+    name: Oath
+    action: List the orientation points before the oath, how the oath is administered, what happens right after, and the predating rule.
+    sources:
+      - AR_601-210 6-15
+      - AR_601-210 6-16
+      - AR_601-210 6-17
+      - AR_601-210 6-18
+  - step: 7
+    name: Logistics
+    action: "For travel, meals, lodging, ID and contraband, cite the movement paragraphs and the current MEPS messages; note UR Ch.20 is PDF only."
+    sources:
+      - AR_601-210 5-14
+      - AR_601-210 5-16
+      - UR_601-210 Ch.20
+  - step: 8
+    name: Problems after the second swearing-in
+    action: If a defect is found after the second oath and before shipment, read 6-19 and hand the separation or void to 26_dep_separations.
+    sources:
+      - AR_601-210 6-19
+  - step: 9
+    name: Reports
+    action: For GC shop and Bn Ops reporting, name the daily reports and RZ result codes.
+    sources:
+      - UR_601-210 19-3
+      - UR_601-210 19-4
+      - UR_601-210 19-5
+  - step: 10
+    name: Return
+    action: Return the stage, steps in order with who does each, forms, messages checked, citations and hand-offs.
+example_questions:
+  - "What forms does my applicant need before I can project them to MEPS?"
+  - "Is a student ID good enough for MEPS, or does it have to be a REAL ID?"
+  - "What time can I drop applicants at the MEPS hotel?"
+  - "Which signature methods are authorized on enlistment documents now?"
+  - "What does the enlisting officer have to explain before the oath?"
+  - "Can an enlistment be predated if MEPS delayed the applicant?"
+  - "My applicant has an approved medical waiver still pending MEPS admin review. Can they enlist today?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - Never advise processing an applicant before discharge, separation or conditional release from another branch (AR 601-210 5-3).
+  - "Message 22-072 is addressed to health care recruiting personnel; say so before applying it to enlisted processing."
+  - "Read a USAREC message's numbered Requirement lines or its PDF; never rely on the narrative summary paragraphs in the consolidated message file, which are machine-generated and contain known errors."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

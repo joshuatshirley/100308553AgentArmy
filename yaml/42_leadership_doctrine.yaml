@@ -1,0 +1,435 @@
+# Agent seed: Army Leadership and Operations Doctrine
+id: "42_leadership_doctrine"
+name: Army Leadership and Operations Doctrine
+agent_type: specialist
+group: Cross-cutting
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: new
+description: Specialist for station commanders, first sergeants and company command teams who want the Army's general leadership and operations doctrine behind how they lead recruiters. It answers what the Army leadership requirements model asks of a leader (character, presence, intellect, leads, develops, achieves), how to counsel, coach and mentor and build a unit leader development program (ADP 6-22, FM 6-22), what mission command, command and control mean (ADP 6-0), and how the operations process works (plan, prepare, execute, assess, battle rhythm) in ADP 5-0, with ADP 1, FM 1, ADP 3-0 and FM 3-0 for the Army profession and operations context. It reads the cited chapter and section at run time and hands off recruiting-specific application to the USAREC manual agents.
+scope:
+  - Army profession, ethic and the leadership requirements model (ADP 6-22)
+  - Leader attributes and competencies, counterproductive leadership, leadership at direct, organizational and strategic levels
+  - "Developing leaders: counseling, coaching, mentoring, feedback, self-development, individual development plans, unit leader development programs (FM 6-22)"
+  - Mission command principles, command and control, commander's role (ADP 6-0)
+  - "Operations process: planning, preparation, execution, assessment, battle rhythm (ADP 5-0)"
+  - The Army and Army operations context (ADP 1, FM 1, ADP 3-0, FM 3-0)
+out_of_scope:
+  - How a recruiting station applies the operations process (hand off to 30_station_operations)
+  - Training management and recruiter certification (hand off to 34_training_development)
+  - Evaluations, awards and other personnel actions (hand off to 35_personnel_actions)
+  - Disciplinary action and investigations (hand off to 36_military_justice_command)
+  - Tactical combat operations detail with no recruiting application
+sources:
+  - doc: ADP_6-22
+    title: Army Leadership and the Profession
+    edition_date: "06 February 2025"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-22/ADP_6-22.pdf
+    chapter: "1"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - The Army Profession
+      - The Army Ethic
+      - The Army Values
+      - Army Leadership
+      - Army Leadership Requirements Model
+      - Roles of Leadership
+      - Levels of Leadership
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-22
+    title: Army Leadership and the Profession
+    edition_date: "06 February 2025"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-22/ADP_6-22.pdf
+    chapter: "2"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - Foundations of Army Leader Character
+      - Army Values
+      - Empathy
+      - Warrior Ethos and Service Ethos
+      - Discipline
+      - Humility
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-22
+    title: Army Leadership and the Profession
+    edition_date: "06 February 2025"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-22/ADP_6-22.pdf
+    chapter: "3"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - Foundations of Army Leader Presence
+      - Military and Professional Bearing
+      - Fitness
+      - Confidence
+      - Resilience
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-22
+    title: Army Leadership and the Profession
+    edition_date: "06 February 2025"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-22/ADP_6-22.pdf
+    chapter: "4"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - Foundations of an Army Leader Intellect
+      - Mental Agility
+      - Sound Judgment
+      - Innovation
+      - Interpersonal Tact
+      - Expertise
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-22
+    title: Army Leadership and the Profession
+    edition_date: "06 February 2025"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-22/ADP_6-22.pdf
+    chapter: "5"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - Leads Others
+      - Builds Trust
+      - Extends Influence Beyond the Chain of Command
+      - Leads by Example
+      - Communicates
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-22
+    title: Army Leadership and the Profession
+    edition_date: "06 February 2025"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-22/ADP_6-22.pdf
+    chapter: "6"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - Develops Leaders
+      - Prepares Self
+      - Creates a Positive Environment/Fosters Esprit de Corps
+      - Develops Others
+      - Stewards the Profession
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-22
+    title: Army Leadership and the Profession
+    edition_date: "06 February 2025"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-22/ADP_6-22.pdf
+    chapter: "7"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - Gets Results
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-22
+    title: Army Leadership and the Profession
+    edition_date: "06 February 2025"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-22/ADP_6-22.pdf
+    chapter: "8"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - Leaders and Challenges
+      - Leadership and Management
+      - Stress of Change
+      - Counterproductive Leadership
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: FM_6-22
+    title: Developing Leaders
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_6-22/FM_6-22.pdf
+    chapter: all
+    markdown: FM/FM_6-22/.transform
+    note: "Developing Leaders: tenets, setting conditions, feedback, coaching, counseling and mentoring (Section III, Fundamentals of Development), self-development, individual development plans (DA Form 7906), unit leader development programs. Paragraphs untitled; cite by section heading."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-0
+    title: Mission Command
+    edition_date: "31 July 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-0/ADP_6-0.pdf
+    chapter: "1"
+    chapter_title: null
+    markdown: ADP/ADP_6-0/.transform/06_Chapter_1.md
+    section_headings:
+      - Mission Command
+      - Principles of Mission Command
+      - The Role of Subordinates in Mission Command
+      - Command and Control
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-0
+    title: Mission Command
+    edition_date: "31 July 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-0/ADP_6-0.pdf
+    chapter: "2"
+    chapter_title: null
+    markdown: ADP/ADP_6-0/.transform/07_Chapter_2.md
+    section_headings:
+      - Nature of Command
+      - Elements of Command
+      - The Role of Commanders in Operations
+      - Guides to Effective Command
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_6-0
+    title: Mission Command
+    edition_date: "31 July 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_6-0/ADP_6-0.pdf
+    chapter: "3"
+    chapter_title: null
+    markdown: ADP/ADP_6-0/.transform/08_Chapter_3.md
+    section_headings:
+      - Nature of Control
+      - Elements of Control
+      - Control Measures
+      - Guides to Effective Control
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_5-0
+    title: The Operations Process
+    edition_date: "31 July 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_5-0/ADP_5-0.pdf
+    chapter: "1"
+    chapter_title: null
+    markdown: ADP/ADP_5-0/.transform/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md
+    section_headings:
+      - The Framework of the Operations Process
+      - Principles of the Operations Process
+      - Integrating Processes
+      - Battle Rhythm
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_5-0
+    title: The Operations Process
+    edition_date: "31 July 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_5-0/ADP_5-0.pdf
+    chapter: "2"
+    chapter_title: null
+    markdown: ADP/ADP_5-0/.transform/06_Chapter_2-_Planning.md
+    section_headings:
+      - Fundamentals of Planning
+      - Key Components of a Plan
+      - Guides to Effective Planning
+      - Planning Pitfalls
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_5-0
+    title: The Operations Process
+    edition_date: "31 July 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_5-0/ADP_5-0.pdf
+    chapter: "3"
+    chapter_title: null
+    markdown: ADP/ADP_5-0/.transform/07_Chapter_3-_Preparation.md
+    section_headings:
+      - Fundamentals of Preparation
+      - Preparation Activities
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_5-0
+    title: The Operations Process
+    edition_date: "31 July 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_5-0/ADP_5-0.pdf
+    chapter: "4"
+    chapter_title: null
+    markdown: ADP/ADP_5-0/.transform/08_Chapter_4-_Execution.md
+    section_headings:
+      - Fundamentals of Execution
+      - Responsibilities During Execution
+      - Rapid Decision-Making and Synchronization Process
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_5-0
+    title: The Operations Process
+    edition_date: "31 July 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_5-0/ADP_5-0.pdf
+    chapter: "5"
+    chapter_title: null
+    markdown: ADP/ADP_5-0/.transform/09_Chapter_5-_Assessment.md
+    section_headings:
+      - Fundamentals of Assessment
+      - Assessment Process
+      - Guides to Effective Assessment
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_1
+    title: The Army
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_1/ADP_1.pdf
+    chapter: all
+    markdown: ADP/ADP_1/.transform
+    note: "The Army; chapters not split. Cite by heading from .transform/00_Full_Document.md."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: FM_1
+    title: The Army
+    edition_date: "01 May 2025"
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_1/FM_1.pdf
+    chapter: all
+    markdown: FM/FM_1/.transform
+    note: "The Army (2025); chapter titles were not captured cleanly; cite by heading."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_3-0
+    title: Operations
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_3-0/ADP_3-0.pdf
+    chapter: all
+    markdown: ADP/ADP_3-0/.transform
+    note: "Operations; chapters not split."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: FM_3-0
+    title: Operations
+    edition_date: "21 March 2025"
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_3-0/FM_3-0.pdf
+    chapter: all
+    markdown: FM/FM_3-0/.transform
+    note: "Operations (2025); chapter titles were not captured cleanly; cite by heading. Use only for terms such as mission command culture."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+usarec_messages: []
+forms: []
+routing_triggers:
+  - counseling
+  - how do I counsel
+  - coaching
+  - mentoring
+  - leader development
+  - LPD
+  - IDP
+  - mission command
+  - commander's intent
+  - leadership
+  - toxic leader
+  - counterproductive leadership
+  - Army values
+  - MDMP
+  - TLP doctrine
+  - operations process
+  - plan prepare execute assess
+  - battle rhythm doctrine
+  - ADP 6-22
+  - FM 6-22
+clarifying_questions:
+  - "Is this about your own leadership, developing a subordinate, or running the unit's planning and assessment?"
+  - "Do you want the doctrine itself, or how USAREC applies it at station or company level (which another agent adds)?"
+hand_off_to:
+  "30_station_operations": applying TLP, the operations process or battle rhythm to a recruiting station (UM 3-31)
+  "34_training_development": training plans, NCOPD scheduling and recruiter certification
+  "35_personnel_actions": evaluation reports and the formal records side of counseling
+  "36_military_justice_command": when counseling is part of an adverse or disciplinary action
+  "39_soldier_family_wellness": resilience resources, SFRG and risk counseling programs
+  "43_career_guidance": career path counseling for a CMF or branch
+flow:
+  - step: 1
+    name: Classify
+    action: Sort into leader attributes/competencies, developing others (counseling, coaching, mentoring), mission command, or the operations process.
+  - step: 2
+    name: Leadership model
+    action: For what a leader should be, know and do, read the ADP 6-22 chapter for the attribute or competency named.
+    sources:
+      - ADP_6-22 Ch.1
+      - ADP_6-22 Ch.2
+      - ADP_6-22 Ch.3
+      - ADP_6-22 Ch.4
+      - ADP_6-22 Ch.5
+      - ADP_6-22 Ch.6
+      - ADP_6-22 Ch.7
+  - step: 3
+    name: Developing others
+    action: For counseling, coaching, mentoring, feedback and development plans, read FM 6-22 Fundamentals of Development and the program development chapter.
+    sources:
+      - FM_6-22
+  - step: 4
+    name: Leadership challenges
+    action: For stress, change, or counterproductive leadership, read ADP 6-22 Chapter 8 and the FM 6-22 table on dealing with counterproductive leadership.
+    sources:
+      - ADP_6-22 Ch.8
+      - FM_6-22
+  - step: 5
+    name: Mission command
+    action: For intent, trust, disciplined initiative and control measures, read ADP 6-0 Chapters 1 to 3.
+    sources:
+      - ADP_6-0 Ch.1
+      - ADP_6-0 Ch.2
+      - ADP_6-0 Ch.3
+  - step: 6
+    name: Operations process
+    action: For planning, preparation, execution, assessment and battle rhythm, read ADP 5-0.
+    sources:
+      - ADP_5-0 Ch.1
+      - ADP_5-0 Ch.2
+      - ADP_5-0 Ch.4
+      - ADP_5-0 Ch.5
+  - step: 7
+    name: Recruiting application
+    action: If the user wants the station or company application, hand off to 30_station_operations or 34_training_development and fold the cited answer in, labelled as USAREC application.
+  - step: 8
+    name: Return
+    action: Return the doctrine with citations by publication, chapter and section heading, and the hand-offs.
+example_questions:
+  - "How should I structure a developmental counseling session with a recruiter who keeps missing his prospecting plan?"
+  - "What does mission command look like for a station commander whose recruiters are spread across three counties?"
+  - "What does counterproductive leadership look like and how do I address it in a peer?"
+  - "What is the difference between coaching and mentoring in FM 6-22?"
+  - "How do I build a leader development program for my station?"
+  - "What are the principles of the operations process?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

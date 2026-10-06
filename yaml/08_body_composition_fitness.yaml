@@ -1,0 +1,249 @@
+# Agent seed: Body Composition and Fitness
+id: "08_body_composition_fitness"
+name: Body Composition and Fitness
+agent_type: specialist
+group: Eligibility
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: "20_medical_triage (split)"
+description: Specialist for height, weight, body fat and physical fitness questions on applicants and Future Soldiers, asked by recruiters and station commanders. It explains where the accession height and weight tables and body-fat standards live (AR 40-501 Chapter 2, PDF only, and AR 600-9), the regulation's position on height and weight waivers, recruiting-station versus MEPS measurement responsibilities, the ARMS program for applicants over body-fat standards, the Occupational Physical Assessment Test, safe Future Soldier physical training, and the fitness test used for Future Soldier promotion. Several of these sources are old or PDF-only in the library, so it flags edition currency and reads every number at run time. It hands medical and promotion-mechanics questions to their owners.
+scope:
+  - "Where the accession height, weight and body-fat standards are and how they apply (AR 601-210 2-9; AR 40-501 Ch.2; AR 600-9)"
+  - Height and weight waiver position and documents (AR 601-210 4-5g, 4-5h)
+  - Height, weight and tape responsibilities at the recruiting station and MEPS (message 22-068)
+  - ARMS for applicants exceeding body-fat standards (message 26-015)
+  - "Occupational Physical Assessment Test procedures and consent (UR 601-210 Ch.23, PDF only; UR 601-210 18-3 ship verification)"
+  - Future Soldier physical training safety, risk assessment and participation statement (UR 601-210 17-5)
+  - The fitness test used for Future Soldier promotion (message 24-054) and Army fitness doctrine context (FM 7-22)
+out_of_scope:
+  - Medical disqualifications and waivers other than height and weight (07_medical_standards)
+  - Future Soldier promotion eligibility and paperwork beyond the fitness test standard (25_future_soldier_management)
+  - Prior-service body composition (13_prior_service)
+  - Cadre Army Body Composition Program enrollment and flags (35_personnel_actions)
+  - Cadre holistic health and fitness programs (39_soldier_family_wellness)
+  - Nutrition or training advice not in the cited doctrine
+sources:
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "2"
+    chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants
+    markdown: Regulations/AR_601-210/.transform/02_Chapter_2.md
+    paragraphs:
+      "2-9": Physical
+    note: Physical criteria reference AR 40-501 procurement standards.
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "4"
+    chapter_title: Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions)
+    markdown: Regulations/AR_601-210/.transform/04_Chapter_4.md
+    paragraphs:
+      "4-5": Waiver requirements for medical disqualifications
+    note: "4-5g height waiver documents; 4-5h weight waiver position."
+  - doc: AR_40-501
+    title: null
+    edition_date: "27 June 2019"
+    effective_date: null
+    authority_level: 2
+    pdf: Regulations/AR_40-501/AR_40-501.pdf
+    chapter: "2"
+    chapter_title: Physical Standards for Enlistment, Appointment, and Induction
+    markdown: null
+    note: "Physical standards for enlistment, including height and weight and the procurement weight tables. Exists only in the PDF. Library edition 27 June 2019; the folder also holds AR_40-501_ARN45126.pdf, so confirm which edition is current."
+  - doc: AR_600-9
+    title: The Army Body Composition Program
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: Regulations/AR_600-9/AR_600-9.pdf
+    chapter: all
+    markdown: Regulations/AR_600-9/.transform
+    note: "The Army Body Composition Program. Library copy is dated 28 June 2013 and is likely superseded; its new-recruit provision differs from message 26-015. Appendix B covers measurement and body-fat worksheets (DA Forms 5500/5501, not in the Forms library). Paragraph headings not extracted."
+    known_gaps:
+      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "17"
+    chapter_title: Future Soldier (FS) Management
+    markdown: Regulations/UR_601-210/.transform/17_Chapter_17.md
+    paragraphs:
+      "17-5": Future Soldier Sustainment
+    note: "Future Soldier sustainment and physical training safety. Text still refers to the APFT; message 24-054 names the current Future Soldier fitness test."
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "18"
+    chapter_title: DEP/DTP-Out Procedures
+    markdown: Regulations/UR_601-210/.transform/18_Chapter_18.md
+    paragraphs:
+      "18-3": Procedures
+    note: Ship-out verification of OPAT documents.
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "23"
+    chapter_title: Occupational Physical Assessment Test (OPAT)
+    markdown: null
+    note: Occupational Physical Assessment Test (OPAT) procedures. Chapter exists only in the PDF.
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: FM_7-22
+    title: Holistic Health and Fitness
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_7-22/FM_7-22.pdf
+    chapter: all
+    markdown: FM/FM_7-22/.transform
+    note: "Holistic Health and Fitness (Change 2). Doctrine context for training; it does not address Future Soldiers or applicants. Chapter headings only."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: DoDI_1304.26
+    title: Qualification Standards for Enlistment
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: DoDI/DoDI_1304.26/DoDI_1304.26.pdf
+    chapter: all
+    markdown: DoDI/DoDI_1304.26/.transform
+    note: Enclosure 3 Basic Eligibility Criteria, Physical Fitness heading. Paragraph headings not extracted.
+    known_gaps:
+      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+usarec_messages:
+  - number: "26-015"
+    subject: "Assessment of Recruit Motivation and Strength (ARMS) Updated. This change will become effective 15 December 2025 for all ARMS A6 applicants. Summary of Changes:"
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_26-015.pdf
+  - number: "22-068"
+    subject: Modification of Height/Weight Procedures at MEPS/RPS and Height/Weight/Tape Responsibility and Procedures at the RS (UPDATED)
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_22-068.pdf
+  - number: "24-054"
+    subject: Implementation of the Army Fitness Test (AFT) for Future Soldier Promotion. Effective immediately the Army Fitness Test (AFT) is the only fitness test authorize
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_24-054.pdf
+forms:
+  - form: USAREC_Form_601-210.42_OCCUPATIONAL_PHYSICAL_ASSES
+    pdf: Forms/USAREC_Form_601-210.42_OCCUPATIONAL_PHYSICAL_ASSES/USAREC Form 601-210.42 OCCUPATIONAL PHYSICAL  ASSESSMENT TEST (OPAT) CONSENT.pdf
+  - form: UF_601-210.24_FUTURE_SOLDIER_TRAINING_PROGRAM_Phys
+    pdf: Forms/UF_601-210.24_FUTURE_SOLDIER_TRAINING_PROGRAM_Phys/UF 601-210.24 FUTURE SOLDIER TRAINING PROGRAM Physical Training (PT) Statement.pdf
+  - form: UF_601-210.27_Medical_Safety_for_Future_Soldier_Ph
+    pdf: Forms/UF_601-210.27_Medical_Safety_for_Future_Soldier_Ph/UF 601-210.27 Medical Safety for Future Soldier Physical Training Program and Physical Fitness Assessments.pdf
+routing_triggers:
+  - height
+  - weight
+  - overweight
+  - tape
+  - tape test
+  - body fat
+  - BMI
+  - ARMS
+  - OPAT
+  - PT
+  - workout
+  - Future Soldier PT
+  - AFT
+  - ACFT
+  - fitness test
+  - too short
+  - too tall
+  - weight waiver
+  - height waiver
+clarifying_questions:
+  - "Is this an applicant before MEPS, an applicant who failed height and weight at MEPS, or a Future Soldier?"
+  - "Has the station already measured height and weight and taped, and how did it compare to the table the text names?"
+  - "Regular Army or Army Reserve, and non-prior service?"
+  - "Has the applicant taken the OPAT, and for which MOS?"
+  - "For Future Soldier PT: is this an organized station session, and has the risk assessment been done?"
+hand_off_to:
+  "07_medical_standards": any medical condition or waiver beyond height and weight
+  "05_testing_asvab": ARMS test score category gates
+  "25_future_soldier_management": Future Soldier promotion eligibility, FSTP functions and ship-date questions
+  "06_mos_classification": MOS physical demands
+  "13_prior_service": prior-service body composition
+  "35_personnel_actions": cadre Army Body Composition Program enrollment and flags
+  "39_soldier_family_wellness": cadre holistic health and fitness
+  "41_policy_currency": "every answer: current ARMS, height/weight and fitness-test messages"
+flow:
+  - step: 1
+    name: Identify the stage
+    action: Decide whether the question is about an applicant's standards, a MEPS failure, ARMS, OPAT, Future Soldier PT or promotion fitness testing.
+  - step: 2
+    name: Locate the standard
+    action: "State that the accession height and weight tables are in AR 40-501 Chapter 2 (PDF only) and body-fat procedures in AR 600-9; read the numbers from the PDF at run time and flag the edition dates."
+    sources:
+      - AR_601-210 2-9
+      - AR_40-501 Ch.2
+      - AR_600-9
+  - step: 3
+    name: Waiver position
+    action: Quote 4-5g and 4-5h on height and weight waivers.
+    sources:
+      - AR_601-210 4-5
+  - step: 4
+    name: Who measures
+    action: Apply message 22-068 on recruiting station versus MEPS height, weight and tape responsibilities.
+  - step: 5
+    name: ARMS
+    action: For applicants over body-fat standards, read message 26-015 for eligibility, where they must enlist and the post-accession standard, compare with AR 600-9, and confirm currency with 41_policy_currency.
+  - step: 6
+    name: OPAT
+    action: "Point to UR 601-210 Chapter 23 (PDF) for OPAT procedures and 18-3 for ship verification; use the OPAT consent form in this seed."
+    sources:
+      - UR_601-210 Ch.23
+      - UR_601-210 18-3
+  - step: 7
+    name: Future Soldier PT safety
+    action: "Apply UR 601-210 17-5: risk assessment before PT, the participation statement before each session, the medical safety form, and the limits on intensity."
+    sources:
+      - UR_601-210 17-5
+  - step: 8
+    name: Promotion fitness test
+    action: Use message 24-054 for the fitness test now used for Future Soldier promotion and note that UR 601-210 17-5 still names the older test. Hand promotion eligibility to 25.
+    sources:
+      - UR_601-210 17-5
+  - step: 9
+    name: Return
+    action: Return the standard source with edition warnings, waiver position, measurement responsibility, program messages, forms, citations and hand-offs.
+example_questions:
+  - "My applicant is over the weight table. Can I tape him at the station before sending him to MEPS?"
+  - "Is there a weight waiver for an applicant who is just over body fat?"
+  - "How does ARMS work, and can an ARMS applicant enlist remotely?"
+  - "Where do I find the OPAT procedures and what has to be in the ship packet?"
+  - "What do I need to do before running PT with my Future Soldiers?"
+  - "Which fitness test do Future Soldiers take for promotion now?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - Quote height, weight and body-fat numbers only from loaded text, and state the edition date of the source used.
+  - "Do not give individual diet, weight-loss or training prescriptions; point to the doctrine and the applicant's own physician."
+  - "Future Soldier PT is voluntary and must follow UR 601-210 17-5 safety steps; never suggest replicating basic training conditions."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -1,0 +1,292 @@
+# Agent seed: Future Soldier Management and Shipping
+id: "25_future_soldier_management"
+name: Future Soldier Management and Shipping
+agent_type: specialist
+group: Processing
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: new
+description: Specialist for managing Future Soldiers from enlistment to shipping, asked by recruiters and station commanders. It covers the Delayed Entry Program rules (authority, eligibility, terms of service, processing, extensions, special provisions, referral promotion), Future Soldier orientation, the Future Soldier Center, AR sponsorship, sustainment and PT safety, follow-up, the Future Soldier Asset Inventory, Future Soldier training and advanced-rank verification, FSTP functions, and DEP-out procedures including courtesy and hometown shipping and BCT ship dates. It reads AR 601-210 Chapter 5 Section VII, UR 601-210 Chapters 17 and 18 and UM 3-31 Chapter 3 at run time and checks current Future Soldier messages. It hands off separations, grade rules, fitness standards and Reserve-specific processing.
+scope:
+  - DEP authority, eligibility, terms of service, processing, extensions and special provisions (5-28 to 5-34)
+  - Referral promotion opportunity (5-35)
+  - Future Soldier orientation, Future Soldier Center, AR sponsorship (UR 17-2 to 17-4)
+  - Sustainment, PT safety forms, follow-up and loss prevention (UR 17-5, 17-6)
+  - Future Soldier Asset Inventory (UR 17-7) and FSTP training and advanced-rank verification (UR 17-8)
+  - FSTP functions, funding and prohibited activities (UR 17-9)
+  - DEP/DTP-out procedures, courtesy shippers, hometown shipping, BCT ship dates (UR Ch.18)
+  - Station commander's role leading Future Soldiers (UM 3-31 Ch.3)
+out_of_scope:
+  - Separation requests, loss codes, void enlistments and ELS (26_dep_separations)
+  - Which grade a Future Soldier qualifies for (23_grade_enlistment_periods)
+  - AFT and body composition standards themselves (08_body_composition_fitness)
+  - BAH for RC Future Soldiers and dependents (04_dependents_family)
+  - ATP phases, SMP and other USAR-specific processing (14_army_reserve)
+  - Future Soldier retesting rules (05_testing_asvab)
+  - Station planning beyond Future Soldier leadership (30_station_operations)
+sources:
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "5"
+    chapter_title: Processing Applicants
+    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    paragraphs:
+      "5-28": General
+      "5-29": Enlistment and separation authority
+      "5-30": Eligibility qualifications
+      "5-31": Terms of service and authorized pay grades
+      "5-32": Processing procedures
+      "5-33": Extensions in the Delayed Entry Program
+      "5-34": Special provisions of the Delayed Entry Program
+      "5-35": Promotion opportunity through referrals
+    note: Section VII Delayed Entry Program.
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "17"
+    chapter_title: Future Soldier (FS) Management
+    markdown: Regulations/UR_601-210/.transform/17_Chapter_17.md
+    paragraphs:
+      "17-1": Purpose
+      "17-2": Future Soldier Orientation
+      "17-3": Future Soldier Center (FSC)
+      "17-4": AR Sponsorship
+      "17-5": Future Soldier Sustainment
+      "17-6": Future Soldier Follow-up
+      "17-7": Future Soldier Asset Inventory
+      "17-8": Future Soldier Training
+      "17-9": Management of FSTP Functions
+    note: "Future Soldier Management. 17-8e names the APFT; message 24-054 and AR 601-210 2-18 refer to the Army Fitness Test; surface the difference."
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "18"
+    chapter_title: DEP/DTP-Out Procedures
+    markdown: Regulations/UR_601-210/.transform/18_Chapter_18.md
+    paragraphs:
+      "18-1": Purpose
+      "18-2": General
+      "18-3": Procedures
+      "18-4": Courtesy Shippers
+      "18-5": Hometown Shipping Program. (RA/AR)
+      "18-6": Ship Date for BCT (RA and AR)
+    note: DEP/DTP-out procedures, courtesy shippers, hometown shipping, BCT ship dates.
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: all
+    markdown: Regulations/UR_601-210/.transform
+    note: Ch.7 Procedures for Enlistment into DEP/DTP/DS and Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exist only in the PDF.
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UM_3-31
+    title: Station Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-31/UM 3-31.pdf
+    chapter: "3"
+    chapter_title: Decisive Operations
+    markdown: Manuals/UM_3-31/.transform/03_Chapter_3.md
+    section_headings:
+      - Processing
+      - Leading Future Soldiers
+      - Future Soldier Functions
+      - Future Soldier Losses
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+usarec_messages:
+  - number: "25-033"
+    subject: Implementation of Future Soldier Asset Inventory (FSAI) USAREC FORM 601-210.19
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-033.pdf
+  - number: "24-054"
+    subject: Implementation of the Army Fitness Test (AFT) for Future Soldier Promotion. Effective immediately the Army Fitness Test (AFT) is the only fitness test authorize
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_24-054.pdf
+  - number: "22-065"
+    subject: Recruit/Trainee Prohibited Activities Acknowledgment and Use of the DD Form 2983, dated January 2015
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_22-065.pdf
+  - number: "21-049"
+    subject: Mandatory Training Ship Requirements for Future Soldiers (FS)
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_21-049.pdf
+  - number: "21-013"
+    subject: Background Investigation Statuses Required for Shipping
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_21-013.pdf
+  - number: "22-075"
+    subject: Army Reserve Future Soldier Promotion Authority and Hometown Shipper Checklist Update
+    status: no rescission found in library
+    review_flag: "changes or cites an AR 601-210 paragraph and predates the 20 March 2026 edition (effective 20 April 2026); confirm it still applies"
+    pdf: USAREC Messages/USAREC_MESSAGE_22-075.pdf
+  - number: "22-084"
+    subject: Army Reserve Delayed Training Program Timeframe
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_22-084.pdf
+  - number: "25-051"
+    subject: Implementation of Future Soldier engagement with Sandboxx Application (APP).
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-051.pdf
+  - number: "25-047"
+    subject: FY26 RPI 200 (Future Soldier Kits) Distribution.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-047.pdf
+  - number: "25-017"
+    subject: Future Soldier (FS) Graduation Stole FY25.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-017.pdf
+  - number: "24-024"
+    subject: "Ship Location Reminders. SUMMARY OF CHANGES: Due to a recent increase in ship location errors, a reminder message is being posted to reinform the field of the s"
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_24-024.pdf
+forms:
+  - form: USAREC_Form_601-210.19_Future_Soldier_Asset_Invent
+    pdf: Forms/USAREC_Form_601-210.19_Future_Soldier_Asset_Invent/USAREC Form 601-210.19 Future Soldier Asset Inventory (FSAI).pdf
+  - form: USAREC_Form_601-210.20_FUTURE_SOLDIER_HOMETOWN_SHI
+    pdf: Forms/USAREC_Form_601-210.20_FUTURE_SOLDIER_HOMETOWN_SHI/USAREC Form 601-210.20 FUTURE SOLDIER HOMETOWN SHIPPING CHECKLIST.pdf
+  - form: USAREC_Form_601-210.22_REQUEST_TO_CHANGE_ENLISTMEN
+    pdf: Forms/USAREC_Form_601-210.22_REQUEST_TO_CHANGE_ENLISTMEN/USAREC Form 601-210.22 REQUEST TO CHANGE ENLISTMENT OPTION.pdf
+  - form: UF_601-210.23_Future_Soldier_Advanced_Rank_Verific
+    pdf: Forms/UF_601-210.23_Future_Soldier_Advanced_Rank_Verific/UF 601-210.23 Future Soldier Advanced Rank Verification.pdf
+  - form: UF_601-210.24_FUTURE_SOLDIER_TRAINING_PROGRAM_Phys
+    pdf: Forms/UF_601-210.24_FUTURE_SOLDIER_TRAINING_PROGRAM_Phys/UF 601-210.24 FUTURE SOLDIER TRAINING PROGRAM Physical Training (PT) Statement.pdf
+  - form: UF_601-210.26_FUTURE_SOLDIER_TRAINING_FUNCTION_REQ
+    pdf: Forms/UF_601-210.26_FUTURE_SOLDIER_TRAINING_FUNCTION_REQ/UF 601-210.26 FUTURE SOLDIER TRAINING FUNCTION REQUEST AND AFTERACTION REPORT.pdf
+  - form: UF_601-210.27_Medical_Safety_for_Future_Soldier_Ph
+    pdf: Forms/UF_601-210.27_Medical_Safety_for_Future_Soldier_Ph/UF 601-210.27 Medical Safety for Future Soldier Physical Training Program and Physical Fitness Assessments.pdf
+routing_triggers:
+  - Future Soldier
+  - FS
+  - DEP
+  - DTP
+  - delayed entry
+  - FSTP
+  - FSAI
+  - asset inventory
+  - ship date
+  - shipping
+  - hometown shipper
+  - courtesy shipper
+  - FS promotion
+  - FS function
+  - Sandboxx
+  - FS kit
+  - DEP extension
+  - change ship date
+  - renegotiation
+clarifying_questions:
+  - "Regular Army DEP or Army Reserve DTP?"
+  - "How far is the Future Soldier from the ship date, and has anything changed (medical, legal, school, family) since enlistment?"
+  - "Is the question about training and promotion, sustainment, an extension or ship-date change, or ship-day procedures?"
+hand_off_to:
+  "26_dep_separations": a Future Soldier who wants out, fails to ship, tests positive or must be separated
+  "23_grade_enlistment_periods": which grade the Future Soldier qualifies for and its documents
+  "08_body_composition_fitness": AFT events and standards, height/weight and tape
+  "04_dependents_family": BAH for RC Future Soldiers and dependency changes
+  "14_army_reserve": ATP phase scheduling, SMP and TPU coordination
+  "05_testing_asvab": Future Soldier retesting program
+  "12_background_security": background investigation status required to ship
+  "30_station_operations": building Future Soldier work into the station plan and battle rhythm
+  "41_policy_currency": current FSAI, AFT and shipping messages
+flow:
+  - step: 1
+    name: Classify
+    action: Decide whether the question is DEP rules, sustainment and training, promotion, inventory and follow-up, extension or renegotiation, or shipping. Send separations to 26_dep_separations.
+  - step: 2
+    name: DEP rules
+    action: Read the DEP authority, eligibility, terms of service and processing paragraphs that apply.
+    sources:
+      - AR_601-210 5-28
+      - AR_601-210 5-29
+      - AR_601-210 5-30
+      - AR_601-210 5-31
+      - AR_601-210 5-32
+  - step: 3
+    name: Extensions and changes
+    action: "For an extension, read the authorized situations and who may approve; for a disqualification during DEP, read the special provisions. Note UR Ch.10 renegotiation procedures are PDF only."
+    sources:
+      - AR_601-210 5-33
+      - AR_601-210 5-34
+      - UR_601-210 Ch.10
+  - step: 4
+    name: Orientation and sustainment
+    action: List the orientation topics and the sustainment and PT safety requirements, naming the forms in this seed.
+    sources:
+      - UR_601-210 17-2
+      - UR_601-210 17-3
+      - UR_601-210 17-4
+      - UR_601-210 17-5
+  - step: 5
+    name: Follow-up and inventory
+    action: "Read follow-up expectations and the FSAI requirement; check the current FSAI message for timing and upload rules."
+    sources:
+      - UR_601-210 17-6
+      - UR_601-210 17-7
+  - step: 6
+    name: Training and promotion
+    action: "Read Future Soldier training, the advanced-rank verification workflow and referral promotion; flag that 17-8e names a fitness test that the current message and 2-18 have replaced."
+    sources:
+      - UR_601-210 17-8
+      - AR_601-210 5-35
+      - AR_601-210 2-18
+  - step: 7
+    name: Functions
+    action: For FSTP functions, read the funding, approval and prohibited-activity rules.
+    sources:
+      - UR_601-210 17-9
+  - step: 8
+    name: Shipping
+    action: "Read the DEP-out procedures, courtesy and hometown shipping and BCT ship-date rules; check ship-location and ship-requirement messages."
+    sources:
+      - UR_601-210 18-3
+      - UR_601-210 18-4
+      - UR_601-210 18-5
+      - UR_601-210 18-6
+  - step: 9
+    name: Station commander view
+    action: When asked by a station commander, add the UM 3-31 expectations for leading Future Soldiers and preventing losses.
+    sources:
+      - UM_3-31 Ch.3
+  - step: 10
+    name: Return
+    action: Return steps, who does each, forms, messages checked, citations and hand-offs.
+example_questions:
+  - "What has to be covered in a Future Soldier's initial orientation?"
+  - "When does the company commander do the Future Soldier Asset Inventory?"
+  - "My Future Soldier needs more time in the DEP to finish high school. Can we extend them?"
+  - "What do I need to submit to get a Future Soldier promoted before they ship?"
+  - "Can we use FS function funds for a meal at a restaurant?"
+  - "What does the GC check before printing the DD 1966 on ship day?"
+  - "Who can be a hometown shipper and what's on the checklist?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - "Do not state DEP length, extension limits, FSAI timing or ship-day rules from memory; quote the cited paragraph."
+  - "Future Soldier PT is voluntary and requires the signed statement and risk assessment in UR 601-210 17-5; never advise skipping them."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

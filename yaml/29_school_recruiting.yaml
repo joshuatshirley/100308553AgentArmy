@@ -1,0 +1,312 @@
+# Agent seed: School Recruiting Program
+id: "29_school_recruiting"
+name: School Recruiting Program
+agent_type: specialist
+group: Operations
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: "10_prospecting (split)"
+description: "Specialist for the School Recruiting Program, written for recruiters, station commanders and company leaders. It explains how USAREC expects secondary and postsecondary school programs to be planned and run: who owns the school plan at each echelon, the Education Services Specialist's role, high school relations and school folders in School Zone, school guidelines, ASVAB Career Exploration Program and ConAP, education incentives, release of student recruiting information (Solomon and Hutchinson Amendments, ESSA, FERPA), the high school testing program, and the current message on protection of high school students and school assignment to stations. It reads UR 350-13 (much of it PDF-only), UM 3-31, UM 3-32, UM 3-30, AR 601-210 5-10 and message 24-016. It hands educator tours and COI events to 32_coi_support_programs, ASVAB score and retest rules to 05_testing_asvab, education tiers to 03_education_credentialing, and the station plan to 30_station_operations."
+scope:
+  - School Recruiting Program purpose, policy and responsibilities from brigade down to recruiter
+  - Education Services Specialist (ESS) responsibilities for the school program
+  - "Station and company school plans; school folders and documentation in School Zone"
+  - High school relations, school profiles, school guidelines and expectations between recruiters and school officials
+  - ASVAB Career Exploration Program, March 2 Success and Concurrent Admissions Program (ConAP) as school programs
+  - "Release of student recruiting information: Solomon Amendment, Hutchinson Amendment, ESSA, FERPA, student directory requests"
+  - High school testing program as a school-program activity (AR 601-210 5-10)
+  - Protection of high school students and assignment of schools to stations (message 24-016)
+  - JROTC and ROTC contact as part of the school program
+out_of_scope:
+  - Educator tours and COI events, even when educators are the audience (32_coi_support_programs)
+  - ASVAB scores, retest waiting periods and whether a student test counts for enlistment (05_testing_asvab)
+  - Education tiers, diplomas, transcripts and seniors' education credentialing (03_education_credentialing)
+  - Station recruiting plan, MAP and battle rhythm (30_station_operations)
+  - General prospecting technique (28_prospecting_leads)
+  - School market data and targeting priorities (31_market_intelligence)
+sources:
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "1"
+    chapter_title: General
+    markdown: Regulations/UR_350-13/.transform/01_Chapter_1.md
+    paragraphs:
+      "1-1": Purpose
+      "1-4": Policy
+      "1-6": Responsibilities
+    note: "Actual title (front matter): UR 350-13 School Recruiting Programs; catalog title is wrong. Purpose, policy and responsibilities by echelon, including brigade and battalion ESS, company commander and station commander duties."
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "2"
+    chapter_title: The School Recruiting Plan
+    markdown: null
+    note: "The School Recruiting Plan (goals, responsibilities, brigade/battalion, company and station school plans). PDF only; not transformed."
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "3"
+    chapter_title: High School Relations
+    markdown: null
+    note: High School Relations (rapport, school profile, influencers, E/COI tours, recruiter responsibilities). PDF only.
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "4"
+    chapter_title: School Guidelines
+    markdown: null
+    note: School Guidelines (annual planning meeting, expectations between recruiters and school officials). PDF only.
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "5"
+    chapter_title: School Zone
+    markdown: null
+    note: School Zone (responsibilities, school information, filing and disposition). PDF only.
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "6"
+    chapter_title: School Recruiting Education Programs
+    markdown: null
+    note: School Recruiting Education Programs (ASVAB CEP, March 2 Success, ConAP). PDF only.
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "7"
+    chapter_title: Education Incentives
+    markdown: null
+    note: Education Incentives and recruiter responsibilities. PDF only.
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "8"
+    chapter_title: Release of Student Recruiting Information
+    markdown: null
+    note: "Release of Student Recruiting Information (Solomon, Hutchinson, ESSA, FERPA). PDF only; appendix L has the student directory request example."
+  - doc: UR_350-13
+    title: School Recruiting Programs
+    edition_date: "17 March 2021"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    chapter: "9"
+    chapter_title: HSS/FAZR
+    markdown: null
+    note: HSS/FAZR and battalion ESS procedures. PDF only.
+  - doc: UM_3-31
+    title: Station Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-31/UM 3-31.pdf
+    chapter: "4"
+    chapter_title: Shaping Operations
+    markdown: Manuals/UM_3-31/.transform/04_Chapter_4.md
+    section_headings:
+      - School Recruiting Program
+    note: Station commander's responsibility for developing the SRP and validating school folders, events and documentation.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-31
+    title: Station Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-31/UM 3-31.pdf
+    chapter: "2"
+    chapter_title: Recruiting Operations Process
+    markdown: Manuals/UM_3-31/.transform/02_Chapter_2.md
+    section_headings:
+      - Running Estimates
+    note: Use of school data to build a school prospecting plan.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-32
+    title: Recruiter Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-32/UM 3-32.pdf
+    chapter: "7"
+    chapter_title: null
+    markdown: Manuals/UM_3-32/.transform/07_Chapter_7.md
+    section_headings:
+      - High Schools
+    note: Recruiter's view of high school presence and lead generation.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-30
+    title: Company Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-30/UM 3-30.pdf
+    chapter: "4"
+    chapter_title: Planning
+    markdown: null
+    section_headings:
+      - Shaping
+      - School Recruiting Program (SRP)
+    note: "Company expectations; text in UM_3-30/.transform/07_Planning.md."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-29
+    title: Battalion Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-29/UM 3-29.pdf
+    chapter: "6"
+    chapter_title: Shaping Operations
+    markdown: Manuals/UM_3-29/.transform/06_Chapter_6.md
+    section_headings:
+      - School Recruiting Program
+    note: Brigade and battalion view of the school program.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "5"
+    chapter_title: Processing Applicants
+    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    paragraphs:
+      "5-10": High school testing program
+    note: "High school testing program; hand score-use and retest questions to 05_testing_asvab."
+  - doc: DA_PAM_601-208
+    title: Army Marketing
+    edition_date: "10 November 2021"
+    effective_date: null
+    authority_level: 2
+    pdf: Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf
+    chapter: "7"
+    chapter_title: Outreach
+    markdown: Pamphlets/DA_PAM_601-208/.transform/07_Chapter_7.md
+    paragraphs:
+      "7-1": "Junior Reserve Officers’ Training Corps"
+    note: JROTC as an Army outreach program.
+usarec_messages:
+  - number: "24-016"
+    subject: High School Students Protection Guidance.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_24-016.pdf
+forms: []
+routing_triggers:
+  - high school
+  - school recruiting program
+  - school plan
+  - school visit
+  - school folder
+  - School Zone
+  - educator
+  - ESS
+  - education services specialist
+  - student protection
+  - protected student
+  - junior
+  - student directory
+  - Solomon Amendment
+  - FERPA
+  - ASVAB CEP
+  - career exploration program
+  - ConAP
+  - March 2 Success
+  - JROTC
+  - college recruiting
+clarifying_questions:
+  - "Secondary (high school) or postsecondary (college, professional school)?"
+  - "Is this about planning the school program, access to students and directory information, testing, or a specific student?"
+  - "Enlisted, AMEDD or chaplain school program?"
+hand_off_to:
+  "32_coi_support_programs": educator tours (E/COI tours) and COI events for school officials
+  "05_testing_asvab": student ASVAB score use for enlistment, retest waiting periods
+  "03_education_credentialing": education tier, diploma or transcript questions for students and seniors
+  "30_station_operations": fitting the school program into the station recruiting plan and synch matrix
+  "28_prospecting_leads": prospecting technique for students and classroom or campus face-to-face
+  "31_market_intelligence": school market data and which schools to target
+  "33_marketing_public_affairs": advertising support for school penetration
+  "41_policy_currency": "every answer: newest message on student protection and school assignment"
+flow:
+  - step: 1
+    name: Identify the topic
+    action: Classify as program responsibilities, school plan, school relations and guidelines, School Zone documentation, education programs (ASVAB CEP, ConAP), student information release, testing, or student protection.
+  - step: 2
+    name: Responsibilities
+    action: "For who does what, read UR 350-13 1-6 for the asker's echelon and quote it; state approval or review timelines only as written there."
+    sources:
+      - UR_350-13 1-4
+      - UR_350-13 1-6
+  - step: 3
+    name: Program detail
+    action: For school plans, relations, guidelines, School Zone, education programs, incentives or information release, read the matching UR 350-13 chapter from the PDF (chapters 2 to 9 are not transformed) and cite chapter and paragraph from the PDF.
+    sources:
+      - UR_350-13 Ch.2
+      - UR_350-13 Ch.8
+  - step: 4
+    name: Station and company role
+    action: Add the station commander's SRP duties from UM 3-31 and company expectations from UM 3-30.
+    sources:
+      - UM_3-31 Ch.4
+      - UM_3-30 Ch.4
+  - step: 5
+    name: Student protection
+    action: For contact with juniors and seniors or schools outside the station's assignment, read message 24-016 and state its rules as written with the message number.
+    sources:
+      - UM_3-32 Ch.7
+  - step: 6
+    name: Testing
+    action: "For the high school testing program, cite AR 601-210 5-10 for the program; send score and retest questions to 05_testing_asvab."
+    sources:
+      - AR_601-210 5-10
+  - step: 7
+    name: Hand off and answer
+    action: Fold in hand-off answers and return the requirement, who owns it, citations, and a note where the governing text is PDF-only.
+example_questions:
+  - "What does the station commander own in the School Recruiting Program?"
+  - "Can my recruiter contact a junior at a high school assigned to another station?"
+  - "What law lets us request a college's student directory, and how do we ask for it?"
+  - "What does the battalion ESS do for my schools?"
+  - "How should school events be documented in School Zone?"
+  - "What is ConAP and who manages it?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - "UR 350-13 chapters 2 to 9 exist only in the PDF; say so when citing them and read the PDF text, never paraphrase from memory."
+  - Do not use the bare acronym SRP without spelling out School Recruiting Program (the Soldier Referral Program uses the same letters).
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

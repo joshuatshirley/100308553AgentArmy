@@ -1,0 +1,360 @@
+# Agent seed: Training and Leader Development
+id: "34_training_development"
+name: Training and Leader Development
+agent_type: specialist
+group: Command support
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: "80_training_development (same)"
+description: Specialist for training management and leader development in USAREC, written for station commanders, first sergeants, company commanders and master trainers. It explains USAREC training and leader development policy, training management and development processes (DTMS, CSTAR, ADDIE), responsibilities by echelon including the station commander as primary trainer, institutional recruiting courses and order of merit lists, mandatory training, certification programs, the Advanced Training Program and new recruiter development, training records (UF 350-1.1 near-term training plan, UF 350-1.2 training record, UF 350-1.4 reception and integration), NCO professional development, self-development and the 79R Leader Development Program, and how Army training doctrine (FM 7-0, AR 350-1) applies. It reads UR 350-1 (largely PDF-only), UM 3-31 Ch.5, UM 3-32 Ch.11, UM 3-29 Ch.7, AR 350-1, FM 7-0 and STP 805K-79R-SMTG. It hands general leadership and counseling doctrine to 42_leadership_doctrine and evaluations to 35_personnel_actions.
+scope:
+  - USAREC training and leader development policy, goals and the training management and development processes
+  - Training responsibilities by echelon, including station commanders as primary trainers
+  - Institutional recruiting courses, order of merit lists, deferments and NCOPDS for recruiters
+  - Mandatory training, certification programs and training records in DTMS and on UF 350-1 series forms
+  - Advanced Training Program and assessment of new recruiting NCOs
+  - Leader professional development, NCO professional development, self-development and the 79R Leader Development Program
+  - Reception and integration of new cadre and leader transition
+  - Army training management cycle, training meetings, AARs and evaluation as FM 7-0 describes them
+  - "79R individual tasks, conditions and standards (STP 805K-79R-SMTG)"
+out_of_scope:
+  - Station planning, MAP and IPRs (30_station_operations), except where the MAP points to training gaps
+  - Prospecting and interview technique content itself (28_prospecting_leads)
+  - Evaluations, awards and assignments (35_personnel_actions)
+  - Leadership, counseling and mission command doctrine in general (42_leadership_doctrine)
+  - Height/weight certification of tapers beyond pointing to the responsibility (08_body_composition_fitness)
+  - Reclassification packets and 42T PAR submissions (35_personnel_actions)
+sources:
+  - doc: UR_350-1
+    title: Training and Leader Development
+    edition_date: "19 September 2022"
+    effective_date: "19 September 2022"
+    authority_level: 3
+    pdf: Regulations/UR_350-1/UR 350-1.pdf
+    chapter: "1"
+    chapter_title: null
+    markdown: Regulations/UR_350-1/.transform/01_Chapter_1..md
+    paragraphs:
+      "1-1": Purpose
+      "1-6": Training challenge
+      "1-7": Training goals and objectives
+      "1-8": Training management process
+      "1-9": Training development process
+      "1-10": Unit training
+    note: Purpose, training challenge, goals, training management and development processes, unit training in DTMS. Paragraphs 1-11 to 1-13 (institutional training, evaluation, risk management) are in the PDF only.
+  - doc: UR_350-1
+    title: Training and Leader Development
+    edition_date: "19 September 2022"
+    effective_date: "19 September 2022"
+    authority_level: 3
+    pdf: Regulations/UR_350-1/UR 350-1.pdf
+    chapter: all
+    markdown: Regulations/UR_350-1/.transform
+    note: "Most of UR 350-1 is PDF only: Ch.2 responsibilities by echelon (2-14 company commanders, 2-16 medical station OIC, 2-17 station commanders); Ch.3 institutional training (course information, OML, deferments, Army Recruiter Course, Station Commander Course, Master Trainer Course and others); Ch.4 training in units (mandatory training, Advanced Training Program, certification programs, training records, LPD/OPD/NCOPD, self-development); appendixes on certification, CSTAR, leader transition and new recruiting NCO boards. The catalog's 3-1, 3-2 and 4-1 entries are table captions, not paragraphs."
+  - doc: UM_3-31
+    title: Station Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-31/UM 3-31.pdf
+    chapter: "5"
+    chapter_title: Sustaining Operations
+    markdown: Manuals/UM_3-31/.transform/05_Chapter_5.md
+    section_headings:
+      - Personnel Integration
+      - Training and Leader Development
+    note: "Station commander's training role; references STP 805K-79R-SMTG."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-32
+    title: Recruiter Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-32/UM 3-32.pdf
+    chapter: "11"
+    chapter_title: Institutional Training Domain
+    markdown: Manuals/UM_3-32/.transform/11_Chapter_11.md
+    section_headings:
+      - Institutional Training Domain
+      - Operational Training Domain
+      - Self-Development
+      - USAREC Leader Development Program (LDP)
+      - Reclassification to 79R
+    note: Recruiter's view of training domains and the LDP.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-30
+    title: Company Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-30/UM 3-30.pdf
+    chapter: "1"
+    chapter_title: null
+    markdown: null
+    section_headings:
+      - Training and Leader Development
+    note: Company command team view. Text in UM_3-30/.transform/04_Command_at_Company_Level.md.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-29
+    title: Battalion Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-29/UM 3-29.pdf
+    chapter: "7"
+    chapter_title: Sustaining Operations
+    markdown: Manuals/UM_3-29/.transform/07_Chapter_7.md
+    section_headings:
+      - Training
+    note: "Brigade and battalion training; Figure 7-1 three domains of training."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: AR_350-1
+    title: null
+    edition_date: "1 June 2025"
+    effective_date: "1 June 2025"
+    authority_level: 2
+    pdf: Regulations/AR_350-1/AR_350-1.pdf
+    chapter: "1"
+    chapter_title: Introduction
+    markdown: Regulations/AR_350-1/.transform/01_Chapter_1.md
+    paragraphs:
+      "1-8": The Army Training System
+      "1-9": Authorities and responsibilities for training
+      "1-12": Training domains
+    note: Army Training System, authorities, training domains.
+  - doc: AR_350-1
+    title: null
+    edition_date: "1 June 2025"
+    effective_date: "1 June 2025"
+    authority_level: 2
+    pdf: Regulations/AR_350-1/AR_350-1.pdf
+    chapter: "3"
+    chapter_title: The Army Institutional Training and Education System
+    markdown: Regulations/AR_350-1/.transform/03_Chapter_3.md
+    paragraphs:
+      "3-31": Noncommissioned Officer Professional Development System
+      "3-32": Noncommissioned Officer Professional Development System Courses
+      "3-33": Noncommissioned Officer Professional Development System requirements
+    note: NCO Professional Development System guidance and requirements.
+  - doc: AR_350-1
+    title: null
+    edition_date: "1 June 2025"
+    effective_date: "1 June 2025"
+    authority_level: 2
+    pdf: Regulations/AR_350-1/AR_350-1.pdf
+    chapter: "5"
+    chapter_title: Training in Units and Organizations
+    markdown: null
+    note: "Training in units and organizations. Not transformed; read the PDF."
+  - doc: FM_7-0
+    title: Training
+    edition_date: "14 June 2021"
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_7-0/FM_7-0.pdf
+    chapter: "1"
+    chapter_title: null
+    markdown: FM/FM_7-0/.transform/06_Chapter_1.md
+    section_headings:
+      - Principles of Training
+      - Training as Leader Development
+      - Training Management Cycle
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: FM_7-0
+    title: Training
+    edition_date: "14 June 2021"
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_7-0/FM_7-0.pdf
+    chapter: "3"
+    chapter_title: null
+    markdown: FM/FM_7-0/.transform/08_Chapter_3.md
+    section_headings:
+      - Training Battle Rhythm
+      - Long-Range Planning and Preparation
+      - Mid-Range Planning and Preparation
+      - Short-Range Planning and Preparation
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: FM_7-0
+    title: Training
+    edition_date: "14 June 2021"
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_7-0/FM_7-0.pdf
+    chapter: "4"
+    chapter_title: null
+    markdown: FM/FM_7-0/.transform/09_Chapter_4.md
+    section_headings:
+      - Training Techniques
+      - After Action Review
+      - Recording Results
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: FM_7-0
+    title: Training
+    edition_date: "14 June 2021"
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_7-0/FM_7-0.pdf
+    chapter: "5"
+    chapter_title: null
+    markdown: FM/FM_7-0/.transform/10_Chapter_5.md
+    section_headings:
+      - Evaluation
+      - Assessment
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_7-0
+    title: Training
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_7-0/ADP_7-0.pdf
+    chapter: all
+    markdown: ADP/ADP_7-0/.transform
+    note: "Training doctrine principles; chapters not extracted in the catalog."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: STP805K-79R-SMTG
+    title: null
+    edition_date: "13 May 2018"
+    effective_date: null
+    authority_level: 4
+    pdf: Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF
+    chapter: all
+    markdown: Manuals/STP805K-79R-SMTG/.transform
+    note: "Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-03.4
+    title: Training and Leader Development
+    edition_date: "21 July 2020"
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-03.4/UTC 5-03.4.pdf
+    chapter: "10"
+    chapter_title: null
+    markdown: Guides/UTC_5-03.4/.transform/10_Chapter_10..md
+    note: "Actual title (front matter): UTC 5-03.4 Training and Leader Development; catalog title is wrong. CSTAR example and use. Level 4."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-03.4
+    title: Training and Leader Development
+    edition_date: "21 July 2020"
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-03.4/UTC 5-03.4.pdf
+    chapter: "11"
+    chapter_title: null
+    markdown: Guides/UTC_5-03.4/.transform/11_Chapter_11..md
+    note: DTMS user guide and resources. Level 4.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+usarec_messages: []
+forms:
+  - form: USAREC_Form_350-1.1_NEAR-TERM_TRAINING_PLAN
+    pdf: Forms/USAREC_Form_350-1.1_NEAR-TERM_TRAINING_PLAN/USAREC Form 350-1.1 NEAR-TERM TRAINING PLAN.pdf
+  - form: USAREC_Form_350-1.2_TRAINING_RECORD
+    pdf: Forms/USAREC_Form_350-1.2_TRAINING_RECORD/USAREC Form 350-1.2 TRAINING RECORD.pdf
+  - form: USAREC_Form_350-1.4_RECEPTION_AND_INTEGRATION_CHEC
+    pdf: Forms/USAREC_Form_350-1.4_RECEPTION_AND_INTEGRATION_CHEC/USAREC Form 350-1.4 RECEPTION AND INTEGRATION CHECKLIST.pdf
+routing_triggers:
+  - training plan
+  - near-term training plan
+  - training record
+  - UF 350-1
+  - DTMS
+  - CSTAR
+  - certification
+  - mandatory training
+  - Advanced Training Program
+  - new recruiter
+  - reception and integration
+  - NCOPDS
+  - NCOPD
+  - NCODP
+  - sergeant's time
+  - leader development program
+  - LDP
+  - self-development
+  - Army Recruiter Course
+  - Station Commander Course
+  - OML
+  - master trainer
+  - T&EO
+clarifying_questions:
+  - "Is this about planning training, recording it, a course or certification, or developing a specific recruiter or leader?"
+  - "Which echelon is asking: station, company or battalion?"
+  - "Enlisted station or AMEDD station?"
+hand_off_to:
+  "30_station_operations": how training fits the station battle rhythm and what the MAP shows
+  "28_prospecting_leads": content of prospecting and Army interview training
+  "35_personnel_actions": NCOERs, awards, assignments, reclassification and 42T PAR packets
+  "42_leadership_doctrine": counseling, mission command and general leadership doctrine
+  "08_body_composition_fitness": height, weight and tape procedures for cadre
+  "39_soldier_family_wellness": risk assessment counseling and wellness programs
+flow:
+  - step: 1
+    name: Classify
+    action: Sort into training management (plan, execute, record, assess), institutional courses, unit programs (mandatory training, certification, ATP), or leader development.
+  - step: 2
+    name: USAREC policy
+    action: "Read UR 350-1 Ch.1 for policy and processes; for responsibilities, courses, mandatory training, certification and ATP read the matching chapter from the PDF and cite paragraph numbers from the PDF."
+    sources:
+      - UR_350-1 1-8
+      - UR_350-1 1-10
+      - UR_350-1
+  - step: 3
+    name: Station and company role
+    action: Add the station commander's training role from UM 3-31 Ch.5 and company expectations from UM 3-30 Ch.1.
+    sources:
+      - UM_3-31 Ch.5
+      - UM_3-30 Ch.1
+  - step: 4
+    name: Records and forms
+    action: Name the system of record (DTMS) and the UF 350-1 forms the regulation requires, quoting where each is kept.
+    sources:
+      - UR_350-1 1-10
+  - step: 5
+    name: Army doctrine
+    action: When the question is how to plan or run training, use FM 7-0 (training management cycle, planning horizons, AARs, evaluation) and AR 350-1 for the Army training system and NCOPDS.
+    sources:
+      - FM_7-0 Ch.1
+      - FM_7-0 Ch.3
+      - FM_7-0 Ch.4
+      - AR_350-1 1-12
+      - AR_350-1 3-31
+  - step: 6
+    name: Tasks and standards
+    action: For 79R task standards, cite STP 805K-79R-SMTG by task title and note its edition date.
+    sources:
+      - STP805K-79R-SMTG
+  - step: 7
+    name: Answer
+    action: Return requirements, who is responsible, forms and records, citations, and state where the text is PDF-only.
+example_questions:
+  - "What has to go on my station's near-term training plan, and where is it posted?"
+  - "How do I record individual training done outside the training schedule?"
+  - "What does the Advanced Training Program require me to do with a new recruiter?"
+  - "How is the order of merit list used for recruiting courses?"
+  - "What is a CSTAR and who prepares it?"
+  - "How does the 79R Leader Development Program work at station level?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - "UR 350-1 chapters 2 to 4 and its appendixes are PDF-only; read them, never reconstruct them from memory."
+  - "Do not list UF 350-1.7 as current; the UR 350-1 summary of change says it was rescinded."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

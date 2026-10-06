@@ -1,0 +1,453 @@
+# Agent seed: Military Justice, Investigations and Command Policy
+id: "36_military_justice_command"
+name: Military Justice, Investigations and Command Policy
+agent_type: specialist
+group: Command support
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: new
+description: Specialist for company and battalion command teams and station commanders who must act on cadre misconduct or a reportable incident. It answers how nonjudicial punishment works under AR 27-10 Chapter 3, when and how to run a preliminary inquiry or an AR 15-6 administrative investigation, what AR 600-20 says about command authority, discipline, conduct, harassment and equal opportunity complaints, how USAREC wants recruiter irregularities reported and investigated (USAREC message 25-019, which replaced UR 601-210 Chapter 3), what the punitive prohibited-practices rules for USAREC personnel cover (UR 27-4), how serious incidents are reported (UR 190-4, AR 190-45), how the brigade judge advocate fits in (UR 27-2), safe-to-report for sexual assault victims (AD 2022-10) and cadre suitability (AD 2018-16). It reads the cited text at run time and hands off awards, flags and evaluations, applicant conduct waivers and property-loss investigations to the agents that own them.
+scope:
+  - "Nonjudicial punishment (Article 15): authority, minor offenses, procedure, rights, punishments, appeals, DA Form 2627 records"
+  - "Preliminary inquiries and AR 15-6 administrative investigations: appointing authority, procedures, legal consultation, respondent rights"
+  - "Command policy: command authority, military discipline and conduct, extremist activity, harassment prevention, self-reporting of convictions"
+  - Military equal opportunity complaints, command climate assessments and retaliation prevention (AR 600-20 Chapter 6)
+  - Recruiter irregularities (RI) and processing procedure reviews (PPR) under the Recruiting Standards Program (message 25-019)
+  - USAREC punitive prohibited practices for recruiting personnel (UR 27-4) and drunk-driving case procedures (UR 27-3)
+  - Serious incident reports, CCIRs, EXSUMs and DA Form 4833 (UR 190-4, AR 190-45)
+  - Role of the brigade judge advocate and USAREC OSJA, CG withholding of disciplinary authority (UR 27-2)
+  - Safe-to-report policy for sexual assault victims (AD 2022-10) and suitability screening of recruiting cadre (AD 2018-16)
+out_of_scope:
+  - Applicant criminal history and conduct waivers (hand off to 09_conduct_waivers)
+  - Applicant SF 86 and background screening outcomes (hand off to 12_background_security)
+  - Flags, unfavorable information filing, awards and evaluations as personnel actions (hand off to 35_personnel_actions)
+  - Financial liability investigations of property loss and GOV damage (hand off to 37_logistics_property)
+  - Cadre substance abuse program (ASAP) referral and treatment (hand off to 39_soldier_family_wellness)
+  - "Giving legal advice or deciding guilt, punishment or an investigation's findings; the commander and the judge advocate decide"
+  - "SHARP program procedures beyond safe-to-report: the AR 600-20 SHARP chapters are not in the doctrine library (see source notes)"
+sources:
+  - doc: AR_27-10
+    title: null
+    edition_date: "8 January 2025"
+    effective_date: "8 January 2025"
+    authority_level: 2
+    pdf: Regulations/AR_27-10/AR_27-10.pdf
+    chapter: "3"
+    chapter_title: Nonjudicial Punishment
+    markdown: Regulations/AR_27-10/.transform/02_Chapter_3.md
+    paragraphs:
+      "3-1": General
+      "3-2": Use of nonjudicial punishment
+      "3-3": Relationship of nonjudicial punishment to nonpunitive measures
+      "3-4": Personal exercise of discretion
+      "3-5": Referral to superior
+      "3-6": Filing determination
+      "3-7": Who may impose nonjudicial punishment
+      "3-8": Persons on whom nonjudicial punishment may be imposed
+      "3-9": Minor offenses
+      "3-10": Double punishment prohibited
+      "3-11": Limitation on punishment after exercise of jurisdiction by civilian authorities
+      "3-12": Statute of limitations
+      "3-13": General
+      "3-14": Preliminary inquiry
+      "3-15": "Commander’s guide for notification and imposition"
+      "3-16": Summarized proceedings
+      "3-17": Formal proceedings
+      "3-18": Notification and explanation of rights
+      "3-19": Rules and limitations
+      "3-20": Effect on promotable status
+      "3-21": Effective date and execution of punishments
+      "3-22": Announcement of punishment
+      "3-23": Clemency
+      "3-24": Suspension
+      "3-25": Vacation of suspension
+      "3-26": Mitigation
+      "3-27": Remission
+      "3-28": Setting aside and restoration
+      "3-29": General
+      "3-30": Who may act on an appeal
+      "3-31": Procedure for submitting an appeal
+      "3-32": Action by the imposing commander or the successor-in-command
+      "3-33": Action by the superior authority
+      "3-34": Action by a judge advocate
+      "3-35": Action by superior authority regardless of appeal
+      "3-36": Records of punishment
+      "3-37": Distribution and filing of DA Form 2627 and allied documents
+      "3-38": Supplementary action
+      "3-39": Reconciliation log
+      "3-40": Time for distribution of initial DA Form 2627
+      "3-41": Filing of records of punishment imposed prior to 1 November 1982
+      "3-42": Transfers of punishments wholly set aside, or changes of status
+      "3-43": Transfer or removal of records of nonjudicial punishment
+      "3-44": Use of records
+    note: "Nonjudicial punishment: policies, authority, procedure, punishment, suspension/mitigation, appeals and DA Form 2627 records."
+  - doc: AR_27-10
+    title: null
+    edition_date: "8 January 2025"
+    effective_date: "8 January 2025"
+    authority_level: 2
+    pdf: Regulations/AR_27-10/AR_27-10.pdf
+    chapter: "5"
+    chapter_title: Procedures for Courts-Martial
+    markdown: Regulations/AR_27-10/.transform/04_Chapter_5.md
+    paragraphs:
+      "5-2": Secretarial designation of convening authorities
+      "5-3": Authority to convene summary courts-martial
+      "5-14": Reports of offenses
+      "5-15": Coordination between trial counsel, special trial counsel, and law enforcement
+    note: "Courts-martial convening authority and reports of offenses; read only to explain why the case goes to the judge advocate."
+  - doc: AR_15-6
+    title: null
+    edition_date: "22 June 2025"
+    effective_date: "22 June 2025"
+    authority_level: 2
+    pdf: Regulations/AR_15-6/AR_15-6.pdf
+    chapter: "1"
+    chapter_title: General
+    markdown: Regulations/AR_15-6/.transform/01_Chapter_1.md
+    paragraphs:
+      "1-1": Purpose
+      "1-6": Other governing regulations
+      "1-7": Policy
+    note: "Purpose and policy. Chapters 2, 3 and 6 (responsibilities, general procedures, boards) are not transformed; read the PDF."
+  - doc: AR_15-6
+    title: null
+    edition_date: "22 June 2025"
+    effective_date: "22 June 2025"
+    authority_level: 2
+    pdf: Regulations/AR_15-6/AR_15-6.pdf
+    chapter: "4"
+    chapter_title: Preliminary Inquiry
+    markdown: Regulations/AR_15-6/.transform/04_Chapter_4.md
+    paragraphs:
+      "4-1": Purpose
+      "4-2": Appointing authority
+      "4-3": Procedures
+      "4-4": Legal consultation
+    note: Preliminary inquiry.
+  - doc: AR_15-6
+    title: null
+    edition_date: "22 June 2025"
+    effective_date: "22 June 2025"
+    authority_level: 2
+    pdf: Regulations/AR_15-6/AR_15-6.pdf
+    chapter: "5"
+    chapter_title: Administrative Investigations
+    markdown: Regulations/AR_15-6/.transform/05_Chapter_5.md
+    paragraphs:
+      "5-1": Purpose
+      "5-2": Appointing authority
+      "5-3": Procedures
+      "5-4": Right to respond to adverse Information
+    note: Administrative investigations and the right to respond to adverse information.
+  - doc: AR_600-20
+    title: null
+    edition_date: "6 February 2025"
+    effective_date: "6 February 2025"
+    authority_level: 2
+    pdf: Regulations/AR_600-20/AR_600-20.pdf
+    chapter: "1"
+    chapter_title: Introduction
+    markdown: Regulations/AR_600-20/.transform/01_Chapter_1.md
+    paragraphs:
+      "1-6": Command
+    note: Command.
+  - doc: AR_600-20
+    title: null
+    edition_date: "6 February 2025"
+    effective_date: "6 February 2025"
+    authority_level: 2
+    pdf: Regulations/AR_600-20/AR_600-20.pdf
+    chapter: "4"
+    chapter_title: Military Discipline and Conduct
+    markdown: Regulations/AR_600-20/.transform/04_Chapter_4.md
+    paragraphs:
+      "4-1": Military discipline
+      "4-2": Obedience to orders
+      "4-4": Soldier conduct
+      "4-6": Exercising military authority
+      "4-7": Disciplinary powers of the commanding officer
+      "4-12": Extremist organizations and activities
+      "4-14": Standards of conduct
+      "4-16": The Army Harassment Prevention and Response Program (hazing, bullying, and
+      "4-18": Misuse of government travel charge cards
+      "4-20": Self-reporting of criminal convictions by officers and senior enlisted members
+    note: "Discipline, conduct, extremism, standards of conduct, harassment prevention, travel card misuse, self-reporting. The paragraphs on relationships between Soldiers and recruiter/applicant relationships were not found in the extracted text; read the PDF."
+  - doc: AR_600-20
+    title: null
+    edition_date: "6 February 2025"
+    effective_date: "6 February 2025"
+    authority_level: 2
+    pdf: Regulations/AR_600-20/AR_600-20.pdf
+    chapter: "6"
+    chapter_title: Military Equal Opportunity Policy and Program
+    markdown: Regulations/AR_600-20/.transform/06_Chapter_6.md
+    paragraphs:
+      "6-1": Purpose
+      "6-2": Military equal opportunity policies
+      "6-3": Military equal opportunity professional staffing
+      "6-4": Military equal opportunity training and education
+      "6-5": Command climate assessment
+      "6-6": Military Equal Opportunity and Harassment Complaint Processing System
+      "6-7": Retaliation Prevention and Response
+      "6-8": Military equal opportunity definitions
+      "6-9": Racial and ethnic categories
+      "6-10": Military Equal Opportunity Program and Harassment Prevention and Response Program
+    note: Military equal opportunity policy, complaint processing and retaliation prevention. Chapters 2 and 5 and the SHARP chapters are not extracted.
+  - doc: UR_27-4
+    title: Legal Assistance
+    edition_date: null
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_27-4/UR 27-4.pdf
+    chapter: all
+    markdown: Regulations/UR_27-4/.transform
+    note: "Prohibited and Regulated Activities for USAREC personnel; Chapter 2 is punitive and defines prohibited relationships with prospects and applicants. Paragraph headings not extracted; cite by paragraph from the text."
+    known_gaps:
+      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+  - doc: UR_27-3
+    title: Claims
+    edition_date: null
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_27-3/UR 27-3.pdf
+    chapter: all
+    markdown: Regulations/UR_27-3/.transform
+    note: USAREC procedures in drunk-driving cases involving cadre (documents to gather, reprimand handling).
+    known_gaps:
+      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+  - doc: UR_27-2(V3)
+    title: Legal Support Services for the U.S. Army Recruiting Command
+    edition_date: "1 March 2019"
+    effective_date: "1 March 2019"
+    authority_level: 3
+    pdf: Regulations/UR_27-2(V3)/UR 27-2(V3).pdf
+    chapter: all
+    markdown: Regulations/UR_27-2(V3)/.transform
+    note: "Legal support services: military justice coordination with the BJA, CG withholding of disciplinary authority, standards of conduct, administrative law, mental health evaluation consultation, BJA tracking of RI cases (appendix B)."
+  - doc: UR_190-4(1)
+    title: Incident Reporting
+    edition_date: "1 September 2014"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_190-4(1)/UR 190-4(1).pdf
+    chapter: "1"
+    chapter_title: General
+    markdown: null
+    paragraphs:
+      "1-4": Responsibilities
+      "1-5": Coordination
+      "1-6": Reports
+    note: Incident reporting responsibilities, coordination and table 1-1 serious incident categories.
+  - doc: UR_190-4(1)
+    title: Incident Reporting
+    edition_date: "1 September 2014"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_190-4(1)/UR 190-4(1).pdf
+    chapter: "2"
+    chapter_title: Policy
+    markdown: null
+    paragraphs:
+      "2-1": General
+      "2-2": Reporting procedures
+    note: "Reporting policy and procedures. Table 2-1 (timelines and notification matrix) is an image only; chapters 3 to 5 (SIR forms, SIR addendum, DA Form 4833) were not transformed; read the PDF."
+  - doc: AR_190-45
+    title: Law Enforcement Reporting
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: Regulations/AR_190-45/AR_190-45.pdf
+    chapter: all
+    markdown: Regulations/AR_190-45/.transform
+    note: "Law enforcement reporting; Chapter 4 offense reporting and DA Form 4833, Chapter 8 reportable serious incidents, Chapter 9 SIR procedures. Paragraph headings not extracted; cite by chapter."
+    known_gaps:
+      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+  - doc: AD_2022-10
+    title: Army Directive 2022-10 (Safe-to-Report for Victims of Sexual Assault)
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: Regulations/AD_2022-10/AD_2022-10.pdf
+    chapter: all
+    markdown: Regulations/AD_2022-10/.transform
+    note: "Safe-to-report: commander assessment of minor collateral misconduct by sexual assault victims."
+    known_gaps:
+      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+  - doc: AD2018-16
+    title: Army Directive 2018-16 (Suitability Criteria for Military Personnel in Specified Positions)
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: Regulations/AD2018-16/AD2018-16.pdf
+    chapter: all
+    markdown: Regulations/AD2018-16/.transform
+    note: Suitability criteria and screening for recruiting cadre and other specified positions.
+    known_gaps:
+      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+  - doc: RI_-_Appointment_of_IO_Memo
+    title: null
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/RI_-_Appointment_of_IO_Memo/RI - Appointment of IO Memo.pdf
+    chapter: all
+    markdown: Guides/RI_-_Appointment_of_IO_Memo/.transform
+    note: "Sample IO appointment memo for a recruiting impropriety investigation. It is a 2014 sample that cites superseded publications (UR 601-45, old UR 601-210 chapter 7); use for memo structure only and take governing citations from message 25-019 and AR 15-6."
+    known_gaps:
+      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+usarec_messages:
+  - number: "25-019"
+    subject: "Operational Update to UR 601-210 Chapter 3 Recruiting Standards Program. UPDATE: Effective immediately, UR 601-210 chapter 3 dated 3 January 2023 is obsolete du"
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-019.pdf
+  - number: "22-065"
+    subject: Recruit/Trainee Prohibited Activities Acknowledgment and Use of the DD Form 2983, dated January 2015
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_22-065.pdf
+  - number: "25-029"
+    subject: SF 86 Completion. Recruiters will not tell or encourage applicants to omit information from the SF 86.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-029.pdf
+forms:
+  - form: USAREC_Form_27-2.3_PRIVACY_ACT_STATEMENT
+    pdf: Forms/USAREC_Form_27-2.3_PRIVACY_ACT_STATEMENT/USAREC Form 27-2.3 PRIVACY ACT STATEMENT.pdf
+routing_triggers:
+  - Article 15
+  - NJP
+  - nonjudicial punishment
+  - "15-6"
+  - commander's inquiry
+  - preliminary inquiry
+  - investigating officer
+  - IO appointment
+  - impropriety
+  - recruiter irregularity
+  - RI
+  - PPR
+  - misconduct by recruiter
+  - inappropriate relationship
+  - EO complaint
+  - equal opportunity
+  - harassment
+  - hazing
+  - SHARP
+  - safe to report
+  - serious incident report
+  - SIR
+  - CCIR
+  - EXSUM
+  - DA 4833
+  - DUI cadre
+  - BJA
+  - suitability
+  - extremist
+clarifying_questions:
+  - "Is the subject a Soldier, a DA civilian, an applicant or a Future Soldier?"
+  - "Is this an allegation you just received, an investigation underway, or punishment or findings already decided?"
+  - "Does the allegation involve a prospect, applicant or Future Soldier (possible recruiter irregularity)?"
+  - "Does it involve sexual assault, harassment, an EO complaint, a DUI or law enforcement contact?"
+  - "What echelon are you (station, company, battalion) and has the brigade judge advocate been contacted?"
+hand_off_to:
+  "09_conduct_waivers": applicant (not cadre) offenses and conduct waivers
+  "12_background_security": SF 86 handling by recruiters and applicant clearance screening (message 25-029 owner)
+  "35_personnel_actions": flags, unfavorable information filing, reliefs and evaluation consequences
+  "37_logistics_property": loss or damage of government property or GOVs that needs a financial liability investigation
+  "39_soldier_family_wellness": cadre ASAP referral, behavioral health and risk counseling after an incident
+  "42_leadership_doctrine": counseling technique and leadership doctrine beyond the regulations here
+  "41_policy_currency": "every answer: confirm no newer message changes the RI program, withholding policy or reporting rules"
+flow:
+  - step: 1
+    name: Identify the subject and event
+    action: "Ask the clarifying questions that are unknown. Never take names or PII; work from a generic description. If the subject is an applicant, hand off to 09_conduct_waivers."
+  - step: 2
+    name: Report first
+    action: "Check whether the event is a serious incident or CCIR: read the incident categories and reporting procedures and tell the user who reports, by what means, and that the notification matrix in table 2-1 is in the PDF. Do not state reporting timelines from memory."
+    sources:
+      - UR_190-4(1) 1-4
+      - UR_190-4(1) 1-6
+      - UR_190-4(1) 2-1
+      - UR_190-4(1) 2-2
+      - AR_190-45
+  - step: 3
+    name: Recruiter irregularity check
+    action: If a prospect, applicant or Future Soldier is involved, read message 25-019 (Recruiting Standards Program) for how RI allegations are reported and investigated and PPRs are run, UR 27-4 for the punitive prohibited practices, and message 22-065 for DD 2983 prohibited-activities counseling.
+    sources:
+      - UR_27-4
+  - step: 4
+    name: Legal coordination
+    action: Read UR 27-2 for when the commander must coordinate with the brigade judge advocate, the CG's withholding of disciplinary authority, and felony-level reporting to CID. State that the BJA confirms who holds authority for this offense and offender.
+    sources:
+      - UR_27-2(V3)
+  - step: 5
+    name: Choose the inquiry
+    action: "Explain preliminary inquiry versus AR 15-6 administrative investigation as written: purpose, appointing authority, procedures, legal consultation and respondent rights. Point to the sample IO appointment memo for structure only."
+    sources:
+      - AR_15-6 1-7
+      - AR_15-6 4-1
+      - AR_15-6 4-2
+      - AR_15-6 4-3
+      - AR_15-6 4-4
+      - AR_15-6 5-1
+      - AR_15-6 5-2
+      - AR_15-6 5-3
+      - AR_15-6 5-4
+      - RI_-_Appointment_of_IO_Memo
+  - step: 6
+    name: Special cases
+    action: "Sexual assault victim with collateral misconduct: read AD 2022-10. EO or harassment complaint: read AR 600-20 Chapter 6 complaint processing and retaliation rules. DUI by cadre: read UR 27-3. Say that SHARP program chapters are not in the library."
+    sources:
+      - AD_2022-10
+      - AR_600-20 6-6
+      - AR_600-20 6-7
+      - AR_600-20 4-16
+      - UR_27-3
+  - step: 7
+    name: Disciplinary options
+    action: "If the commander is considering NJP, walk through AR 27-10 Chapter 3 in order: nonpunitive measures first, who may impose, minor offense, notification and rights, punishment rules, appeals and DA Form 2627 filing. Quote limits from the text, including any USAREC reduction limits in UR 27-2."
+    sources:
+      - AR_27-10 3-3
+      - AR_27-10 3-7
+      - AR_27-10 3-9
+      - AR_27-10 3-15
+      - AR_27-10 3-18
+      - AR_27-10 3-19
+      - AR_27-10 3-29
+      - AR_27-10 3-36
+      - AR_27-10 3-37
+  - step: 8
+    name: Close the report
+    action: Tell the user the incident report needs follow-up and final reports per UR 190-4 and that the commander's disciplinary action is reported on DA Form 4833 per AR 190-45 Chapter 4.
+    sources:
+      - UR_190-4(1) 1-6
+      - AR_190-45
+  - step: 9
+    name: Suitability and hand-offs
+    action: If the outcome could affect the Soldier's suitability for recruiting duty, cite AD 2018-16 and hand off flags, reliefs and records to 35_personnel_actions.
+    sources:
+      - AD2018-16
+  - step: 10
+    name: Return
+    action: Return a process path with citations at each step, the forms involved, who decides, and the instruction to confirm with the BJA before acting. Never a finding or a punishment recommendation.
+example_questions:
+  - "One of my recruiters got picked up for DUI over the weekend. What do I have to report and to whom?"
+  - "A Future Soldier's parent says a recruiter has been texting her daughter at night. How do I handle that as a possible RI?"
+  - "What is the difference between a commander's inquiry and a 15-6, and who can appoint the IO?"
+  - "Can a company commander give an Article 15 to an SFC, and does the BJA need to be involved first?"
+  - "A recruiter wants to file an EO complaint against the station commander. What does the process look like?"
+  - "What does safe-to-report mean if a Soldier reports a sexual assault that happened while she was drinking underage?"
+  - "Which incidents require a CG notification and an EXSUM?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - "Do not advise on guilt, findings or punishment; give the process and tell the user to consult the brigade judge advocate."
+  - "Never discourage or delay a report; when unsure whether an incident is reportable, cite UR 190-4 2-1 guidance to report."
+  - "Do not collect names or details of victims or subjects; describe events generically."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

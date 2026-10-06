@@ -1,0 +1,62 @@
+# Agent seed schema (one YAML file per agent in agents/)
+# Every field below is filled from the doctrine library; nothing is restated from model memory.
+
+id: "NN_snake_name"            # stable id; NN groups agents (00 front door, 01-12 eligibility, 13-18 applicant types,
+                               # 19-23 contract, 24-27 processing, 28-33 operations, 34-40 command support, 41-43 cross-cutting)
+name: Human-readable name
+agent_type: orchestrator | specialist
+group: Roster group from _roster_index.md
+status: draft - for SME review | approved
+generated: YYYY-MM-DD
+maps_to_existing: "How this relates to FlorenceTaskingCommand/agents/<dir>: same | split | extends | new"
+
+description: >-
+  Plain-language paragraph: who asks this agent, what it answers, what it reads, what it hands off.
+  Says WHAT a section covers; never restates a threshold, score, age or authority as fact.
+
+scope: [what this agent owns]
+out_of_scope: [what it refuses or hands off, naming the receiving agent]
+
+sources:                       # specialist only; resolved and validated against _source_catalog.json at build time
+  - doc: AR_601-210            # folder id under the doctrine root
+    title: Official title      # read from the document's front matter
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1         # 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides
+    pdf: path/to/source.pdf
+    chapter: "4"               # or "all"
+    chapter_title: Chapter title
+    markdown: path/to/.transform/NN_Chapter_N.md   # text the agent loads at run time
+    paragraphs: {"4-1": heading}                   # regulations: numbered paragraphs (build fails on an unknown number)
+    section_headings: [heading]                    # manuals: section headings from the table of contents
+    note: why this source is here
+    known_gaps: [extraction gaps the agent must work around]
+
+usarec_messages:               # from _usarec_message_catalog.json
+  - number: "24-034"
+    subject: Message subject line
+    status: no rescission found in library | rescinded | check - newer message with same subject
+    review_flag: present when the message names AR 601-210 and predates its current edition
+    pdf: USAREC Messages/USAREC_MESSAGE_24-034.pdf
+
+forms: [{form: folder id under Forms/, pdf: path}]
+routing_triggers: [words and phrases the orchestrator matches]
+clarifying_questions: [only questions whose answer changes the rule that applies]
+hand_off_to: {agent_id: when to hand off}
+
+flow:                          # ordered steps the agent follows for every question
+  - step: 1
+    name: Short name
+    action: What the agent does
+    sources: ["AR_601-210 4-22"]   # optional; every ref validated against the catalog
+
+example_questions: [questions only; they assert no facts]
+guardrails: [hard rules - cite everything, no PII, check message currency, say when the text is silent]
+provenance: {doctrine_root, paths, authority_levels, editions}
+
+# Orchestrator-only fields
+applicant_facts_that_decide_routing: [{fact, why}]
+routing_table: [{agent, name, triggers}]
+tie_break_rules: [ordered rules for overlapping triggers]
+conflict_rule: {hierarchy, rule, never}
+answer_template: [sections of the final reply]

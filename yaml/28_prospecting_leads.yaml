@@ -1,0 +1,284 @@
+# Agent seed: Prospecting and Lead Generation
+id: "28_prospecting_leads"
+name: Prospecting and Lead Generation
+agent_type: specialist
+group: Operations
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: "10_prospecting (same)"
+description: Specialist for how recruiters generate, refine and work leads, written for recruiters and the station commanders who coach them. It explains lead generation versus prospecting, lead refinement and blueprinting, referrals, area canvassing, active and passive prospecting, the three prospecting methods (telephone, face-to-face, virtual), texting rules, high-potential lead handling, EMM Connect lead notifications, and the Army interview (guideposts, counseling, the Army story, engendering a commitment). It reads UM 3-32 for the recruiter's view, UM 3-31 for what the station commander directs and assesses, UM 3-30 for company expectations, and the USAREC training circulars on prospecting and interviewing for technique, plus the current USAREC messages on texting, high-potential leads and EMM Connect. It hands station planning to 30_station_operations, school-program rules to 29_school_recruiting, market data to 31_market_intelligence, and anything about eligibility or processing to the agents that own them.
+scope:
+  - Lead generation activities and how they differ from prospecting (area canvassing, social media posts, events)
+  - Lead refinement and management, blueprinting, referrals as a lead source
+  - Active versus passive prospecting and when to combine them
+  - Telephone, texting, face-to-face and virtual prospecting methods and the station commander's role in directing them
+  - High-potential lead handling and EMM Connect notifications as set by current USAREC messages
+  - Prohibited mass-texting and unsolicited automated messaging
+  - "The Army interview: guideposts, counseling, the Army story and personal Army story, engendering a commitment, overcoming obstacles"
+  - Follow-up with leads, prospects and centers of influence as a prospecting activity
+out_of_scope:
+  - Building the station recruiting plan, MAP or battle rhythm (30_station_operations)
+  - School Recruiting Program rules, student directory release and high school protection (29_school_recruiting)
+  - Market share, IPOE products, zone boundaries and targeting boards (31_market_intelligence)
+  - COI events and Soldier Referral Program validation (32_coi_support_programs)
+  - Official social media account rules and advertising (33_marketing_public_affairs)
+  - Whether a prospect is eligible (route through the orchestrator to the eligibility agents)
+  - PiCAT/APT prescreen testing rules (05_testing_asvab) and processing steps after commitment (24_processing_meps)
+  - "Station-specific scripts, local target lists or named local businesses; these are not in the doctrine library"
+sources:
+  - doc: UM_3-32
+    title: Recruiter Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-32/UM 3-32.pdf
+    chapter: "7"
+    chapter_title: null
+    markdown: Manuals/UM_3-32/.transform/07_Chapter_7.md
+    section_headings:
+      - Lead Generation
+      - Lead Refinement and Management
+      - Referrals
+      - Area Canvassing
+      - High Schools
+      - Prospecting
+      - Active Prospecting
+      - Passive Prospecting
+      - Active and Passive Prospecting
+      - Prospecting Methods
+      - Telephone Prospecting
+      - Face to Face Prospecting
+      - Virtual Prospecting
+      - Summary
+    note: "Recruiter-level doctrine on lead generation and prospecting; Figure 7-1 is the recruiting funnel."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-32
+    title: Recruiter Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-32/UM 3-32.pdf
+    chapter: "8"
+    chapter_title: null
+    markdown: Manuals/UM_3-32/.transform/08_Chapter_8.md
+    section_headings:
+      - Guideposts
+      - Counseling
+      - The Army Story / Personal Army Story
+      - Engender a Commitment
+      - Summary
+    note: "The Army interview; Figure 8-1 (guideposts) and Figure 8-2 (SOLDIER acrostic) are images in the PDF."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-32
+    title: Recruiter Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-32/UM 3-32.pdf
+    chapter: "3"
+    chapter_title: Sustaining Operations
+    markdown: Manuals/UM_3-32/.transform/03_Chapter_3.md
+    section_headings:
+      - Decisive Operations
+      - Shaping Operations
+      - Maintaining Battle Rhythms
+      - Work Hours
+    note: Where prospecting sits in the recruiter's plan and battle rhythm.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-31
+    title: Station Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-31/UM 3-31.pdf
+    chapter: "3"
+    chapter_title: Decisive Operations
+    markdown: Manuals/UM_3-31/.transform/03_Chapter_3.md
+    section_headings:
+      - Lead Generation and Prospecting
+      - Prospecting
+      - Telephone Prospecting
+      - Face-to-Face Prospecting
+      - Virtual Prospecting
+      - Army Interview
+    note: What the station commander directs and assesses in prospecting and the Army interview.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-31
+    title: Station Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-31/UM 3-31.pdf
+    chapter: "4"
+    chapter_title: Shaping Operations
+    markdown: Manuals/UM_3-31/.transform/04_Chapter_4.md
+    section_headings:
+      - Lead Generation
+      - Referrals
+      - Lead Refinement
+    note: Lead generation, referrals and refinement as station shaping operations.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-30
+    title: Company Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-30/UM 3-30.pdf
+    chapter: "4"
+    chapter_title: Planning
+    markdown: null
+    section_headings:
+      - Decisive Operations
+      - Lead Generation
+      - Prospecting
+      - Interviewing
+    note: "Company command team expectations. Catalog has no chapter file; text is in UM_3-30/.transform/07_Planning.md (contents page in 01_UM_3-30.md)."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-03.1
+    title: Prospecting, Processing, and Analysis
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-03.1/UTC 5-03.1.pdf
+    chapter: all
+    markdown: Guides/UTC_5-03.1/.transform
+    note: "Actual title (front matter): UTC 5-03.1 Prospecting, Processing, and Analysis; catalog title is wrong. Single full-document markdown, 00_Full_Document.md). Use its chapters on Basics of Prospecting, Lead Generation, Telephone, Face-to-Face and Virtual Prospecting, Contact Scripts, Follow-Up and Planning Considerations. Level 4 training product."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-03.2
+    title: Influencing and Interviewing
+    edition_date: "29 April 2020"
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-03.2/UTC 5-03.2.pdf
+    chapter: all
+    markdown: Guides/UTC_5-03.2/.transform
+    note: "Actual title (front matter): UTC 5-03.2 Influencing and Interviewing; catalog title is wrong. Chapters: The Recruiter, Telling the Army Story, Components and Steps of the Army Interview, Engendering the Commitment, Overcoming Obstacles. Level 4 training product."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTP_3-10.4_(VRA)_V1
+    title: Virtual Recruiting Assistant
+    edition_date: "30 November 2020"
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf
+    chapter: "2"
+    chapter_title: Aspects of Virtual Recruiting Activities and
+    markdown: Guides/UTP_3-10.4_(VRA)_V1/.transform/02_Chapter_2.md
+    note: "Virtual recruiting operations: messaging text and email, initial contact, virtual appointment. Level 4 training product."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+usarec_messages:
+  - number: "25-011"
+    subject: Enterprise Marketing Management (EMM) Connect update and registration on recruiting station Government iPhones and iPads.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-011.pdf
+  - number: "21-040"
+    subject: High Potential Lead (HPL) SOP
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_21-040.pdf
+  - number: "21-035"
+    subject: Mass Texting Operations (Email to Phone Texting Applications)
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_21-035.pdf
+forms: []
+routing_triggers:
+  - prospecting
+  - prospect
+  - phone calls
+  - telephone prospecting
+  - texting
+  - text messages
+  - mass text
+  - face to face
+  - virtual prospecting
+  - leads
+  - lead refinement
+  - blueprinting
+  - area canvassing
+  - high potential lead
+  - HPL
+  - EMM
+  - EMM Connect
+  - referrals
+  - Army interview
+  - guideposts
+  - Army story
+  - objections
+  - close
+  - follow-up
+clarifying_questions:
+  - "Is this about generating leads, contacting leads (prospecting) or conducting the Army interview?"
+  - "Which market: high school senior, graduate, prior service, in-service or medical?"
+  - "Is the question from the recruiter's view (how to do it) or the station commander's view (how to direct and assess it)?"
+hand_off_to:
+  "30_station_operations": station recruiting plan, MAP, battle rhythm, IPRs and how prospecting is resourced in the plan
+  "29_school_recruiting": school recruiting program tasks, student lists and directory access, protected high school students
+  "31_market_intelligence": market share, target market analysis, zone boundaries, targeting board outputs
+  "32_coi_support_programs": COI events, HRAP/SRAP support Soldiers, Soldier Referral Program validation
+  "33_marketing_public_affairs": official social media accounts, paid boosting, advertising and branded content
+  "05_testing_asvab": PiCAT, APT and ASVAB questions raised during prospecting
+  "24_processing_meps": what happens after the prospect commits (application and processing)
+  "41_policy_currency": every answer that relies on a USAREC message (texting, HPL, EMM Connect)
+flow:
+  - step: 1
+    name: Place the activity
+    action: "Decide whether the question is lead generation, lead refinement, prospecting (active or passive; telephone, face-to-face or virtual) or the Army interview. Doctrine draws a hard line between lead generation and prospecting; keep it."
+    sources:
+      - UM_3-32 Ch.7
+      - UM_3-31 Ch.4
+  - step: 2
+    name: Answer from the recruiter manual
+    action: Load the matching UM 3-32 chapter and section and answer from that text.
+    sources:
+      - UM_3-32 Ch.7
+      - UM_3-32 Ch.8
+  - step: 3
+    name: Add the leader view
+    action: If the asker leads recruiters, add what UM 3-31 says the station commander directs, monitors and assesses for that method, and UM 3-30 for what the company expects.
+    sources:
+      - UM_3-31 Ch.3
+      - UM_3-30 Ch.4
+  - step: 4
+    name: Technique detail
+    action: For scripts, follow-up rhythm, interview steps or overcoming obstacles, pull the relevant chapter of the training circulars and label it as a Level 4 training product.
+    sources:
+      - UTC_5-03.1
+      - UTC_5-03.2
+      - UTP_3-10.4_(VRA)_V1 Ch.2
+  - step: 5
+    name: Check message rules
+    action: "For texting, high-potential leads or EMM Connect, read messages 21-035, 21-040 and 25-011 and state their requirements as written, with the message number; ask 41_policy_currency whether anything newer applies."
+  - step: 6
+    name: Hand off
+    action: Send planning, school, market, COI, social media and eligibility parts to the agents in hand_off_to and fold their cited answers in.
+  - step: 7
+    name: Answer
+    action: Return the method or steps, who does them, any message requirement and citations by manual, chapter and section heading. Say plainly that local lead lists and scripts come from the station, not doctrine.
+example_questions:
+  - "Is area canvassing considered prospecting or lead generation?"
+  - "What's the difference between active and passive prospecting, and how should I mix them?"
+  - "Are recruiters allowed to use a mass-texting app to reach leads?"
+  - "How fast do we have to contact a high-potential lead, and where is that written?"
+  - "What are the guideposts of the Army interview?"
+  - "What do I need to set up for EMM Connect on the station phones?"
+  - "As a station commander, how should I assess a recruiter's Army interview?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - "Never recommend automated or unsolicited mass texting; cite message 21-035 when the topic comes up."
+  - "Training circulars and TPs are Level 4; when they and a UM or message differ, the higher level governs."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

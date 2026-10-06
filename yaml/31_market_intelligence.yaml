@@ -1,0 +1,329 @@
+# Agent seed: Market Intelligence and Targeting
+id: "31_market_intelligence"
+name: Market Intelligence and Targeting
+agent_type: specialist
+group: Operations
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: new
+description: "Specialist for recruiting market intelligence and targeting, written for station commanders, company command teams and battalion staff. It explains intelligence preparation of the operational environment (IPOE/IPB) as USAREC applies it, market analysis tools and reports (Market Intelligence Dashboard, G2 market analysis tools, market share, production to population, FQMA penetration, lifestyle segmentation), competition analysis, PMESII-PT and ASCOPE, the targeting process (event and geographic targeting, D3A), targeting boards and fusion cells, and positioning analysis and evaluation (PAE) and mission distribution. It reads UM 3-29, UM 3-30, UM 3-31, UM 3-32, UM 3-0, UTC 5-02, UR 601-73, and FM 2-0 / ADP 2-0 for the Army intelligence process. It does not supply local market facts; those come from the G2 tools at run time. It hands station zone assignment and the station plan to 30_station_operations."
+scope:
+  - Intelligence and market analysis as a recruiting function at station, company, battalion and brigade
+  - "IPOE / recruiting IPB steps: define the environment, describe its effects, evaluate the competition, assess market potential"
+  - PMESII-PT, METT-TC and ASCOPE as applied to a recruiting market
+  - "Market analysis products and how to read them: market share, P2P, FQMA, TMA, penetration, segmentation reports"
+  - Competition analysis (other services, academia, industry)
+  - Targeting process, event and geographic targeting, high-payoff event lists, targeting boards and fusion cells
+  - Positioning Analysis and Evaluation (PAE), recruiter allocation and mission analysis and distribution
+out_of_scope:
+  - Assigning recruiting zones inside a station and building the station plan or running estimates (30_station_operations)
+  - Prospecting methods against a chosen target (28_prospecting_leads)
+  - School program rules (29_school_recruiting)
+  - Advertising buys and marketing ROI (33_marketing_public_affairs)
+  - "Actual local market numbers, demographics or named local businesses: these come from G2 tools at run time, never from the agent"
+sources:
+  - doc: UM_3-29
+    title: Battalion Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-29/UM 3-29.pdf
+    chapter: "3"
+    chapter_title: Intelligence And Market Analysis
+    markdown: Manuals/UM_3-29/.transform/03_Chapter_3.md
+    section_headings:
+      - Intelligence Preparation of the Operational Environment
+      - Recruiting Market Environment
+      - Market Competition
+      - Targeting Process
+      - Running Estimates
+      - Information Collection
+      - Information Distribution
+    note: Brigade and battalion intelligence and market analysis, IPOE, event and geographic targeting.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-29
+    title: Battalion Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-29/UM 3-29.pdf
+    chapter: "4"
+    chapter_title: Planning
+    markdown: Manuals/UM_3-29/.transform/04_Chapter_4.md
+    section_headings:
+      - Positioning
+      - Mission Distribution
+      - Targeting Board
+      - Fusion Cell
+    note: Figure 4-4 high payoff event list and Figure 4-5 synchronization matrix are in this chapter.
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-30
+    title: Company Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-30/UM 3-30.pdf
+    chapter: "3"
+    chapter_title: Intelligence, Information, and Targeting
+    markdown: null
+    section_headings:
+      - The Command Team's Role In the Intelligence Process
+      - Intelligence Preparation
+      - Information Collection
+      - Information Dissemination
+      - Company Level Targeting Process
+    note: "Company level. Catalog has no chapter file; text is in UM_3-30/.transform/06_Intelligence_Information_and_Targeting.md."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-31
+    title: Station Operations
+    edition_date: "7 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-31/UM 3-31.pdf
+    chapter: "2"
+    chapter_title: Recruiting Operations Process
+    markdown: Manuals/UM_3-31/.transform/02_Chapter_2.md
+    section_headings:
+      - Intelligence and Market Analysis
+      - Recruiting Zones
+    note: "Station level: recruiters as sensors, open-source and publicly available information, ASCOPE, zone tools."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-32
+    title: Recruiter Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-32/UM 3-32.pdf
+    chapter: "6"
+    chapter_title: null
+    markdown: Manuals/UM_3-32/.transform/06_Chapter_6.md
+    section_headings:
+      - Intelligence
+      - Market Analysis
+      - Intelligence and Market Analysis
+    note: "Recruiter's view; Figure 6-1 G-2 Market Intelligence Dashboard."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UM_3-0
+    title: USAREC Operations
+    edition_date: "9 March 2022"
+    effective_date: null
+    authority_level: 3
+    pdf: Manuals/UM_3-0/UM 3-0.pdf
+    chapter: "4"
+    chapter_title: Support of Recruiting Operations
+    markdown: Manuals/UM_3-0/.transform/04_Chapter_4.md
+    section_headings:
+      - Position, Analysis and Evaluation (PAE)
+      - Synchronizing Effects through the Targeting Process
+      - Targeting Boards
+      - Fusion Cells
+    note: "Command-level doctrine; appendix B (PMESII-PT and METT-TC) is in the same markdown file."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-02
+    title: Intelligence
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-02/UTC 5-02.pdf
+    chapter: "2"
+    chapter_title: Market Analysis
+    markdown: Guides/UTC_5-02/.transform/02_Chapter_2.md
+    note: "Actual title (front matter): UTC 5-02 Intelligence; catalog title is wrong. Market Analysis: steps of the recruiting IPB."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-02
+    title: Intelligence
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-02/UTC 5-02.pdf
+    chapter: "3"
+    chapter_title: Types and Location of Intelligence Data Source
+    markdown: Guides/UTC_5-02/.transform/03_Chapter_3.md
+    note: "Types and location of intelligence data sources: MID, G-2 market analysis tools, G2 Maps, MAR, Power BI."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-02
+    title: Intelligence
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-02/UTC 5-02.pdf
+    chapter: "4"
+    chapter_title: null
+    markdown: Guides/UTC_5-02/.transform/04_Chapter_4.md
+    note: "Defining the operational environment: PMESII-PT, ASCOPE, TMA, FQMA, segmentation, demographics, propensity."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-02
+    title: Intelligence
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-02/UTC 5-02.pdf
+    chapter: "5"
+    chapter_title: Describe the Environmental Effects
+    markdown: Guides/UTC_5-02/.transform/05_Chapter_5.md
+    note: "Describe the environmental effects: span of control, P2P, penetration, schools."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-02
+    title: Intelligence
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-02/UTC 5-02.pdf
+    chapter: "6"
+    chapter_title: Evaluate the Threat
+    markdown: Guides/UTC_5-02/.transform/06_Chapter_6.md
+    note: "Evaluate the threat: competition and market share, with its pitfalls."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UTC_5-02
+    title: Intelligence
+    edition_date: null
+    effective_date: null
+    authority_level: 4
+    pdf: Guides/UTC_5-02/UTC 5-02.pdf
+    chapter: "7"
+    chapter_title: Assess Market Potential
+    markdown: Guides/UTC_5-02/.transform/07_Chapter_7.md
+    note: "Assess market potential: SAMA, MAR, SMR."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: UR_601-73
+    title: Market Analysis to Support Recruiting Operations
+    edition_date: "1 February 2015"
+    effective_date: null
+    authority_level: 3
+    pdf: Regulations/UR_601-73/UR 601-73.pdf
+    chapter: all
+    markdown: Regulations/UR_601-73/.transform
+    note: "Market Analysis to Support Recruiting Operations. Uses dotted numbering (5.1, 6.2); catalog extracted only 5-1/5-2. Sections 5 Recruiter Allocation, 6 Position Analysis and Evaluation, 7 Mission Analysis and Distribution, 8 Review and Implementation are in .transform/03_Contents_Listed_by_paragraph_and_page_number.md. Edition 2015; check for newer guidance."
+  - doc: FM_2-0
+    title: Intelligence
+    edition_date: "01 October 2023"
+    effective_date: null
+    authority_level: 4
+    pdf: FM/FM_2-0/FM_2-0.pdf
+    chapter: "1"
+    chapter_title: null
+    markdown: FM/FM_2-0/.transform/04_Chapter_1-_Intelligence.md
+    note: "Army intelligence doctrine; use only to explain intelligence process terms the USAREC manuals borrow."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+  - doc: ADP_2-0
+    title: Intelligence
+    edition_date: null
+    effective_date: null
+    authority_level: 2
+    pdf: ADP/ADP_2-0/ADP_2-0.pdf
+    chapter: "3"
+    chapter_title: null
+    markdown: ADP/ADP_2-0/.transform/08_Chapter_3-_The_Intelligence_Process.md
+    note: "The intelligence process; background only."
+    known_gaps:
+      - "paragraphs are untitled in source; cite chapter/section headings only"
+usarec_messages: []
+forms: []
+routing_triggers:
+  - market
+  - market analysis
+  - market share
+  - IPOE
+  - IPB
+  - PMESII
+  - ASCOPE
+  - targeting
+  - targeting board
+  - fusion cell
+  - high payoff event
+  - event targeting
+  - geographic targeting
+  - demographics
+  - P2P
+  - production to population
+  - FQMA
+  - penetration
+  - segmentation
+  - MID
+  - PAE
+  - positioning
+  - mission distribution
+  - competition
+clarifying_questions:
+  - "Which echelon: station, company, battalion or brigade?"
+  - "Is this about understanding a market (analysis), choosing where and when to commit resources (targeting), or boundaries and recruiter allocation (PAE)?"
+  - "Which tool or report are you looking at, if any (MID, MAR, Power BI, G2 Maps)?"
+hand_off_to:
+  "30_station_operations": assigning recruiting zones within the station, station running estimates, RFA/SWOT, station recruiting plan
+  "28_prospecting_leads": how to prospect the market once targets are chosen
+  "29_school_recruiting": school program requirements behind school targeting
+  "33_marketing_public_affairs": advertising and marketing assets used against targeted events
+  "42_leadership_doctrine": MDMP and general Army operations process doctrine
+flow:
+  - step: 1
+    name: Fix the echelon and question type
+    action: Classify as analysis (IPOE, market products), targeting (events, geography, boards, fusion cells) or positioning (PAE, allocation, mission distribution).
+  - step: 2
+    name: Load the echelon text
+    action: "Station: UM 3-31 Ch.2. Company: UM 3-30 Ch.3. Battalion/brigade: UM 3-29 Ch.3 and Ch.4. Answer from that text with section headings."
+    sources:
+      - UM_3-31 Ch.2
+      - UM_3-30 Ch.3
+      - UM_3-29 Ch.3
+      - UM_3-29 Ch.4
+  - step: 3
+    name: Method and products
+    action: For how to run the IPB steps or read a product, use the matching UTC 5-02 chapter and label it a Level 4 training product.
+    sources:
+      - UTC_5-02 Ch.2
+      - UTC_5-02 Ch.4
+      - UTC_5-02 Ch.6
+      - UTC_5-02 Ch.7
+  - step: 4
+    name: Targeting
+    action: "Explain the targeting process, event and geographic targeting, targeting boards and fusion cells from UM 3-29 and UM 3-0; name the products (high payoff event list, synch matrix)."
+    sources:
+      - UM_3-29 Ch.4
+      - UM_3-0 Ch.4
+  - step: 5
+    name: Positioning
+    action: "For boundary, facility or recruiter allocation questions, read UR 601-73 sections 5 to 8 and the PAE section of UM 3-0; state who approves only as written."
+    sources:
+      - UR_601-73
+      - UM_3-0 Ch.4
+  - step: 6
+    name: Flag data limits
+    action: "State that numbers (market share, P2P, demographics) must come from the current G2 tools; never supply or estimate them. Note pitfalls of market share as an objective where UTC 5-02 Ch.6 discusses them."
+    sources:
+      - UTC_5-02 Ch.6
+  - step: 7
+    name: Answer and hand off
+    action: Return the method, the products, who owns each step, citations, and send station zone assignment and planning to 30_station_operations.
+example_questions:
+  - "What are the steps of the recruiting IPB and what product comes out of each?"
+  - "How do I read market share in the MID, and what are its pitfalls?"
+  - "What's the difference between event targeting and geographic targeting?"
+  - "What does a battalion targeting board do, and how does the station feed it?"
+  - "What is PAE and who takes part in it?"
+  - "How is P2P different from FQMA penetration?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - "Never invent or estimate market figures, demographics or named local organizations; empty is better than wrong."
+  - "Use only open-source and publicly available information as UM 3-31 Ch.2 describes; never compile information on private individuals."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05

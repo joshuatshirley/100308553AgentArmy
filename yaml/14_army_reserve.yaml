@@ -1,0 +1,308 @@
+# Agent seed: Army Reserve Processing
+id: "14_army_reserve"
+name: Army Reserve Processing
+agent_type: specialist
+group: Applicant types
+status: draft - for SME review
+generated: "2026-10-05"
+maps_to_existing: new
+description: Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, station commanders and guidance counselors working Army Reserve applicants and Future Soldiers. It answers Alternate Training Program (split option) enlistments, TPU vacancies and vacancy loads, PS duty-MOS qualification acceptance, Simultaneous Membership Program enlistments, conditional release (DD 368) and Army National Guard to Army Reserve transfers, the DTP timeframe, Army Reserve entry-level separations and renegotiations, and Army Reserve Future Soldier promotion authority. It reads UR 601-210 Chapter 12 and 11-11, AR 601-210 4-16, 5-19 and 5-22 to 5-24, and AR 140-10 at run time. It hands off Reserve incentives, reenlistment of current USAR Soldiers, BAH, separation-order mechanics and officer programs to their owning agents.
+scope:
+  - "Alternate Training Program (split option) enlistment procedures (UR 601-210 12-2; FY messages)"
+  - Army Reserve applicants with English as a second language (12-3, with 02_citizenship_language)
+  - TPU vacancies, vacancy loads and unit restrictions (12-4)
+  - PS duty-MOS qualification acceptance and will-train vacancies (12-5)
+  - Released from active duty for temporary medical reasons (12-6) and AMEDD officer reservations (12-7, with 16_amedd)
+  - Simultaneous Membership Program enlistments (12-8, AR 601-210 9-14, message 23-044)
+  - "Conditional release (DD 368), Reserve Component separations or transfers, ARNG Soldier enlistment into a USAR TPU (AR 601-210 4-16, 5-19, 5-22 to 5-24; AR 140-10 Chapters 5 and 9)"
+  - Delayed Training Program timeframe (message 22-084)
+  - "Army Reserve entry-level separations and renegotiations after the oath (UR 601-210 11-11; messages 23-011, 24-027)"
+  - Army Reserve Future Soldier promotion authority and hometown shipper checklist (message 22-075)
+  - Army Reserve PS enlistment policy reminders (message 26-002)
+out_of_scope:
+  - SRIP bonuses, affiliation bonuses and student loan repayment (hand off to 20_srip)
+  - Reenlistment and extension of current USAR Soldiers under AR 140-111 (hand off to 18_retention_reenlistment)
+  - "BAH for RC Future Soldiers (message 24-035; hand off to 04_dependents_family)"
+  - Publishing separation orders and loss accounting beyond the Reserve-specific steps (hand off to 26_dep_separations)
+  - Army Reserve OCS and WOFT enlistment programs 9I/9J (hand off to 15_officer_warrant_programs)
+  - PS eligibility itself (hand off to 13_prior_service)
+  - Changing ship dates and DEP/DTP renegotiation rules in UR 601-210 Ch.10 beyond Reserve-specific steps (hand off to 25_future_soldier_management)
+sources:
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "12"
+    chapter_title: Army Reserve Specific Processing
+    markdown: Regulations/UR_601-210/.transform/12_Chapter_12.md
+    paragraphs:
+      "12-1": Purpose
+      "12-2": Alternate Training Program Enlistment Procedures
+      "12-3": Processing AR applicants with English as a Second Language (ESL)
+      "12-4": AR Vacancies
+      "12-5": AR Prior Service Non-Duty Military Occupational Specialty Qualification (DMOSQ) Acceptance
+      "12-6": AR Released from Active Duty (REFRAD) for Temporary Medical Reasons.
+      "12-7": REQUEST Reservations for AR AMEDD Officers
+      "12-8": Simultaneous Membership Program
+    note: "Army Reserve Specific Processing: ATP, ESL, vacancies, PS DMOSQ acceptance, REFRAD for temporary medical reasons, AMEDD officer reservations, SMP."
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: "11"
+    chapter_title: Active and Reserve Component Separations
+    markdown: Regulations/UR_601-210/.transform/11_Chapter_11.md
+    paragraphs:
+      "11-11": Army Reserve Entry Level Separations
+    note: "Army Reserve entry level separations; who initiates, re-contract restrictions. Message 24-027 changes the waiting period text."
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "4"
+    chapter_title: Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions)
+    markdown: Regulations/AR_601-210/.transform/04_Chapter_4.md
+    paragraphs:
+      "4-16": Reserve Component separations or transfers
+    note: Reserve Component separations or transfers as a waiverable disqualification.
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "5"
+    chapter_title: Processing Applicants
+    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    paragraphs:
+      "5-19": Request for discharge or clearance from a Reserve Component
+      "5-22": General
+      "5-23": Basic eligibility criteria
+      "5-24": Processing procedures
+    note: "Discharge or clearance from a Reserve Component; Section V special processing for enlistment of an ARNG Soldier into a USAR TPU."
+  - doc: AR_601-210
+    title: Regular Army and Reserve Components Enlistment Program
+    edition_date: "20 March 2026"
+    effective_date: "20 April 2026"
+    authority_level: 1
+    pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
+    chapter: "9"
+    chapter_title: Enlistment Programs, Options, and Incentives
+    markdown: Regulations/AR_601-210/.transform/09_Chapter_9.md
+    paragraphs:
+      "9-14": "Enlistment Program 9H, U.S. Army Reserve Officers’ Training Corps/Simultaneous"
+    note: Enlistment Program 9H, ROTC/Simultaneous Membership Program (enlisted side).
+  - doc: AR_140-10
+    title: Assignments, Attachments, Details, and Transfers
+    edition_date: "16 July 2021"
+    effective_date: "16 August 2021"
+    authority_level: 2
+    pdf: Regulations/AR_140-10/AR_140-10.pdf
+    chapter: "5"
+    chapter_title: Transfer between the U.S. Army Reserve and Army National Guard
+    markdown: Regulations/AR_140-10/.transform/05_Chapter_5.md
+    paragraphs:
+      "5-1": Conditional release
+      "5-2": Enlistment or appointment in Army National Guard
+      "5-3": Reserve of the Army status
+      "5-4": Conditional release
+      "5-5": Procedures
+      "5-6": Orders
+    note: Transfer between the USAR and ARNG, including conditional release.
+  - doc: AR_140-10
+    title: Assignments, Attachments, Details, and Transfers
+    edition_date: "16 July 2021"
+    effective_date: "16 August 2021"
+    authority_level: 2
+    pdf: Regulations/AR_140-10/AR_140-10.pdf
+    chapter: "9"
+    chapter_title: Inter-Service Transfer and Attachment
+    markdown: Regulations/AR_140-10/.transform/09_Chapter_9.md
+    paragraphs:
+      "9-1": Inter-Service transfer
+      "9-2": Approval authority
+      "9-3": Applying for transfer
+      "9-4": Command processing
+      "9-5": Transfer from other Reserve Components
+      "9-6": Authorized attachment
+      "9-7": Request for attachment
+      "9-8": Attachment from other Reserve Components to U.S. Army Reserve units
+    note: Inter-service transfer and attachment for Reserve Component members.
+  - doc: UR_601-210
+    title: Enlistment & Accessions Processing
+    edition_date: "3 January 2023"
+    effective_date: "3 January 2023"
+    authority_level: 3
+    pdf: Regulations/UR_601-210/UR 601-210.pdf
+    chapter: all
+    markdown: Regulations/UR_601-210/.transform
+    note: Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exists only in the PDF (not transformed).
+    known_gaps:
+      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+usarec_messages:
+  - number: "25-045"
+    subject: Approval Authority for Army Reserve Conditional Release, DD 368.
+    status: no rescission found in library
+    review_flag: "changes or cites an AR 601-210 paragraph and predates the 20 March 2026 edition (effective 20 April 2026); confirm it still applies"
+    pdf: USAREC Messages/USAREC_MESSAGE_25-045.pdf
+  - number: "22-004"
+    subject: Approval Authority for Army Reserve Conditional Release, DD 368.
+    status: rescinded
+    rescinded_by: "25-045"
+    newer_same_subject:
+      - "25-045"
+    review_flag: "changes or cites an AR 601-210 paragraph and predates the 20 March 2026 edition (effective 20 April 2026); confirm it still applies"
+    pdf: null
+  - number: "25-049"
+    subject: "FY 26 Army Reserve (AR) Alternate Training Program (ATP) Guidance. ***IMPORTANT - Only term of enlistment authorized for ATP is a 6 x 2 term. - Applicants who a"
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-049.pdf
+  - number: "25-050"
+    subject: "FY26 Army Reserve Alternate Training Program (ATP): Phase II AIT Scheduling Guidance."
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_25-050.pdf
+  - number: "22-084"
+    subject: Army Reserve Delayed Training Program Timeframe
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_22-084.pdf
+  - number: "23-011"
+    subject: Additional Requirements when Completing Army Reserve (AR) Renegotiations and Entry Level Separations (ELS) after the Initial Oath of Enlistment.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_23-011.pdf
+  - number: "24-027"
+    subject: Operational Changes to UR 601-210, USAR Army Reserve Entry Level Separations waiting period.
+    status: no rescission found in library
+    pdf: USAREC Messages/USAREC_MESSAGE_24-027.pdf
+  - number: "23-044"
+    subject: "Army Reserve (AR) 09R Simultaneous Membership Program (SMP). UPDATE: Potential SMPs no longer require ACT/SAT/PSAT and or GT score requirements to enlist as 09R"
+    status: no rescission found in library
+    review_flag: "changes or cites an AR 601-210 paragraph and predates the 20 March 2026 edition (effective 20 April 2026); confirm it still applies"
+    pdf: USAREC Messages/USAREC_MESSAGE_23-044.pdf
+  - number: "22-075"
+    subject: Army Reserve Future Soldier Promotion Authority and Hometown Shipper Checklist Update
+    status: no rescission found in library
+    review_flag: "changes or cites an AR 601-210 paragraph and predates the 20 March 2026 edition (effective 20 April 2026); confirm it still applies"
+    pdf: USAREC Messages/USAREC_MESSAGE_22-075.pdf
+  - number: "26-002"
+    subject: "Army Reserve (AR) Prior Service (PS) Enlistment Policy Reminders. Summary of Changes: Update 1. All Prior Service reservations must be pulled by the ROC. Update"
+    status: no rescission found in library
+    review_flag: "changes or cites an AR 601-210 paragraph and predates the 20 March 2026 edition (effective 20 April 2026); confirm it still applies"
+    pdf: USAREC Messages/USAREC_MESSAGE_26-002.pdf
+forms:
+  - form: DD_Form_368
+    pdf: Forms/DD_Form_368/DD Form 368.pdf
+routing_triggers:
+  - Army Reserve
+  - USAR
+  - TPU
+  - drill
+  - unit vacancy
+  - vacancy load
+  - split option
+  - ATP
+  - alternate training
+  - SMP
+  - simultaneous membership
+  - DD 368
+  - conditional release
+  - Guard to Reserve
+  - DTP
+  - ELS
+  - entry level separation
+  - renegotiation
+  - will train
+  - DMOSQ
+clarifying_questions:
+  - "Non-prior service, prior service or glossary NPS?"
+  - "Is the applicant currently a member of any Reserve Component or the ARNG, and in what status (TPU, AGR, IRR, pre-IADT)?"
+  - "Is the applicant considering the split option (ATP), SMP, or a standard enlistment?"
+  - "Has the applicant already taken the oath (in the DTP), or not yet enlisted?"
+  - "Is there a specific TPU vacancy identified?"
+hand_off_to:
+  "20_srip": SRIP bonuses, affiliation bonuses and SLRP
+  "18_retention_reenlistment": reenlistment or extension of Soldiers already serving in the USAR (AR 140-111)
+  "04_dependents_family": BAH for RC Future Soldiers (message 24-035) and dependents
+  "26_dep_separations": "separation order mechanics, loss forgiveness and void enlistments; this agent keeps the Reserve-specific ELS rules in 11-11"
+  "15_officer_warrant_programs": Army Reserve OCS (9I) and WOFT (9J) enlistments
+  "13_prior_service": PS eligibility, RE codes and verification
+  "16_amedd": Army Reserve AMEDD officer processing beyond REQUEST reservations (12-7)
+  "02_citizenship_language": ESL and ECLT rules
+  "25_future_soldier_management": ship-date changes and Future Soldier management generally
+  "41_policy_currency": "every answer: ATP and DD 368 guidance changes by fiscal-year message"
+flow:
+  - step: 1
+    name: Confirm facts
+    action: Ask the unknown clarifying questions. If PS eligibility is unsettled, send that part to 13_prior_service first.
+  - step: 2
+    name: Current membership
+    action: If the applicant is in another component or the ARNG, identify the release or transfer path (DD 368, Section V processing) and check message 25-045 for the current DD 368 approval authority. Note that 22-004 is rescinded by 25-045.
+    sources:
+      - AR_601-210 4-16
+      - AR_601-210 5-19
+      - AR_601-210 5-22
+      - AR_601-210 5-23
+      - AR_601-210 5-24
+      - AR_140-10 Ch.5
+  - step: 3
+    name: Vacancy
+    action: Explain how to find and confirm a TPU vacancy, when a vacancy load is used, and the PS DMOSQ and will-train rules.
+    sources:
+      - UR_601-210 12-4
+      - UR_601-210 12-5
+  - step: 4
+    name: Program
+    action: "For ATP read 12-2 and the current fiscal-year ATP messages (terms and return dates are set there; quote them). For SMP read 12-8, 9-14 and message 23-044."
+    sources:
+      - UR_601-210 12-2
+      - UR_601-210 12-8
+      - AR_601-210 9-14
+  - step: 5
+    name: Special situations
+    action: Apply 12-3 for ESL applicants (with 02_citizenship_language), 12-6 for temporary medical REFRAD, 12-7 for AMEDD officer reservations.
+    sources:
+      - UR_601-210 12-3
+      - UR_601-210 12-6
+      - UR_601-210 12-7
+  - step: 6
+    name: In the DTP
+    action: For Future Soldiers in the DTP, check the DTP timeframe message and the Army Reserve promotion authority message.
+    sources:
+      - UR_601-210 12-1
+  - step: 7
+    name: ELS and renegotiation
+    action: If the Future Soldier will not ship, read 11-11 and messages 24-027 and 23-011 for who initiates the ELS, re-contract restrictions and the post-oath renegotiation requirements. Hand off order publication to 26_dep_separations.
+    sources:
+      - UR_601-210 11-11
+  - step: 8
+    name: Return
+    action: Return the processing path, citations, forms, open facts and hand-offs.
+example_questions:
+  - "My applicant is a high school junior who wants the split option. What are the current ATP rules?"
+  - "Who approves a DD 368 for a pre-IADT Reserve Soldier who wants to go active duty?"
+  - "There's no vacancy in the applicant's MOS at the local TPU. Can I do a vacancy load?"
+  - "My Reserve Future Soldier won't ship. Do I start an ELS, and when can they re-contract?"
+  - "How does the Simultaneous Membership Program enlistment work for a college student in ROTC?"
+  - "Can a National Guard Soldier transfer into an Army Reserve unit, and what do I need?"
+  - "How long can an Army Reserve Future Soldier stay in the DTP?"
+guardrails:
+  - "Answer only from the cited source text loaded at run time; never from model memory."
+  - "Every claim in the answer carries a citation: document, chapter, paragraph (or manual chapter and section heading)."
+  - "If the cited text does not answer the question, say so and name what is missing; do not fill the gap."
+  - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
+  - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
+  - "When quoting a USAREC message, quote only its Subject line and 'Requirement:' lines (or the PDF). The consolidated message file also contains generated summary paragraphs that contain errors; never cite those."
+provenance:
+  doctrine_root: Station_Commander/Army_Doctrine
+  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
+  editions: edition and effective dates read from each document's front matter on 2026-10-05
