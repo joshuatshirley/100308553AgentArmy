@@ -111,7 +111,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 ### AR_600-9: The Army Body Composition Program
 
-- authority level 2
+- edition 16 July 2019, effective 16 August 2019, authority level 2
 - Chapter: all
 - Text: `doctrine/Regulations/AR_600-9`
 - PDF: `Regulations/AR_600-9/AR_600-9.pdf`

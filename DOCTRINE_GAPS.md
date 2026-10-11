@@ -101,19 +101,41 @@ flag, not a gap. See `catalog/source_catalog.json` for the current list.
 
 ## Not in the library
 
-- **MEPCOM:** no USMEPCOM regulations at all (601-23 enlistment processing, 40-1 medical, 611-1 testing and others are public at mepcom.army.mil).
-- **USAREC:** USAREC pamphlets, UTP 3-10.6 Chaplain Recruiting, UR 601-106 and UR 601-208 (all on recruiting.army.mil).
-- **DoD manuals:** DoDM 1145.02 (ASVAB testing and MEPS processing).
+**Fetched from public .mil sources — 2026-10-11:** USMEPCOM 601-23 (Entrance Processing and Data
+Reporting Management, eff. 26 Feb 2024, from mepcom.army.mil), USMEPCOM 40-1 (Medical
+Qualification Program, eff. 15 Dec 2020), USMEPCOM 611-1 (Enlistment Qualification Tests,
+eff. 18 Mar 2024), UR 601-106 (Active Duty for Operational Support-Reserve Component Program,
+eff. 10 Jul 2024, from recruiting.army.mil), UR 601-208 (Local Recruiting Marketing Program,
+28 Oct 2015), and DoDM 1145.02 (MEPS, eff. 23 Jul 2018, Change 1 7 May 2025, from esd.whs.mil).
+All six are now split, transformed and cataloged with zero extraction gaps (372 new paragraph
+citations). None required a login — the sandbox's own `curl`/fetch tooling gets a blanket 403 from
+`.mil` domains (confirmed: generic sites load fine, army.mil doesn't even with browser headers),
+so these were pulled through an actual browser session instead.
+
+Still not in the library (not attempted this pass):
+- **USAREC:** USAREC pamphlets, UTP 3-10.6 Chaplain Recruiting (all reportedly on recruiting.army.mil).
 - **Army regulations and directives:** AR 600-8-19, AR 621-202, AR 612-201, AR 145-1, AR 601-141, AR 601-100 and AR 40-562; Army Directive 2022-09 (tattoo locations).
 - **Guard:** NGR 600-7.
 - **Forms:** DA 5500/5501, DD 372, DA 3286, DA 5305 and UF 601-210.40.
 
 ## Out of date or conflicting
 
-- UR 190-4 in the library is 2014; a July 2026 edition is posted.
-- AR 600-9 is the 2013 edition. AR 350-51 is 2001, AR 135-101 is 1984 and UR 570-1 is 2006.
+- **Resolved 2026-10-11:** AR 600-9 updated to the current ARN43120 edition (16 Jul 2019 text,
+  27 Feb 2025 administrative revision) from armypubs.army.mil — was the 2013 edition. UR 601-2
+  updated to the copy carrying the 11 September 2024 administrative revision (same effective date,
+  25 June 2015, printed on the cover per Army convention — the revision is noted in the History
+  paragraph, not the header date) — was missing that revision. The "two AR 40-501 PDFs, unclear
+  which is current" note was wrong: `AR_40-501.pdf` and `AR_40-501_ARN45126.pdf` are byte-identical
+  (same MD5) — not a real ambiguity, just the same file saved under two names.
+- **Blocked by IRM, not fetched:** the public recruiting.army.mil links for the current UR 190-4
+  (15 Jul 2026) and the current UR 350-13 (27 May 2026) both open to a "Switch to a work or school
+  account" wall — Microsoft Information Rights Management requiring an authenticated .mil account.
+  The bytes download but are encrypted; not usable. If you can open either from your own CAC-linked
+  account, save it and hand me the PDF. UR 350-1's public link (claimed "admin revision 1 Jun 26")
+  turned out to just serve the same stale "Working Draft" copy already known to be inferior to the
+  library's `Manuals/UR_350-1` — not fetched, nothing to gain.
+- AR 350-51 is 2001, AR 135-101 is 1984 and UR 570-1 is 2006 — not checked for a public current edition this pass.
 - AR 601-1 (2016) and STP 805K-79R-SMTG (2018) predate the 79R to 42T conversion.
-- The folder holds two AR 40-501 PDFs (2019 and ARN45126), so it is unclear which is current.
 - All 155 USAREC messages predate the March 2026 AR 601-210. 25 cite or change a specific paragraph and carry a review flag.
 - Message 24-053's alcohol retest wait differs from AR 601-210 4-18b(1). Message 23-058 (age exceptions to policy) may conflict with the new 2-3 and 4-17. Message 26-013 changes 2-18. The seeds show both sides of each.
 - UR 601-210 still names the APFT (17-5, 17-8e) where message 24-054 uses the AFT.

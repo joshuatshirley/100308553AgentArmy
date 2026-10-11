@@ -59,8 +59,8 @@ sources:
     note: "Physical standards for enlistment, including height and weight and the procurement weight tables. Exists only in the PDF. Library edition 27 June 2019; the folder also holds AR_40-501_ARN45126.pdf, so confirm which edition is current."
   - doc: AR_600-9
     title: The Army Body Composition Program
-    edition_date: null
-    effective_date: null
+    edition_date: "16 July 2019"
+    effective_date: "16 August 2019"
     authority_level: 2
     pdf: Regulations/AR_600-9/AR_600-9.pdf
     chapter: all

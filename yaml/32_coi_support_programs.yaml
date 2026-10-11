@@ -116,23 +116,23 @@ sources:
   - doc: UR_601-2
     title: Management of Centers of Influence Events
     edition_date: "25 June 2015"
-    effective_date: null
+    effective_date: "25 June 2015"
     authority_level: 3
-    pdf: Regulations/UR_601-2/UR 601-2.pdf
+    pdf: Regulations/UR_601-2/UR_601-2.pdf
     chapter: "2"
     chapter_title: Responsibilities
     markdown: null
     paragraphs:
       "2-5": Company Commanders
-      "2-6": Center Leaders
+      "2-6": Station Commanders
       "2-7": Recruiters
     note: Company commander, center leader and recruiter COI responsibilities. Text in UR_601-2/.transform/00_USAREC_Regulation_601-2.md.
   - doc: UR_601-2
     title: Management of Centers of Influence Events
     edition_date: "25 June 2015"
-    effective_date: null
+    effective_date: "25 June 2015"
     authority_level: 3
-    pdf: Regulations/UR_601-2/UR 601-2.pdf
+    pdf: Regulations/UR_601-2/UR_601-2.pdf
     chapter: "3"
     chapter_title: Policy
     markdown: null
@@ -143,7 +143,7 @@ sources:
       "3-4": Fund Utilization
       "3-5": Spending Limits
       "3-6": Small and Disadvantaged Business
-      "3-7": Recruiter Expense Allowance
+      "3-7": Recruiter Expense Reimbursement
       "3-8": Approved Functions and Purpose
       "3-9": Grassroots Outreach and Working Groups
       "3-10": Frequency
@@ -153,9 +153,9 @@ sources:
   - doc: UR_601-2
     title: Management of Centers of Influence Events
     edition_date: "25 June 2015"
-    effective_date: null
+    effective_date: "25 June 2015"
     authority_level: 3
-    pdf: Regulations/UR_601-2/UR 601-2.pdf
+    pdf: Regulations/UR_601-2/UR_601-2.pdf
     chapter: "4"
     chapter_title: Educator/Center of Influence Program
     markdown: null
@@ -168,21 +168,21 @@ sources:
   - doc: UR_601-2
     title: Management of Centers of Influence Events
     edition_date: "25 June 2015"
-    effective_date: null
+    effective_date: "25 June 2015"
     authority_level: 3
-    pdf: Regulations/UR_601-2/UR 601-2.pdf
+    pdf: Regulations/UR_601-2/UR_601-2.pdf
     chapter: "5"
-    chapter_title: "Procedures •"
+    chapter_title: Procedures
     markdown: null
     note: "Procedures (request process through EMM). In the same markdown file; paragraphs not extracted."
   - doc: UR_601-2
     title: Management of Centers of Influence Events
     edition_date: "25 June 2015"
-    effective_date: null
+    effective_date: "25 June 2015"
     authority_level: 3
-    pdf: Regulations/UR_601-2/UR 601-2.pdf
+    pdf: Regulations/UR_601-2/UR_601-2.pdf
     chapter: "6"
-    chapter_title: "After Action Reports •"
+    chapter_title: After Action Reports
     markdown: null
     note: "After action reports. In the same markdown file; paragraphs not extracted."
   - doc: UTC_5-03.3

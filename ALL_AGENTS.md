@@ -1951,7 +1951,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 ### AR_600-9: The Army Body Composition Program
 
-- authority level 2
+- edition 16 July 2019, effective 16 August 2019, authority level 2
 - Chapter: all
 - Text: `doctrine/Regulations/AR_600-9`
 - PDF: `Regulations/AR_600-9/AR_600-9.pdf`
@@ -8221,22 +8221,22 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 ### UR_601-2: Management of Centers of Influence Events
 
-- edition 25 June 2015, authority level 3
+- edition 25 June 2015, effective 25 June 2015, authority level 3
 - Chapter: 2 (Responsibilities)
-- PDF: `Regulations/UR_601-2/UR 601-2.pdf`
+- PDF: `Regulations/UR_601-2/UR_601-2.pdf`
 - Why: Company commander, center leader and recruiter COI responsibilities. Text in UR_601-2/.transform/00_USAREC_Regulation_601-2.md.
 
 | Para | Heading |
 |---|---|
 | 2-5 | Company Commanders |
-| 2-6 | Center Leaders |
+| 2-6 | Station Commanders |
 | 2-7 | Recruiters |
 
 ### UR_601-2: Management of Centers of Influence Events
 
-- edition 25 June 2015, authority level 3
+- edition 25 June 2015, effective 25 June 2015, authority level 3
 - Chapter: 3 (Policy)
-- PDF: `Regulations/UR_601-2/UR 601-2.pdf`
+- PDF: `Regulations/UR_601-2/UR_601-2.pdf`
 - Why: COI policy: authority, oversight, procurement, fund utilization, spending limits, approved functions, grassroots outreach, frequency, prohibitions.
 
 | Para | Heading |
@@ -8247,7 +8247,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 | 3-4 | Fund Utilization |
 | 3-5 | Spending Limits |
 | 3-6 | Small and Disadvantaged Business |
-| 3-7 | Recruiter Expense Allowance |
+| 3-7 | Recruiter Expense Reimbursement |
 | 3-8 | Approved Functions and Purpose |
 | 3-9 | Grassroots Outreach and Working Groups |
 | 3-10 | Frequency |
@@ -8256,9 +8256,9 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 ### UR_601-2: Management of Centers of Influence Events
 
-- edition 25 June 2015, authority level 3
+- edition 25 June 2015, effective 25 June 2015, authority level 3
 - Chapter: 4 (Educator/Center of Influence Program)
-- PDF: `Regulations/UR_601-2/UR 601-2.pdf`
+- PDF: `Regulations/UR_601-2/UR_601-2.pdf`
 - Why: Educator/COI tour program objectives, policy, responsibilities, tour types.
 
 | Para | Heading |
@@ -8270,16 +8270,16 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 ### UR_601-2: Management of Centers of Influence Events
 
-- edition 25 June 2015, authority level 3
-- Chapter: 5 (Procedures •)
-- PDF: `Regulations/UR_601-2/UR 601-2.pdf`
+- edition 25 June 2015, effective 25 June 2015, authority level 3
+- Chapter: 5 (Procedures)
+- PDF: `Regulations/UR_601-2/UR_601-2.pdf`
 - Why: Procedures (request process through EMM). In the same markdown file; paragraphs not extracted.
 
 ### UR_601-2: Management of Centers of Influence Events
 
-- edition 25 June 2015, authority level 3
-- Chapter: 6 (After Action Reports •)
-- PDF: `Regulations/UR_601-2/UR 601-2.pdf`
+- edition 25 June 2015, effective 25 June 2015, authority level 3
+- Chapter: 6 (After Action Reports)
+- PDF: `Regulations/UR_601-2/UR_601-2.pdf`
 - Why: After action reports. In the same markdown file; paragraphs not extracted.
 
 ### UTC_5-03.3: Partnerships

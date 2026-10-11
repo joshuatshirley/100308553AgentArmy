@@ -10983,12 +10983,12 @@
   "path": "Regulations/AR_600-9",
   "pdf": "AR_600-9.pdf",
   "transform_dir": "doctrine/Regulations/AR_600-9",
-  "edition_date": null,
-  "effective_date": null,
+  "edition_date": "16 July 2019",
+  "effective_date": "16 August 2019",
   "chapters": {
    "1": {
     "title": "Introduction",
-    "file": null,
+    "file": "doctrine/Regulations/AR_600-9/01_Chapter_1.md",
     "paragraphs": {
      "1-1": {
       "title": "Purpose"
@@ -11005,8 +11005,7 @@
      "1-5": {
       "title": "Objectives"
      }
-    },
-    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+    }
    },
    "2": {
     "title": "Responsibilities",
@@ -11016,16 +11015,16 @@
       "title": "General"
      },
      "2-2": {
-      "title": "Deputy Chief of Staff, G–1"
+      "title": "Deputy Chief of Staff, G  – 1"
      },
      "2-3": {
       "title": "The Surgeon General"
      },
      "2-4": {
-      "title": "Deputy Chief of Staff, G–3/5/7"
+      "title": "Deputy Chief of Staff, G  – 3/5/7"
      },
      "2-5": {
-      "title": "Deputy Chief of Staff, G–4"
+      "title": "Deputy Chief of Staff, G  – 4"
      },
      "2-6": {
       "title": "Chief, National Guard Bureau"
@@ -11049,29 +11048,29 @@
       "title": "Commanding General, U.S. Army Medical Command"
      },
      "2-13": {
-      "title": "Commanding General, U.S. Army Human Resources Command"
-     },
-     "2-14": {
       "title": "Individuals"
      },
-     "2-15": {
+     "2-14": {
       "title": "Order issuing officials"
      },
-     "2-16": {
+     "2-15": {
       "title": "Commanders and supervisors"
      },
+     "2-16": {
+      "title": "Military treatment facility"
+     },
      "2-17": {
-      "title": "Health care personnel"
+      "title": "Designated master fitness trainer or noncommissioned officer"
      },
      "2-18": {
-      "title": "Designated unit fitness training noncommissioned officer or master fitness trainer"
+      "title": "Performance experts"
      }
     },
     "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
    },
    "3": {
     "title": "Army Body Composition Program",
-    "file": null,
+    "file": "doctrine/Regulations/AR_600-9/02_Chapter_3.md",
     "paragraphs": {
      "3-1": {
       "title": "Overview"
@@ -11089,10 +11088,10 @@
       "title": "Enrollment in the Army Body Composition Program"
      },
      "3-6": {
-      "title": "Actions, counselings, and evaluations for Active Component and Reserve Component Soldiers"
+      "title": "Actions, counseling, and evaluation for Regular Army and Reserve Component Soldiers on"
      },
      "3-7": {
-      "title": "Actions, counselings, and evaluations for Reserve Component Soldiers not on active duty"
+      "title": "Actions, counseling, and evaluations for Reserve Component Soldiers not on active duty"
      },
      "3-8": {
       "title": "Administrative requirements"
@@ -11125,10 +11124,9 @@
       "title": "Exception to policy authority"
      },
      "3-18": {
-      "title": "Reenlistment criteria"
+      "title": "Reenlistment and extension criteria"
      }
-    },
-    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+    }
    }
   },
   "gaps": [],
@@ -19576,6 +19574,94 @@
   "title": "Manpower and Equipment Control",
   "title_verified": true
  },
+ "UR_601-106": {
+  "doc_id": "UR_601-106",
+  "category": "Regulations",
+  "authority_level": 3,
+  "path": "Regulations/UR_601-106",
+  "pdf": "UR_601-106.pdf",
+  "transform_dir": "doctrine/Regulations/UR_601-106",
+  "edition_date": "10 July 2024",
+  "effective_date": "10 July 2024",
+  "chapters": {
+   "1": {
+    "title": "General",
+    "file": null,
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose",
+      "section": "Section I: Introduction"
+     },
+     "1-2": {
+      "title": "References",
+      "section": "Section I: Introduction"
+     },
+     "1-3": {
+      "title": "Explanation of abbreviations",
+      "section": "Section I: Introduction"
+     },
+     "1-4": {
+      "title": "General",
+      "section": "Section II: Control Procedures"
+     },
+     "1-5": {
+      "title": "Command responsibilities",
+      "section": "Section II: Control Procedures"
+     },
+     "1-6": {
+      "title": "Program",
+      "section": "Section II: Control Procedures"
+     },
+     "1-7": {
+      "title": "Policies",
+      "section": "Section II: Control Procedures"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "2": {
+    "title": "Procedures",
+    "file": null,
+    "paragraphs": {
+     "2-1": {
+      "title": "ADOS-RC queries available in the Report Management Zone",
+      "section": "Section II: Control Procedures"
+     },
+     "2-2": {
+      "title": "Request for ADOS-RC tours and orders",
+      "section": "Section II: Control Procedures"
+     },
+     "2-3": {
+      "title": "Qualifications and prohibitions",
+      "section": "Section II: Control Procedures"
+     },
+     "2-4": {
+      "title": "Duty requirements",
+      "section": "Section II: Control Procedures"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "3": {
+    "title": "Training",
+    "file": null,
+    "paragraphs": {
+     "3-1": {
+      "title": "Management",
+      "section": "Section II: Control Procedures"
+     },
+     "3-2": {
+      "title": "Responsibilities for Training",
+      "section": "Section II: Control Procedures"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   }
+  },
+  "gaps": [],
+  "title": "Active Duty for Operational Support-Reserve Component Program",
+  "title_verified": true
+ },
  "UR_601-108": {
   "doc_id": "UR_601-108",
   "category": "Regulations",
@@ -19675,10 +19761,10 @@
   "category": "Regulations",
   "authority_level": 3,
   "path": "Regulations/UR_601-2",
-  "pdf": "UR 601-2.pdf",
+  "pdf": "UR_601-2.pdf",
   "transform_dir": "doctrine/Regulations/UR_601-2",
   "edition_date": "25 June 2015",
-  "effective_date": null,
+  "effective_date": "25 June 2015",
   "chapters": {
    "1": {
     "title": "Introduction",
@@ -19716,7 +19802,7 @@
       "title": "Company Commanders"
      },
      "2-6": {
-      "title": "Center Leaders"
+      "title": "Station Commanders"
      },
      "2-7": {
       "title": "Recruiters"
@@ -19747,7 +19833,7 @@
       "title": "Small and Disadvantaged Business"
      },
      "3-7": {
-      "title": "Recruiter Expense Allowance"
+      "title": "Recruiter Expense Reimbursement"
      },
      "3-8": {
       "title": "Approved Functions and Purpose"
@@ -19787,20 +19873,181 @@
     "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
    },
    "5": {
-    "title": "Procedures •",
+    "title": "Procedures",
     "file": null,
     "paragraphs": {},
     "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
    },
    "6": {
-    "title": "After Action Reports •",
+    "title": "After Action Reports",
     "file": null,
     "paragraphs": {},
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "7": {
+    "title": "Introduction",
+    "file": null,
+    "paragraphs": {
+     "7-1": {
+      "title": "Purpose"
+     },
+     "7-2": {
+      "title": "Policy"
+     },
+     "7-3": {
+      "title": "Responsibilities"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "8": {
+    "title": "Soldier Qualifications",
+    "file": null,
+    "paragraphs": {},
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "9": {
+    "title": "Procedures",
+    "file": null,
+    "paragraphs": {
+     "9-1": {
+      "title": "In-processing"
+     },
+     "9-2": {
+      "title": "Duty Requirements"
+     },
+     "9-3": {
+      "title": "Prohibited Activities"
+     },
+     "9-4": {
+      "title": "Out-processing"
+     },
+     "9-5": {
+      "title": "Awards and Recognition"
+     }
+    },
     "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
    }
   },
   "gaps": [],
   "title": "Management of Centers of Influence Events",
+  "title_verified": true
+ },
+ "UR_601-208": {
+  "doc_id": "UR_601-208",
+  "category": "Regulations",
+  "authority_level": 3,
+  "path": "Regulations/UR_601-208",
+  "pdf": "UR_601-208.pdf",
+  "transform_dir": "doctrine/Regulations/UR_601-208",
+  "edition_date": "28 October 2015",
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "General",
+    "file": null,
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose"
+     },
+     "1-2": {
+      "title": "References"
+     },
+     "1-3": {
+      "title": "Explanation of abbreviations and terms"
+     },
+     "1-4": {
+      "title": "Scope"
+     },
+     "1-5": {
+      "title": "Authority"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "2": {
+    "title": "Policies",
+    "file": null,
+    "paragraphs": {
+     "2-1": {
+      "title": "Planning"
+     },
+     "2-2": {
+      "title": "Advertising content"
+     },
+     "2-3": {
+      "title": "Direct mail, list procurement, and outbound email"
+     },
+     "2-4": {
+      "title": "PPIs"
+     },
+     "2-5": {
+      "title": "Advertising placement"
+     },
+     "2-6": {
+      "title": "Funding."
+     },
+     "2-7": {
+      "title": "Inspections"
+     },
+     "2-8": {
+      "title": "Total Army Involvement in Recruiting Program (TAIR)"
+     },
+     "2-9": {
+      "title": "The Data Based Marketing Management System (EMM)"
+     },
+     "2-10": {
+      "title": "Station Branding"
+     },
+     "2-11": {
+      "title": "High School Awards Programs."
+     },
+     "2-12": {
+      "title": "Unit Membership in Non-Federal Entities (NFE)"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "3": {
+    "title": "Assignment of Responsibilities,",
+    "file": null,
+    "paragraphs": {
+     "3-1": {
+      "title": "USAREC CG"
+     },
+     "3-2": {
+      "title": "USAREC ACofS, G-7/9"
+     },
+     "3-3": {
+      "title": "USAREC ACofS, G-3"
+     },
+     "3-4": {
+      "title": "USAREC ACofS, G-2"
+     },
+     "3-5": {
+      "title": "USAREC ACofS, G-4"
+     },
+     "3-6": {
+      "title": "USAREC ACofS, G-8"
+     },
+     "3-7": {
+      "title": "USAREC ACofS, G-6"
+     },
+     "3-8": {
+      "title": "USAREC ACofS, RRS"
+     },
+     "3-9": {
+      "title": "Brigade Commanders"
+     },
+     "3-10": {
+      "title": "Battalion and MRBn Commanders"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   }
+  },
+  "gaps": [],
+  "title": "Local Recruiting Marketing Program",
   "title_verified": true
  },
  "UR_601-210": {
@@ -21427,6 +21674,1091 @@
   },
   "gaps": [],
   "title": "Military Awards",
+  "title_verified": true
+ },
+ "USMEPCOM_40-1": {
+  "doc_id": "USMEPCOM_40-1",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/USMEPCOM_40-1",
+  "pdf": "USMEPCOM_40-1.pdf",
+  "transform_dir": "doctrine/Regulations/USMEPCOM_40-1",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "General",
+    "file": null,
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose"
+     },
+     "1-2": {
+      "title": "References"
+     },
+     "1-3": {
+      "title": "Abbreviations and Terms"
+     },
+     "1-4": {
+      "title": "Responsibilities"
+     },
+     "1-5": {
+      "title": "General Policy"
+     },
+     "1-6": {
+      "title": "Use of Reserve and National Guard Personnel/Practitioners"
+     },
+     "1-7": {
+      "title": "MEPS Communication with J-3/5/7 MD"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "2": {
+    "title": "Pre-Processing",
+    "file": null,
+    "paragraphs": {
+     "2-1": {
+      "title": "Example of Open PULHES"
+     },
+     "2-2": {
+      "title": "Example of Temporary Disqualified PULHES"
+     },
+     "2-3": {
+      "title": "Example of Medical Failure Code Box"
+     },
+     "2-4": {
+      "title": "Example of RBJ Date Box"
+     },
+     "2-5": {
+      "title": "Example of Disqualified PULHES"
+     },
+     "2-6": {
+      "title": "Example of ICD Code Box"
+     },
+     "2-7": {
+      "title": "DD Form 2807-2 Section VIII Prescreen Determination Box"
+     },
+     "2-8": {
+      "title": "DD Form 2807-2 Section VIII Item 2 For MEPS Use Only"
+     },
+     "2-9": {
+      "title": "Prior Service Applicants"
+     },
+     "2-10": {
+      "title": "Temporary Disability Retirement List"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "3": {
+    "title": "Medical Processing Administration",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/10_Chapter_3.md",
+    "paragraphs": {
+     "3-1": {
+      "title": "MEPS Examination Consent Stamp"
+     },
+     "3-2": {
+      "title": "Medical Packet Assembly"
+     },
+     "3-3": {
+      "title": "Special Category Processor"
+     },
+     "3-4": {
+      "title": "Same Day Processor"
+     },
+     "3-5": {
+      "title": "The 6-hour Applicant Processing Window"
+     },
+     "3-6": {
+      "title": "Medical Examination Consent and Chaperone Policy"
+     },
+     "3-7": {
+      "title": "Uncooperative or Disruptive Applicants"
+     },
+     "3-8": {
+      "title": "Deferring Medical Processing Prior to Completion"
+     },
+     "3-9": {
+      "title": "Access to the MEPS Medical Department"
+     },
+     "3-10": {
+      "title": "Medical Exception to Policy"
+     },
+     "3-11": {
+      "title": "Undergarments/Body Piercing"
+     },
+     "3-12": {
+      "title": "Medical Photography"
+     },
+     "3-13": {
+      "title": "Medical Packet Assembly"
+     }
+    }
+   },
+   "4": {
+    "title": "Medical Check-in",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/17_Chapter_4.md",
+    "paragraphs": {
+     "4-1": {
+      "title": "Applicant Medical Check-in"
+     },
+     "4-2": {
+      "title": "Walk-In Applicants"
+     },
+     "4-3": {
+      "title": "Front Loading"
+     }
+    }
+   },
+   "5": {
+    "title": "Medical Brief",
+    "file": null,
+    "paragraphs": {
+     "5-1": {
+      "title": "Medical Brief"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "6": {
+    "title": "Hearing Testing and Cerumen Removal",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/19_Chapter_6.md",
+    "paragraphs": {
+     "6-1": {
+      "title": "Hearing Testing Procedures"
+     },
+     "6-2": {
+      "title": "Conducting Repeat Audiograms"
+     },
+     "6-3": {
+      "title": "Profiling Hearing"
+     },
+     "6-4": {
+      "title": "Cerumen Removal"
+     }
+    }
+   },
+   "7": {
+    "title": "Vision",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/21_Chapter_7.md",
+    "paragraphs": {
+     "7-1": {
+      "title": "Vision Screening Guidance"
+     },
+     "7-2": {
+      "title": "Screening for Undisclosed Contact Lenses"
+     },
+     "7-3": {
+      "title": "Color Vision Testing"
+     },
+     "7-4": {
+      "title": "Depth Perception Testing"
+     },
+     "7-5": {
+      "title": "Visual Acuity Testing"
+     },
+     "7-6": {
+      "title": "Non-Contact Tonometer"
+     },
+     "7-7": {
+      "title": "Refractive Eye Surgery Guidance"
+     },
+     "7-8": {
+      "title": "Vision Consults"
+     }
+    }
+   },
+   "8": {
+    "title": "Measurement of Height/Weight/Body Fat Percentage/BMI/Vital Signs",
+    "file": null,
+    "paragraphs": {
+     "8-1": {
+      "title": "Height/Weight Measurement"
+     },
+     "8-2": {
+      "title": "Body Fat Percentage Calculation"
+     },
+     "8-3": {
+      "title": "Body Mass Index Calculation"
+     },
+     "8-4": {
+      "title": "Courtesy Height/Weight/Body Fat Percentage Measurements"
+     },
+     "8-5": {
+      "title": "Special Considerations"
+     },
+     "8-6": {
+      "title": "Blood Pressure Measurement"
+     },
+     "8-7": {
+      "title": "Heart Rate Measurement"
+     },
+     "8-8": {
+      "title": "Temperature Measurement"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "9": {
+    "title": "Clinical Laboratory Improvement Program",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/25_Chapter_9.md",
+    "paragraphs": {
+     "9-1": {
+      "title": "Clinical Laboratory Improvement Program"
+     }
+    }
+   },
+   "10": {
+    "title": "Obtaining the Applicant Medical History",
+    "file": null,
+    "paragraphs": {
+     "10-1": {
+      "title": "SF 507 Overprint of Alcohol & Other Drug/Substance Abuse Block"
+     },
+     "10-2": {
+      "title": "SF 507 with Overprint of the Closing Review Block"
+     },
+     "10-3": {
+      "title": "Example of SF 507 with Overprints"
+     },
+     "10-4": {
+      "title": "Applicant Disclosure After Medical Processing"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "11": {
+    "title": "Accession Medical Evaluation",
+    "file": null,
+    "paragraphs": {
+     "11-1": {
+      "title": "Example of Applicant Profile"
+     },
+     "11-2": {
+      "title": "Example of Applicant Profile Continued"
+     },
+     "11-3": {
+      "title": "Medical Waivers"
+     },
+     "11-4": {
+      "title": "Medical Read"
+     },
+     "11-5": {
+      "title": "Notification of Disqualified Applicants"
+     },
+     "11-6": {
+      "title": "Air Force X-Factor Testing"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "12": {
+    "title": "Orthopedic/Neurologic",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/30_Chapter_12.md",
+    "paragraphs": {
+     "12-1": {
+      "title": "Orthopedic/Neurologic Screening Examination"
+     }
+    }
+   },
+   "13": {
+    "title": "Consultations",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/32_Chapter_13.md",
+    "paragraphs": {
+     "13-1": {
+      "title": "Consultants"
+     },
+     "13-2": {
+      "title": "Consultation Process"
+     },
+     "13-3": {
+      "title": "Payment of Consultants"
+     },
+     "13-4": {
+      "title": "Payment of Ancillary and Laboratory Services"
+     },
+     "13-5": {
+      "title": "Consultation Timeframes"
+     },
+     "13-6": {
+      "title": "Consultation MOC Ticket Procedures"
+     },
+     "13-7": {
+      "title": "Transportation"
+     }
+    }
+   },
+   "14": {
+    "title": "Medical Check-Out",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/36_Chapter_14.md",
+    "paragraphs": {
+     "14-1": {
+      "title": "Shipping Applicant Check Out"
+     },
+     "14-2": {
+      "title": "Inspection Check Out"
+     },
+     "14-3": {
+      "title": "Accession Medical Examination Check Out"
+     },
+     "14-4": {
+      "title": "Temporary Check Out"
+     },
+     "14-5": {
+      "title": "Reconciliation"
+     },
+     "14-6": {
+      "title": "Common USMIRS Entries"
+     }
+    }
+   },
+   "15": {
+    "title": "Inspections",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/38_Chapter_15.md",
+    "paragraphs": {
+     "15-1": {
+      "title": "Inspection of an Applicant Medically Qualified for Service"
+     },
+     "15-2": {
+      "title": "Inspection of an Applicant Not Medically Qualified for Service"
+     },
+     "15-3": {
+      "title": "When a Medical Inspection is NOT Required"
+     }
+    }
+   },
+   "16": {
+    "title": "Special Medical Examinations",
+    "file": null,
+    "paragraphs": {
+     "16-1": {
+      "title": "Released From Active Duty"
+     },
+     "16-2": {
+      "title": "Service Members Processing for Commission and Warrant Officer"
+     },
+     "16-3": {
+      "title": "Dis-enrolled Reserve Officers’ Training Corps"
+     },
+     "16-4": {
+      "title": "Army Airborne Screening"
+     },
+     "16-5": {
+      "title": "Army Blue to Green"
+     },
+     "16-6": {
+      "title": "Military Accessions Vital to National Interest Recruitment Program"
+     },
+     "16-7": {
+      "title": "General Officer"
+     },
+     "16-8": {
+      "title": "Overseas Applicants"
+     },
+     "16-9": {
+      "title": "Non-MEPS Medical Applicants (Other than Overseas Processors)"
+     },
+     "16-10": {
+      "title": "National Oceanic and Atmospheric Administration Applicants"
+     },
+     "16-11": {
+      "title": "Public Health Service Applicants"
+     },
+     "16-12": {
+      "title": "Reserve Officer Training Corps and Service Academy Cadets/Midshipmen"
+     },
+     "16-13": {
+      "title": "Individual Ready Reserve"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "17": {
+    "title": "Quality Review Program",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/46_Chapter_17.md",
+    "paragraphs": {
+     "17-1": {
+      "title": "Quality Review Program"
+     }
+    }
+   },
+   "18": {
+    "title": "Fee Basis Providers",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/47_Chapter_18.md",
+    "paragraphs": {
+     "18-1": {
+      "title": "Fee Basis Provider Responsibilities"
+     },
+     "18-2": {
+      "title": "Requesting FBPs"
+     },
+     "18-3": {
+      "title": "Placing Daily FBP Requests in the FBP Application"
+     },
+     "18-4": {
+      "title": "FBP Provider Work Record"
+     },
+     "18-5": {
+      "title": "FBP Provider Work Record Verification"
+     }
+    }
+   },
+   "19": {
+    "title": "Medical Training Program",
+    "file": null,
+    "paragraphs": {
+     "19-1": {
+      "title": "General"
+     },
+     "19-2": {
+      "title": "Initial Lead/Medical Technician Training"
+     },
+     "19-3": {
+      "title": "Initial Medical NCOIC/Supervisory Medical Technician Training"
+     },
+     "19-4": {
+      "title": "Confirmed Training Orders"
+     },
+     "19-5": {
+      "title": "Required Medical Training of All Medical Technicians"
+     },
+     "19-6": {
+      "title": "Chief Medical Officer Quarterly Review"
+     },
+     "19-7": {
+      "title": "Mandatory USMEPCOM Provider Medical Training and Documentation"
+     },
+     "19-8": {
+      "title": "MEPS Medical Provider Six Part Folder Requirements"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "20": {
+    "title": "Medical Equipment, Supplies, and Cleaning",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/57_Chapter_20.md",
+    "paragraphs": {
+     "20-1": {
+      "title": "Background Noise Levels"
+     },
+     "20-2": {
+      "title": "Height Device"
+     },
+     "20-3": {
+      "title": "Gulick II Tape"
+     },
+     "20-4": {
+      "title": "Proteinuria Qualitative Test"
+     },
+     "20-5": {
+      "title": "Glycosuria Qualitative Test"
+     },
+     "20-6": {
+      "title": "Pregnancy Test"
+     },
+     "20-7": {
+      "title": "Safety Data Sheets"
+     },
+     "20-8": {
+      "title": "Virtual Medical Library"
+     },
+     "20-9": {
+      "title": "Cleaning of the Medical Department"
+     }
+    }
+   },
+   "21": {
+    "title": "Shipping Disruptions",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/61_Chapter_21.md",
+    "paragraphs": {
+     "21-1": {
+      "title": "Medical Qualification Status Change of a Shipping Applicant"
+     },
+     "21-2": {
+      "title": "Differences of Interpretations of Accession Medical Standards for Shipping Applicants"
+     },
+     "21-3": {
+      "title": "No Shipping on (Working) Copies"
+     }
+    }
+   },
+   "22": {
+    "title": "Medical Emergencies in the MEPS",
+    "file": "doctrine/Regulations/USMEPCOM_40-1/63_Chapter_22.md",
+    "paragraphs": {
+     "22-1": {
+      "title": "Medical Emergencies in the MEPS"
+     }
+    }
+   }
+  },
+  "gaps": [],
+  "title": "Medical Qualification Program",
+  "title_verified": true
+ },
+ "USMEPCOM_601-23": {
+  "doc_id": "USMEPCOM_601-23",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/USMEPCOM_601-23",
+  "pdf": "USMEPCOM_601-23.pdf",
+  "transform_dir": "doctrine/Regulations/USMEPCOM_601-23",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "General",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/02_Chapter_1.md",
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose"
+     },
+     "1-2": {
+      "title": "References and Forms"
+     },
+     "1-3": {
+      "title": "Abbreviations and Terms"
+     },
+     "1-4": {
+      "title": "Responsibilities"
+     },
+     "1-5": {
+      "title": "Duty Appointments"
+     }
+    }
+   },
+   "2": {
+    "title": "MEPS Operating Schedules",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/03_Chapter_2.md",
+    "paragraphs": {
+     "2-1": {
+      "title": "Applicant Dress and Hygiene Standards"
+     },
+     "2-2": {
+      "title": "Post-Closure and System Disruption Table"
+     },
+     "2-3": {
+      "title": "Operating Schedules"
+     },
+     "2-4": {
+      "title": "Applicant Dress and Hygiene Standards"
+     },
+     "2-5": {
+      "title": "USMEPCOM Commander’s Welcome Briefings"
+     },
+     "2-6": {
+      "title": "Applicant Processing Categories"
+     },
+     "2-7": {
+      "title": "Contract Lodging Facility (CLF) Operating Procedures"
+     },
+     "2-8": {
+      "title": "Commander’s Role"
+     },
+     "2-9": {
+      "title": "Conduct of Recruiting Service Activities"
+     },
+     "2-10": {
+      "title": "Visitors"
+     },
+     "2-11": {
+      "title": "Customer Satisfaction Survey (CSS)"
+     },
+     "2-12": {
+      "title": "Training"
+     },
+     "2-13": {
+      "title": "Processing Exception to Policy (ETP)"
+     },
+     "2-14": {
+      "title": "Manual Processing"
+     }
+    }
+   },
+   "3": {
+    "title": "Personal Data",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/05_Chapter_3.md",
+    "paragraphs": {
+     "3-1": {
+      "title": "Overview"
+     },
+     "3-2": {
+      "title": "USMEPCOM Form (UMF) 680-3A Series"
+     },
+     "3-3": {
+      "title": "Signatures"
+     },
+     "3-4": {
+      "title": "Safeguarding Personal Data"
+     }
+    }
+   },
+   "4": {
+    "title": "Records Management",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/06_Chapter_4.md",
+    "paragraphs": {
+     "4-1": {
+      "title": "Overview"
+     },
+     "4-2": {
+      "title": "Record Creation"
+     },
+     "4-3": {
+      "title": "Document Upload"
+     },
+     "4-4": {
+      "title": "Disposition of Hardcopy Applicant Packets"
+     },
+     "4-5": {
+      "title": "MEPS-to-MEPS Transfer"
+     }
+    }
+   },
+   "5": {
+    "title": "MEPS Schedule Visit",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/07_Chapter_5.md",
+    "paragraphs": {
+     "5-1": {
+      "title": "Overview"
+     },
+     "5-2": {
+      "title": "Timelines."
+     },
+     "5-3": {
+      "title": "Documentation."
+     },
+     "5-4": {
+      "title": "Maximum Daily Capacity/Allocation (MDC/A)"
+     },
+     "5-5": {
+      "title": "Mission Day."
+     }
+    }
+   },
+   "6": {
+    "title": "Quality Review Program (QRP)",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/09_Chapter_6.md",
+    "paragraphs": {
+     "6-1": {
+      "title": "Overview"
+     },
+     "6-2": {
+      "title": "Timelines"
+     },
+     "6-3": {
+      "title": "Personnel"
+     },
+     "6-4": {
+      "title": "Process"
+     }
+    }
+   },
+   "7": {
+    "title": "Identity Management and Accountability",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/10_Chapter_7.md",
+    "paragraphs": {
+     "7-1": {
+      "title": "Source Documents for SSN/ARN Verification"
+     },
+     "7-2": {
+      "title": "Authorized Photo ID"
+     },
+     "7-3": {
+      "title": "SSN Verification"
+     },
+     "7-4": {
+      "title": "ARN Verification"
+     },
+     "7-5": {
+      "title": "Applicant Positive Identification"
+     },
+     "7-6": {
+      "title": "Applicant Name Badge"
+     }
+    }
+   },
+   "8": {
+    "title": "Operations Processing",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/13_Chapter_8.md",
+    "paragraphs": {
+     "8-1": {
+      "title": "Uniform Code of Military Justice Articles 104a, 85, and 86"
+     },
+     "8-2": {
+      "title": "Discharge Codes"
+     },
+     "8-3": {
+      "title": "SPF Codes"
+     },
+     "8-4": {
+      "title": "DD Form 1966 (Record of Military Processing – …"
+     },
+     "8-5": {
+      "title": "Preparation of DD Form 4 Series, Enlistment/Reenlistment Document Armed Forces of the"
+     },
+     "8-6": {
+      "title": "Preparation of DD Form 93, Record of Emergency Data"
+     },
+     "8-7": {
+      "title": "Special Agreement Check (SAC)"
+     },
+     "8-8": {
+      "title": "Pre-Enlistment Interview (PEI)"
+     },
+     "8-9": {
+      "title": "Pre-Accession Interview (PAI)"
+     },
+     "8-10": {
+      "title": "Report of Additional Information"
+     },
+     "8-11": {
+      "title": "Pre-Oath Briefing"
+     },
+     "8-12": {
+      "title": "Oath of Enlistment"
+     },
+     "8-13": {
+      "title": "Restrictions on Personal Conduct in the Armed Forces"
+     },
+     "8-14": {
+      "title": "Entrance Processing and Data Reporting"
+     },
+     "8-15": {
+      "title": "Reconciliation"
+     },
+     "8-16": {
+      "title": "Discharges & Separations"
+     },
+     "8-17": {
+      "title": "Service Processing For (SPF) Change"
+     },
+     "8-18": {
+      "title": "Admin Hold Procedures."
+     },
+     "8-19": {
+      "title": "DEP Extension."
+     }
+    }
+   },
+   "9": {
+    "title": "Recruit Travel",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/17_Chapter_9.md",
+    "paragraphs": {
+     "9-1": {
+      "title": "Sample SF 1304"
+     },
+     "9-2": {
+      "title": "Scheduling Shippers"
+     },
+     "9-3": {
+      "title": "Mission Requirements"
+     },
+     "9-4": {
+      "title": "Recruit Travel Orders"
+     },
+     "9-5": {
+      "title": "Air Travel"
+     },
+     "9-6": {
+      "title": "Personally Owned Vehicle (POV) Travel"
+     },
+     "9-7": {
+      "title": "Other Modes of Travel"
+     },
+     "9-8": {
+      "title": "Airport to Recruit Training Center (RTC) Ground Transportation"
+     },
+     "9-9": {
+      "title": "Recruit Meal Allowances"
+     },
+     "9-10": {
+      "title": "Ship Day Processing"
+     },
+     "9-11": {
+      "title": "Prior-Service Travel"
+     },
+     "9-12": {
+      "title": "Travel Interruptions"
+     },
+     "9-13": {
+      "title": "Quality Assurance Evaluator (QAE)"
+     },
+     "9-14": {
+      "title": "Centrally Billed Account (CBA)"
+     }
+    }
+   },
+   "10": {
+    "title": "Support and Assistance",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/19_Chapter_10.md",
+    "paragraphs": {
+     "10-1": {
+      "title": "Overview"
+     },
+     "10-2": {
+      "title": "USMEPCOM Operations Center “MOC”"
+     },
+     "10-3": {
+      "title": "Service Desk"
+     },
+     "10-4": {
+      "title": "Good Idea (GID) Program"
+     },
+     "10-5": {
+      "title": "Generating Enhancements Through Innovative Thinking Program (GETIT)"
+     }
+    }
+   },
+   "11": {
+    "title": "System Management",
+    "file": "doctrine/Regulations/USMEPCOM_601-23/20_Chapter_11.md",
+    "paragraphs": {
+     "11-1": {
+      "title": "Overview"
+     }
+    }
+   }
+  },
+  "gaps": [],
+  "title": "Entrance Processing and Data Reporting Management",
+  "title_verified": true
+ },
+ "USMEPCOM_611-1": {
+  "doc_id": "USMEPCOM_611-1",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/USMEPCOM_611-1",
+  "pdf": "USMEPCOM_611-1.pdf",
+  "transform_dir": "doctrine/Regulations/USMEPCOM_611-1",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "General",
+    "file": null,
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose"
+     },
+     "1-2": {
+      "title": "References"
+     },
+     "1-3": {
+      "title": "Abbreviations and Terms"
+     },
+     "1-4": {
+      "title": "Responsibilities"
+     },
+     "1-5": {
+      "title": "Additional Duty Appointment Memorandum"
+     },
+     "1-6": {
+      "title": "Training"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "2": {
+    "title": "Security and Accountability",
+    "file": null,
+    "paragraphs": {
+     "2-1": {
+      "title": "Sample Memorandum of Personnel Authorized Access into Restricted Testing Area"
+     },
+     "2-2": {
+      "title": "Sample Memorandum of Personnel Authorized Access into Secure Storage Room"
+     },
+     "2-3": {
+      "title": "Sample Memorandum for Checking out a Test Material Kit"
+     },
+     "2-4": {
+      "title": "Sample Memorandum for Temporary/Permanent Transfer of Accountable Test Material"
+     },
+     "2-5": {
+      "title": "Sample Memorandum for Verification of APT Account"
+     },
+     "2-6": {
+      "title": "Transfer of Accountable Test Material"
+     },
+     "2-7": {
+      "title": "Ordering Test Material"
+     },
+     "2-8": {
+      "title": "Reproduction of Accountable Test Material"
+     },
+     "2-9": {
+      "title": "Test Loss/Compromise (TLC)"
+     },
+     "2-10": {
+      "title": "Non-Compromise-Related Incidents"
+     },
+     "2-11": {
+      "title": "Test Administrator (TA) Conflicts of Interest"
+     },
+     "2-12": {
+      "title": "Prohibited Coaching Practices"
+     },
+     "2-13": {
+      "title": "Ringers"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "3": {
+    "title": "Enlistment ASVAB Test Administration",
+    "file": null,
+    "paragraphs": {
+     "3-1": {
+      "title": "Sample of an Oral iCAT-ASVAB Briefing"
+     },
+     "3-2": {
+      "title": "Sample of a Written iCAT-ASVAB Briefing"
+     },
+     "3-3": {
+      "title": "Authorization to Test"
+     },
+     "3-4": {
+      "title": "When Authorized Individuals are Allowed to Test"
+     },
+     "3-5": {
+      "title": "Request for Examination"
+     },
+     "3-6": {
+      "title": "ASVAB Test Facility Requirements During Test Sessions"
+     },
+     "3-7": {
+      "title": "Night Testing Provisions"
+     },
+     "3-8": {
+      "title": "Applicant/TA Ratio"
+     },
+     "3-9": {
+      "title": "General Enlistment Testing Direction"
+     },
+     "3-10": {
+      "title": "MEPS iCAT/PiCAT Verification Test Administration"
+     },
+     "3-11": {
+      "title": "MET Site iCAT/PiCAT Test Verification Test Administration."
+     },
+     "3-12": {
+      "title": "Enlistment Paper and Pencil ASVAB Test Administration"
+     },
+     "3-13": {
+      "title": "Test Results"
+     },
+     "3-14": {
+      "title": "Manual Scoring"
+     },
+     "3-15": {
+      "title": "Confirmation Testing"
+     },
+     "3-16": {
+      "title": "Confirmation Test Administration"
+     },
+     "3-17": {
+      "title": "Scoring the Confirmation Test"
+     },
+     "3-18": {
+      "title": "Post Confirmation Test Actions"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "4": {
+    "title": "MET Sites",
+    "file": null,
+    "paragraphs": {
+     "4-1": {
+      "title": "Purpose"
+     },
+     "4-2": {
+      "title": "Facilities"
+     },
+     "4-3": {
+      "title": "General Testing Direction"
+     },
+     "4-4": {
+      "title": "ASVAB Test Scores from iCAT"
+     },
+     "4-5": {
+      "title": "MET Site Utilization"
+     },
+     "4-6": {
+      "title": "Intermittent Test Administrator (ITA)"
+     },
+     "4-7": {
+      "title": "No-show Sessions"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "5": {
+    "title": "Special Purpose Test Administration",
+    "file": null,
+    "paragraphs": {
+     "5-1": {
+      "title": "Proficiency Skill Levels"
+     },
+     "5-2": {
+      "title": "Scoring Special Purpose Tests"
+     },
+     "5-3": {
+      "title": "Site Security Manager and Site Administrator Duties"
+     },
+     "5-4": {
+      "title": "Authorization to Test"
+     },
+     "5-5": {
+      "title": "Request for Examination"
+     },
+     "5-6": {
+      "title": "Test Facility Requirements"
+     },
+     "5-7": {
+      "title": "Applicant / TA Ratio"
+     },
+     "5-8": {
+      "title": "Authorized Tests"
+     },
+     "5-9": {
+      "title": "General Special Purpose Testing Direction"
+     },
+     "5-10": {
+      "title": "Test Administration (TA)"
+     },
+     "5-11": {
+      "title": "Test Results"
+     },
+     "5-12": {
+      "title": "Answer Sheet Storage and Shipment"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   },
+   "6": {
+    "title": "Overseas Testing",
+    "file": null,
+    "paragraphs": {
+     "6-1": {
+      "title": "Overview"
+     },
+     "6-2": {
+      "title": "Enlistment Testing Program Responsibilities"
+     },
+     "6-3": {
+      "title": "Confirmation Testing"
+     },
+     "6-4": {
+      "title": "Special Purpose Tests"
+     }
+    },
+    "note": "chapter listed in front matter but not transformed to markdown; read the PDF"
+   }
+  },
+  "gaps": [],
+  "title": "Enlistment Qualification Tests",
   "title_verified": true
  },
  "AR_11-6_Army_Foreign_Language_Program": {
@@ -28623,6 +29955,265 @@
   },
   "gaps": [],
   "title": "Medical Standards for Retention",
+  "title_verified": true
+ },
+ "DoDM_1145.02": {
+  "doc_id": "DoDM_1145.02",
+  "category": "DoDI",
+  "authority_level": 2,
+  "path": "DoDI/DoDM_1145.02",
+  "pdf": "DoDM_1145.02.pdf",
+  "transform_dir": "doctrine/DoDI/DoDM_1145.02",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "S1": {
+    "title": "Front Matter",
+    "file": "doctrine/DoDI/DoDM_1145.02/00_Front_Matter.md",
+    "paragraphs": {
+     "S1-2.3": {
+      "title": "Secretaries of the Military Departments and the Commandant …"
+     }
+    }
+   },
+   "S2": {
+    "title": "Section 1 General Issuance Information",
+    "file": "doctrine/DoDI/DoDM_1145.02/01_Section_1__General_Issuance_Information.md",
+    "paragraphs": {
+     "S2-1.1": {
+      "title": "APPLICABILITY.  This issuance applies to OSD, the Military Departments (including the"
+     },
+     "S2-1.2": {
+      "title": "POLICY.  Pursuant to DoDD 1145.02E, it is DoD policy to:"
+     },
+     "S2-1.3": {
+      "title": "SUMMARY OF CHANGE 1."
+     }
+    }
+   },
+   "S3": {
+    "title": "Section 2 Responsibilities",
+    "file": "doctrine/DoDI/DoDM_1145.02/02_Section_2__Responsibilities.md",
+    "paragraphs": {
+     "S3-2.1": {
+      "title": "ASSISTANT SECRETARY OF DEFENSE FOR MANPOWER AND RESERVE"
+     },
+     "S3-2.2": {
+      "title": "DIRECTOR, DEPARTMENT OF DEFENSE HUMAN RESOURCES ACTIVITY"
+     },
+     "S3-2.3": {
+      "title": "SECRETARIES OF THE MILITARY DEPARTMENTS AND THE"
+     },
+     "S3-2.4": {
+      "title": "SECRETARY OF THE ARMY. In addition to the …"
+     }
+    }
+   },
+   "S4": {
+    "title": "Section 3 Command and Control",
+    "file": "doctrine/DoDI/DoDM_1145.02/03_Section_3__Command_and_Control.md",
+    "paragraphs": {
+     "S4-3.1": {
+      "title": "COMMANDER, USMEPCOM."
+     },
+     "S4-3.2": {
+      "title": "MEPS COMMANDS."
+     },
+     "S4-3.3": {
+      "title": "RECRUITER RESPONSIBILITIES."
+     }
+    }
+   },
+   "S5": {
+    "title": "Section 4 Aptitude Standards",
+    "file": "doctrine/DoDI/DoDM_1145.02/04_Section_4__Aptitude_Standards.md",
+    "paragraphs": {
+     "S5-4.1": {
+      "title": "ARMED SERVICES MILITARY PERSONNEL ACCESSION TESTING"
+     },
+     "S5-4.2": {
+      "title": "DOD ENLISTMENT TESTING PROGRAM."
+     },
+     "S5-1": {
+      "title": "Desks or tables with writing surfaces that are …"
+     },
+     "S5-3": {
+      "title": "Test rooms will have proper illumination, ventilation, and be temperature"
+     },
+     "S5-4": {
+      "title": "Testing sites must have a secure storage area …"
+     },
+     "S5-4.3": {
+      "title": "THE DOD STUDENT TESTING PROGRAM."
+     },
+     "S5-4.4": {
+      "title": "SPECIAL PURPOSE TESTING.  Special purpose tests are administered at the request of"
+     },
+     "S5-4.5": {
+      "title": "SERVICE ASVAB TESTING PROGRAM.  The Military Services are responsible for the"
+     },
+     "S5-2": {
+      "title": "Discussion of test questions with unauthorized personnel."
+     },
+     "S5-5": {
+      "title": "Development of a local or practice test that …"
+     },
+     "S5-6": {
+      "title": "Reproduction of any test materials in whole or in part."
+     },
+     "S5-7": {
+      "title": "Removal of test material by an examinee from the test room."
+     },
+     "S5-8": {
+      "title": "Leaving examinees unsupervised during a test session."
+     },
+     "S5-9": {
+      "title": "Failure to account for accountable test material at any time."
+     },
+     "S5-10": {
+      "title": "Transfer of accountable test material without proper receipt."
+     },
+     "S5-11": {
+      "title": "Destruction or disposition of test material under improper conditions."
+     },
+     "S5-12": {
+      "title": "Improper mailing of test material."
+     },
+     "S5-13": {
+      "title": "Suspected incidents of training courses or sessions using questions from test"
+     },
+     "S5-14": {
+      "title": "Tampering with any package containing test material."
+     },
+     "S5-15": {
+      "title": "Improper storage of test material."
+     },
+     "S5-16": {
+      "title": "Access by unauthorized personnel to any safe or secured container containing"
+     },
+     "S5-17": {
+      "title": "Theft of test material by any individual."
+     },
+     "S5-18": {
+      "title": "Use of unauthorized notes, study questions, or an unauthorized testing aid."
+     },
+     "S5-4.6": {
+      "title": "PROCESSING OF APPLICANT WITH NON-QUALIFYING SCORES.  An applicant"
+     },
+     "S5-4.7": {
+      "title": "ASVAB RETESTING."
+     },
+     "S5-4.8": {
+      "title": "TEMPORARY IDENTIFICATION NUMBER (TIN).  To support the processing of"
+     },
+     "S5-4.9": {
+      "title": "TEST SECURITY."
+     },
+     "S5-4.10": {
+      "title": "ACCOUNTABLE TEST MATERIALS."
+     }
+    }
+   },
+   "S6": {
+    "title": "Section 5 Medical Standards",
+    "file": "doctrine/DoDI/DoDM_1145.02/05_Section_5__Medical_Standards.md",
+    "paragraphs": {
+     "S6-5.1": {
+      "title": "USMEPCOM MEDICAL PROGRAM."
+     },
+     "S6-5.2": {
+      "title": "MEDICAL PROCESSING."
+     },
+     "S6-1": {
+      "title": "The applicant’s medical qualification for military service is determined by a"
+     },
+     "S6-2": {
+      "title": "If the applicant is found qualified, he or …"
+     },
+     "S6-3": {
+      "title": "When an applicant is found to be medically …"
+     },
+     "S6-4": {
+      "title": "If the condition is potentially progressive and requires further evaluation or"
+     },
+     "S6-5": {
+      "title": "An applicant whose medical fitness cannot be immediately determined will be"
+     }
+    }
+   },
+   "S7": {
+    "title": "Section 6 Enlistment Standards",
+    "file": "doctrine/DoDI/DoDM_1145.02/06_Section_6__Enlistment_Standards.md",
+    "paragraphs": {
+     "S7-6.1": {
+      "title": "USMEPCOM ACCESSION PROGRAM."
+     },
+     "S7-6.2": {
+      "title": "USMEPCOM SHIPPING PROGRAM."
+     }
+    }
+   },
+   "S8": {
+    "title": "Section 7 Accession Community of Interest Committ",
+    "file": "doctrine/DoDI/DoDM_1145.02/07_Section_7__Accession_Community_of_Interest_Committ.md",
+    "paragraphs": {
+     "S8-7.1": {
+      "title": "ACCESSION COMMUNITY OF INTEREST COMMITTEE’S FUNCTION."
+     },
+     "S8-1": {
+      "title": "An IRC is established at each MEPS.  Each sponsoring Military Service and"
+     },
+     "S8-2": {
+      "title": "The IRC is composed of the commanders of the:"
+     },
+     "S8-3": {
+      "title": "The chair should be rotated on an annual …"
+     },
+     "S8-4": {
+      "title": "Coast Guard recruiting service personnel."
+     },
+     "S8-5": {
+      "title": "Selective Service System."
+     },
+     "S8-6": {
+      "title": "USMEPCOM technical and policy staff officers."
+     }
+    }
+   },
+   "S9": {
+    "title": "Section 8 Support Services",
+    "file": "doctrine/DoDI/DoDM_1145.02/08_Section_8__Support_Services.md",
+    "paragraphs": {
+     "S9-8.1": {
+      "title": "PUBLIC AFFAIRS."
+     },
+     "S9-8.2": {
+      "title": "SUPPORT SERVICE ACTIVITIES."
+     },
+     "S9-8.3": {
+      "title": "PERSONNEL."
+     },
+     "S9-1": {
+      "title": "Duration.  Generally an assignment to USMEPCOM is not to exceed"
+     },
+     "S9-8.4": {
+      "title": "FORMS, FILE, AND INFORMATION MANAGEMENT."
+     }
+    }
+   },
+   "S10": {
+    "title": "Glossary",
+    "file": "doctrine/DoDI/DoDM_1145.02/09_Glossary.md",
+    "paragraphs": {}
+   },
+   "S11": {
+    "title": "References",
+    "file": "doctrine/DoDI/DoDM_1145.02/10_References.md",
+    "paragraphs": {}
+   }
+  },
+  "gaps": [],
+  "title": "Military Entrance Processing Station (MEPS)",
   "title_verified": true
  },
  "G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu": {
