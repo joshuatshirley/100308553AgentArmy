@@ -151,15 +151,13 @@ sources:
     note: "Company command team view: how the company validates station commanders, IPRs, training and sustainment expectations of the station."
   - doc: STP805K-79R-SMTG
     title: null
-    edition_date: "13 May 2018"
+    edition_date: null
     effective_date: null
     authority_level: 4
     pdf: Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF
     chapter: all
     markdown: doctrine/Manuals/STP805K-79R-SMTG
     note: "Soldier's Manual and Training Guide for MOS 79R; station-commander-level tasks. Paragraph headings were not extracted; cite by task title from the PDF."
-    known_gaps:
-      - no paragraph or chapter structure recognized in source
 usarec_messages: []
 forms:
   - form: USAREC_Form_350-1.1_NEAR-TERM_TRAINING_PLAN

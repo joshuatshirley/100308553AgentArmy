@@ -227,12 +227,11 @@ Sections: Evaluation; Assessment
 
 ### STP805K-79R-SMTG
 
-- edition 13 May 2018, authority level 4
+- authority level 4
 - Chapter: all
 - Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it.
-- Known gap: no paragraph or chapter structure recognized in source
 
 ### UTC_5-03.4: Training and Leader Development
 

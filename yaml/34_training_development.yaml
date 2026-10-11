@@ -205,15 +205,13 @@ sources:
     note: "Training doctrine principles; chapters not extracted in the catalog."
   - doc: STP805K-79R-SMTG
     title: null
-    edition_date: "13 May 2018"
+    edition_date: null
     effective_date: null
     authority_level: 4
     pdf: Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF
     chapter: all
     markdown: doctrine/Manuals/STP805K-79R-SMTG
     note: "Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it."
-    known_gaps:
-      - no paragraph or chapter structure recognized in source
   - doc: UTC_5-03.4
     title: Training and Leader Development
     edition_date: "21 July 2020"

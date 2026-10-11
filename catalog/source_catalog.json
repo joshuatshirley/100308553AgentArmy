@@ -19218,73 +19218,82 @@
     "paragraphs": {}
    },
    "S2": {
+    "title": "Blank Page",
+    "file": "doctrine/Regulations/UR_27-2(V3)/01_Blank_Page.md",
+    "paragraphs": {
+     "S2-1": {
+      "title": "This publication establishes"
+     }
+    }
+   },
+   "S3": {
     "title": "Appendixes",
     "file": "doctrine/Regulations/UR_27-2(V3)/02_Appendixes.md",
     "paragraphs": {}
    },
-   "S3": {
+   "S4": {
     "title": "Purpose",
     "file": "doctrine/Regulations/UR_27-2(V3)/03_1._Purpose.md",
     "paragraphs": {
-     "S3-1": {
+     "S4-1": {
       "title": "Purpose"
      },
-     "S3-2": {
+     "S4-2": {
       "title": "Policy"
      },
-     "S3-3": {
+     "S4-3": {
       "title": "Military justice"
      },
-     "S3-4": {
+     "S4-4": {
       "title": "Enlistment eligibility"
      }
     }
    },
-   "S4": {
+   "S5": {
     "title": "Standards of conduct",
     "file": "doctrine/Regulations/UR_27-2(V3)/04_5._Standards_of_conduct.md",
     "paragraphs": {
-     "S4-5": {
+     "S5-5": {
       "title": "Standards of conduct"
      }
     }
    },
-   "S5": {
+   "S6": {
     "title": "Appendix A References",
     "file": "doctrine/Regulations/UR_27-2(V3)/06_Appendix_A_References.md",
     "paragraphs": {}
    },
-   "S6": {
+   "S7": {
     "title": "AR 623-3",
     "file": "doctrine/Regulations/UR_27-2(V3)/07_AR_623-3.md",
     "paragraphs": {}
    },
-   "S7": {
+   "S8": {
     "title": "Section III Related Forms",
     "file": "doctrine/Regulations/UR_27-2(V3)/08_Section_III_Related_Forms.md",
     "paragraphs": {}
    },
-   "S8": {
+   "S9": {
     "title": "B-6. Recruiting Improprieties RI",
     "file": "doctrine/Regulations/UR_27-2(V3)/09_B-6._Recruiting_Improprieties_RI.md",
     "paragraphs": {}
    },
-   "S9": {
+   "S10": {
     "title": "Glossary",
     "file": "doctrine/Regulations/UR_27-2(V3)/10_Glossary.md",
     "paragraphs": {}
    },
-   "S10": {
+   "S11": {
     "title": "IO",
     "file": "doctrine/Regulations/UR_27-2(V3)/11_IO.md",
     "paragraphs": {}
    },
-   "S11": {
+   "S12": {
     "title": "USAF",
     "file": "doctrine/Regulations/UR_27-2(V3)/12_USAF.md",
     "paragraphs": {}
    },
-   "S12": {
+   "S13": {
     "title": "ELECTRONIC PUBLISHING SYSTEM",
     "file": "doctrine/Regulations/UR_27-2(V3)/13_ELECTRONIC_PUBLISHING_SYSTEM.md",
     "paragraphs": {}
@@ -20908,36 +20917,47 @@
     "paragraphs": {}
    },
    "S2": {
+    "title": "Blank Page",
+    "file": "doctrine/Regulations/UR_601-73/01_Blank_Page.md",
+    "paragraphs": {}
+   },
+   "S3": {
     "title": "Personnel Procurement",
     "file": "doctrine/Regulations/UR_601-73/02_Personnel_Procurement.md",
     "paragraphs": {}
    },
-   "S3": {
+   "S4": {
     "title": "Contents Listed by paragraph and page number",
     "file": "doctrine/Regulations/UR_601-73/03_Contents_Listed_by_paragraph_and_page_number.md",
     "paragraphs": {
-     "S3-1": {
+     "S4-1": {
       "title": "Purpose"
      },
-     "S3-2": {
+     "S4-2": {
       "title": "References"
      },
-     "S3-3": {
+     "S4-3": {
       "title": "Explanation of abbreviations and terms"
      },
-     "S3-4": {
+     "S4-4": {
       "title": "Background"
      },
-     "S3-5": {
+     "S4-5": {
       "title": "Recruiter Requirements and Allocation"
      },
-     "S3-6": {
+     "S4-5.3": {
+      "title": "Responsibilities"
+     },
+     "S4-5.4": {
+      "title": "Policy"
+     },
+     "S4-6": {
       "title": "Position Analysis and Evaluation (PAE)"
      },
-     "S3-7": {
+     "S4-7": {
       "title": "Mission Analysis"
      },
-     "S3-8": {
+     "S4-8": {
       "title": "Review and Implementation. All levels of command will …"
      }
     }
@@ -21029,75 +21049,80 @@
     "paragraphs": {}
    },
    "S3": {
+    "title": "Blank Page",
+    "file": "doctrine/Regulations/UR_690-6/02_Blank_Page.md",
+    "paragraphs": {}
+   },
+   "S4": {
     "title": "Glossary",
     "file": "doctrine/Regulations/UR_690-6/03_Glossary.md",
     "paragraphs": {}
    },
-   "S4": {
+   "S5": {
     "title": "Purpose",
     "file": "doctrine/Regulations/UR_690-6/04_1.__Purpose.md",
     "paragraphs": {
-     "S4-1": {
+     "S5-1": {
       "title": "Purpose"
      },
-     "S4-2": {
+     "S5-2": {
       "title": "References"
      },
-     "S4-3": {
+     "S5-3": {
       "title": "Explanation of Abbreviations"
      },
-     "S4-4": {
+     "S5-4": {
       "title": "Legal basis"
      },
-     "S4-5": {
+     "S5-5": {
       "title": "Records Management Requirement"
      },
-     "S4-6": {
+     "S5-6": {
       "title": "Objectives"
      },
-     "S4-7": {
+     "S5-7": {
       "title": "Re-delegation of authority policy"
      },
-     "S4-8": {
+     "S5-8": {
       "title": "Responsibilities"
      }
     }
    },
-   "S5": {
+   "S6": {
     "title": "Hiring Actions",
     "file": "doctrine/Regulations/UR_690-6/05_8.__Hiring_Actions..md",
     "paragraphs": {
-     "S5-9": {
+     "S6-9": {
       "title": "Hiring Actions."
      },
-     "S5-10": {
+     "S6-10": {
       "title": "Recruitment and Selection."
      }
     }
    },
-   "S6": {
+   "S7": {
     "title": "Classification",
     "file": "doctrine/Regulations/UR_690-6/06_10.__Classification.md",
     "paragraphs": {
-     "S6-11": {
+     "S7-11": {
       "title": "Classification"
      },
-     "S6-12": {
+     "S7-12": {
       "title": "Awards"
      }
     }
    },
-   "S7": {
+   "S8": {
     "title": "Appendix A",
     "file": "doctrine/Regulations/UR_690-6/07_Appendix__A.md",
     "paragraphs": {}
    },
-   "S8": {
+   "S9": {
     "title": "Glossary",
     "file": "doctrine/Regulations/UR_690-6/08_Glossary.md",
     "paragraphs": {}
    },
-   "S9": {
+   "S10": {
     "title": "ELECTRONIC PUBLISHING SYSTEM",
     "file": "doctrine/Regulations/UR_690-6/09_ELECTRONIC_PUBLISHING_SYSTEM.md",
     "paragraphs": {}
@@ -21378,12 +21403,29 @@
    "S1": {
     "title": "Full Document",
     "file": "doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22/00_Full_Document.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S1-1-12": {
+      "title": "Objective and implementation"
+     },
+     "S1-1-28": {
+      "title": "Format, content, and distribution of"
+     },
+     "S1-1-47": {
+      "title": "Requisitions"
+     },
+     "S1-1-50": {
+      "title": "Reports, number, and types of decorations awarded"
+     },
+     "S1-3-6": {
+      "title": "Peacetime award approval"
+     },
+     "S1-8-35": {
+      "title": "U.S. Army recruiter identification badges"
+     }
+    }
    }
   },
-  "gaps": [
-   "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
-  ],
+  "gaps": [],
   "title": "Military Awards",
   "title_verified": true
  },
@@ -21755,12 +21797,71 @@
   "path": "Manuals/STP805K-79R-SMTG",
   "pdf": "STP805K-79R-SMTG.PDF",
   "transform_dir": "doctrine/Manuals/STP805K-79R-SMTG",
-  "edition_date": "13 May 2018",
+  "edition_date": null,
   "effective_date": null,
-  "chapters": {},
-  "gaps": [
-   "no paragraph or chapter structure recognized in source"
-  ],
+  "chapters": {
+   "S1": {
+    "title": "Full Document",
+    "file": "doctrine/Manuals/STP805K-79R-SMTG/00_Full_Document.md",
+    "paragraphs": {
+     "S1-2": {
+      "title": "Part One, Section I.  Subject Area Codes."
+     },
+     "S1-3": {
+      "title": "Part One, Section II, Duty Position Training Requirements."
+     },
+     "S1-4": {
+      "title": "Part Two, Critical Tasks List."
+     },
+     "S1-1": {
+      "title": "Prepare for Future Soldier Orientation."
+     },
+     "S1-5": {
+      "title": "Request an appointment."
+     },
+     "S1-6": {
+      "title": "Execute the decision if the individual makes an appointment."
+     },
+     "S1-7": {
+      "title": "Reaffirm the date, time, and location of the appointment."
+     },
+     "S1-8": {
+      "title": "Request a referral."
+     },
+     "S1-9": {
+      "title": "Complete Sex offender check IAW with USAREC Message."
+     },
+     "S1-10": {
+      "title": "Perform Live Scan."
+     },
+     "S1-11": {
+      "title": "Submit packet to Station Commander for Quality Assurance/Quality Control (QA/QC)"
+     },
+     "S1-12": {
+      "title": "Record results of Follow-up activities in Recruiter Zone."
+     },
+     "S1-13": {
+      "title": "Correct any errors identified by higher echelons."
+     },
+     "S1-14": {
+      "title": "Select appropriate applicant that required GC QC."
+     },
+     "S1-15": {
+      "title": "Select appropriate “approve” or disapprove” link."
+     },
+     "S1-16": {
+      "title": "Insert required comments in comments box."
+     },
+     "S1-17": {
+      "title": "Select finish task."
+     },
+     "S1-18": {
+      "title": "Close all completed records."
+     }
+    }
+   }
+  },
+  "gaps": [],
   "title": null,
   "title_verified": false
  },
@@ -21857,6 +21958,11 @@
       "title": "Submit completed inspections to the USAREC Government Leased Housing"
      }
     }
+   },
+   "S2": {
+    "title": "Blank Page",
+    "file": "doctrine/Manuals/STP_805K-79R-OCFS/01_Blank_Page.md",
+    "paragraphs": {}
    }
   },
   "gaps": [],
@@ -28012,12 +28118,80 @@
    "S1": {
     "title": "The Appointment and Service of Chaplains",
     "file": "doctrine/DoDI/DoDI_1304.28/00_The_Appointment_and_Service_of_Chaplains.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S1-1.1": {
+      "title": "APPLICABILITY."
+     },
+     "S1-1.2": {
+      "title": "POLICY."
+     },
+     "S1-1.3": {
+      "title": "INFORMATION COLLECTIONS."
+     },
+     "S1-1.4": {
+      "title": "SUMMARY OF CHANGE 1."
+     },
+     "S1-2.1": {
+      "title": "ASSISTANT SECRETARY OF DEFENSE FOR MANPOWER AND RESERVE"
+     },
+     "S1-2.2": {
+      "title": "SECRETARIES OF THE MILITARY DEPARTMENTS."
+     },
+     "S1-3.1": {
+      "title": "CAPABILITY REQUIREMENTS."
+     },
+     "S1-3.2": {
+      "title": "CHAPLAIN APPOINTMENT CONSIDERATIONS."
+     },
+     "S1-3.3": {
+      "title": "EDUCATIONAL INSTITUTIONS."
+     },
+     "S1-3.4": {
+      "title": "DD FORM 2088."
+     },
+     "S1-3.5": {
+      "title": "CHAPLAINCY APPLICATION REQUIREMENTS."
+     },
+     "S1-3.6": {
+      "title": "ADMINISTRATIVE SEPARATION OF CHAPLAINS UPON LOSS OF"
+     },
+     "S1-3.7": {
+      "title": "CHAPLAIN CANDIDATE PROGRAM."
+     },
+     "S1-3.8": {
+      "title": "CHAPLAINCY PARTICIPATION RULES."
+     },
+     "S1-4.1": {
+      "title": "RELIGIOUS-ENDORSING ORGANIZATIONS PARTICIPATING IN MILITARY"
+     },
+     "S1-4.2": {
+      "title": "DOCUMENT SUBMISSION FOR RELIGIOUS ORGANIZATIONS PROVIDING"
+     },
+     "S1-4.3": {
+      "title": "RELIGIOUS ORGANIZATION AGENTS."
+     },
+     "S1-4.4": {
+      "title": "AFCB NOTIFICATIONS."
+     },
+     "S1-4.5": {
+      "title": "RELIGIOUS ORGANIZATION REVERIFICATION PROCESS."
+     },
+     "S1-4.6": {
+      "title": "RELIGIOUS ORGANIZATION RMP ENDORSEMENT."
+     },
+     "S1-4.7": {
+      "title": "ENDORSEMENT LIST DEADLINE."
+     },
+     "S1-4.8": {
+      "title": "FAILURE TO MEET REQUIREMENTS."
+     },
+     "S1-4.9": {
+      "title": "VISITS BY ENDORSING AGENTS."
+     }
+    }
    }
   },
-  "gaps": [
-   "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
-  ],
+  "gaps": [],
   "title": "Appointment and Service of Chaplains",
   "title_verified": true
  },
@@ -28034,12 +28208,35 @@
    "S1": {
     "title": "Armed Forces Chaplains Board",
     "file": "doctrine/DoDI/DoDI_5120.08/00_Armed_Forces_Chaplains_Board.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S1-2.2": {
+      "title": "Deputy Assistant Secretary of Defense for Military Personnel Policy (DASD(MPP)). ... 4"
+     },
+     "S1-1.1": {
+      "title": "APPLICABILITY."
+     },
+     "S1-1.2": {
+      "title": "POLICY."
+     },
+     "S1-2.1": {
+      "title": "UNDER SECRETARY OF DEFENSE FOR PERSONNEL AND READINESS"
+     },
+     "S1-2.3": {
+      "title": "SECRETARIES OF THE MILITARY DEPARTMENTS."
+     },
+     "S1-3.1": {
+      "title": "ARMED FORCES CHAPLAINS BOARD."
+     },
+     "S1-3.2": {
+      "title": "THE CHAIR OF THE ARMED FORCES CHAPLAINS BOARD."
+     },
+     "S1-3.3": {
+      "title": "THE EXECUTIVE DIRECTOR OF THE ARMED FORCES CHAPLAINS BOARD."
+     }
+    }
    }
   },
-  "gaps": [
-   "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
-  ],
+  "gaps": [],
   "title": "Armed Forces Chaplains Board",
   "title_verified": true
  },
@@ -28056,48 +28253,195 @@
    "S1": {
     "title": "Front Matter",
     "file": "doctrine/DoDI/DoDI_6130.03_vol_1/00_Front_Matter.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S1-2.4": {
+      "title": "Secretaries of the Military Departments and Commandant, United States Coast Guard. 7"
+     }
+    }
    },
    "S2": {
     "title": "Section 1 General Issuance Information",
     "file": "doctrine/DoDI/DoDI_6130.03_vol_1/01_Section_1__General_Issuance_Information.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S2-1.1": {
+      "title": "APPLICABILITY."
+     },
+     "S2-1.2": {
+      "title": "POLICY."
+     },
+     "S2-1.3": {
+      "title": "INFORMATION COLLECTIONS."
+     },
+     "S2-1.4": {
+      "title": "SUMMARY OF CHANGE 5."
+     }
+    }
    },
    "S3": {
     "title": "Section 2 Responsibilities",
     "file": "doctrine/DoDI/DoDI_6130.03_vol_1/02_Section_2__Responsibilities.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S3-2.1": {
+      "title": "UNDER SECRETARY OF DEFENSE FOR PERSONNEL AND READINESS"
+     },
+     "S3-2.2": {
+      "title": "ASSISTANT SECRETARY OF DEFENSE FOR HEALTH AFFAIRS."
+     },
+     "S3-2.3": {
+      "title": "DIRECTOR, DEFENSE HEALTH AGENCY."
+     },
+     "S3-2.5": {
+      "title": "SECRETARY OF THE NAVY."
+     }
+    }
    },
    "S4": {
     "title": "Section 3 MEDPERS",
     "file": "doctrine/DoDI/DoDI_6130.03_vol_1/03_Section_3__MEDPERS.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S4-3.1": {
+      "title": "ORGANIZATION."
+     },
+     "S4-3.2": {
+      "title": "AGENDA."
+     }
+    }
    },
    "S5": {
     "title": "Section 4 ARMSWG",
     "file": "doctrine/DoDI/DoDI_6130.03_vol_1/04_Section_4__ARMSWG.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S5-4.1": {
+      "title": "PURPOSE."
+     },
+     "S5-4.2": {
+      "title": "OVERALL GOALS."
+     },
+     "S5-4.3": {
+      "title": "CO-CHAIRS."
+     },
+     "S5-4.4": {
+      "title": "MEMBERSHIP."
+     }
+    }
    },
    "S6": {
     "title": "Section 5 Medical Standards for Appointment Enlis",
     "file": "doctrine/DoDI/DoDI_6130.03_vol_1/05_Section_5__Medical_Standards_for_Appointment_Enlis.md",
-    "paragraphs": {}
+    "paragraphs": {
+     "S6-5.1": {
+      "title": "APPLICABILITY."
+     },
+     "S6-5.2": {
+      "title": "PROCEDURES."
+     }
+    }
    },
    "S7": {
     "title": "Section 6 Disqualifying Conditions",
     "file": "doctrine/DoDI/DoDI_6130.03_vol_1/06_Section_6__Disqualifying_Conditions.md",
     "paragraphs": {
+     "S7-6.1": {
+      "title": "MEDICAL STANDARDS."
+     },
+     "S7-6.2": {
+      "title": "HEAD."
+     },
+     "S7-6.3": {
+      "title": "EYES."
+     },
      "S7-1": {
       "title": "For refractive surgery procedures within the previous 36 months, stability is"
      },
      "S7-2": {
       "title": "For refractive surgery procedures more than 36 months ago, stability is"
      },
+     "S7-6.4": {
+      "title": "VISION."
+     },
+     "S7-6.5": {
+      "title": "EARS."
+     },
+     "S7-6.6": {
+      "title": "HEARING."
+     },
+     "S7-6.7": {
+      "title": "NOSE, SINUSES, MOUTH, AND LARYNX."
+     },
+     "S7-6.8": {
+      "title": "DENTAL."
+     },
+     "S7-6.9": {
+      "title": "NECK."
+     },
+     "S7-6.10": {
+      "title": "LUNGS, CHEST WALL, PLEURA, AND MEDIASTINUM."
+     },
+     "S7-6.11": {
+      "title": "HEART."
+     },
+     "S7-6.12": {
+      "title": "ABDOMINAL ORGANS AND GASTROINTESTINAL SYSTEM."
+     },
+     "S7-6.13": {
+      "title": "FEMALE GENITAL SYSTEM."
+     },
+     "S7-6.14": {
+      "title": "MALE GENITAL SYSTEM."
+     },
+     "S7-6.15": {
+      "title": "URINARY SYSTEM."
+     },
      "S7-3": {
       "title": "Requiring daily suppressive antibiotics; or"
      },
      "S7-4": {
       "title": "Non-responsive to antibiotics for 10 days."
+     },
+     "S7-6.16": {
+      "title": "SPINE AND SACROILIAC JOINT CONDITIONS."
+     },
+     "S7-6.17": {
+      "title": "UPPER EXTREMITY CONDITIONS."
+     },
+     "S7-6.18": {
+      "title": "LOWER EXTREMITY CONDITIONS."
+     },
+     "S7-6.19": {
+      "title": "MISCELLANEOUS CONDITIONS OF THE EXTREMITIES."
+     },
+     "S7-6.20": {
+      "title": "VASCULAR SYSTEM."
+     },
+     "S7-6.21": {
+      "title": "SKIN AND SOFT TISSUE CONDITIONS."
+     },
+     "S7-6.22": {
+      "title": "BLOOD AND BLOOD FORMING SYSTEM."
+     },
+     "S7-6.23": {
+      "title": "SYSTEMIC CONDITIONS."
+     },
+     "S7-6.24": {
+      "title": "ENDOCRINE AND METABOLIC CONDITIONS."
+     },
+     "S7-6.25": {
+      "title": "RHEUMATOLOGIC CONDITIONS."
+     },
+     "S7-6.26": {
+      "title": "NEUROLOGIC CONDITIONS."
+     },
+     "S7-6.27": {
+      "title": "SLEEP DISORDERS."
+     },
+     "S7-6.28": {
+      "title": "LEARNING, PSYCHIATRIC, AND BEHAVIORAL DISORDERS."
+     },
+     "S7-6.29": {
+      "title": "TUMORS AND MALIGNANCIES."
+     },
+     "S7-6.30": {
+      "title": "MISCELLANEOUS CONDITIONS."
      }
     }
    },
@@ -28130,11 +28474,149 @@
     "title": "Medical Standards for military service Retention",
     "file": "doctrine/DoDI/DoDI_6130.03_vol_2/00_Medical_Standards_for_military_service__Retention.md",
     "paragraphs": {
+     "S1-2.3": {
+      "title": "Deputy Assistant Secretary of Defense for Health Services Policy and Oversight"
+     },
+     "S1-2.4": {
+      "title": "Deputy Assistant Secretary of Defense for Military Personnel Policy (DASD(MPP)). ... 6"
+     },
+     "S1-2.6": {
+      "title": "Secretaries of the Military Departments and Commandant, United States Coast Guard"
+     },
+     "S1-1.1": {
+      "title": "APPLICABILITY."
+     },
+     "S1-1.2": {
+      "title": "POLICY."
+     },
+     "S1-1.3": {
+      "title": "SUMMARY OF CHANGE 1."
+     },
+     "S1-2.1": {
+      "title": "UNDER SECRETARY OF DEFENSE FOR PERSONNEL AND READINESS"
+     },
+     "S1-2.2": {
+      "title": "ASSISTANT SECRETARY OF DEFENSE FOR HEALTH AFFAIRS (ASD(HA))."
+     },
+     "S1-2.5": {
+      "title": "DIRECTOR, DHA."
+     },
+     "S1-3.1": {
+      "title": "APPLICABILITY OF RETENTION MEDICAL STANDARDS."
+     },
+     "S1-3.2": {
+      "title": "APPLICATION OF CRITERIA USED TO DEVELOP STANDARDS."
+     },
+     "S1-3.3": {
+      "title": "IMPLEMENTATION."
+     },
+     "S1-4.1": {
+      "title": "PURPOSE OF THE RMSWG."
+     },
+     "S1-4.2": {
+      "title": "OVERALL GOALS OF THE RMSWG."
+     },
+     "S1-4.3": {
+      "title": "CO-CHAIRS OF THE RMSWG."
+     },
+     "S1-4.4": {
+      "title": "MEMBERSHIP OF THE RMSWG."
+     },
+     "S1-5.1": {
+      "title": "GENERAL."
+     },
+     "S1-5.2": {
+      "title": "HEAD."
+     },
+     "S1-5.3": {
+      "title": "EYES."
+     },
+     "S1-5.4": {
+      "title": "VISION."
+     },
+     "S1-5.5": {
+      "title": "EARS."
+     },
+     "S1-5.6": {
+      "title": "HEARING."
+     },
+     "S1-5.7": {
+      "title": "NOSE, SINUSES, MOUTH, AND LARYNX."
+     },
+     "S1-5.8": {
+      "title": "DENTAL."
+     },
+     "S1-5.9": {
+      "title": "NECK."
+     },
+     "S1-5.10": {
+      "title": "LUNGS, CHEST WALL, PLEURA, AND MEDIASTINUM."
+     },
+     "S1-5.11": {
+      "title": "HEART."
+     },
      "S1-2": {
       "title": "Coronary artery bypass grafting; or"
      },
      "S1-3": {
       "title": "Thrombolytic medication."
+     },
+     "S1-5.12": {
+      "title": "ABDOMINAL ORGANS AND GASTROINTESTINAL SYSTEM."
+     },
+     "S1-5.13": {
+      "title": "FEMALE GENITAL SYSTEM."
+     },
+     "S1-5.14": {
+      "title": "MALE GENITAL SYSTEM."
+     },
+     "S1-5.15": {
+      "title": "URINARY SYSTEM."
+     },
+     "S1-5.16": {
+      "title": "SPINE AND SACROILIAC JOINT CONDITIONS."
+     },
+     "S1-5.17": {
+      "title": "UPPER EXTREMITY CONDITIONS."
+     },
+     "S1-5.18": {
+      "title": "LOWER EXTREMITY CONDITIONS."
+     },
+     "S1-5.19": {
+      "title": "GENERALIZED CONDITIONS OF THE MUSCULOSKELETAL SYSTEM."
+     },
+     "S1-5.20": {
+      "title": "VASCULAR SYSTEM."
+     },
+     "S1-5.21": {
+      "title": "SKIN AND SOFT TISSUE CONDITIONS."
+     },
+     "S1-5.22": {
+      "title": "BLOOD AND BLOOD FORMING CONDITIONS."
+     },
+     "S1-5.23": {
+      "title": "SYSTEMIC CONDITIONS."
+     },
+     "S1-5.24": {
+      "title": "ENDOCRINE AND METABOLIC CONDITIONS."
+     },
+     "S1-5.25": {
+      "title": "RHEUMATOLOGIC CONDITIONS."
+     },
+     "S1-5.26": {
+      "title": "NEUROLOGIC CONDITIONS."
+     },
+     "S1-5.27": {
+      "title": "SLEEP DISORDERS."
+     },
+     "S1-5.28": {
+      "title": "BEHAVIORAL HEALTH."
+     },
+     "S1-5.29": {
+      "title": "TUMORS AND MALIGNANCIES."
+     },
+     "S1-5.30": {
+      "title": "MISCELLANEOUS CONDITIONS."
      }
     }
    }
@@ -47784,10 +48266,81 @@
   "transform_dir": "doctrine/Forms/MRB_1_NEW_UPDATEv2",
   "edition_date": null,
   "effective_date": null,
-  "chapters": {},
-  "gaps": [
-   "no paragraph or chapter structure recognized in source"
-  ],
+  "chapters": {
+   "S1": {
+    "title": "Blank Page",
+    "file": "doctrine/Forms/MRB_1_NEW_UPDATEv2/00_Blank_Page.md",
+    "paragraphs": {
+     "S1-3": {
+      "title": "Corps"
+     },
+     "S1-4": {
+      "title": "AOC"
+     },
+     "S1-5": {
+      "title": "HPSP Year Group"
+     },
+     "S1-6": {
+      "title": "Name (Last, First, MI):"
+     },
+     "S1-7": {
+      "title": "Telephone Number (Include area code) :"
+     },
+     "S1-8": {
+      "title": "Street Address:"
+     },
+     "S1-9": {
+      "title": "City, State, Zip Code:"
+     },
+     "S1-12": {
+      "title": "Board Date"
+     },
+     "S1-13": {
+      "title": "Board Select Date"
+     },
+     "S1-14": {
+      "title": "Credit Date"
+     },
+     "S1-15": {
+      "title": "Date Loss Identified"
+     },
+     "S1-11": {
+      "title": "PRID"
+     },
+     "S1-10": {
+      "title": "RSID"
+     },
+     "S1-19": {
+      "title": "Applicant Status"
+     },
+     "S1-16": {
+      "title": "Reason For Decline/Loss:"
+     },
+     "S1-17": {
+      "title": "Dual Processor:"
+     },
+     "S1-18": {
+      "title": "Other Service:"
+     },
+     "S1-20": {
+      "title": "Remarks:"
+     },
+     "S1-21": {
+      "title": "Name, Grade and Signature of Station Commander:"
+     },
+     "S1-22": {
+      "title": "Name, Grade and Signature of Company Commander:"
+     },
+     "S1-23": {
+      "title": "Name, Grade and Signature of Battalion Commander:"
+     },
+     "S1-24": {
+      "title": "Date Decline/Loss Forwarded to HSD by Brigade:"
+     }
+    }
+   }
+  },
+  "gaps": [],
   "title": null,
   "title_verified": false
  },

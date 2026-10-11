@@ -144,12 +144,11 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 
 ### STP805K-79R-SMTG
 
-- edition 13 May 2018, authority level 4
+- authority level 4
 - Chapter: all
 - Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide for MOS 79R; station-commander-level tasks. Paragraph headings were not extracted; cite by task title from the PDF.
-- Known gap: no paragraph or chapter structure recognized in source
 
 ## Forms
 

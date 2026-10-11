@@ -4464,7 +4464,6 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 - Text: `doctrine/DoDI/DoDI_1304.28`
 - PDF: `DoDI/DoDI_1304.28/DoDI_1304.28.pdf`
 - Why: The Appointment and Service of Chaplains. Paragraph headings not extracted in the catalog; cite by section: 3.1 capability requirements, 3.2 appointment considerations, 3.3 educational institutions, 3.4 DD Form 2088, 3.5 application requirements, 3.7 Chaplain Candidate Program, Section 4 religious-endorsing organizations.
-- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### DoDI_5120.08: Armed Forces Chaplains Board
 
@@ -4473,7 +4472,6 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 - Text: `doctrine/DoDI/DoDI_5120.08`
 - PDF: `DoDI/DoDI_5120.08/DoDI_5120.08.pdf`
 - Why: Armed Forces Chaplains Board; context for endorsing-organization oversight.
-- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### AR_135-100: Appointment of Commissioned and Warrant Officers of the Army
 
@@ -7718,12 +7716,11 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 
 ### STP805K-79R-SMTG
 
-- edition 13 May 2018, authority level 4
+- authority level 4
 - Chapter: all
 - Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide for MOS 79R; station-commander-level tasks. Paragraph headings were not extracted; cite by task title from the PDF.
-- Known gap: no paragraph or chapter structure recognized in source
 
 ## Forms
 
@@ -9005,12 +9002,11 @@ Sections: Evaluation; Assessment
 
 ### STP805K-79R-SMTG
 
-- edition 13 May 2018, authority level 4
+- authority level 4
 - Chapter: all
 - Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it.
-- Known gap: no paragraph or chapter structure recognized in source
 
 ### UTC_5-03.4: Training and Leader Development
 
@@ -9251,7 +9247,6 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 - Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_8_22/USAREC Suppl 1 to  AR 600_8_22.pdf`
 - Why: USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment.
-- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### AR_623-3: Evaluation Reporting System
 

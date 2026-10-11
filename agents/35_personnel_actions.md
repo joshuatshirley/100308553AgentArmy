@@ -156,7 +156,6 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 - Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_8_22/USAREC Suppl 1 to  AR 600_8_22.pdf`
 - Why: USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment.
-- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### AR_623-3: Evaluation Reporting System
 

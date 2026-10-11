@@ -31,8 +31,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_1304.28
     note: "The Appointment and Service of Chaplains. Paragraph headings not extracted in the catalog; cite by section: 3.1 capability requirements, 3.2 appointment considerations, 3.3 educational institutions, 3.4 DD Form 2088, 3.5 application requirements, 3.7 Chaplain Candidate Program, Section 4 religious-endorsing organizations."
-    known_gaps:
-      - "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
   - doc: DoDI_5120.08
     title: Armed Forces Chaplains Board
     edition_date: null
@@ -42,8 +40,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_5120.08
     note: "Armed Forces Chaplains Board; context for endorsing-organization oversight."
-    known_gaps:
-      - "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
   - doc: AR_135-100
     title: Appointment of Commissioned and Warrant Officers of the Army
     edition_date: "1 September 1994"

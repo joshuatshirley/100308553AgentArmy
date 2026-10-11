@@ -72,7 +72,6 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 - Text: `doctrine/DoDI/DoDI_1304.28`
 - PDF: `DoDI/DoDI_1304.28/DoDI_1304.28.pdf`
 - Why: The Appointment and Service of Chaplains. Paragraph headings not extracted in the catalog; cite by section: 3.1 capability requirements, 3.2 appointment considerations, 3.3 educational institutions, 3.4 DD Form 2088, 3.5 application requirements, 3.7 Chaplain Candidate Program, Section 4 religious-endorsing organizations.
-- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### DoDI_5120.08: Armed Forces Chaplains Board
 
@@ -81,7 +80,6 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 - Text: `doctrine/DoDI/DoDI_5120.08`
 - PDF: `DoDI/DoDI_5120.08/DoDI_5120.08.pdf`
 - Why: Armed Forces Chaplains Board; context for endorsing-organization oversight.
-- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### AR_135-100: Appointment of Commissioned and Warrant Officers of the Army
 

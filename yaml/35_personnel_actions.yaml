@@ -98,8 +98,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22
     note: "USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment."
-    known_gaps:
-      - "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
   - doc: AR_623-3
     title: Evaluation Reporting System
     edition_date: "14 February 2025"

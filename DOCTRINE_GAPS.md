@@ -50,11 +50,54 @@ Fixed in three passes, 174 docs total, net **+7,488 paragraph citations** (5,139
   becomes its own citable section, titled from its filename, with any numbered paragraphs inside it
   still extracted.
 
-**What's genuinely left (31 docs, down from the ~44 candidates):** single-page fillable DD/USAREC
-forms, pure narrative prose (FM 1's storytelling chapters), and reference tables (DoDI 1304.26's
-offense-code lookup) have no paragraph numbering to extract — correctly empty, not a bug. A few
-multi-page user guides (GCRc, LiveScan/WEBS) are screenshot-driven walkthroughs with no numbered
-prose either. See `catalog/source_catalog.json` gaps for the current list.
+## Remaining gaps audited — 2026-10-11 (found 3 more real fixes, 1 real defect, rest confirmed dead ends)
+
+Went through every doc still in the gap list by hand (reading the actual source text, not just the
+gap message) to separate "genuinely nothing to extract" from "the extractor missed something real."
+
+**Fixed:**
+- **A third paragraph-numbering convention**, dotted `N.N. Title` (vs. the dashed `N-N.` and flat
+  `N.` styles already handled) — used by the newer DoDIs' `SECTION N:` structure. This was the
+  single highest-value fix: **DoDI 6130.03** (the core medical-disqualification instruction) went
+  from 4 to 51 (vol 1) and 2 to 48 (vol 2) paragraphs — its Section 6 "Disqualifying Conditions" is
+  now individually citable by condition (`MEDICAL STANDARDS`, `HEAD`, `EYES`, ...). Also unlocked
+  DoDI 1304.28 (0→23) and DoDI 5120.08 (0→8).
+- **USAREC Supplements amend specific paragraphs of their parent AR by number** (`Paragraph 1-12,
+  Objective and implementation` / `Add paragraph c after paragraph b.`), a format the other three
+  patterns didn't match. Added a dedicated pattern; USAREC Suppl 1 to AR 600-8-22 went 0→6.
+- **A real bug in the fallback chapter-labeling code added this session**: any split file whose
+  filename-derived title was literally "Blank Page" was skipped outright, on the assumption a page
+  titled that way has nothing on it. Several don't — the PDF's own bookmark metadata just mislabels
+  a page that actually holds the regulation's signature block, effective-date line, or (in one case)
+  an entire fillable form. Fixed to check actual content length instead of trusting the label; this
+  alone recovered real content UR 27-2(V3), UR 601-73, UR 690-6 were silently missing, plus
+  `MRB_1_NEW_UPDATEv2` (a real form: "1.Type of Decline", "2. Component", ...).
+- **`STP805K-79R-SMTG`** (the 79R recruiter MOS Soldier's Manual and Training Guide) was a genuine
+  split failure, not a catalog bug: its 342-page PDF has real TOC bookmarks only on the last ~13
+  pages, so the existing TOC-based splitter put pages 1–329 under "Front Matter" and the rest under
+  nine entries all literally titled "Blank Page." Re-ran the split in manual whole-document mode
+  (bypassing the useless TOC) to capture the complete 476KB/342-page text as one file instead of
+  the ~350 bytes that had been sitting there.
+
+**Diagnosed, not fixed — a real defect, different class of problem:** `ADP_2-0`'s PDF has a broken
+embedded font — PyMuPDF extracts raw glyph codes instead of the right characters throughout the
+*entire* document (confirmed isolated to this one doc; checked the rest of the library for the same
+corruption and found none). The corruption is a constant +29 character-code shift (`$` → `A`,
+`&KDSWHU` → `Chapter`), but shift-decoding also loses word-space boundaries unreliably, so a decoded
+version would be close-but-wrong text — worse to publish than leaving it empty. Needs real font/CMap
+-aware re-extraction (or OCR), not a text post-process; out of scope for this pass.
+
+**Confirmed genuinely nothing to extract (26 docs):** read the actual source text for every one
+rather than trusting the gap label. `240126_ITEMLC...` is a graphics-only flyer (`<USE_PDF>`, zero
+text layer). `NCO_Charge` and `UF_608-6.1` are Adobe XFA/LiveCycle forms whose static text layer is
+just the "upgrade your PDF viewer" placeholder — the real fields are dynamic XFA content PyMuPDF
+can't reach. `UTC_5-03.1` does have `Chapter N` structure (already in the catalog) but its body text
+extraction is too fragmented (large pull-quote text wrongly extracted as a run of one-line markdown
+headings) to trust for paragraph-level citation. The rest — FM 1's narrative chapters, the GCRc/LiveScan
+user guides, and the ~20 single-page DD/USAREC forms and checklists — genuinely have no numbered
+paragraph structure in the source (bulleted checklists, blank fillable tables, screenshots). `New
+folder` is an empty directory with no PDF at all. `USAREC_MANUAL_3-0`'s note is a known-duplicate
+flag, not a gap. See `catalog/source_catalog.json` for the current list.
 
 ## Not in the library
 

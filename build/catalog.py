@@ -20,6 +20,12 @@ PARA_FLAT = re.compile(r'^\s*(\d{1,2})\.\s+([A-Z][^\n]{2,120})$')
 # Loose: paragraph number followed by the full prose paragraph on the same line (UM_/ADP_/FM_
 # style manuals). Captures the whole line; the title gets derived by truncating to ~8 words.
 LOOSE_PARA = re.compile(r'^\s*(\d{1,2})-(\d{1,3})\.\s+(.+)$')
+# Dotted two-level numbering with no gap between the dots, e.g. newer DoDIs' "SECTION 2:
+# RESPONSIBILITIES" / "2.1.  UNDER SECRETARY ...": section.subsection, period, title.
+PARA_DOTTED = re.compile(r'^\s*(\d{1,2})\.(\d{1,3})\.\s+([A-Z][^\n]{2,120})$')
+# USAREC Supplements amend specific paragraphs of their parent AR by number, e.g.
+# "Paragraph 1-12, Objective and implementation" / "Add paragraph c after paragraph b."
+PARA_SUPPLEMENT = re.compile(r'^\s*Paragraph\s+(\d{1,2}-\d{1,3}),\s+(.+)$')
 CHAP = re.compile(r'^\s*(Chapter|Appendix)\s+([0-9A-Z]{1,3})\s*$')
 
 def authority(doc):
@@ -129,18 +135,31 @@ for c in CATS:
             idx = 0
             for f in tfiles:
                 title = clean_filename_title(f)
-                if title.lower() == "blank page": continue
+                lines = read(os.path.join(tdir, f))
+                body_chars = sum(len(l) for l in lines if l.strip()
+                                  and not l.startswith("# Source:") and not l.startswith("--- [Page"))
+                # Some real-content pages still carry a stray "Blank Page" TOC-bookmark title
+                # (a source-PDF metadata quirk, not an indication the page is actually blank) -
+                # only skip when the page truly has nothing on it.
+                if title.lower() == "blank page" and body_chars < 80: continue
                 idx += 1
                 key = f"S{idx}"
                 fallback_order.append(key)
                 chap_titles[key] = title
                 chap_files[key] = f
-                for l in read(os.path.join(tdir, f)):
-                    pm = PARA.match(l) or PARA_FLAT.match(l)
-                    if not pm: continue
-                    groups = pm.groups()
-                    n, t = (groups[1], groups[2]) if len(groups) == 3 else (groups[0], groups[1])
-                    t = t.strip()
+                for l in lines:
+                    sm = PARA_SUPPLEMENT.match(l)
+                    dm = None if sm else PARA_DOTTED.match(l)
+                    if sm:
+                        n, t = sm.group(1), sm.group(2).strip()
+                    elif dm:
+                        n, t = f"{dm.group(1)}.{dm.group(2)}", dm.group(3).strip()
+                    else:
+                        pm = PARA.match(l) or PARA_FLAT.match(l)
+                        if not pm: continue
+                        groups = pm.groups()
+                        n, t = (groups[1], groups[2]) if len(groups) == 3 else (groups[0], groups[1])
+                        t = t.strip()
                     if junk(t) or t.endswith((",", ";")): continue
                     if len(t.split()) > 12: t = " ".join(t.split()[:8]) + " …"
                     paras.setdefault(key, {}).setdefault(f"{key}-{n}", {"title": t})
