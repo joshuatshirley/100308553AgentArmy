@@ -365,7 +365,6 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: DoD qualification standards; Enclosure 3 Basic Eligibility Criteria (Age, Citizenship, Education, Aptitude, Medical, Physical Fitness, Dependency Status, Character/Conduct). Paragraph headings not extracted; cite by enclosure and heading. Army detail in AR 601-210 governs.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -571,7 +570,6 @@ Specialist for citizenship, immigration status and English-language questions on
 - Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve applicants with English as a second language; ECLT outcome and ship routing. UR 601-210 edition 3 January 2023 predates the current AR 601-210 and later messages.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -584,7 +582,6 @@ Specialist for citizenship, immigration status and English-language questions on
 - Text: `doctrine/Regulations/UR_601-210/14_Chapter_14.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Overseas processing: SSN for Future Soldiers enlisting on a temporary identification number, Europe, Japan/Korea, Guam/Saipan, Compact-nation and remote Alaska procedures.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -614,7 +611,6 @@ Specialist for citizenship, immigration status and English-language questions on
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Citizenship heading. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -803,7 +799,6 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 - Text: `doctrine/Regulations/UR_601-210/16_Chapter_16.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: School profile evaluation (UF 601-210.40), tier evaluation workflow, Tier 1/2/3 detail, credential laundering. UR edition 3 January 2023 uses older education-code labels than AR 601-210 (20 March 2026); where they differ, the AR governs and the difference is reported. UF 601-210.40 is not in the Forms library.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -822,7 +817,6 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Education heading. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### DoDI_1145.01: Qualitative Distribution of Military Manpower
 
@@ -831,7 +825,6 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 - Text: `doctrine/DoDI/DoDI_1145.01`
 - PDF: `DoDI/DoDI_1145.01/DoDI_1145.01.pdf`
 - Why: Defines education credential tiers used for qualitative distribution (Glossary). Context only.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -1040,7 +1033,6 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 - Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC administrative waiver procedures, counseling and supporting documents that apply to dependents waivers.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -1055,7 +1047,6 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Dependency Status and Enclosure 4 Dependent Waiver headings. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -1245,7 +1236,6 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 - Text: `doctrine/DoDI/DoDI_1145.01`
 - PDF: `DoDI/DoDI_1145.01/DoDI_1145.01.pdf`
 - Why: Qualitative distribution of manpower; AFQT category definitions and limits on lower categories (Glossary and Policy). Context for why categories matter; Army enlistment rules in AR 601-210 govern.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### DoDI_1304.26: Qualification Standards for Enlistment
 
@@ -1254,7 +1244,6 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Aptitude heading. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### DoDI_1304.02: Accession Testing Programs
 
@@ -1263,7 +1252,6 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 - Text: `doctrine/DoDI/DoDI_1304.02`
 - PDF: `DoDI/DoDI_1304.02/DoDI_1304.02.pdf`
 - Why: Accession processing data collection forms (DD Form 1966 and others), not testing policy; cited only for the forms the testing history is recorded on. The roster listed it as a testing source; the ASVAB testing manual (DoDM 1145.02) is absent from the library.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -1726,7 +1714,6 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 - Text: `doctrine/DoDI/DoDI_6130.03_vol_1`
 - PDF: `DoDI/DoDI_6130.03_vol_1/DoDI_6130.03_vol_1.pdf`
 - Why: Medical standards for appointment, enlistment or induction (Change 5). Section 5 Medical Standards (Applicability, Procedures); Section 6 Disqualifying Conditions by body system (Head, Eyes, Vision, Ears, Hearing, Lungs, Heart, Abdominal, Spine, Extremities, Skin, Endocrine, Neurologic, Sleep, Learning/Psychiatric/Behavioral, Tumors, Miscellaneous). Cite by section and heading; paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### AR_40-501
 
@@ -1763,7 +1750,6 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 - Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Waiver policy and validity, medical waiver and prescreen procedures, CMO review, Command Surgeon role, counseling. 15-4 refers to a USMEPCOM prescreen SOP and an AR 40-501 paragraph from an older edition; neither is in the library.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -1970,7 +1956,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/Regulations/AR_600-9`
 - PDF: `Regulations/AR_600-9/AR_600-9.pdf`
 - Why: The Army Body Composition Program. Library copy is dated 28 June 2013 and is likely superseded; its new-recruit provision differs from message 26-015. Appendix B covers measurement and body-fat worksheets (DA Forms 5500/5501, not in the Forms library). Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_601-210: Enlistment & Accessions Processing
 
@@ -1979,7 +1964,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/Regulations/UR_601-210/17_Chapter_17.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Future Soldier sustainment and physical training safety. Text still refers to the APFT; message 24-054 names the current Future Soldier fitness test.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -1992,7 +1976,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/Regulations/UR_601-210/18_Chapter_18.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ship-out verification of OPAT documents.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -2005,7 +1988,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/Regulations/UR_601-210/23_Chapter_23.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Occupational Physical Assessment Test (OPAT) procedures. Chapter exists only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### FM_7-22: Holistic Health and Fitness
 
@@ -2014,7 +1996,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/FM/FM_7-22`
 - PDF: `FM/FM_7-22/FM_7-22.pdf`
 - Why: Holistic Health and Fitness (Change 2). Doctrine context for training; it does not address Future Soldiers or applicants. Chapter headings only.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### DoDI_1304.26: Qualification Standards for Enlistment
 
@@ -2023,7 +2004,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Physical Fitness heading. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -2264,7 +2244,6 @@ Specialist for an enlisted applicant's conduct record and administrative disqual
 - Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC waiver procedures, counseling, supporting documents, personal conduct, USAREC-level reviews, exceptions to policy.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -2503,7 +2482,6 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 - Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Positive drug test separation: same-day reservation cancellation, cancellation codes by substance, order upload, Army Reserve TPU notification.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -2524,7 +2502,6 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 - Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf`
 - Why: USAREC supplement covering cadre unit urinalysis (USAREC Form S600-85.1). Only figure pages were extracted to markdown; the body is PDF-only. Not an applicant-testing source.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -2870,7 +2847,6 @@ Specialist for applicant background screening and security investigation require
 - Text: `doctrine/Regulations/UR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Applicant Background Screening: tech check and NACLC/Secret submissions and results, PS/GNPS processing, matches, FSs without favorable results, records, security interview.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -2956,7 +2932,6 @@ Specialist for applicant background screening and security investigation require
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.5 Live Scan exists only in the PDF (not transformed).
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -3208,7 +3183,6 @@ Specialist for prior-service (PS) and glossary non-prior-service (GNPS) applican
 - Text: `doctrine/Regulations/UR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC procedures for PS/GNPS (Regular Army). 8-4 to 8-8 belong to 15_officer_warrant_programs.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -3465,7 +3439,6 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 - Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve Specific Processing: ATP, ESL, vacancies, PS DMOSQ acceptance, REFRAD for temporary medical reasons, AMEDD officer reservations, SMP.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -3485,7 +3458,6 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 - Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve entry level separations; who initiates, re-contract restrictions. Message 24-027 changes the waiting period text.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -3573,7 +3545,6 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exists only in the PDF (not transformed).
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -3764,7 +3735,6 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 - Text: `doctrine/Regulations/UR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USMA ordered to AD, ROTC cadets ordered to AD, disenrolled ROTC cadets, disenrolled academy applicants, WOC selectees from sister services.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -3781,7 +3751,6 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.25 OCS/WOFT Processing Procedures exists only in the PDF. Message 24-003 refers to its waiver paragraphs; read them in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### DA_PAM_601-6: Warrant Officer Procurement Program
 
@@ -3888,7 +3857,6 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 - Text: `doctrine/Regulations/AR_350-51`
 - PDF: `Regulations/AR_350-51/AR_350-51.pdf`
 - Why: U.S. Army Officer Candidate School, edition dated 11 June 2001. Paragraph headings not extracted; key paragraphs are 1-5 criteria, 1-6 who may apply, 1-7 who may not apply, 1-9 waivers, 1-10/1-11 service commitments. Confirm currency.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -4282,7 +4250,6 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 - Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST reservations for Army Reserve AMEDD officers.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -4307,7 +4274,6 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 - Text: `doctrine/Regulations/AR_135-101`
 - PDF: `Regulations/AR_135-101/AR_135-101.pdf`
 - Why: Appointment of Reserve commissioned officers for assignment to AMEDD branches. Edition dated 15 February 1984; markdown flagged for PDF use; paragraph headings not extracted. Confirm currency.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -4498,7 +4464,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 - Text: `doctrine/DoDI/DoDI_1304.28`
 - PDF: `DoDI/DoDI_1304.28/DoDI_1304.28.pdf`
 - Why: The Appointment and Service of Chaplains. Paragraph headings not extracted in the catalog; cite by section: 3.1 capability requirements, 3.2 appointment considerations, 3.3 educational institutions, 3.4 DD Form 2088, 3.5 application requirements, 3.7 Chaplain Candidate Program, Section 4 religious-endorsing organizations.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### DoDI_5120.08: Armed Forces Chaplains Board
 
@@ -4507,7 +4473,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 - Text: `doctrine/DoDI/DoDI_5120.08`
 - PDF: `DoDI/DoDI_5120.08/DoDI_5120.08.pdf`
 - Why: Armed Forces Chaplains Board; context for endorsing-organization oversight.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### AR_135-100: Appointment of Commissioned and Warrant Officers of the Army
 
@@ -4966,7 +4932,6 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 - Text: `doctrine/Pamphlets/DA_PAM_601-280`
 - PDF: `Pamphlets/DA_PAM_601-280/DA_PAM_601-280.pdf`
 - Why: Army Retention Program procedures pamphlet; only the purpose, a Chapter 10 summary and glossary were extracted. Procedures must be read from the PDF.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## Routing triggers
 
@@ -5172,7 +5137,6 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.13 Regular Army Options and Incentives exists only in the PDF; read it for USAREC procedures on RA options.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -5577,7 +5541,6 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.13 Regular Army Options and Incentives and Ch.7 DEP/DTP/DS enlistment procedures exist only in the PDF; no transformed USAREC chapter covers these programs.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### DA_PAM_611-21: Military Occupational Classification and Structure
 
@@ -6216,7 +6179,6 @@ Specialist for applicant processing from the recruiting station through the MEPS
 - Text: `doctrine/Regulations/UR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Responsibilities for recruiting personnel, GC and Ops NCO duties.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6233,7 +6195,6 @@ Specialist for applicant processing from the recruiting station through the MEPS
 - Text: `doctrine/Regulations/UR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST procedures, security and prohibited uses.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6250,7 +6211,6 @@ Specialist for applicant processing from the recruiting station through the MEPS
 - Text: `doctrine/Regulations/UR_601-210/19_Chapter_19.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Required USMEPCOM daily reports, REQUEST close-out and RZ end-of-day result codes.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6267,7 +6227,6 @@ Specialist for applicant processing from the recruiting station through the MEPS
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.6 Quality Control Procedures and Scheduling of Applicants, Ch.20 Government Meals and Lodging and Ch.24 Temporary Reservation Procedures exist only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -6471,7 +6430,6 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 - Text: `doctrine/Regulations/UR_601-210/17_Chapter_17.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Future Soldier Management. 17-8e names the APFT; message 24-054 and AR 601-210 2-18 refer to the Army Fitness Test; surface the difference.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6492,7 +6450,6 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 - Text: `doctrine/Regulations/UR_601-210/18_Chapter_18.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: DEP/DTP-out procedures, courtesy shippers, hometown shipping, BCT ship dates.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6510,7 +6467,6 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.7 Procedures for Enlistment into DEP/DTP/DS and Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exist only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### UM_3-31: Station Operations
 
@@ -6518,7 +6474,6 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 - Chapter: 3 (Decisive Operations)
 - Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Processing; Leading Future Soldiers; Future Soldier Functions; Future Soldier Losses
 
@@ -6697,7 +6652,6 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 - Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Active and Reserve Component Separations. 11-4d cites AR 601-210 chapter 5-78, which does not exist in the 20 March 2026 edition (drug separation is 5-73). Message 24-027 changes 11-11.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6780,7 +6734,6 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 - Chapter: 3 (Decisive Operations)
 - Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Future Soldier Losses
 
@@ -7009,7 +6962,6 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.22 U.S. Army Recruiting Command Liaisons at U.S. Army Reception Battalions exists only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## Forms
 
@@ -7173,7 +7125,6 @@ Specialist for how recruiters generate, refine and work leads, written for recru
 - Text: `doctrine/Manuals/UM_3-32/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter-level doctrine on lead generation and prospecting; Figure 7-1 is the recruiting funnel.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Lead Generation; Lead Refinement and Management; Referrals; Area Canvassing; High Schools; Prospecting; Active Prospecting; Passive Prospecting; Active and Passive Prospecting; Prospecting Methods; Telephone Prospecting; Face to Face Prospecting; Virtual Prospecting; Summary
 
@@ -7184,7 +7135,6 @@ Sections: Lead Generation; Lead Refinement and Management; Referrals; Area Canva
 - Text: `doctrine/Manuals/UM_3-32/08_Chapter_8.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: The Army interview; Figure 8-1 (guideposts) and Figure 8-2 (SOLDIER acrostic) are images in the PDF.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Guideposts; Counseling; The Army Story / Personal Army Story; Engender a Commitment; Summary
 
@@ -7195,7 +7145,6 @@ Sections: Guideposts; Counseling; The Army Story / Personal Army Story; Engender
 - Text: `doctrine/Manuals/UM_3-32/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Where prospecting sits in the recruiter's plan and battle rhythm.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Decisive Operations; Shaping Operations; Maintaining Battle Rhythms; Work Hours
 
@@ -7206,7 +7155,6 @@ Sections: Decisive Operations; Shaping Operations; Maintaining Battle Rhythms; W
 - Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: What the station commander directs and assesses in prospecting and the Army interview.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Lead Generation and Prospecting; Prospecting; Telephone Prospecting; Face-to-Face Prospecting; Virtual Prospecting; Army Interview
 
@@ -7217,7 +7165,6 @@ Sections: Lead Generation and Prospecting; Prospecting; Telephone Prospecting; F
 - Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Lead generation, referrals and refinement as station shaping operations.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Lead Generation; Referrals; Lead Refinement
 
@@ -7227,7 +7174,6 @@ Sections: Lead Generation; Referrals; Lead Refinement
 - Chapter: 4 (Planning)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team expectations. Catalog has no chapter file; text is in UM_3-30/.transform/07_Planning.md (contents page in 01_UM_3-30.md).
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 
@@ -7238,7 +7184,7 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 - Text: `doctrine/Guides/UTC_5-03.1`
 - PDF: `Guides/UTC_5-03.1/UTC 5-03.1.pdf`
 - Why: Actual title (front matter): UTC 5-03.1 Prospecting, Processing, and Analysis; catalog title is wrong. Single full-document markdown, 00_Full_Document.md). Use its chapters on Basics of Prospecting, Lead Generation, Telephone, Face-to-Face and Virtual Prospecting, Contact Scripts, Follow-Up and Planning Considerations. Level 4 training product.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### UTC_5-03.2: Influencing and Interviewing
 
@@ -7247,7 +7193,6 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 - Text: `doctrine/Guides/UTC_5-03.2`
 - PDF: `Guides/UTC_5-03.2/UTC 5-03.2.pdf`
 - Why: Actual title (front matter): UTC 5-03.2 Influencing and Interviewing; catalog title is wrong. Chapters: The Recruiter, Telling the Army Story, Components and Steps of the Army Interview, Engendering the Commitment, Overcoming Obstacles. Level 4 training product.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTP_3-10.4_(VRA)_V1: Virtual Recruiting Assistant
 
@@ -7256,7 +7201,6 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 - Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/02_Chapter_2.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Virtual recruiting operations: messaging text and email, initial contact, virtual appointment. Level 4 training product.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ## USAREC messages
 
@@ -7495,7 +7439,6 @@ Specialist for the School Recruiting Program, written for recruiters, station co
 - Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's responsibility for developing the SRP and validating school folders, events and documentation.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: School Recruiting Program
 
@@ -7506,7 +7449,6 @@ Sections: School Recruiting Program
 - Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Use of school data to build a school prospecting plan.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Running Estimates
 
@@ -7517,7 +7459,6 @@ Sections: Running Estimates
 - Text: `doctrine/Manuals/UM_3-32/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view of high school presence and lead generation.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: High Schools
 
@@ -7527,7 +7468,6 @@ Sections: High Schools
 - Chapter: 4 (Planning)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company expectations; text in UM_3-30/.transform/07_Planning.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Shaping; School Recruiting Program (SRP)
 
@@ -7538,7 +7478,6 @@ Sections: Shaping; School Recruiting Program (SRP)
 - Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion view of the school program.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: School Recruiting Program
 
@@ -7713,7 +7652,6 @@ Specialist for running a recruiting station, written for station commanders and 
 - Chapter: 1 (Overview of Recruiting Operations)
 - Text: `doctrine/Manuals/UM_3-31/01_Chapter_1.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Introduction; Leadership Roles and Responsibilities; Station Commander; Assistant Station Commander; Officer In Charge (AMEDD); Troop Leading Procedures; Recruiting Work Ethic; Command and Control; Communication; Leader Huddle
 
@@ -7723,7 +7661,6 @@ Sections: Introduction; Leadership Roles and Responsibilities; Station Commander
 - Chapter: 2 (Recruiting Operations Process)
 - Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: What Is the Recruiting Operations Process?; Understand; Visualize; Intelligence and Market Analysis; Recruiting Zones; Running Estimates; Recruiting Functions Analysis; SWOT Analysis; Describe; Direct; Lead; Assess
 
@@ -7733,7 +7670,6 @@ Sections: What Is the Recruiting Operations Process?; Understand; Visualize; Int
 - Chapter: 3 (Decisive Operations)
 - Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Lead Generation and Prospecting; Army Interview; Processing; In Progress Review; Leading Future Soldiers; Future Soldier Functions; Future Soldier Losses
 
@@ -7743,7 +7679,6 @@ Sections: Lead Generation and Prospecting; Army Interview; Processing; In Progre
 - Chapter: 4 (Shaping Operations)
 - Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Lead Generation; Referrals; Lead Refinement; Planning; Battle Rhythm; Weekly Planning Meeting; Mission Accomplishment Plan; Station Recruiting Plan; School Recruiting Program
 
@@ -7753,7 +7688,6 @@ Sections: Lead Generation; Referrals; Lead Refinement; Planning; Battle Rhythm; 
 - Chapter: 5 (Sustaining Operations)
 - Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Logistics; Advertising Assets; Personnel Management; Personnel Integration; Training and Leader Development; Sustainment
 
@@ -7763,7 +7697,6 @@ Sections: Logistics; Advertising Assets; Personnel Management; Personnel Integra
 - Chapter: 6 (Networks)
 - Text: `doctrine/Manuals/UM_3-31/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Internal Network; External Network; Information Systems; Community Partners
 
@@ -7774,7 +7707,6 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 - Text: `doctrine/Manuals/UM_3-0`
 - PDF: `Manuals/UM_3-0/UM 3-0.pdf`
 - Why: Command-level recruiting operations, networks and the eight recruiting functions; context for why the station plan is built the way it is.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UM_3-30: Company Operations
 
@@ -7783,7 +7715,6 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 - Text: `doctrine/Manuals/UM_3-30`
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team view: how the company validates station commanders, IPRs, training and sustainment expectations of the station.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### STP805K-79R-SMTG
 
@@ -7792,7 +7723,7 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 - Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide for MOS 79R; station-commander-level tasks. Paragraph headings were not extracted; cite by task title from the PDF.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph or chapter structure recognized in source
 
 ## Forms
 
@@ -7945,7 +7876,6 @@ Specialist for recruiting market intelligence and targeting, written for station
 - Text: `doctrine/Manuals/UM_3-29/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion intelligence and market analysis, IPOE, event and geographic targeting.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Intelligence Preparation of the Operational Environment; Recruiting Market Environment; Market Competition; Targeting Process; Running Estimates; Information Collection; Information Distribution
 
@@ -7956,7 +7886,6 @@ Sections: Intelligence Preparation of the Operational Environment; Recruiting Ma
 - Text: `doctrine/Manuals/UM_3-29/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Figure 4-4 high payoff event list and Figure 4-5 synchronization matrix are in this chapter.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Positioning; Mission Distribution; Targeting Board; Fusion Cell
 
@@ -7966,7 +7895,6 @@ Sections: Positioning; Mission Distribution; Targeting Board; Fusion Cell
 - Chapter: 3 (Intelligence, Information, and Targeting)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company level. Catalog has no chapter file; text is in UM_3-30/.transform/06_Intelligence_Information_and_Targeting.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: The Command Team's Role In the Intelligence Process; Intelligence Preparation; Information Collection; Information Dissemination; Company Level Targeting Process
 
@@ -7977,7 +7905,6 @@ Sections: The Command Team's Role In the Intelligence Process; Intelligence Prep
 - Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station level: recruiters as sensors, open-source and publicly available information, ASCOPE, zone tools.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Intelligence and Market Analysis; Recruiting Zones
 
@@ -7988,7 +7915,6 @@ Sections: Intelligence and Market Analysis; Recruiting Zones
 - Text: `doctrine/Manuals/UM_3-32/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view; Figure 6-1 G-2 Market Intelligence Dashboard.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Intelligence; Market Analysis; Intelligence and Market Analysis
 
@@ -7999,7 +7925,6 @@ Sections: Intelligence; Market Analysis; Intelligence and Market Analysis
 - Text: `doctrine/Manuals/UM_3-0/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-0/UM 3-0.pdf`
 - Why: Command-level doctrine; appendix B (PMESII-PT and METT-TC) is in the same markdown file.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through the Targeting Process; Targeting Boards; Fusion Cells
 
@@ -8010,7 +7935,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/02_Chapter_2.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Actual title (front matter): UTC 5-02 Intelligence; catalog title is wrong. Market Analysis: steps of the recruiting IPB.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -8019,7 +7943,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/03_Chapter_3.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Types and location of intelligence data sources: MID, G-2 market analysis tools, G2 Maps, MAR, Power BI.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -8028,7 +7951,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/04_Chapter_4.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Defining the operational environment: PMESII-PT, ASCOPE, TMA, FQMA, segmentation, demographics, propensity.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -8037,7 +7959,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/05_Chapter_5.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Describe the environmental effects: span of control, P2P, penetration, schools.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -8046,7 +7967,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/06_Chapter_6.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Evaluate the threat: competition and market share, with its pitfalls.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -8055,7 +7975,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/07_Chapter_7.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Assess market potential: SAMA, MAR, SMR.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UR_601-73: Market Analysis to Support Recruiting Operations
 
@@ -8072,7 +7991,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/FM/FM_2-0/04_Chapter_1-_Intelligence.md`
 - PDF: `FM/FM_2-0/FM_2-0.pdf`
 - Why: Army intelligence doctrine; use only to explain intelligence process terms the USAREC manuals borrow.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### ADP_2-0: Intelligence
 
@@ -8081,7 +7999,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/ADP/ADP_2-0/08_Chapter_3-_The_Intelligence_Process.md`
 - PDF: `ADP/ADP_2-0/ADP_2-0.pdf`
 - Why: The intelligence process; background only.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ## Routing triggers
 
@@ -8374,7 +8292,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Guides/UTC_5-03.3/02_Chapter_2.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Actual title (front matter): UTC 5-03.3 Partnerships; catalog title is wrong. Engaging community partners, advocates, key leader engagements. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-03.3: Partnerships
 
@@ -8383,7 +8300,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Guides/UTC_5-03.3/03_Chapter_3.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Employer partnerships, PaYS, P3. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-03.3: Partnerships
 
@@ -8392,7 +8308,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Guides/UTC_5-03.3/04_Chapter_4.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Partnerships with educators and educator tours (types, nominations, activities). Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-03.3: Partnerships
 
@@ -8401,7 +8316,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Guides/UTC_5-03.3/06_Chapter_6.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Community action committees. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UM_3-31: Station Operations
 
@@ -8410,7 +8324,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Manuals/UM_3-31/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station networks and community partners.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Internal Network; External Network; Community Partners
 
@@ -8421,7 +8334,6 @@ Sections: Internal Network; External Network; Community Partners
 - Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Battalion/brigade view.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Community Partners (CP) and Advocates
 
@@ -8751,7 +8663,6 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 - Text: `doctrine/Guides/USAREC_Social_Media_SOP_21_JUN_18`
 - PDF: `Guides/USAREC_Social_Media_SOP_21_JUN_18/USAREC Social Media SOP 21 JUN 18.pdf`
 - Why: USAREC Social Media SOP (May 2018, signed 21 Jun 2018): OPSEC and training, PII, online conduct, messaging, branding, account requirements, records, paid promotion, platforms, reporting, cease and desist. Check for a newer SOP.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UTP_3-10.4_(VRA)_V1: Virtual Recruiting Assistant
 
@@ -8760,7 +8671,6 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 - Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/03_Chapter_3.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Roles of the commander and USAREC virtual recruiting and advertising assets. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTP_3-10.4_(VRA)_V1: Virtual Recruiting Assistant
 
@@ -8769,7 +8679,6 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 - Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/07_Chapter_7.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Social media boosting procedures. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UM_3-29: Battalion Operations
 
@@ -8778,7 +8687,6 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 - Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Battalion advertising and public affairs and media awareness.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Advertising and Public Affairs; Training for Media Awareness
 
@@ -8789,7 +8697,6 @@ Sections: Advertising and Public Affairs; Training for Media Awareness
 - Text: `doctrine/Manuals/UM_3-29/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: News media as part of the recruiting network.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: The News Media
 
@@ -8800,7 +8707,6 @@ Sections: The News Media
 - Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station use of advertising assets.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Advertising Assets
 
@@ -8986,7 +8892,6 @@ Specialist for training management and leader development in USAREC, written for
 - Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's training role; references STP 805K-79R-SMTG.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Personnel Integration; Training and Leader Development
 
@@ -8997,7 +8902,6 @@ Sections: Personnel Integration; Training and Leader Development
 - Text: `doctrine/Manuals/UM_3-32/11_Chapter_11.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view of training domains and the LDP.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Institutional Training Domain; Operational Training Domain; Self-Development; USAREC Leader Development Program (LDP); Reclassification to 79R
 
@@ -9007,7 +8911,6 @@ Sections: Institutional Training Domain; Operational Training Domain; Self-Devel
 - Chapter: 1
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team view. Text in UM_3-30/.transform/04_Command_at_Company_Level.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Training and Leader Development
 
@@ -9018,7 +8921,6 @@ Sections: Training and Leader Development
 - Text: `doctrine/Manuals/UM_3-29/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion training; Figure 7-1 three domains of training.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Training
 
@@ -9063,7 +8965,6 @@ Sections: Training
 - Chapter: 1
 - Text: `doctrine/FM/FM_7-0/06_Chapter_1.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Principles of Training; Training as Leader Development; Training Management Cycle
 
@@ -9073,7 +8974,6 @@ Sections: Principles of Training; Training as Leader Development; Training Manag
 - Chapter: 3
 - Text: `doctrine/FM/FM_7-0/08_Chapter_3.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Training Battle Rhythm; Long-Range Planning and Preparation; Mid-Range Planning and Preparation; Short-Range Planning and Preparation
 
@@ -9083,7 +8983,6 @@ Sections: Training Battle Rhythm; Long-Range Planning and Preparation; Mid-Range
 - Chapter: 4
 - Text: `doctrine/FM/FM_7-0/09_Chapter_4.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Training Techniques; After Action Review; Recording Results
 
@@ -9093,7 +8992,6 @@ Sections: Training Techniques; After Action Review; Recording Results
 - Chapter: 5
 - Text: `doctrine/FM/FM_7-0/10_Chapter_5.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Evaluation; Assessment
 
@@ -9104,7 +9002,6 @@ Sections: Evaluation; Assessment
 - Text: `doctrine/ADP/ADP_7-0`
 - PDF: `ADP/ADP_7-0/ADP_7-0.pdf`
 - Why: Training doctrine principles; chapters not extracted in the catalog.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### STP805K-79R-SMTG
 
@@ -9113,7 +9010,7 @@ Sections: Evaluation; Assessment
 - Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph or chapter structure recognized in source
 
 ### UTC_5-03.4: Training and Leader Development
 
@@ -9122,7 +9019,6 @@ Sections: Evaluation; Assessment
 - Text: `doctrine/Guides/UTC_5-03.4/10_Chapter_10..md`
 - PDF: `Guides/UTC_5-03.4/UTC 5-03.4.pdf`
 - Why: Actual title (front matter): UTC 5-03.4 Training and Leader Development; catalog title is wrong. CSTAR example and use. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-03.4: Training and Leader Development
 
@@ -9131,7 +9027,6 @@ Sections: Evaluation; Assessment
 - Text: `doctrine/Guides/UTC_5-03.4/11_Chapter_11..md`
 - PDF: `Guides/UTC_5-03.4/UTC 5-03.4.pdf`
 - Why: DTMS user guide and resources. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ## Forms
 
@@ -9356,7 +9251,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 - Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_8_22/USAREC Suppl 1 to  AR 600_8_22.pdf`
 - Why: USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### AR_623-3: Evaluation Reporting System
 
@@ -9574,7 +9469,6 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 - Text: `doctrine/Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC`
 - PDF: `Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC/AR 601-1 10112016 Asg of Enl Pers to USAREC.pdf`
 - Why: AR 601-1 (11 October 2016): Ch.2 selection and training for recruiting duty, Ch.3 assignment and reassignment, Ch.4 completion of DA-selected period and reclassification to 79R, Ch.5 voluntary and involuntary reassignment, suspension, unqualified/ineffective/unsuitable recruiters, Ch.6 AGR recruiters. Predates the 42T conversion; check current messages.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UM_3-31: Station Operations
 
@@ -9583,7 +9477,6 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 - Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's personnel management role.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Personnel Management; Personnel Integration
 
@@ -9927,7 +9820,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/UR_27-4`
 - PDF: `Regulations/UR_27-4/UR 27-4.pdf`
 - Why: Prohibited and Regulated Activities for USAREC personnel; Chapter 2 is punitive and defines prohibited relationships with prospects and applicants. Paragraph headings not extracted; cite by paragraph from the text.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_27-3: Claims
 
@@ -9936,7 +9828,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/UR_27-3`
 - PDF: `Regulations/UR_27-3/UR 27-3.pdf`
 - Why: USAREC procedures in drunk-driving cases involving cadre (documents to gather, reprimand handling).
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_27-2(V3): Legal Support Services for the U.S. Army Recruiting Command
 
@@ -9980,7 +9871,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/AR_190-45`
 - PDF: `Regulations/AR_190-45/AR_190-45.pdf`
 - Why: Law enforcement reporting; Chapter 4 offense reporting and DA Form 4833, Chapter 8 reportable serious incidents, Chapter 9 SIR procedures. Paragraph headings not extracted; cite by chapter.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### AD_2022-10: Army Directive 2022-10 (Safe-to-Report for Victims of Sexual Assault)
 
@@ -9989,7 +9879,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/AD_2022-10`
 - PDF: `Regulations/AD_2022-10/AD_2022-10.pdf`
 - Why: Safe-to-report: commander assessment of minor collateral misconduct by sexual assault victims.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### AD2018-16: Army Directive 2018-16 (Suitability Criteria for Military Personnel in Specified Positions)
 
@@ -9998,7 +9887,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/AD2018-16`
 - PDF: `Regulations/AD2018-16/AD2018-16.pdf`
 - Why: Suitability criteria and screening for recruiting cadre and other specified positions.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### RI_-_Appointment_of_IO_Memo
 
@@ -10007,7 +9895,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Guides/RI_-_Appointment_of_IO_Memo`
 - PDF: `Guides/RI_-_Appointment_of_IO_Memo/RI - Appointment of IO Memo.pdf`
 - Why: Sample IO appointment memo for a recruiting impropriety investigation. It is a 2014 sample that cites superseded publications (UR 601-45, old UR 601-210 chapter 7); use for memo structure only and take governing citations from message 25-019 and AR 15-6.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -10410,7 +10297,6 @@ Specialist for station commanders, company command teams and supply personnel on
 - Text: `doctrine/Regulations/UR_570-1`
 - PDF: `Regulations/UR_570-1/UR 570-1.pdf`
 - Why: Manpower and equipment control: TDA changes and recruiting station establishment, disestablishment and relocation (2006 edition). Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UM_3-30: Company Operations
 
@@ -10418,7 +10304,6 @@ Specialist for station commanders, company command teams and supply personnel on
 - Chapter: 5 (Sustaining Operations)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team view of CSDP, hand receipts and cyclic inventories.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Command Supply Discipline Program (CSDP); Inspections
 
@@ -10797,7 +10682,6 @@ Specialist for recruiters, station commanders and battalion staff on information
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.21 Electronic Records Management (ERM) exists only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -10954,7 +10838,6 @@ Specialist for company command teams, station commanders and cadre on taking car
 - Chapter: 5 (Sustaining Operations)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team sustaining operations; text in .transform/08_Sustaining_Operations.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Personnel and Leave Management; Company Incentive Programs; Leader Resilience Through Holistic Wellness and Fitness
 
@@ -10965,7 +10848,6 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 - Text: `doctrine/FM/FM_7-22`
 - PDF: `FM/FM_7-22/FM_7-22.pdf`
 - Why: Holistic Health and Fitness: physical, nutritional, mental, spiritual and sleep readiness domains. Paragraphs untitled; cite by section heading.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### AR_608-1: Army Community Service
 
@@ -11079,7 +10961,6 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 - Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf`
 - Why: USAREC supplement (2016): unit prevention leader and drug testing program software requirements. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_608-1: National Voter Registration Act
 
@@ -11248,28 +11129,27 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/Recruiter+Zone+User+Guide+ver+6+05+010/.transform`
+- Text: `doctrine/Guides/Recruiter+Zone+User+Guide+ver+6+05+010`
 - PDF: `Guides/Recruiter+Zone+User+Guide+ver+6+05+010/Recruiter+Zone+User+Guide+ver+6+05+010.pdf`
 - Why: RZ User Guide v6.05: section files 01 to 10 (My Work Zone, Calendar, People, Reports, Route Map, ROAM, appendices A to H with code tables). Edition date not captured; screens may have changed since publication.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### GCRc+User+Guide+(GC-OPS)
 
 - edition 29 May 2013, authority level 4
 - Chapter: all
-- Text: `Guides/GCRc+User+Guide+(GC-OPS)/.transform`
+- Text: `doctrine/Guides/GCRc+User+Guide+(GC-OPS)`
 - PDF: `Guides/GCRc+User+Guide+(GC-OPS)/GCRc+User+Guide+(GC-OPS).pdf`
 - Why: GCRc guide for guidance counselors and operations (2013): validating a record, scanning, projecting, workflows, ERM folders, processing-phase appendices, user roles.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### GCRc+Company+User+Guide(1)
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/GCRc+Company+User+Guide(1)/.transform`
+- Text: `doctrine/Guides/GCRc+Company+User+Guide(1)`
 - PDF: `Guides/GCRc+Company+User+Guide(1)/GCRc+Company+User+Guide(1).pdf`
 - Why: GCRc guide for company users: confirm processing, validating, scanning, projecting, workflows, update capabilities, ERM folders.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu
 
@@ -11278,7 +11158,6 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 - Text: `doctrine/Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu`
 - PDF: `Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu/G6 Knowledge Document_LiveScan WEBS 2018 Set-up Guide.pdf`
 - Why: G6 knowledge document (Oct 2018) for installing and enrolling the LiveScan WEBS service.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_601-210: Enlistment & Accessions Processing
 
@@ -11287,7 +11166,6 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 - Text: `doctrine/Regulations/UR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST procedures: general, security and use.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -11304,7 +11182,6 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 - Text: `doctrine/Regulations/UR_601-210/19_Chapter_19.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Required USMEPCOM daily reports, REQUEST and close-out reports, RZ end-of-day reports.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -11321,7 +11198,6 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.5 Live Scan and Ch.21 Electronic Records Management exist only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -11631,7 +11507,6 @@ Specialist for station commanders, first sergeants and company command teams who
 - edition 06 February 2025, authority level 2
 - Chapter: 1
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: The Army Profession; The Army Ethic; The Army Values; Army Leadership; Army Leadership Requirements Model; Roles of Leadership; Levels of Leadership
 
@@ -11640,7 +11515,6 @@ Sections: The Army Profession; The Army Ethic; The Army Values; Army Leadership;
 - edition 06 February 2025, authority level 2
 - Chapter: 2
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Foundations of Army Leader Character; Army Values; Empathy; Warrior Ethos and Service Ethos; Discipline; Humility
 
@@ -11649,7 +11523,6 @@ Sections: Foundations of Army Leader Character; Army Values; Empathy; Warrior Et
 - edition 06 February 2025, authority level 2
 - Chapter: 3
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Foundations of Army Leader Presence; Military and Professional Bearing; Fitness; Confidence; Resilience
 
@@ -11658,7 +11531,6 @@ Sections: Foundations of Army Leader Presence; Military and Professional Bearing
 - edition 06 February 2025, authority level 2
 - Chapter: 4
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Foundations of an Army Leader Intellect; Mental Agility; Sound Judgment; Innovation; Interpersonal Tact; Expertise
 
@@ -11667,7 +11539,6 @@ Sections: Foundations of an Army Leader Intellect; Mental Agility; Sound Judgmen
 - edition 06 February 2025, authority level 2
 - Chapter: 5
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Leads Others; Builds Trust; Extends Influence Beyond the Chain of Command; Leads by Example; Communicates
 
@@ -11676,7 +11547,6 @@ Sections: Leads Others; Builds Trust; Extends Influence Beyond the Chain of Comm
 - edition 06 February 2025, authority level 2
 - Chapter: 6
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Develops Leaders; Prepares Self; Creates a Positive Environment/Fosters Esprit de Corps; Develops Others; Stewards the Profession
 
@@ -11685,7 +11555,6 @@ Sections: Develops Leaders; Prepares Self; Creates a Positive Environment/Foster
 - edition 06 February 2025, authority level 2
 - Chapter: 7
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Gets Results
 
@@ -11694,7 +11563,6 @@ Sections: Gets Results
 - edition 06 February 2025, authority level 2
 - Chapter: 8
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Leaders and Challenges; Leadership and Management; Stress of Change; Counterproductive Leadership
 
@@ -11705,7 +11573,6 @@ Sections: Leaders and Challenges; Leadership and Management; Stress of Change; C
 - Text: `doctrine/FM/FM_6-22`
 - PDF: `FM/FM_6-22/FM_6-22.pdf`
 - Why: Developing Leaders: tenets, setting conditions, feedback, coaching, counseling and mentoring (Section III, Fundamentals of Development), self-development, individual development plans (DA Form 7906), unit leader development programs. Paragraphs untitled; cite by section heading.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### ADP_6-0: Mission Command
 
@@ -11713,7 +11580,6 @@ Sections: Leaders and Challenges; Leadership and Management; Stress of Change; C
 - Chapter: 1
 - Text: `doctrine/ADP/ADP_6-0/06_Chapter_1.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Mission Command; Principles of Mission Command; The Role of Subordinates in Mission Command; Command and Control
 
@@ -11723,7 +11589,6 @@ Sections: Mission Command; Principles of Mission Command; The Role of Subordinat
 - Chapter: 2
 - Text: `doctrine/ADP/ADP_6-0/07_Chapter_2.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Nature of Command; Elements of Command; The Role of Commanders in Operations; Guides to Effective Command
 
@@ -11733,7 +11598,6 @@ Sections: Nature of Command; Elements of Command; The Role of Commanders in Oper
 - Chapter: 3
 - Text: `doctrine/ADP/ADP_6-0/08_Chapter_3.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Nature of Control; Elements of Control; Control Measures; Guides to Effective Control
 
@@ -11743,7 +11607,6 @@ Sections: Nature of Control; Elements of Control; Control Measures; Guides to Ef
 - Chapter: 1
 - Text: `doctrine/ADP/ADP_5-0/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: The Framework of the Operations Process; Principles of the Operations Process; Integrating Processes; Battle Rhythm
 
@@ -11753,7 +11616,6 @@ Sections: The Framework of the Operations Process; Principles of the Operations 
 - Chapter: 2
 - Text: `doctrine/ADP/ADP_5-0/06_Chapter_2-_Planning.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Fundamentals of Planning; Key Components of a Plan; Guides to Effective Planning; Planning Pitfalls
 
@@ -11763,7 +11625,6 @@ Sections: Fundamentals of Planning; Key Components of a Plan; Guides to Effectiv
 - Chapter: 3
 - Text: `doctrine/ADP/ADP_5-0/07_Chapter_3-_Preparation.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Fundamentals of Preparation; Preparation Activities
 
@@ -11773,7 +11634,6 @@ Sections: Fundamentals of Preparation; Preparation Activities
 - Chapter: 4
 - Text: `doctrine/ADP/ADP_5-0/08_Chapter_4-_Execution.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Fundamentals of Execution; Responsibilities During Execution; Rapid Decision-Making and Synchronization Process
 
@@ -11783,7 +11643,6 @@ Sections: Fundamentals of Execution; Responsibilities During Execution; Rapid De
 - Chapter: 5
 - Text: `doctrine/ADP/ADP_5-0/09_Chapter_5-_Assessment.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective Assessment
 
@@ -11794,7 +11653,6 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 - Text: `doctrine/ADP/ADP_1`
 - PDF: `ADP/ADP_1/ADP_1.pdf`
 - Why: The Army; chapters not split. Cite by heading from .transform/00_Full_Document.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### FM_1: The Army
 
@@ -11803,7 +11661,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 - Text: `doctrine/FM/FM_1`
 - PDF: `FM/FM_1/FM_1.pdf`
 - Why: The Army (2025); chapter titles were not captured cleanly; cite by heading.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### ADP_3-0: Operations
 
@@ -11812,7 +11670,6 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 - Text: `doctrine/ADP/ADP_3-0`
 - PDF: `ADP/ADP_3-0/ADP_3-0.pdf`
 - Why: Operations; chapters not split.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### FM_3-0: Operations
 
@@ -11821,7 +11678,6 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 - Text: `doctrine/FM/FM_3-0`
 - PDF: `FM/FM_3-0/FM_3-0.pdf`
 - Why: Operations (2025); chapter titles were not captured cleanly; cite by heading. Use only for terms such as mission command culture.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ## Routing triggers
 

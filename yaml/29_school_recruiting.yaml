@@ -131,8 +131,6 @@ sources:
     section_headings:
       - School Recruiting Program
     note: Station commander's responsibility for developing the SRP and validating school folders, events and documentation.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -145,8 +143,6 @@ sources:
     section_headings:
       - Running Estimates
     note: Use of school data to build a school prospecting plan.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-32
     title: Recruiter Operations
     edition_date: "9 March 2022"
@@ -159,8 +155,6 @@ sources:
     section_headings:
       - High Schools
     note: Recruiter's view of high school presence and lead generation.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-30
     title: Company Operations
     edition_date: "7 March 2022"
@@ -174,8 +168,6 @@ sources:
       - Shaping
       - School Recruiting Program (SRP)
     note: "Company expectations; text in UM_3-30/.transform/07_Planning.md."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-29
     title: Battalion Operations
     edition_date: "9 March 2022"
@@ -188,8 +180,6 @@ sources:
     section_headings:
       - School Recruiting Program
     note: Brigade and battalion view of the school program.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: AR_601-210
     title: Regular Army and Reserve Components Enlistment Program
     edition_date: "20 March 2026"

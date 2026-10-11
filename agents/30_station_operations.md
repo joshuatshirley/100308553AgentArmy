@@ -78,7 +78,6 @@ Specialist for running a recruiting station, written for station commanders and 
 - Chapter: 1 (Overview of Recruiting Operations)
 - Text: `doctrine/Manuals/UM_3-31/01_Chapter_1.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Introduction; Leadership Roles and Responsibilities; Station Commander; Assistant Station Commander; Officer In Charge (AMEDD); Troop Leading Procedures; Recruiting Work Ethic; Command and Control; Communication; Leader Huddle
 
@@ -88,7 +87,6 @@ Sections: Introduction; Leadership Roles and Responsibilities; Station Commander
 - Chapter: 2 (Recruiting Operations Process)
 - Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: What Is the Recruiting Operations Process?; Understand; Visualize; Intelligence and Market Analysis; Recruiting Zones; Running Estimates; Recruiting Functions Analysis; SWOT Analysis; Describe; Direct; Lead; Assess
 
@@ -98,7 +96,6 @@ Sections: What Is the Recruiting Operations Process?; Understand; Visualize; Int
 - Chapter: 3 (Decisive Operations)
 - Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Lead Generation and Prospecting; Army Interview; Processing; In Progress Review; Leading Future Soldiers; Future Soldier Functions; Future Soldier Losses
 
@@ -108,7 +105,6 @@ Sections: Lead Generation and Prospecting; Army Interview; Processing; In Progre
 - Chapter: 4 (Shaping Operations)
 - Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Lead Generation; Referrals; Lead Refinement; Planning; Battle Rhythm; Weekly Planning Meeting; Mission Accomplishment Plan; Station Recruiting Plan; School Recruiting Program
 
@@ -118,7 +114,6 @@ Sections: Lead Generation; Referrals; Lead Refinement; Planning; Battle Rhythm; 
 - Chapter: 5 (Sustaining Operations)
 - Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Logistics; Advertising Assets; Personnel Management; Personnel Integration; Training and Leader Development; Sustainment
 
@@ -128,7 +123,6 @@ Sections: Logistics; Advertising Assets; Personnel Management; Personnel Integra
 - Chapter: 6 (Networks)
 - Text: `doctrine/Manuals/UM_3-31/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Internal Network; External Network; Information Systems; Community Partners
 
@@ -139,7 +133,6 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 - Text: `doctrine/Manuals/UM_3-0`
 - PDF: `Manuals/UM_3-0/UM 3-0.pdf`
 - Why: Command-level recruiting operations, networks and the eight recruiting functions; context for why the station plan is built the way it is.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UM_3-30: Company Operations
 
@@ -148,7 +141,6 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 - Text: `doctrine/Manuals/UM_3-30`
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team view: how the company validates station commanders, IPRs, training and sustainment expectations of the station.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### STP805K-79R-SMTG
 
@@ -157,7 +149,7 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 - Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide for MOS 79R; station-commander-level tasks. Paragraph headings were not extracted; cite by task title from the PDF.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph or chapter structure recognized in source
 
 ## Forms
 

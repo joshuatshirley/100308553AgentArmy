@@ -65,8 +65,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: "Ch.13 Regular Army Options and Incentives and Ch.7 DEP/DTP/DS enlistment procedures exist only in the PDF; no transformed USAREC chapter covers these programs."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: DA_PAM_611-21
     title: Military Occupational Classification and Structure
     edition_date: "20 December 2022"

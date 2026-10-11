@@ -113,8 +113,6 @@ sources:
       "8-10": PS Applicants Processing Who Require a Conditional Release, DD 368
       "8-11": Movement of GNPS/PS Soldiers from Place of Enlistment
     note: USAREC procedures for PS/GNPS (Regular Army). 8-4 to 8-8 belong to 15_officer_warrant_programs.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: AR_635-200
     title: null
     edition_date: "30 June 2025"

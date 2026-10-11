@@ -165,7 +165,6 @@ Specialist for the School Recruiting Program, written for recruiters, station co
 - Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's responsibility for developing the SRP and validating school folders, events and documentation.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: School Recruiting Program
 
@@ -176,7 +175,6 @@ Sections: School Recruiting Program
 - Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Use of school data to build a school prospecting plan.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Running Estimates
 
@@ -187,7 +185,6 @@ Sections: Running Estimates
 - Text: `doctrine/Manuals/UM_3-32/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view of high school presence and lead generation.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: High Schools
 
@@ -197,7 +194,6 @@ Sections: High Schools
 - Chapter: 4 (Planning)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company expectations; text in UM_3-30/.transform/07_Planning.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Shaping; School Recruiting Program (SRP)
 
@@ -208,7 +204,6 @@ Sections: Shaping; School Recruiting Program (SRP)
 - Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion view of the school program.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: School Recruiting Program
 

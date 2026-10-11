@@ -64,8 +64,6 @@ sources:
       - Personnel Integration
       - Training and Leader Development
     note: "Station commander's training role; references STP 805K-79R-SMTG."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-32
     title: Recruiter Operations
     edition_date: "9 March 2022"
@@ -82,8 +80,6 @@ sources:
       - USAREC Leader Development Program (LDP)
       - Reclassification to 79R
     note: Recruiter's view of training domains and the LDP.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-30
     title: Company Operations
     edition_date: "7 March 2022"
@@ -96,8 +92,6 @@ sources:
     section_headings:
       - Training and Leader Development
     note: Company command team view. Text in UM_3-30/.transform/04_Command_at_Company_Level.md.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-29
     title: Battalion Operations
     edition_date: "9 March 2022"
@@ -110,8 +104,6 @@ sources:
     section_headings:
       - Training
     note: "Brigade and battalion training; Figure 7-1 three domains of training."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: AR_350-1
     title: null
     edition_date: "1 June 2025"
@@ -163,8 +155,6 @@ sources:
       - Principles of Training
       - Training as Leader Development
       - Training Management Cycle
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: FM_7-0
     title: Training
     edition_date: "14 June 2021"
@@ -179,8 +169,6 @@ sources:
       - Long-Range Planning and Preparation
       - Mid-Range Planning and Preparation
       - Short-Range Planning and Preparation
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: FM_7-0
     title: Training
     edition_date: "14 June 2021"
@@ -194,8 +182,6 @@ sources:
       - Training Techniques
       - After Action Review
       - Recording Results
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: FM_7-0
     title: Training
     edition_date: "14 June 2021"
@@ -208,8 +194,6 @@ sources:
     section_headings:
       - Evaluation
       - Assessment
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_7-0
     title: Training
     edition_date: null
@@ -219,8 +203,6 @@ sources:
     chapter: all
     markdown: doctrine/ADP/ADP_7-0
     note: "Training doctrine principles; chapters not extracted in the catalog."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: STP805K-79R-SMTG
     title: null
     edition_date: "13 May 2018"
@@ -231,7 +213,7 @@ sources:
     markdown: doctrine/Manuals/STP805K-79R-SMTG
     note: "Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it."
     known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
+      - no paragraph or chapter structure recognized in source
   - doc: UTC_5-03.4
     title: Training and Leader Development
     edition_date: "21 July 2020"
@@ -242,8 +224,6 @@ sources:
     chapter_title: null
     markdown: doctrine/Guides/UTC_5-03.4/10_Chapter_10..md
     note: "Actual title (front matter): UTC 5-03.4 Training and Leader Development; catalog title is wrong. CSTAR example and use. Level 4."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-03.4
     title: Training and Leader Development
     edition_date: "21 July 2020"
@@ -254,8 +234,6 @@ sources:
     chapter_title: null
     markdown: doctrine/Guides/UTC_5-03.4/11_Chapter_11..md
     note: DTMS user guide and resources. Level 4.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
 usarec_messages: []
 forms:
   - form: USAREC_Form_350-1.1_NEAR-TERM_TRAINING_PLAN

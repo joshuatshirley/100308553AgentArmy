@@ -143,7 +143,6 @@ Specialist for applicant processing from the recruiting station through the MEPS
 - Text: `doctrine/Regulations/UR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Responsibilities for recruiting personnel, GC and Ops NCO duties.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -160,7 +159,6 @@ Specialist for applicant processing from the recruiting station through the MEPS
 - Text: `doctrine/Regulations/UR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST procedures, security and prohibited uses.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -177,7 +175,6 @@ Specialist for applicant processing from the recruiting station through the MEPS
 - Text: `doctrine/Regulations/UR_601-210/19_Chapter_19.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Required USMEPCOM daily reports, REQUEST close-out and RZ end-of-day result codes.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -194,7 +191,6 @@ Specialist for applicant processing from the recruiting station through the MEPS
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.6 Quality Control Procedures and Scheduling of Applicants, Ch.20 Government Meals and Lodging and Ch.24 Temporary Reservation Procedures exist only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 

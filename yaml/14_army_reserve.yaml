@@ -47,8 +47,6 @@ sources:
       "12-7": REQUEST Reservations for AR AMEDD Officers
       "12-8": Simultaneous Membership Program
     note: "Army Reserve Specific Processing: ATP, ESL, vacancies, PS DMOSQ acceptance, REFRAD for temporary medical reasons, AMEDD officer reservations, SMP."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -61,8 +59,6 @@ sources:
     paragraphs:
       "11-11": Army Reserve Entry Level Separations
     note: "Army Reserve entry level separations; who initiates, re-contract restrictions. Message 24-027 changes the waiting period text."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: AR_601-210
     title: Regular Army and Reserve Components Enlistment Program
     edition_date: "20 March 2026"
@@ -147,8 +143,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exists only in the PDF (not transformed).
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "25-045"
     subject: Approval Authority for Army Reserve Conditional Release, DD 368.

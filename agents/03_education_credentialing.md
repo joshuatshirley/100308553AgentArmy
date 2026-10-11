@@ -104,7 +104,6 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 - Text: `doctrine/Regulations/UR_601-210/16_Chapter_16.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: School profile evaluation (UF 601-210.40), tier evaluation workflow, Tier 1/2/3 detail, credential laundering. UR edition 3 January 2023 uses older education-code labels than AR 601-210 (20 March 2026); where they differ, the AR governs and the difference is reported. UF 601-210.40 is not in the Forms library.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -123,7 +122,6 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Education heading. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### DoDI_1145.01: Qualitative Distribution of Military Manpower
 
@@ -132,7 +130,6 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 - Text: `doctrine/DoDI/DoDI_1145.01`
 - PDF: `DoDI/DoDI_1145.01/DoDI_1145.01.pdf`
 - Why: Defines education credential tiers used for qualitative distribution (Glossary). Context only.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

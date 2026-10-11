@@ -146,7 +146,6 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.22 U.S. Army Recruiting Command Liaisons at U.S. Army Reception Battalions exists only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## Forms
 

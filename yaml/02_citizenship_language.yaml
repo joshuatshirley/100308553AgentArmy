@@ -68,8 +68,6 @@ sources:
     paragraphs:
       "12-3": Processing AR applicants with English as a Second Language (ESL)
     note: "Army Reserve applicants with English as a second language; ECLT outcome and ship routing. UR 601-210 edition 3 January 2023 predates the current AR 601-210 and later messages."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -85,8 +83,6 @@ sources:
       "14-3": "Policy and Procedures for Securing a Social Security …"
       "14-4": Guidelines
     note: "Overseas processing: SSN for Future Soldiers enlisting on a temporary identification number, Europe, Japan/Korea, Guam/Saipan, Compact-nation and remote Alaska procedures."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: AR_11-6_Army_Foreign_Language_Program
     title: Army Foreign Language Program
     edition_date: "9 May 2024"
@@ -110,8 +106,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_1304.26
     note: Enclosure 3 Basic Eligibility Criteria, Citizenship heading. Paragraph headings not extracted.
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "26-009"
     subject: English Comprehension Language Test (ECLT) testing requirements, Foreign Language Recruiting Initiative (FLRI) and English as a Second Language (ESL) new qualif

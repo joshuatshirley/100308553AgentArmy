@@ -88,7 +88,6 @@ Specialist for company command teams, station commanders and cadre on taking car
 - Chapter: 5 (Sustaining Operations)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team sustaining operations; text in .transform/08_Sustaining_Operations.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Personnel and Leave Management; Company Incentive Programs; Leader Resilience Through Holistic Wellness and Fitness
 
@@ -99,7 +98,6 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 - Text: `doctrine/FM/FM_7-22`
 - PDF: `FM/FM_7-22/FM_7-22.pdf`
 - Why: Holistic Health and Fitness: physical, nutritional, mental, spiritual and sleep readiness domains. Paragraphs untitled; cite by section heading.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### AR_608-1: Army Community Service
 
@@ -213,7 +211,6 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 - Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf`
 - Why: USAREC supplement (2016): unit prevention leader and drug testing program software requirements. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_608-1: National Voter Registration Act
 

@@ -92,8 +92,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_1304.26
     note: "DoD qualification standards; Enclosure 3 Basic Eligibility Criteria (Age, Citizenship, Education, Aptitude, Medical, Physical Fitness, Dependency Status, Character/Conduct). Paragraph headings not extracted; cite by enclosure and heading. Army detail in AR 601-210 governs."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "23-058"
     subject: "Meritorious Requests for Age Exceptions to Policy (ETP). Major Change: The requirement for the physical to be completed prior to the submission of an age ETP ha"

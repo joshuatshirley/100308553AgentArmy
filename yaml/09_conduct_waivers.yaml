@@ -118,8 +118,6 @@ sources:
       "15-8": USAREC Level Reviews
       "15-9": Exceptions to Policy
     note: USAREC waiver procedures, counseling, supporting documents, personal conduct, USAREC-level reviews, exceptions to policy.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "24-034"
     subject: Delegation of Authority Regarding Civil Convictions for Marijuana and DUI waivers.

@@ -47,8 +47,6 @@ sources:
       "11-11": Army Reserve Entry Level Separations
       "11-12": Order Format and Responsibilities
     note: Active and Reserve Component Separations. 11-4d cites AR 601-210 chapter 5-78, which does not exist in the 20 March 2026 edition (drug separation is 5-73). Message 24-027 changes 11-11.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: AR_601-210
     title: Regular Army and Reserve Components Enlistment Program
     edition_date: "20 March 2026"
@@ -124,8 +122,6 @@ sources:
     markdown: doctrine/Manuals/UM_3-31/03_Chapter_3.md
     section_headings:
       - Future Soldier Losses
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
 usarec_messages:
   - number: "24-027"
     subject: Operational Changes to UR 601-210, USAR Army Reserve Entry Level Separations waiting period.

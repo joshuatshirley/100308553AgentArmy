@@ -305,7 +305,6 @@ Specialist for recruiters, station commanders and battalion staff on information
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.21 Electronic Records Management (ERM) exists only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 

@@ -248,7 +248,6 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 - Text: `doctrine/Guides/USAREC_Social_Media_SOP_21_JUN_18`
 - PDF: `Guides/USAREC_Social_Media_SOP_21_JUN_18/USAREC Social Media SOP 21 JUN 18.pdf`
 - Why: USAREC Social Media SOP (May 2018, signed 21 Jun 2018): OPSEC and training, PII, online conduct, messaging, branding, account requirements, records, paid promotion, platforms, reporting, cease and desist. Check for a newer SOP.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UTP_3-10.4_(VRA)_V1: Virtual Recruiting Assistant
 
@@ -257,7 +256,6 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 - Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/03_Chapter_3.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Roles of the commander and USAREC virtual recruiting and advertising assets. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTP_3-10.4_(VRA)_V1: Virtual Recruiting Assistant
 
@@ -266,7 +264,6 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 - Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/07_Chapter_7.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Social media boosting procedures. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UM_3-29: Battalion Operations
 
@@ -275,7 +272,6 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 - Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Battalion advertising and public affairs and media awareness.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Advertising and Public Affairs; Training for Media Awareness
 
@@ -286,7 +282,6 @@ Sections: Advertising and Public Affairs; Training for Media Awareness
 - Text: `doctrine/Manuals/UM_3-29/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: News media as part of the recruiting network.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: The News Media
 
@@ -297,7 +292,6 @@ Sections: The News Media
 - Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station use of advertising assets.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Advertising Assets
 

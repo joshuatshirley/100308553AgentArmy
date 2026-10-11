@@ -346,7 +346,6 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 - Text: `doctrine/Pamphlets/DA_PAM_601-280`
 - PDF: `Pamphlets/DA_PAM_601-280/DA_PAM_601-280.pdf`
 - Why: Army Retention Program procedures pamphlet; only the purpose, a Chapter 10 summary and glossary were extracted. Procedures must be read from the PDF.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## Routing triggers
 

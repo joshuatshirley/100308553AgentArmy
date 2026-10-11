@@ -66,8 +66,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/AR_600-9
     note: "The Army Body Composition Program. Library copy is dated 28 June 2013 and is likely superseded; its new-recruit provision differs from message 26-015. Appendix B covers measurement and body-fat worksheets (DA Forms 5500/5501, not in the Forms library). Paragraph headings not extracted."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -80,8 +78,6 @@ sources:
     paragraphs:
       "17-5": Future Soldier Sustainment
     note: "Future Soldier sustainment and physical training safety. Text still refers to the APFT; message 24-054 names the current Future Soldier fitness test."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -94,8 +90,6 @@ sources:
     paragraphs:
       "18-3": Procedures
     note: Ship-out verification of OPAT documents.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -106,8 +100,6 @@ sources:
     chapter_title: Occupational Physical Assessment Test (OPAT)
     markdown: doctrine/Regulations/UR_601-210/23_Chapter_23.md
     note: Occupational Physical Assessment Test (OPAT) procedures. Chapter exists only in the PDF.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: FM_7-22
     title: Holistic Health and Fitness
     edition_date: null
@@ -117,8 +109,6 @@ sources:
     chapter: all
     markdown: doctrine/FM/FM_7-22
     note: "Holistic Health and Fitness (Change 2). Doctrine context for training; it does not address Future Soldiers or applicants. Chapter headings only."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: DoDI_1304.26
     title: Qualification Standards for Enlistment
     edition_date: null
@@ -128,8 +118,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_1304.26
     note: Enclosure 3 Basic Eligibility Criteria, Physical Fitness heading. Paragraph headings not extracted.
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "26-015"
     subject: "Assessment of Recruit Motivation and Strength (ARMS) Updated. This change will become effective 15 December 2025 for all ARMS A6 applicants. Summary of Changes:"

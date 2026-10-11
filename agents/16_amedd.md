@@ -311,7 +311,6 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 - Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST reservations for Army Reserve AMEDD officers.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -336,7 +335,6 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 - Text: `doctrine/Regulations/AR_135-101`
 - PDF: `Regulations/AR_135-101/AR_135-101.pdf`
 - Why: Appointment of Reserve commissioned officers for assignment to AMEDD branches. Edition dated 15 February 1984; markdown flagged for PDF use; paragraph headings not extracted. Confirm currency.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

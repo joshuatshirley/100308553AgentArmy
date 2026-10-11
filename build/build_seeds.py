@@ -115,7 +115,7 @@ for doc, e in catalog.items():
             last = rec.get("section")
     if doc == "UR_601-210":
         missing = [ch for ch, c in e["chapters"].items() if c["file"] is None]
-        e["gaps"].append(f"chapters {', '.join(missing)} exist only in the PDF (not transformed)")
+        if missing: e["gaps"].append(f"chapters {', '.join(missing)} exist only in the PDF (not transformed)")
     if doc == "USAREC_MANUAL_3-0":
         e["gaps"].append("possible duplicate of UM_3-0 (same date and chapter titles, different PDF); UM_3-0 used as canonical")
 

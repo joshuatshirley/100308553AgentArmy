@@ -87,8 +87,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: "Ch.13 Regular Army Options and Incentives exists only in the PDF; read it for USAREC procedures on RA options."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "26-019"
     subject: Regular Army Enlistment Incentives Program Change

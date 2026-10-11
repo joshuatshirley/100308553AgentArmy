@@ -156,7 +156,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 - Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_8_22/USAREC Suppl 1 to  AR 600_8_22.pdf`
 - Why: USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### AR_623-3: Evaluation Reporting System
 
@@ -374,7 +374,6 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 - Text: `doctrine/Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC`
 - PDF: `Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC/AR 601-1 10112016 Asg of Enl Pers to USAREC.pdf`
 - Why: AR 601-1 (11 October 2016): Ch.2 selection and training for recruiting duty, Ch.3 assignment and reassignment, Ch.4 completion of DA-selected period and reclassification to 79R, Ch.5 voluntary and involuntary reassignment, suspension, unqualified/ineffective/unsuitable recruiters, Ch.6 AGR recruiters. Predates the 42T conversion; check current messages.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UM_3-31: Station Operations
 
@@ -383,7 +382,6 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 - Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's personnel management role.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Personnel Management; Personnel Integration
 

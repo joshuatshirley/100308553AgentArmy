@@ -78,7 +78,6 @@ Specialist for station commanders, first sergeants and company command teams who
 - edition 06 February 2025, authority level 2
 - Chapter: 1
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: The Army Profession; The Army Ethic; The Army Values; Army Leadership; Army Leadership Requirements Model; Roles of Leadership; Levels of Leadership
 
@@ -87,7 +86,6 @@ Sections: The Army Profession; The Army Ethic; The Army Values; Army Leadership;
 - edition 06 February 2025, authority level 2
 - Chapter: 2
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Foundations of Army Leader Character; Army Values; Empathy; Warrior Ethos and Service Ethos; Discipline; Humility
 
@@ -96,7 +94,6 @@ Sections: Foundations of Army Leader Character; Army Values; Empathy; Warrior Et
 - edition 06 February 2025, authority level 2
 - Chapter: 3
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Foundations of Army Leader Presence; Military and Professional Bearing; Fitness; Confidence; Resilience
 
@@ -105,7 +102,6 @@ Sections: Foundations of Army Leader Presence; Military and Professional Bearing
 - edition 06 February 2025, authority level 2
 - Chapter: 4
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Foundations of an Army Leader Intellect; Mental Agility; Sound Judgment; Innovation; Interpersonal Tact; Expertise
 
@@ -114,7 +110,6 @@ Sections: Foundations of an Army Leader Intellect; Mental Agility; Sound Judgmen
 - edition 06 February 2025, authority level 2
 - Chapter: 5
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Leads Others; Builds Trust; Extends Influence Beyond the Chain of Command; Leads by Example; Communicates
 
@@ -123,7 +118,6 @@ Sections: Leads Others; Builds Trust; Extends Influence Beyond the Chain of Comm
 - edition 06 February 2025, authority level 2
 - Chapter: 6
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Develops Leaders; Prepares Self; Creates a Positive Environment/Fosters Esprit de Corps; Develops Others; Stewards the Profession
 
@@ -132,7 +126,6 @@ Sections: Develops Leaders; Prepares Self; Creates a Positive Environment/Foster
 - edition 06 February 2025, authority level 2
 - Chapter: 7
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Gets Results
 
@@ -141,7 +134,6 @@ Sections: Gets Results
 - edition 06 February 2025, authority level 2
 - Chapter: 8
 - PDF: `ADP/ADP_6-22/ADP_6-22.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Leaders and Challenges; Leadership and Management; Stress of Change; Counterproductive Leadership
 
@@ -152,7 +144,6 @@ Sections: Leaders and Challenges; Leadership and Management; Stress of Change; C
 - Text: `doctrine/FM/FM_6-22`
 - PDF: `FM/FM_6-22/FM_6-22.pdf`
 - Why: Developing Leaders: tenets, setting conditions, feedback, coaching, counseling and mentoring (Section III, Fundamentals of Development), self-development, individual development plans (DA Form 7906), unit leader development programs. Paragraphs untitled; cite by section heading.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### ADP_6-0: Mission Command
 
@@ -160,7 +151,6 @@ Sections: Leaders and Challenges; Leadership and Management; Stress of Change; C
 - Chapter: 1
 - Text: `doctrine/ADP/ADP_6-0/06_Chapter_1.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Mission Command; Principles of Mission Command; The Role of Subordinates in Mission Command; Command and Control
 
@@ -170,7 +160,6 @@ Sections: Mission Command; Principles of Mission Command; The Role of Subordinat
 - Chapter: 2
 - Text: `doctrine/ADP/ADP_6-0/07_Chapter_2.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Nature of Command; Elements of Command; The Role of Commanders in Operations; Guides to Effective Command
 
@@ -180,7 +169,6 @@ Sections: Nature of Command; Elements of Command; The Role of Commanders in Oper
 - Chapter: 3
 - Text: `doctrine/ADP/ADP_6-0/08_Chapter_3.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Nature of Control; Elements of Control; Control Measures; Guides to Effective Control
 
@@ -190,7 +178,6 @@ Sections: Nature of Control; Elements of Control; Control Measures; Guides to Ef
 - Chapter: 1
 - Text: `doctrine/ADP/ADP_5-0/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: The Framework of the Operations Process; Principles of the Operations Process; Integrating Processes; Battle Rhythm
 
@@ -200,7 +187,6 @@ Sections: The Framework of the Operations Process; Principles of the Operations 
 - Chapter: 2
 - Text: `doctrine/ADP/ADP_5-0/06_Chapter_2-_Planning.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Fundamentals of Planning; Key Components of a Plan; Guides to Effective Planning; Planning Pitfalls
 
@@ -210,7 +196,6 @@ Sections: Fundamentals of Planning; Key Components of a Plan; Guides to Effectiv
 - Chapter: 3
 - Text: `doctrine/ADP/ADP_5-0/07_Chapter_3-_Preparation.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Fundamentals of Preparation; Preparation Activities
 
@@ -220,7 +205,6 @@ Sections: Fundamentals of Preparation; Preparation Activities
 - Chapter: 4
 - Text: `doctrine/ADP/ADP_5-0/08_Chapter_4-_Execution.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Fundamentals of Execution; Responsibilities During Execution; Rapid Decision-Making and Synchronization Process
 
@@ -230,7 +214,6 @@ Sections: Fundamentals of Execution; Responsibilities During Execution; Rapid De
 - Chapter: 5
 - Text: `doctrine/ADP/ADP_5-0/09_Chapter_5-_Assessment.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective Assessment
 
@@ -241,7 +224,6 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 - Text: `doctrine/ADP/ADP_1`
 - PDF: `ADP/ADP_1/ADP_1.pdf`
 - Why: The Army; chapters not split. Cite by heading from .transform/00_Full_Document.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### FM_1: The Army
 
@@ -250,7 +232,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 - Text: `doctrine/FM/FM_1`
 - PDF: `FM/FM_1/FM_1.pdf`
 - Why: The Army (2025); chapter titles were not captured cleanly; cite by heading.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### ADP_3-0: Operations
 
@@ -259,7 +241,6 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 - Text: `doctrine/ADP/ADP_3-0`
 - PDF: `ADP/ADP_3-0/ADP_3-0.pdf`
 - Why: Operations; chapters not split.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### FM_3-0: Operations
 
@@ -268,7 +249,6 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 - Text: `doctrine/FM/FM_3-0`
 - PDF: `FM/FM_3-0/FM_3-0.pdf`
 - Why: Operations (2025); chapter titles were not captured cleanly; cite by heading. Use only for terms such as mission command culture.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ## Routing triggers
 

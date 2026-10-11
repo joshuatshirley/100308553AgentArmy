@@ -111,7 +111,6 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 - Text: `doctrine/Regulations/UR_601-210/17_Chapter_17.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Future Soldier Management. 17-8e names the APFT; message 24-054 and AR 601-210 2-18 refer to the Army Fitness Test; surface the difference.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -132,7 +131,6 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 - Text: `doctrine/Regulations/UR_601-210/18_Chapter_18.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: DEP/DTP-out procedures, courtesy shippers, hometown shipping, BCT ship dates.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -150,7 +148,6 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.7 Procedures for Enlistment into DEP/DTP/DS and Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exist only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### UM_3-31: Station Operations
 
@@ -158,7 +155,6 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 - Chapter: 3 (Decisive Operations)
 - Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Processing; Leading Future Soldiers; Future Soldier Functions; Future Soldier Losses
 

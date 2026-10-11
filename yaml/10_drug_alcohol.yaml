@@ -97,8 +97,6 @@ sources:
     paragraphs:
       "11-6": Positive Drug Test Separation
     note: "Positive drug test separation: same-day reservation cancellation, cancellation codes by substance, order upload, Army Reserve TPU notification."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: AR_600-85
     title: null
     edition_date: "4 October 2024"
@@ -117,8 +115,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85
     note: "USAREC supplement covering cadre unit urinalysis (USAREC Form S600-85.1). Only figure pages were extracted to markdown; the body is PDF-only. Not an applicant-testing source."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "24-053"
     subject: "Positive Drug (DAT) Waiver Procedures (Updated). Summary of Changes: Clarification of waiverable DAT failures IAW AR 601-210 chapter 4-18."

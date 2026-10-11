@@ -86,8 +86,6 @@ sources:
       "15-5": Counseling of Applicants
       "15-6": Supporting Documents
     note: USAREC administrative waiver procedures, counseling and supporting documents that apply to dependents waivers.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: DoDI_1304.26
     title: Qualification Standards for Enlistment
     edition_date: null
@@ -97,8 +95,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_1304.26
     note: Enclosure 3 Dependency Status and Enclosure 4 Dependent Waiver headings. Paragraph headings not extracted.
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "25-041"
     subject: Exceptional Family Member Program (EFMP) Screening Process.

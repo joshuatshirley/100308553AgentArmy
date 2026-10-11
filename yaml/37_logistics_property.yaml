@@ -275,8 +275,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_570-1
     note: "Manpower and equipment control: TDA changes and recruiting station establishment, disestablishment and relocation (2006 edition). Paragraph headings not extracted."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: UM_3-30
     title: Company Operations
     edition_date: "7 March 2022"
@@ -290,8 +288,6 @@ sources:
       - Command Supply Discipline Program (CSDP)
       - Inspections
     note: Company command team view of CSDP, hand receipts and cyclic inventories.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
 usarec_messages:
   - number: "25-047"
     subject: FY26 RPI 200 (Future Soldier Kits) Distribution.

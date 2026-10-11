@@ -96,7 +96,6 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 - Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve Specific Processing: ATP, ESL, vacancies, PS DMOSQ acceptance, REFRAD for temporary medical reasons, AMEDD officer reservations, SMP.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -116,7 +115,6 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 - Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve entry level separations; who initiates, re-contract restrictions. Message 24-027 changes the waiting period text.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -204,7 +202,6 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exists only in the PDF (not transformed).
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 

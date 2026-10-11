@@ -313,8 +313,6 @@ sources:
     chapter: all
     markdown: doctrine/Pamphlets/DA_PAM_601-280
     note: "Army Retention Program procedures pamphlet; only the purpose, a Chapter 10 summary and glossary were extracted. Procedures must be read from the PDF."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages: []
 forms: []
 routing_triggers:

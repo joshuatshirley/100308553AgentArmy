@@ -157,7 +157,6 @@ Specialist for an enlisted applicant's conduct record and administrative disqual
 - Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC waiver procedures, counseling, supporting documents, personal conduct, USAREC-level reviews, exceptions to policy.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|

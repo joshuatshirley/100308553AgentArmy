@@ -43,8 +43,6 @@ sources:
       - Command and Control
       - Communication
       - Leader Huddle
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -67,8 +65,6 @@ sources:
       - Direct
       - Lead
       - Assess
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -86,8 +82,6 @@ sources:
       - Leading Future Soldiers
       - Future Soldier Functions
       - Future Soldier Losses
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -107,8 +101,6 @@ sources:
       - Mission Accomplishment Plan
       - Station Recruiting Plan
       - School Recruiting Program
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -125,8 +117,6 @@ sources:
       - Personnel Integration
       - Training and Leader Development
       - Sustainment
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -141,8 +131,6 @@ sources:
       - External Network
       - Information Systems
       - Community Partners
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-0
     title: USAREC Operations
     edition_date: "9 March 2022"
@@ -152,8 +140,6 @@ sources:
     chapter: all
     markdown: doctrine/Manuals/UM_3-0
     note: "Command-level recruiting operations, networks and the eight recruiting functions; context for why the station plan is built the way it is."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-30
     title: Company Operations
     edition_date: "7 March 2022"
@@ -163,8 +149,6 @@ sources:
     chapter: all
     markdown: doctrine/Manuals/UM_3-30
     note: "Company command team view: how the company validates station commanders, IPRs, training and sustainment expectations of the station."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: STP805K-79R-SMTG
     title: null
     edition_date: "13 May 2018"
@@ -175,7 +159,7 @@ sources:
     markdown: doctrine/Manuals/STP805K-79R-SMTG
     note: "Soldier's Manual and Training Guide for MOS 79R; station-commander-level tasks. Paragraph headings were not extracted; cite by task title from the PDF."
     known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
+      - no paragraph or chapter structure recognized in source
 usarec_messages: []
 forms:
   - form: USAREC_Form_350-1.1_NEAR-TERM_TRAINING_PLAN

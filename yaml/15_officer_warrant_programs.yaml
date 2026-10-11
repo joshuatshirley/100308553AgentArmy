@@ -56,8 +56,6 @@ sources:
       "8-7": "Processing Disenrolled Service Academy Applicants Not Ordered to AD:"
       "8-8": Processing Warrant Officer Course (WOC) Selectees from Sister Services
     note: USMA ordered to AD, ROTC cadets ordered to AD, disenrolled ROTC cadets, disenrolled academy applicants, WOC selectees from sister services.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -67,8 +65,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: "Ch.25 OCS/WOFT Processing Procedures exists only in the PDF. Message 24-003 refers to its waiver paragraphs; read them in the PDF."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: DA_PAM_601-6
     title: Warrant Officer Procurement Program
     edition_date: "21 August 2023"
@@ -178,8 +174,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/AR_350-51
     note: "U.S. Army Officer Candidate School, edition dated 11 June 2001. Paragraph headings not extracted; key paragraphs are 1-5 criteria, 1-6 who may apply, 1-7 who may not apply, 1-9 waivers, 1-10/1-11 service commitments. Confirm currency."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "24-003"
     subject: "Operational Change to UR 601-210. Update: UR 601-210, Chapter 25, OCS/WOFT Processing Procedures"

@@ -203,8 +203,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_27-4
     note: "Prohibited and Regulated Activities for USAREC personnel; Chapter 2 is punitive and defines prohibited relationships with prospects and applicants. Paragraph headings not extracted; cite by paragraph from the text."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: UR_27-3
     title: Claims
     edition_date: null
@@ -214,8 +212,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_27-3
     note: USAREC procedures in drunk-driving cases involving cadre (documents to gather, reprimand handling).
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: UR_27-2(V3)
     title: Legal Support Services for the U.S. Army Recruiting Command
     edition_date: "1 March 2019"
@@ -261,8 +257,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/AR_190-45
     note: "Law enforcement reporting; Chapter 4 offense reporting and DA Form 4833, Chapter 8 reportable serious incidents, Chapter 9 SIR procedures. Paragraph headings not extracted; cite by chapter."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: AD_2022-10
     title: Army Directive 2022-10 (Safe-to-Report for Victims of Sexual Assault)
     edition_date: null
@@ -272,8 +266,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/AD_2022-10
     note: "Safe-to-report: commander assessment of minor collateral misconduct by sexual assault victims."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: AD2018-16
     title: Army Directive 2018-16 (Suitability Criteria for Military Personnel in Specified Positions)
     edition_date: null
@@ -283,8 +275,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/AD2018-16
     note: Suitability criteria and screening for recruiting cadre and other specified positions.
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: RI_-_Appointment_of_IO_Memo
     title: null
     edition_date: null
@@ -294,8 +284,6 @@ sources:
     chapter: all
     markdown: doctrine/Guides/RI_-_Appointment_of_IO_Memo
     note: "Sample IO appointment memo for a recruiting impropriety investigation. It is a 2014 sample that cites superseded publications (UR 601-45, old UR 601-210 chapter 7); use for memo structure only and take governing citations from message 25-019 and AR 15-6."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "25-019"
     subject: "Operational Update to UR 601-210 Chapter 3 Recruiting Standards Program. UPDATE: Effective immediately, UR 601-210 chapter 3 dated 3 January 2023 is obsolete du"

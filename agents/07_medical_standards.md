@@ -130,7 +130,6 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 - Text: `doctrine/DoDI/DoDI_6130.03_vol_1`
 - PDF: `DoDI/DoDI_6130.03_vol_1/DoDI_6130.03_vol_1.pdf`
 - Why: Medical standards for appointment, enlistment or induction (Change 5). Section 5 Medical Standards (Applicability, Procedures); Section 6 Disqualifying Conditions by body system (Head, Eyes, Vision, Ears, Hearing, Lungs, Heart, Abdominal, Spine, Extremities, Skin, Endocrine, Neurologic, Sleep, Learning/Psychiatric/Behavioral, Tumors, Miscellaneous). Cite by section and heading; paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### AR_40-501
 
@@ -167,7 +166,6 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 - Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Waiver policy and validity, medical waiver and prescreen procedures, CMO review, Command Surgeon role, counseling. 15-4 refers to a USMEPCOM prescreen SOP and an AR 40-501 paragraph from an older edition; neither is in the library.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|

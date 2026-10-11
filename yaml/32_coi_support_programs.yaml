@@ -195,8 +195,6 @@ sources:
     chapter_title: null
     markdown: doctrine/Guides/UTC_5-03.3/02_Chapter_2.md
     note: "Actual title (front matter): UTC 5-03.3 Partnerships; catalog title is wrong. Engaging community partners, advocates, key leader engagements. Level 4."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-03.3
     title: Partnerships
     edition_date: "7 May 2020"
@@ -207,8 +205,6 @@ sources:
     chapter_title: null
     markdown: doctrine/Guides/UTC_5-03.3/03_Chapter_3.md
     note: Employer partnerships, PaYS, P3. Level 4.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-03.3
     title: Partnerships
     edition_date: "7 May 2020"
@@ -219,8 +215,6 @@ sources:
     chapter_title: null
     markdown: doctrine/Guides/UTC_5-03.3/04_Chapter_4.md
     note: Partnerships with educators and educator tours (types, nominations, activities). Level 4.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-03.3
     title: Partnerships
     edition_date: "7 May 2020"
@@ -231,8 +225,6 @@ sources:
     chapter_title: Employer Support of the Guard and Reserve (ESGR) committee chair to identify the movers and shakers in your market. Select the most promising CP advocates to lead
     markdown: doctrine/Guides/UTC_5-03.3/06_Chapter_6.md
     note: Community action committees. Level 4.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -247,8 +239,6 @@ sources:
       - External Network
       - Community Partners
     note: Station networks and community partners.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-29
     title: Battalion Operations
     edition_date: "9 March 2022"
@@ -261,8 +251,6 @@ sources:
     section_headings:
       - Community Partners (CP) and Advocates
     note: Battalion/brigade view.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
 usarec_messages:
   - number: "22-092"
     subject: Hometown Recruiting Assistance Program (HRAP)

@@ -30,10 +30,8 @@ sources:
     authority_level: 4
     pdf: Guides/Recruiter+Zone+User+Guide+ver+6+05+010/Recruiter+Zone+User+Guide+ver+6+05+010.pdf
     chapter: all
-    markdown: Guides/Recruiter+Zone+User+Guide+ver+6+05+010/.transform
+    markdown: doctrine/Guides/Recruiter+Zone+User+Guide+ver+6+05+010
     note: "RZ User Guide v6.05: section files 01 to 10 (My Work Zone, Calendar, People, Reports, Route Map, ROAM, appendices A to H with code tables). Edition date not captured; screens may have changed since publication."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: GCRc+User+Guide+(GC-OPS)
     title: null
     edition_date: "29 May 2013"
@@ -41,10 +39,10 @@ sources:
     authority_level: 4
     pdf: Guides/GCRc+User+Guide+(GC-OPS)/GCRc+User+Guide+(GC-OPS).pdf
     chapter: all
-    markdown: Guides/GCRc+User+Guide+(GC-OPS)/.transform
+    markdown: doctrine/Guides/GCRc+User+Guide+(GC-OPS)
     note: "GCRc guide for guidance counselors and operations (2013): validating a record, scanning, projecting, workflows, ERM folders, processing-phase appendices, user roles."
     known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+      - "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
   - doc: GCRc+Company+User+Guide(1)
     title: null
     edition_date: null
@@ -52,10 +50,10 @@ sources:
     authority_level: 4
     pdf: Guides/GCRc+Company+User+Guide(1)/GCRc+Company+User+Guide(1).pdf
     chapter: all
-    markdown: Guides/GCRc+Company+User+Guide(1)/.transform
+    markdown: doctrine/Guides/GCRc+Company+User+Guide(1)
     note: "GCRc guide for company users: confirm processing, validating, scanning, projecting, workflows, update capabilities, ERM folders."
     known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+      - "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
   - doc: G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu
     title: null
     edition_date: null
@@ -65,8 +63,6 @@ sources:
     chapter: all
     markdown: doctrine/Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu
     note: G6 knowledge document (Oct 2018) for installing and enrolling the LiveScan WEBS service.
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -83,8 +79,6 @@ sources:
       "4-4": REQUEST Use
       "4-5": Alternate Procedures for Terminal or System Failure
     note: "REQUEST procedures: general, security and use."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -101,8 +95,6 @@ sources:
       "19-4": Required REQUEST and Close-out Reports (Bde and Bn Ops)
       "19-5": Procedures for Completing RZ End-Of-Day Reports
     note: Required USMEPCOM daily reports, REQUEST and close-out reports, RZ end-of-day reports.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -112,8 +104,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: Ch.5 Live Scan and Ch.21 Electronic Records Management exist only in the PDF.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "23-008"
     subject: Requesting MHS Genesis User Access Accounts. (UPDATED)

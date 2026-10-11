@@ -126,7 +126,6 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.13 Regular Army Options and Incentives and Ch.7 DEP/DTP/DS enlistment procedures exist only in the PDF; no transformed USAREC chapter covers these programs.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### DA_PAM_611-21: Military Occupational Classification and Structure
 

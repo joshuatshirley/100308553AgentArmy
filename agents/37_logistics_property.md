@@ -320,7 +320,6 @@ Specialist for station commanders, company command teams and supply personnel on
 - Text: `doctrine/Regulations/UR_570-1`
 - PDF: `Regulations/UR_570-1/UR 570-1.pdf`
 - Why: Manpower and equipment control: TDA changes and recruiting station establishment, disestablishment and relocation (2006 edition). Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UM_3-30: Company Operations
 
@@ -328,7 +327,6 @@ Specialist for station commanders, company command teams and supply personnel on
 - Chapter: 5 (Sustaining Operations)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team view of CSDP, hand receipts and cyclic inventories.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Command Supply Discipline Program (CSDP); Inspections
 

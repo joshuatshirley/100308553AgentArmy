@@ -48,8 +48,6 @@ sources:
       "9-11": Reports, Records, and Files
       "9-12": Security Interview
     note: "Applicant Background Screening: tech check and NACLC/Secret submissions and results, PS/GNPS processing, matches, FSs without favorable results, records, security interview."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: AR_601-210
     title: Regular Army and Reserve Components Enlistment Program
     edition_date: "20 March 2026"
@@ -124,8 +122,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: Ch.5 Live Scan exists only in the PDF (not transformed).
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "25-029"
     subject: SF 86 Completion. Recruiters will not tell or encourage applicants to omit information from the SF 86.

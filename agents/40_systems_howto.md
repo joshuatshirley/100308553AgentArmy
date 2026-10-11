@@ -85,28 +85,27 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/Recruiter+Zone+User+Guide+ver+6+05+010/.transform`
+- Text: `doctrine/Guides/Recruiter+Zone+User+Guide+ver+6+05+010`
 - PDF: `Guides/Recruiter+Zone+User+Guide+ver+6+05+010/Recruiter+Zone+User+Guide+ver+6+05+010.pdf`
 - Why: RZ User Guide v6.05: section files 01 to 10 (My Work Zone, Calendar, People, Reports, Route Map, ROAM, appendices A to H with code tables). Edition date not captured; screens may have changed since publication.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### GCRc+User+Guide+(GC-OPS)
 
 - edition 29 May 2013, authority level 4
 - Chapter: all
-- Text: `Guides/GCRc+User+Guide+(GC-OPS)/.transform`
+- Text: `doctrine/Guides/GCRc+User+Guide+(GC-OPS)`
 - PDF: `Guides/GCRc+User+Guide+(GC-OPS)/GCRc+User+Guide+(GC-OPS).pdf`
 - Why: GCRc guide for guidance counselors and operations (2013): validating a record, scanning, projecting, workflows, ERM folders, processing-phase appendices, user roles.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### GCRc+Company+User+Guide(1)
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/GCRc+Company+User+Guide(1)/.transform`
+- Text: `doctrine/Guides/GCRc+Company+User+Guide(1)`
 - PDF: `Guides/GCRc+Company+User+Guide(1)/GCRc+Company+User+Guide(1).pdf`
 - Why: GCRc guide for company users: confirm processing, validating, scanning, projecting, workflows, update capabilities, ERM folders.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ### G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu
 
@@ -115,7 +114,6 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 - Text: `doctrine/Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu`
 - PDF: `Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu/G6 Knowledge Document_LiveScan WEBS 2018 Set-up Guide.pdf`
 - Why: G6 knowledge document (Oct 2018) for installing and enrolling the LiveScan WEBS service.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_601-210: Enlistment & Accessions Processing
 
@@ -124,7 +122,6 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 - Text: `doctrine/Regulations/UR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST procedures: general, security and use.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -141,7 +138,6 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 - Text: `doctrine/Regulations/UR_601-210/19_Chapter_19.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Required USMEPCOM daily reports, REQUEST and close-out reports, RZ end-of-day reports.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -158,7 +154,6 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.5 Live Scan and Ch.21 Electronic Records Management exist only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 

@@ -120,7 +120,6 @@ Specialist for citizenship, immigration status and English-language questions on
 - Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve applicants with English as a second language; ECLT outcome and ship routing. UR 601-210 edition 3 January 2023 predates the current AR 601-210 and later messages.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -133,7 +132,6 @@ Specialist for citizenship, immigration status and English-language questions on
 - Text: `doctrine/Regulations/UR_601-210/14_Chapter_14.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Overseas processing: SSN for Future Soldiers enlisting on a temporary identification number, Europe, Japan/Korea, Guam/Saipan, Compact-nation and remote Alaska procedures.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -163,7 +161,6 @@ Specialist for citizenship, immigration status and English-language questions on
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Citizenship heading. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

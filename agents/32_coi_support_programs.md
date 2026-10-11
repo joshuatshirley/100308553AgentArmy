@@ -231,7 +231,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Guides/UTC_5-03.3/02_Chapter_2.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Actual title (front matter): UTC 5-03.3 Partnerships; catalog title is wrong. Engaging community partners, advocates, key leader engagements. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-03.3: Partnerships
 
@@ -240,7 +239,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Guides/UTC_5-03.3/03_Chapter_3.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Employer partnerships, PaYS, P3. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-03.3: Partnerships
 
@@ -249,7 +247,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Guides/UTC_5-03.3/04_Chapter_4.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Partnerships with educators and educator tours (types, nominations, activities). Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-03.3: Partnerships
 
@@ -258,7 +255,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Guides/UTC_5-03.3/06_Chapter_6.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Community action committees. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UM_3-31: Station Operations
 
@@ -267,7 +263,6 @@ Specialist for centers of influence and Army recruiting support programs, writte
 - Text: `doctrine/Manuals/UM_3-31/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station networks and community partners.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Internal Network; External Network; Community Partners
 
@@ -278,7 +273,6 @@ Sections: Internal Network; External Network; Community Partners
 - Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Battalion/brigade view.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Community Partners (CP) and Advocates
 

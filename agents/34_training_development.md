@@ -114,7 +114,6 @@ Specialist for training management and leader development in USAREC, written for
 - Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's training role; references STP 805K-79R-SMTG.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Personnel Integration; Training and Leader Development
 
@@ -125,7 +124,6 @@ Sections: Personnel Integration; Training and Leader Development
 - Text: `doctrine/Manuals/UM_3-32/11_Chapter_11.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view of training domains and the LDP.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Institutional Training Domain; Operational Training Domain; Self-Development; USAREC Leader Development Program (LDP); Reclassification to 79R
 
@@ -135,7 +133,6 @@ Sections: Institutional Training Domain; Operational Training Domain; Self-Devel
 - Chapter: 1
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team view. Text in UM_3-30/.transform/04_Command_at_Company_Level.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Training and Leader Development
 
@@ -146,7 +143,6 @@ Sections: Training and Leader Development
 - Text: `doctrine/Manuals/UM_3-29/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion training; Figure 7-1 three domains of training.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Training
 
@@ -191,7 +187,6 @@ Sections: Training
 - Chapter: 1
 - Text: `doctrine/FM/FM_7-0/06_Chapter_1.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Principles of Training; Training as Leader Development; Training Management Cycle
 
@@ -201,7 +196,6 @@ Sections: Principles of Training; Training as Leader Development; Training Manag
 - Chapter: 3
 - Text: `doctrine/FM/FM_7-0/08_Chapter_3.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Training Battle Rhythm; Long-Range Planning and Preparation; Mid-Range Planning and Preparation; Short-Range Planning and Preparation
 
@@ -211,7 +205,6 @@ Sections: Training Battle Rhythm; Long-Range Planning and Preparation; Mid-Range
 - Chapter: 4
 - Text: `doctrine/FM/FM_7-0/09_Chapter_4.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Training Techniques; After Action Review; Recording Results
 
@@ -221,7 +214,6 @@ Sections: Training Techniques; After Action Review; Recording Results
 - Chapter: 5
 - Text: `doctrine/FM/FM_7-0/10_Chapter_5.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Evaluation; Assessment
 
@@ -232,7 +224,6 @@ Sections: Evaluation; Assessment
 - Text: `doctrine/ADP/ADP_7-0`
 - PDF: `ADP/ADP_7-0/ADP_7-0.pdf`
 - Why: Training doctrine principles; chapters not extracted in the catalog.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### STP805K-79R-SMTG
 
@@ -241,7 +232,7 @@ Sections: Evaluation; Assessment
 - Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph or chapter structure recognized in source
 
 ### UTC_5-03.4: Training and Leader Development
 
@@ -250,7 +241,6 @@ Sections: Evaluation; Assessment
 - Text: `doctrine/Guides/UTC_5-03.4/10_Chapter_10..md`
 - PDF: `Guides/UTC_5-03.4/UTC 5-03.4.pdf`
 - Why: Actual title (front matter): UTC 5-03.4 Training and Leader Development; catalog title is wrong. CSTAR example and use. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-03.4: Training and Leader Development
 
@@ -259,7 +249,6 @@ Sections: Evaluation; Assessment
 - Text: `doctrine/Guides/UTC_5-03.4/11_Chapter_11..md`
 - PDF: `Guides/UTC_5-03.4/UTC 5-03.4.pdf`
 - Why: DTMS user guide and resources. Level 4.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ## Forms
 

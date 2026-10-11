@@ -141,7 +141,6 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.13 Regular Army Options and Incentives exists only in the PDF; read it for USAREC procedures on RA options.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 

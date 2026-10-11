@@ -87,7 +87,6 @@ Specialist for applicant background screening and security investigation require
 - Text: `doctrine/Regulations/UR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Applicant Background Screening: tech check and NACLC/Secret submissions and results, PS/GNPS processing, matches, FSs without favorable results, records, security interview.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -173,7 +172,6 @@ Specialist for applicant background screening and security investigation require
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.5 Live Scan exists only in the PDF (not transformed).
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 

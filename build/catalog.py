@@ -7,10 +7,19 @@ SKIP_MANUAL_DUPES = {"UR_10-1_(28Sep22)", "UR_5-01", "UR_601-210_1", "UR_601-37"
 # 2024 Manuals/ copy (different page counts/metadata, not a byte-identical dupe) -
 # keep the current Manuals/ version as canonical instead.
 SKIP_REGULATIONS_DUPES = {"UR_350-1", "UR_350-13"}
+# These families print paragraph number + full prose on one line (no short title
+# line of its own), so the strict PARA match below never fires for them. They get
+# a looser, derived-snippet pass instead (see LOOSE_PARA) rather than being skipped.
 UNTITLED_PARA = ("UM_", "USAREC_MANUAL", "UTC_", "UTP_", "FM_", "ADP_", "STP")
 MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
 DATE = re.compile(r'\b(\d{1,2})\s+(' + MONTHS + r'),?\s+(\d{4})\b')
 PARA = re.compile(r'^\s*(\d{1,2})\s?[–\-]\s?(\d{1,3})\.\s+([A-Z][^\n]{2,120})$')
+# Flat directive-style numbering with no chapter prefix, e.g. AD 2018-16's "1. References.",
+# "2. Purpose and Applicability" - used only as a fallback (see below), never instead of PARA.
+PARA_FLAT = re.compile(r'^\s*(\d{1,2})\.\s+([A-Z][^\n]{2,120})$')
+# Loose: paragraph number followed by the full prose paragraph on the same line (UM_/ADP_/FM_
+# style manuals). Captures the whole line; the title gets derived by truncating to ~8 words.
+LOOSE_PARA = re.compile(r'^\s*(\d{1,2})-(\d{1,3})\.\s+(.+)$')
 CHAP = re.compile(r'^\s*(Chapter|Appendix)\s+([0-9A-Z]{1,3})\s*$')
 
 def authority(doc):
@@ -21,6 +30,25 @@ def authority(doc):
 
 def read(p):
     return open(p, encoding="utf-8", errors="replace").read().splitlines()
+
+def junk(t):
+    return not t or t[0].islower() or t.startswith(("Figure", "Table", "or ", "and ")) or "...." in t or re.match(r"^\d", t)
+
+def snippet(t, limit=8):
+    t = t.strip()
+    if t.endswith((",", ";")): return None
+    words = t.split()
+    if len(words) > limit + 4:
+        t = " ".join(words[:limit]) + " …"
+    return t
+
+def clean_filename_title(fname):
+    t = re.sub(r'\.md$', '', fname)
+    t = re.sub(r'^\d+_', '', t)           # strip the NN_ split-order prefix
+    t = re.sub(r'^\d{1,3}\.?_+', '', t)   # strip an embedded "1._"/"8.__" paragraph remnant
+    t = t.replace('_', ' ')
+    t = re.sub(r'\s+', ' ', t).strip(' .')
+    return t or "Untitled section"
 
 cat = {}
 for c in CATS:
@@ -50,11 +78,11 @@ for c in CATS:
                 m = DATE.search(l)
                 if m: entry["effective_date"] = f"{m.group(1)} {m.group(2)} {m.group(3)}"
         if not tfiles: entry["gaps"].append("no .transform markdown; PDF only")
-        # chapters + titled paragraphs, assigned by paragraph-number prefix
+
+        # ---- Pass 1: standard "Chapter N" + "N-N. Title" extraction (unchanged shape) ----
         titled = not name.startswith(UNTITLED_PARA)
         chap_files, chap_titles, paras = {}, {}, {}
         for f in tfiles:
-            if f.startswith("00_Full"): continue
             lines = read(os.path.join(tdir, f))
             m = re.match(r'(\d+)_Chapter_(\d+)', f)
             if m: chap_files.setdefault(m.group(2), f)
@@ -65,11 +93,10 @@ for c in CATS:
                 cm = CHAP.match(l)
                 if cm and cm.group(1) == "Chapter" and i + 1 < len(lines) and lines[i+1].strip():
                     t = lines[i+1].strip()
-                    # wrapped titles: join one more line if it continues lowercase/short
                     if i + 2 < len(lines) and lines[i+2].strip() and not re.match(r'^(Section|\d)', lines[i+2].strip()) and len(t) > 70:
                         t += " " + lines[i+2].strip()
                     chap_titles.setdefault(cm.group(2), t)
-                pm = PARA.match(l) if titled else None
+                pm = PARA.match(l)
                 if pm:
                     ch, n, t = pm.group(1), pm.group(2), pm.group(3).strip()
                     if t.endswith((",", ";")): continue
@@ -77,12 +104,60 @@ for c in CATS:
                     rec = {"title": t}
                     if section: rec["section"] = section
                     paras.setdefault(ch, {}).setdefault(f"{ch}-{n}", rec)
-        for ch in sorted(set(chap_files) | set(chap_titles) | set(paras), key=lambda x: int(x) if x.isdigit() else 999):
-            entry["chapters"][ch] = {"title": chap_titles.get(ch),
-                                     "file": f"{entry['transform_dir']}/{chap_files[ch]}" if ch in chap_files else None,
-                                     "paragraphs": dict(sorted(paras.get(ch, {}).items(), key=lambda kv: int(kv[0].split('-')[1])))}
-        if tfiles and not titled: entry["gaps"].append("paragraphs are untitled in source; cite chapter/section headings only")
-        if tfiles and titled and not paras: entry["gaps"].append("paragraph headings not extracted (numbering style differs); cite by chapter")
+
+        # ---- Pass 2: loose derived-snippet paragraphs for UM_/ADP_/FM_-style manuals that
+        # already have real chapters (from filenames) but print paragraph+prose on one line ----
+        if not titled and (chap_files or chap_titles) and not paras:
+            for f in tfiles:
+                m = re.match(r'(\d+)_Chapter_(\d+)', f)
+                if not m: continue
+                ch = m.group(2)
+                for l in read(os.path.join(tdir, f)):
+                    lm = LOOSE_PARA.match(l)
+                    if not lm: continue
+                    n, body = lm.group(2), lm.group(3)
+                    if junk(body): continue
+                    t = snippet(body)
+                    if not t: continue
+                    paras.setdefault(ch, {}).setdefault(f"{ch}-{n}", {"title": t})
+
+        # ---- Pass 3: fallback for docs with zero chapters from Pass 1 (DoDI section files,
+        # flat-numbered directives like AD 2018-16, odd/garbled split filenames) - one chapter
+        # per split file, keyed "S1", "S2"... by file order, titled from the filename ----
+        fallback_order = []
+        if tfiles and not chap_files and not chap_titles:
+            idx = 0
+            for f in tfiles:
+                title = clean_filename_title(f)
+                if title.lower() == "blank page": continue
+                idx += 1
+                key = f"S{idx}"
+                fallback_order.append(key)
+                chap_titles[key] = title
+                chap_files[key] = f
+                for l in read(os.path.join(tdir, f)):
+                    pm = PARA.match(l) or PARA_FLAT.match(l)
+                    if not pm: continue
+                    groups = pm.groups()
+                    n, t = (groups[1], groups[2]) if len(groups) == 3 else (groups[0], groups[1])
+                    t = t.strip()
+                    if junk(t) or t.endswith((",", ";")): continue
+                    if len(t.split()) > 12: t = " ".join(t.split()[:8]) + " …"
+                    paras.setdefault(key, {}).setdefault(f"{key}-{n}", {"title": t})
+
+        if fallback_order:
+            for ch in fallback_order:
+                entry["chapters"][ch] = {"title": chap_titles.get(ch),
+                                         "file": f"{entry['transform_dir']}/{chap_files[ch]}" if ch in chap_files else None,
+                                         "paragraphs": dict(paras.get(ch, {}))}
+        else:
+            for ch in sorted(set(chap_files) | set(chap_titles) | set(paras), key=lambda x: int(x) if x.isdigit() else 999):
+                entry["chapters"][ch] = {"title": chap_titles.get(ch),
+                                         "file": f"{entry['transform_dir']}/{chap_files[ch]}" if ch in chap_files else None,
+                                         "paragraphs": dict(sorted(paras.get(ch, {}).items(), key=lambda kv: int(kv[0].split('-')[1])))}
+        if tfiles and not entry["chapters"]: entry["gaps"].append("no paragraph or chapter structure recognized in source")
+        elif tfiles and not any(c["paragraphs"] for c in entry["chapters"].values()):
+            entry["gaps"].append("no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section")
         cat[name] = entry
 json.dump(cat, open("source_catalog.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 print(len(cat), "documents")

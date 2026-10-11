@@ -63,8 +63,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_1145.01
     note: "Qualitative distribution of manpower; AFQT category definitions and limits on lower categories (Glossary and Policy). Context for why categories matter; Army enlistment rules in AR 601-210 govern."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: DoDI_1304.26
     title: Qualification Standards for Enlistment
     edition_date: null
@@ -74,8 +72,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_1304.26
     note: Enclosure 3 Basic Eligibility Criteria, Aptitude heading. Paragraph headings not extracted.
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: DoDI_1304.02
     title: Accession Testing Programs
     edition_date: null
@@ -85,8 +81,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_1304.02
     note: "Accession processing data collection forms (DD Form 1966 and others), not testing policy; cited only for the forms the testing history is recorded on. The roster listed it as a testing source; the ASVAB testing manual (DoDM 1145.02) is absent from the library."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "22-002"
     subject: Prescreen ASVAB (PiCAT) and AFQT Predictor Test (APT) Testing Procedures and Set-up Instructions (UPDATE)

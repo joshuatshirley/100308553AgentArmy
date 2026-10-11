@@ -81,7 +81,6 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 - Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Active and Reserve Component Separations. 11-4d cites AR 601-210 chapter 5-78, which does not exist in the 20 March 2026 edition (drug separation is 5-73). Message 24-027 changes 11-11.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -164,7 +163,6 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 - Chapter: 3 (Decisive Operations)
 - Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Future Soldier Losses
 

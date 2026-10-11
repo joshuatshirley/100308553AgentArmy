@@ -38,8 +38,6 @@ sources:
       - Army Leadership Requirements Model
       - Roles of Leadership
       - Levels of Leadership
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-22
     title: Army Leadership and the Profession
     edition_date: "06 February 2025"
@@ -56,8 +54,6 @@ sources:
       - Warrior Ethos and Service Ethos
       - Discipline
       - Humility
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-22
     title: Army Leadership and the Profession
     edition_date: "06 February 2025"
@@ -73,8 +69,6 @@ sources:
       - Fitness
       - Confidence
       - Resilience
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-22
     title: Army Leadership and the Profession
     edition_date: "06 February 2025"
@@ -91,8 +85,6 @@ sources:
       - Innovation
       - Interpersonal Tact
       - Expertise
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-22
     title: Army Leadership and the Profession
     edition_date: "06 February 2025"
@@ -108,8 +100,6 @@ sources:
       - Extends Influence Beyond the Chain of Command
       - Leads by Example
       - Communicates
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-22
     title: Army Leadership and the Profession
     edition_date: "06 February 2025"
@@ -125,8 +115,6 @@ sources:
       - Creates a Positive Environment/Fosters Esprit de Corps
       - Develops Others
       - Stewards the Profession
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-22
     title: Army Leadership and the Profession
     edition_date: "06 February 2025"
@@ -138,8 +126,6 @@ sources:
     markdown: null
     section_headings:
       - Gets Results
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-22
     title: Army Leadership and the Profession
     edition_date: "06 February 2025"
@@ -154,8 +140,6 @@ sources:
       - Leadership and Management
       - Stress of Change
       - Counterproductive Leadership
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: FM_6-22
     title: Developing Leaders
     edition_date: null
@@ -165,8 +149,6 @@ sources:
     chapter: all
     markdown: doctrine/FM/FM_6-22
     note: "Developing Leaders: tenets, setting conditions, feedback, coaching, counseling and mentoring (Section III, Fundamentals of Development), self-development, individual development plans (DA Form 7906), unit leader development programs. Paragraphs untitled; cite by section heading."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-0
     title: Mission Command
     edition_date: "31 July 2019"
@@ -181,8 +163,6 @@ sources:
       - Principles of Mission Command
       - The Role of Subordinates in Mission Command
       - Command and Control
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-0
     title: Mission Command
     edition_date: "31 July 2019"
@@ -197,8 +177,6 @@ sources:
       - Elements of Command
       - The Role of Commanders in Operations
       - Guides to Effective Command
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_6-0
     title: Mission Command
     edition_date: "31 July 2019"
@@ -213,8 +191,6 @@ sources:
       - Elements of Control
       - Control Measures
       - Guides to Effective Control
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_5-0
     title: The Operations Process
     edition_date: "31 July 2019"
@@ -229,8 +205,6 @@ sources:
       - Principles of the Operations Process
       - Integrating Processes
       - Battle Rhythm
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_5-0
     title: The Operations Process
     edition_date: "31 July 2019"
@@ -245,8 +219,6 @@ sources:
       - Key Components of a Plan
       - Guides to Effective Planning
       - Planning Pitfalls
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_5-0
     title: The Operations Process
     edition_date: "31 July 2019"
@@ -259,8 +231,6 @@ sources:
     section_headings:
       - Fundamentals of Preparation
       - Preparation Activities
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_5-0
     title: The Operations Process
     edition_date: "31 July 2019"
@@ -274,8 +244,6 @@ sources:
       - Fundamentals of Execution
       - Responsibilities During Execution
       - Rapid Decision-Making and Synchronization Process
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_5-0
     title: The Operations Process
     edition_date: "31 July 2019"
@@ -289,8 +257,6 @@ sources:
       - Fundamentals of Assessment
       - Assessment Process
       - Guides to Effective Assessment
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_1
     title: The Army
     edition_date: null
@@ -300,8 +266,6 @@ sources:
     chapter: all
     markdown: doctrine/ADP/ADP_1
     note: "The Army; chapters not split. Cite by heading from .transform/00_Full_Document.md."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: FM_1
     title: The Army
     edition_date: "01 May 2025"
@@ -312,7 +276,7 @@ sources:
     markdown: doctrine/FM/FM_1
     note: "The Army (2025); chapter titles were not captured cleanly; cite by heading."
     known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
+      - "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
   - doc: ADP_3-0
     title: Operations
     edition_date: null
@@ -322,8 +286,6 @@ sources:
     chapter: all
     markdown: doctrine/ADP/ADP_3-0
     note: "Operations; chapters not split."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: FM_3-0
     title: Operations
     edition_date: "21 March 2025"
@@ -333,8 +295,6 @@ sources:
     chapter: all
     markdown: doctrine/FM/FM_3-0
     note: "Operations (2025); chapter titles were not captured cleanly; cite by heading. Use only for terms such as mission command culture."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
 usarec_messages: []
 forms: []
 routing_triggers:

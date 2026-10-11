@@ -40,8 +40,6 @@ sources:
       - Information Collection
       - Information Distribution
     note: Brigade and battalion intelligence and market analysis, IPOE, event and geographic targeting.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-29
     title: Battalion Operations
     edition_date: "9 March 2022"
@@ -57,8 +55,6 @@ sources:
       - Targeting Board
       - Fusion Cell
     note: Figure 4-4 high payoff event list and Figure 4-5 synchronization matrix are in this chapter.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-30
     title: Company Operations
     edition_date: "7 March 2022"
@@ -75,8 +71,6 @@ sources:
       - Information Dissemination
       - Company Level Targeting Process
     note: "Company level. Catalog has no chapter file; text is in UM_3-30/.transform/06_Intelligence_Information_and_Targeting.md."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -90,8 +84,6 @@ sources:
       - Intelligence and Market Analysis
       - Recruiting Zones
     note: "Station level: recruiters as sensors, open-source and publicly available information, ASCOPE, zone tools."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-32
     title: Recruiter Operations
     edition_date: "9 March 2022"
@@ -106,8 +98,6 @@ sources:
       - Market Analysis
       - Intelligence and Market Analysis
     note: "Recruiter's view; Figure 6-1 G-2 Market Intelligence Dashboard."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-0
     title: USAREC Operations
     edition_date: "9 March 2022"
@@ -123,8 +113,6 @@ sources:
       - Targeting Boards
       - Fusion Cells
     note: "Command-level doctrine; appendix B (PMESII-PT and METT-TC) is in the same markdown file."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-02
     title: Intelligence
     edition_date: null
@@ -135,8 +123,6 @@ sources:
     chapter_title: Market Analysis
     markdown: doctrine/Guides/UTC_5-02/02_Chapter_2.md
     note: "Actual title (front matter): UTC 5-02 Intelligence; catalog title is wrong. Market Analysis: steps of the recruiting IPB."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-02
     title: Intelligence
     edition_date: null
@@ -147,8 +133,6 @@ sources:
     chapter_title: Types and Location of Intelligence Data Source
     markdown: doctrine/Guides/UTC_5-02/03_Chapter_3.md
     note: "Types and location of intelligence data sources: MID, G-2 market analysis tools, G2 Maps, MAR, Power BI."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-02
     title: Intelligence
     edition_date: null
@@ -159,8 +143,6 @@ sources:
     chapter_title: null
     markdown: doctrine/Guides/UTC_5-02/04_Chapter_4.md
     note: "Defining the operational environment: PMESII-PT, ASCOPE, TMA, FQMA, segmentation, demographics, propensity."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-02
     title: Intelligence
     edition_date: null
@@ -171,8 +153,6 @@ sources:
     chapter_title: Describe the Environmental Effects
     markdown: doctrine/Guides/UTC_5-02/05_Chapter_5.md
     note: "Describe the environmental effects: span of control, P2P, penetration, schools."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-02
     title: Intelligence
     edition_date: null
@@ -183,8 +163,6 @@ sources:
     chapter_title: Evaluate the Threat
     markdown: doctrine/Guides/UTC_5-02/06_Chapter_6.md
     note: "Evaluate the threat: competition and market share, with its pitfalls."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTC_5-02
     title: Intelligence
     edition_date: null
@@ -195,8 +173,6 @@ sources:
     chapter_title: Assess Market Potential
     markdown: doctrine/Guides/UTC_5-02/07_Chapter_7.md
     note: "Assess market potential: SAMA, MAR, SMR."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UR_601-73
     title: Market Analysis to Support Recruiting Operations
     edition_date: "1 February 2015"
@@ -216,8 +192,6 @@ sources:
     chapter_title: null
     markdown: doctrine/FM/FM_2-0/04_Chapter_1-_Intelligence.md
     note: "Army intelligence doctrine; use only to explain intelligence process terms the USAREC manuals borrow."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: ADP_2-0
     title: Intelligence
     edition_date: null
@@ -229,7 +203,7 @@ sources:
     markdown: doctrine/ADP/ADP_2-0/08_Chapter_3-_The_Intelligence_Process.md
     note: "The intelligence process; background only."
     known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
+      - "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
 usarec_messages: []
 forms: []
 routing_triggers:

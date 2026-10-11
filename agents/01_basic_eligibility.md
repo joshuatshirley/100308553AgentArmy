@@ -144,7 +144,6 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: DoD qualification standards; Enclosure 3 Basic Eligibility Criteria (Age, Citizenship, Education, Aptitude, Medical, Physical Fitness, Dependency Status, Character/Conduct). Paragraph headings not extracted; cite by enclosure and heading. Army detail in AR 601-210 governs.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

@@ -70,8 +70,6 @@ sources:
     chapter: all
     markdown: doctrine/DoDI/DoDI_6130.03_vol_1
     note: "Medical standards for appointment, enlistment or induction (Change 5). Section 5 Medical Standards (Applicability, Procedures); Section 6 Disqualifying Conditions by body system (Head, Eyes, Vision, Ears, Hearing, Lungs, Heart, Abdominal, Spine, Extremities, Skin, Endocrine, Neurologic, Sleep, Learning/Psychiatric/Behavioral, Tumors, Miscellaneous). Cite by section and heading; paragraph headings not extracted."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: AR_40-501
     title: null
     edition_date: "27 June 2019"
@@ -118,8 +116,6 @@ sources:
       "15-4": Medical Waiver and Prescreen Procedures
       "15-5": Counseling of Applicants
     note: "Waiver policy and validity, medical waiver and prescreen procedures, CMO review, Command Surgeon role, counseling. 15-4 refers to a USMEPCOM prescreen SOP and an AR 40-501 paragraph from an older edition; neither is in the library."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "23-056"
     subject: USAREC Medical Prescreening Procedures.

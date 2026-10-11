@@ -102,7 +102,6 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 - Text: `doctrine/Regulations/UR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USMA ordered to AD, ROTC cadets ordered to AD, disenrolled ROTC cadets, disenrolled academy applicants, WOC selectees from sister services.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -119,7 +118,6 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 - Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.25 OCS/WOFT Processing Procedures exists only in the PDF. Message 24-003 refers to its waiver paragraphs; read them in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### DA_PAM_601-6: Warrant Officer Procurement Program
 
@@ -226,7 +224,6 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 - Text: `doctrine/Regulations/AR_350-51`
 - PDF: `Regulations/AR_350-51/AR_350-51.pdf`
 - Why: U.S. Army Officer Candidate School, edition dated 11 June 2001. Paragraph headings not extracted; key paragraphs are 1-5 criteria, 1-6 who may apply, 1-7 who may not apply, 1-9 waivers, 1-10/1-11 service commitments. Confirm currency.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

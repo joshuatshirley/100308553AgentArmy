@@ -128,7 +128,6 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 - Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC administrative waiver procedures, counseling and supporting documents that apply to dependents waivers.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -143,7 +142,6 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Dependency Status and Enclosure 4 Dependent Waiver headings. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

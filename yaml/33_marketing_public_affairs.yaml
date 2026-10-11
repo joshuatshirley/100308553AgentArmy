@@ -207,8 +207,6 @@ sources:
     chapter: all
     markdown: doctrine/Guides/USAREC_Social_Media_SOP_21_JUN_18
     note: "USAREC Social Media SOP (May 2018, signed 21 Jun 2018): OPSEC and training, PII, online conduct, messaging, branding, account requirements, records, paid promotion, platforms, reporting, cease and desist. Check for a newer SOP."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: UTP_3-10.4_(VRA)_V1
     title: Virtual Recruiting Assistant
     edition_date: "30 November 2020"
@@ -219,8 +217,6 @@ sources:
     chapter_title: Roles, Responsibilities, and Organizations of Virtual
     markdown: doctrine/Guides/UTP_3-10.4_(VRA)_V1/03_Chapter_3.md
     note: Roles of the commander and USAREC virtual recruiting and advertising assets. Level 4.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UTP_3-10.4_(VRA)_V1
     title: Virtual Recruiting Assistant
     edition_date: "30 November 2020"
@@ -231,8 +227,6 @@ sources:
     chapter_title: "Recruiters now have the ability to individually pay for and conduct social media boosting. b. Procedures: Using RER (Recruiter Expenses Reimbursement) to Boost Facebook and"
     markdown: doctrine/Guides/UTP_3-10.4_(VRA)_V1/07_Chapter_7.md
     note: Social media boosting procedures. Level 4.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-29
     title: Battalion Operations
     edition_date: "9 March 2022"
@@ -246,8 +240,6 @@ sources:
       - Advertising and Public Affairs
       - Training for Media Awareness
     note: Battalion advertising and public affairs and media awareness.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-29
     title: Battalion Operations
     edition_date: "9 March 2022"
@@ -260,8 +252,6 @@ sources:
     section_headings:
       - The News Media
     note: News media as part of the recruiting network.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -274,8 +264,6 @@ sources:
     section_headings:
       - Advertising Assets
     note: Station use of advertising assets.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: UR_25-30
     title: USAREC Business Cards
     edition_date: "30 September 2022"

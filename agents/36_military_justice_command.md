@@ -269,7 +269,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/UR_27-4`
 - PDF: `Regulations/UR_27-4/UR 27-4.pdf`
 - Why: Prohibited and Regulated Activities for USAREC personnel; Chapter 2 is punitive and defines prohibited relationships with prospects and applicants. Paragraph headings not extracted; cite by paragraph from the text.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_27-3: Claims
 
@@ -278,7 +277,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/UR_27-3`
 - PDF: `Regulations/UR_27-3/UR 27-3.pdf`
 - Why: USAREC procedures in drunk-driving cases involving cadre (documents to gather, reprimand handling).
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_27-2(V3): Legal Support Services for the U.S. Army Recruiting Command
 
@@ -322,7 +320,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/AR_190-45`
 - PDF: `Regulations/AR_190-45/AR_190-45.pdf`
 - Why: Law enforcement reporting; Chapter 4 offense reporting and DA Form 4833, Chapter 8 reportable serious incidents, Chapter 9 SIR procedures. Paragraph headings not extracted; cite by chapter.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### AD_2022-10: Army Directive 2022-10 (Safe-to-Report for Victims of Sexual Assault)
 
@@ -331,7 +328,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/AD_2022-10`
 - PDF: `Regulations/AD_2022-10/AD_2022-10.pdf`
 - Why: Safe-to-report: commander assessment of minor collateral misconduct by sexual assault victims.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### AD2018-16: Army Directive 2018-16 (Suitability Criteria for Military Personnel in Specified Positions)
 
@@ -340,7 +336,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Regulations/AD2018-16`
 - PDF: `Regulations/AD2018-16/AD2018-16.pdf`
 - Why: Suitability criteria and screening for recruiting cadre and other specified positions.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### RI_-_Appointment_of_IO_Memo
 
@@ -349,7 +344,6 @@ Specialist for company and battalion command teams and station commanders who mu
 - Text: `doctrine/Guides/RI_-_Appointment_of_IO_Memo`
 - PDF: `Guides/RI_-_Appointment_of_IO_Memo/RI - Appointment of IO Memo.pdf`
 - Why: Sample IO appointment memo for a recruiting impropriety investigation. It is a 2014 sample that cites superseded publications (UR 601-45, old UR 601-210 chapter 7); use for memo structure only and take governing citations from message 25-019 and AR 15-6.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

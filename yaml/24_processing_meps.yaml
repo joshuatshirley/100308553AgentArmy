@@ -90,8 +90,6 @@ sources:
       "2-4": Prerequisites for selection as GC and Ops NCO
       "2-5": Duties and Responsibilities
     note: Responsibilities for recruiting personnel, GC and Ops NCO duties.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -108,8 +106,6 @@ sources:
       "4-4": REQUEST Use
       "4-5": Alternate Procedures for Terminal or System Failure
     note: REQUEST procedures, security and prohibited uses.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -126,8 +122,6 @@ sources:
       "19-4": Required REQUEST and Close-out Reports (Bde and Bn Ops)
       "19-5": Procedures for Completing RZ End-Of-Day Reports
     note: Required USMEPCOM daily reports, REQUEST close-out and RZ end-of-day result codes.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -137,8 +131,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: Ch.6 Quality Control Procedures and Scheduling of Applicants, Ch.20 Government Meals and Lodging and Ch.24 Temporary Reservation Procedures exist only in the PDF.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "25-046"
     subject: "Authorized Signatures for Applicant Processing (UPDATED). UPDATE: Added para 2. d. that prohibits wet signatures for all system generated enlistment documents t"

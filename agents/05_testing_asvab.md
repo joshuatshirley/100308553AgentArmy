@@ -110,7 +110,6 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 - Text: `doctrine/DoDI/DoDI_1145.01`
 - PDF: `DoDI/DoDI_1145.01/DoDI_1145.01.pdf`
 - Why: Qualitative distribution of manpower; AFQT category definitions and limits on lower categories (Glossary and Policy). Context for why categories matter; Army enlistment rules in AR 601-210 govern.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### DoDI_1304.26: Qualification Standards for Enlistment
 
@@ -119,7 +118,6 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Aptitude heading. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### DoDI_1304.02: Accession Testing Programs
 
@@ -128,7 +126,6 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 - Text: `doctrine/DoDI/DoDI_1304.02`
 - PDF: `DoDI/DoDI_1304.02/DoDI_1304.02.pdf`
 - Why: Accession processing data collection forms (DD Form 1966 and others), not testing policy; cited only for the forms the testing history is recorded on. The roster listed it as a testing source; the ASVAB testing manual (DoDM 1145.02) is absent from the library.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

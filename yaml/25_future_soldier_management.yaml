@@ -64,8 +64,6 @@ sources:
       "17-8": Future Soldier Training
       "17-9": Management of FSTP Functions
     note: "Future Soldier Management. 17-8e names the APFT; message 24-054 and AR 601-210 2-18 refer to the Army Fitness Test; surface the difference."
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -83,8 +81,6 @@ sources:
       "18-5": Hometown Shipping Program. (RA/AR)
       "18-6": Ship Date for BCT (RA and AR)
     note: DEP/DTP-out procedures, courtesy shippers, hometown shipping, BCT ship dates.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -94,8 +90,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: Ch.7 Procedures for Enlistment into DEP/DTP/DS and Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exist only in the PDF.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -110,8 +104,6 @@ sources:
       - Leading Future Soldiers
       - Future Soldier Functions
       - Future Soldier Losses
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
 usarec_messages:
   - number: "25-033"
     subject: Implementation of Future Soldier Asset Inventory (FSAI) USAREC FORM 601-210.19

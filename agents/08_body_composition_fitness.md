@@ -116,7 +116,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/Regulations/AR_600-9`
 - PDF: `Regulations/AR_600-9/AR_600-9.pdf`
 - Why: The Army Body Composition Program. Library copy is dated 28 June 2013 and is likely superseded; its new-recruit provision differs from message 26-015. Appendix B covers measurement and body-fat worksheets (DA Forms 5500/5501, not in the Forms library). Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ### UR_601-210: Enlistment & Accessions Processing
 
@@ -125,7 +124,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/Regulations/UR_601-210/17_Chapter_17.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Future Soldier sustainment and physical training safety. Text still refers to the APFT; message 24-054 names the current Future Soldier fitness test.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -138,7 +136,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/Regulations/UR_601-210/18_Chapter_18.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ship-out verification of OPAT documents.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -151,7 +148,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/Regulations/UR_601-210/23_Chapter_23.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Occupational Physical Assessment Test (OPAT) procedures. Chapter exists only in the PDF.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### FM_7-22: Holistic Health and Fitness
 
@@ -160,7 +156,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/FM/FM_7-22`
 - PDF: `FM/FM_7-22/FM_7-22.pdf`
 - Why: Holistic Health and Fitness (Change 2). Doctrine context for training; it does not address Future Soldiers or applicants. Chapter headings only.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### DoDI_1304.26: Qualification Standards for Enlistment
 
@@ -169,7 +164,6 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 - Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Physical Fitness heading. Paragraph headings not extracted.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

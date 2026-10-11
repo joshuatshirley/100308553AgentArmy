@@ -25,10 +25,36 @@ AR 600-8-2, AR 623-3, AR 600-8-22, AR 614-200, AR 600-37, DA PAM 600-3.
 own PDF metadata, same printed edition date but an earlier/incomplete scan). The catalog build was
 keeping the stale `Regulations/` draft; fixed to use the `Manuals/` copy as canonical.
 
-Paragraph headings still aren't extracted (different numbering style) for the DoDIs, AR 600-9,
-AR 190-45, AR 350-51, AR 601-1, DA PAM 601-280, AD 2018-16, AD 2022-10 and several USAREC regulations.
-FM 6-22, FM 7-22, FM 1, FM 3-0, ADP 1 and ADP 3-0 are not split into chapters. These are a different,
-unrelated extractor limitation (not "exists only as PDF") and remain open.
+## Paragraph/chapter citation text regenerated — 2026-10-11
+
+The catalog build previously had two more holes: (1) it silently skipped any document whose PDF
+didn't TOC-split into separate chapter files — i.e. every lone `00_Full_Document.md` — so documents
+like AR 600-9, AD 2018-16, AD 2022-10, AR 190-45, AR 350-51, AR 601-1, several USAREC regulations and
+all 7 DoDIs contributed **zero** chapters or paragraphs even though their text was already sitting
+right there; (2) for the UM_/ADP_/FM_/STP/UTC_/UTP_ manual families, paragraph extraction was
+disabled outright on the (correct, for most of them) assumption that they print the paragraph number
+and the full prose on one line with no short title to extract — but that also meant a real, present
+`Chapter N` structure (and plenty of extractable content in the ADP/FM/UM docs whose paragraph style
+turned out to be `N-N. <sentence>`) never made it into the catalog either.
+
+Fixed in three passes, 174 docs total, net **+7,488 paragraph citations** (5,139 → 12,627):
+- Stopped skipping lone `00_Full_Document.md` files — unlocked standard `Chapter N` / `N-N. Title`
+  extraction "for free" for AR 600-9, AR 135-101, AR 190-45, AR 350-51, AR 601-1, DA PAM 635-40,
+  ADP 1/3-0/7-0, FM 6-22/7-22, and more.
+- Added a derived-snippet pass for the UM_/ADP_/FM_ manuals that print `N-N. <full sentence>` with no
+  separate title line (UM 3-0/3-29/3-30/3-31/3-32, most of ADP and FM) — the paragraph title is now the
+  first ~8 words of the sentence instead of nothing.
+- Added a fallback for documents with no `Chapter N` text at all — DoDIs (which use named `SECTION`s,
+  not chapters), USAREC regs/supplements whose split used section titles instead of "Chapter N", and
+  a flat `N. Title` directive format (AD 2018-16/2022-10) with no chapter prefix. Each split file
+  becomes its own citable section, titled from its filename, with any numbered paragraphs inside it
+  still extracted.
+
+**What's genuinely left (31 docs, down from the ~44 candidates):** single-page fillable DD/USAREC
+forms, pure narrative prose (FM 1's storytelling chapters), and reference tables (DoDI 1304.26's
+offense-code lookup) have no paragraph numbering to extract — correctly empty, not a bug. A few
+multi-page user guides (GCRc, LiveScan/WEBS) are screenshot-driven walkthroughs with no numbered
+prose either. See `catalog/source_catalog.json` gaps for the current list.
 
 ## Not in the library
 

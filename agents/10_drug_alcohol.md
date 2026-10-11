@@ -139,7 +139,6 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 - Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Positive drug test separation: same-day reservation cancellation, cancellation codes by substance, order upload, Army Reserve TPU notification.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -160,7 +159,6 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 - Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf`
 - Why: USAREC supplement covering cadre unit urinalysis (USAREC Form S600-85.1). Only figure pages were extracted to markdown; the body is PDF-only. Not an applicant-testing source.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 

@@ -40,8 +40,6 @@ sources:
       - Company Incentive Programs
       - Leader Resilience Through Holistic Wellness and Fitness
     note: "Company command team sustaining operations; text in .transform/08_Sustaining_Operations.md."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: FM_7-22
     title: Holistic Health and Fitness
     edition_date: null
@@ -51,8 +49,6 @@ sources:
     chapter: all
     markdown: doctrine/FM/FM_7-22
     note: "Holistic Health and Fitness: physical, nutritional, mental, spiritual and sleep readiness domains. Paragraphs untitled; cite by section heading."
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
   - doc: AR_608-1
     title: Army Community Service
     edition_date: "19 October 2017"
@@ -167,8 +163,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85
     note: "USAREC supplement (2016): unit prevention leader and drug testing program software requirements. Paragraph headings not extracted."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: UR_608-1
     title: National Voter Registration Act
     edition_date: "28 June 2019"

@@ -85,7 +85,6 @@ Specialist for recruiting market intelligence and targeting, written for station
 - Text: `doctrine/Manuals/UM_3-29/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion intelligence and market analysis, IPOE, event and geographic targeting.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Intelligence Preparation of the Operational Environment; Recruiting Market Environment; Market Competition; Targeting Process; Running Estimates; Information Collection; Information Distribution
 
@@ -96,7 +95,6 @@ Sections: Intelligence Preparation of the Operational Environment; Recruiting Ma
 - Text: `doctrine/Manuals/UM_3-29/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Figure 4-4 high payoff event list and Figure 4-5 synchronization matrix are in this chapter.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Positioning; Mission Distribution; Targeting Board; Fusion Cell
 
@@ -106,7 +104,6 @@ Sections: Positioning; Mission Distribution; Targeting Board; Fusion Cell
 - Chapter: 3 (Intelligence, Information, and Targeting)
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company level. Catalog has no chapter file; text is in UM_3-30/.transform/06_Intelligence_Information_and_Targeting.md.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: The Command Team's Role In the Intelligence Process; Intelligence Preparation; Information Collection; Information Dissemination; Company Level Targeting Process
 
@@ -117,7 +114,6 @@ Sections: The Command Team's Role In the Intelligence Process; Intelligence Prep
 - Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station level: recruiters as sensors, open-source and publicly available information, ASCOPE, zone tools.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Intelligence and Market Analysis; Recruiting Zones
 
@@ -128,7 +124,6 @@ Sections: Intelligence and Market Analysis; Recruiting Zones
 - Text: `doctrine/Manuals/UM_3-32/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view; Figure 6-1 G-2 Market Intelligence Dashboard.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Intelligence; Market Analysis; Intelligence and Market Analysis
 
@@ -139,7 +134,6 @@ Sections: Intelligence; Market Analysis; Intelligence and Market Analysis
 - Text: `doctrine/Manuals/UM_3-0/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-0/UM 3-0.pdf`
 - Why: Command-level doctrine; appendix B (PMESII-PT and METT-TC) is in the same markdown file.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through the Targeting Process; Targeting Boards; Fusion Cells
 
@@ -150,7 +144,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/02_Chapter_2.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Actual title (front matter): UTC 5-02 Intelligence; catalog title is wrong. Market Analysis: steps of the recruiting IPB.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -159,7 +152,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/03_Chapter_3.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Types and location of intelligence data sources: MID, G-2 market analysis tools, G2 Maps, MAR, Power BI.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -168,7 +160,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/04_Chapter_4.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Defining the operational environment: PMESII-PT, ASCOPE, TMA, FQMA, segmentation, demographics, propensity.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -177,7 +168,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/05_Chapter_5.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Describe the environmental effects: span of control, P2P, penetration, schools.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -186,7 +176,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/06_Chapter_6.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Evaluate the threat: competition and market share, with its pitfalls.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UTC_5-02: Intelligence
 
@@ -195,7 +184,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/Guides/UTC_5-02/07_Chapter_7.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Assess market potential: SAMA, MAR, SMR.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### UR_601-73: Market Analysis to Support Recruiting Operations
 
@@ -212,7 +200,6 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/FM/FM_2-0/04_Chapter_1-_Intelligence.md`
 - PDF: `FM/FM_2-0/FM_2-0.pdf`
 - Why: Army intelligence doctrine; use only to explain intelligence process terms the USAREC manuals borrow.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
 ### ADP_2-0: Intelligence
 
@@ -221,7 +208,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 - Text: `doctrine/ADP/ADP_2-0/08_Chapter_3-_The_Intelligence_Process.md`
 - PDF: `ADP/ADP_2-0/ADP_2-0.pdf`
 - Why: The intelligence process; background only.
-- Known gap: paragraphs are untitled in source; cite chapter/section headings only
+- Known gap: no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section
 
 ## Routing triggers
 

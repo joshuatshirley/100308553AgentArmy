@@ -103,8 +103,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/UR_601-210
     note: Ch.22 U.S. Army Recruiting Command Liaisons at U.S. Army Reception Battalions exists only in the PDF.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
 usarec_messages: []
 forms:
   - form: "1966_printed"

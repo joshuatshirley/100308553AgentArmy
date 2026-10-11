@@ -248,8 +248,6 @@ sources:
     paragraphs:
       "12-7": REQUEST Reservations for AR AMEDD Officers
     note: REQUEST reservations for Army Reserve AMEDD officers.
-    known_gaps:
-      - chapters  exist only in the PDF (not transformed)
   - doc: DA_PAM_600-4
     title: AMEDD Officer Career Management
     edition_date: "27 April 2023"
@@ -271,8 +269,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/AR_135-101
     note: "Appointment of Reserve commissioned officers for assignment to AMEDD branches. Edition dated 15 February 1984; markdown flagged for PDF use; paragraph headings not extracted. Confirm currency."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "22-059"
     subject: Processing of AMEDD Battalion (Bn) Level Conduct Waivers

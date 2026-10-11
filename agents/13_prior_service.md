@@ -168,7 +168,6 @@ Specialist for prior-service (PS) and glossary non-prior-service (GNPS) applican
 - Text: `doctrine/Regulations/UR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC procedures for PS/GNPS (Regular Army). 8-4 to 8-8 belong to 15_officer_warrant_programs.
-- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|

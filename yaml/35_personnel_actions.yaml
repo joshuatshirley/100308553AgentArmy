@@ -99,7 +99,7 @@ sources:
     markdown: doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22
     note: "USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment."
     known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
+      - "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
   - doc: AR_623-3
     title: Evaluation Reporting System
     edition_date: "14 February 2025"
@@ -330,8 +330,6 @@ sources:
     chapter: all
     markdown: doctrine/Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC
     note: "AR 601-1 (11 October 2016): Ch.2 selection and training for recruiting duty, Ch.3 assignment and reassignment, Ch.4 completion of DA-selected period and reclassification to 79R, Ch.5 voluntary and involuntary reassignment, suspension, unqualified/ineffective/unsuitable recruiters, Ch.6 AGR recruiters. Predates the 42T conversion; check current messages."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
   - doc: UM_3-31
     title: Station Operations
     edition_date: "7 March 2022"
@@ -345,8 +343,6 @@ sources:
       - Personnel Management
       - Personnel Integration
     note: Station commander's personnel management role.
-    known_gaps:
-      - "paragraphs are untitled in source; cite chapter/section headings only"
 usarec_messages:
   - number: "25-039"
     subject: "USARD 42T Talent Acquisition Specialist PAR Submission for 79R (UPDATED). Summary of Changes: a. Removed paragraph 4. d. \"I will reenlist/extend to meet the 36-"
