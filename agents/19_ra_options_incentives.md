@@ -85,7 +85,7 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section I general rules and Section II RA programs. 9-10 (9D) is listed so the agent can recognize it and hand off; 9-20 is the Secretariat review of accession incentives.
 
@@ -106,7 +106,7 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Renegotiating options and incentives for DEP enlistees who no longer qualify for their option at shipment.
 
@@ -118,7 +118,7 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 10 (Selected Reserve Incentive Program (Enlisted and Officer Incentives))
-- Text: `Regulations/AR_601-210/.transform/10_Chapter_10.md`
+- Text: `doctrine/Regulations/AR_601-210/10_Chapter_10.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Recoupment, referenced by 9-9 for security-clearance non-approval and for RC or former RC entering the RA.
 
@@ -130,7 +130,7 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 20 December 2022, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_611-21/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: MOS prerequisites that options require before and after enlistment; chapters 2 and 3 were not transformed, read the PDF.
 
@@ -138,10 +138,10 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.13 Regular Army Options and Incentives exists only in the PDF; read it for USAREC procedures on RA options.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -218,7 +218,7 @@ bonus, enlistment bonus, incentive, option, REQUEST option, station of choice, O
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

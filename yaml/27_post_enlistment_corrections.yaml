@@ -31,7 +31,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "8"
     chapter_title: Actions Required after Enlistment
-    markdown: Regulations/AR_601-210/.transform/08_Chapter_8.md
+    markdown: doctrine/Regulations/AR_601-210/08_Chapter_8.md
     paragraphs:
       "8-1": General
       "8-2": Reporting procedures
@@ -52,7 +52,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "6"
     chapter_title: Military Entrance Processing Station Processing Phase
-    markdown: Regulations/AR_601-210/.transform/06_Chapter_6.md
+    markdown: doctrine/Regulations/AR_601-210/06_Chapter_6.md
     paragraphs:
       "6-13": Correction of errors on enlistment forms
       "6-14": Claims of erroneous entries
@@ -66,7 +66,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "9"
     chapter_title: Enlistment Programs, Options, and Incentives
-    markdown: Regulations/AR_601-210/.transform/09_Chapter_9.md
+    markdown: doctrine/Regulations/AR_601-210/09_Chapter_9.md
     paragraphs:
       "9-3": Honoring enlistment commitments
       "9-4": Counseling on waivers affecting options
@@ -80,7 +80,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "7"
     chapter_title: Regular Army and Reserve Components Civilian-Acquired Skills Program
-    markdown: Regulations/AR_601-210/.transform/07_Chapter_7.md
+    markdown: doctrine/Regulations/AR_601-210/07_Chapter_7.md
     paragraphs:
       "7-11": Award of military occupational specialty, enlistment grade, and accelerated promotion
     note: Denial of an ACASP MOS is not an unfulfilled commitment.
@@ -92,7 +92,7 @@ sources:
     pdf: Regulations/AR_635-200/AR_635-200.pdf
     chapter: "7"
     chapter_title: Defective Enlistments, Reenlistments, and Extensions
-    markdown: null
+    markdown: doctrine/Regulations/AR_635-200/07_Chapter_7.md
     note: "Defective enlistments, including void erroneous enlistment procedure cited by 8-4c and 8-5b; not transformed, read the PDF."
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
@@ -101,10 +101,10 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: all
-    markdown: Regulations/UR_601-210/.transform
+    markdown: doctrine/Regulations/UR_601-210
     note: Ch.22 U.S. Army Recruiting Command Liaisons at U.S. Army Reception Battalions exists only in the PDF.
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
 usarec_messages: []
 forms:
   - form: "1966_printed"
@@ -210,7 +210,7 @@ guardrails:
   - "Never advise altering a DD Form 4 or DD Form 1966; corrections go through 6-13, 8-6 and 8-7 as written."
   - "Do not state the claim time limit or correction authority from memory; quote 8-4 to 8-10."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

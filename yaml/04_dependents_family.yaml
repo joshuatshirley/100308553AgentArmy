@@ -31,7 +31,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "2"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_601-210/02_Chapter_2.md
     paragraphs:
       "2-1": General
       "2-10": Dependents
@@ -44,7 +44,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "3"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_601-210/03_Chapter_3.md
     paragraphs:
       "3-8": Dependents
     note: "Prior-service dependents criteria; consulted only when 13_prior_service routes a dependents question here."
@@ -56,7 +56,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "4"
     chapter_title: Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions)
-    markdown: Regulations/AR_601-210/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_601-210/04_Chapter_4.md
     paragraphs:
       "4-19": Dependents
       "4-20": Surviving son or daughter
@@ -70,7 +70,7 @@ sources:
     pdf: Regulations/AR_600-20/AR_600-20.pdf
     chapter: "5"
     chapter_title: Other Responsibilities of Command
-    markdown: null
+    markdown: doctrine/Regulations/AR_600-20/05_Chapter_5.md
     note: "Family care plans (para 5-3, referenced by AR 601-210 4-19d). Chapter 5 exists only in the PDF; not transformed to markdown."
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
@@ -80,14 +80,14 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "15"
     chapter_title: Waiver Procedures
-    markdown: Regulations/UR_601-210/.transform/15_Chapter_15.md
+    markdown: doctrine/Regulations/UR_601-210/15_Chapter_15.md
     paragraphs:
       "15-3": Administrative and Conduct Waiver Procedures
       "15-5": Counseling of Applicants
       "15-6": Supporting Documents
     note: USAREC administrative waiver procedures, counseling and supporting documents that apply to dependents waivers.
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: DoDI_1304.26
     title: Qualification Standards for Enlistment
     edition_date: null
@@ -95,7 +95,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_1304.26/DoDI_1304.26.pdf
     chapter: all
-    markdown: DoDI/DoDI_1304.26/.transform
+    markdown: doctrine/DoDI/DoDI_1304.26
     note: Enclosure 3 Dependency Status and Enclosure 4 Dependent Waiver headings. Paragraph headings not extracted.
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -212,7 +212,7 @@ guardrails:
   - "Refer questionable custody or support cases to the staff judge advocate as the regulation directs; do not interpret court orders."
   - "Describe family members generically; never collect children's names, birth dates or case numbers."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

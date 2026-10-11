@@ -77,7 +77,7 @@ Specialist for enlistment pay grade, date of rank and authorized enlistment peri
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section II Enlistment Periods and Pay Grades for NPS applicants. 2-18 is subject to an operational-change message; compare both texts.
 
@@ -92,7 +92,7 @@ Specialist for enlistment pay grade, date of rank and authorized enlistment peri
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 3 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-210/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section II Enlistment Periods and Pay Grades for PS applicants.
 
@@ -107,7 +107,7 @@ Specialist for enlistment pay grade, date of rank and authorized enlistment peri
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: DEP terms of service and authorized pay grades; referral promotion opportunity.
 
@@ -120,7 +120,7 @@ Specialist for enlistment pay grade, date of rank and authorized enlistment peri
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 7 (Regular Army and Reserve Components Civilian-Acquired Skills Program)
-- Text: `Regulations/AR_601-210/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_601-210/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: ACASP grade, referenced from 2-17 and 2-18; qualification itself belongs to 22_acasp.
 
@@ -199,7 +199,7 @@ rank, pay grade, enlist as, E-2, E-3, E-4, advanced rank, college credit rank, J
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

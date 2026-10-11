@@ -94,7 +94,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_600-8-22/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_600-8-22/01_Chapter_1.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: Award principles, categories, time limitation, reconsideration, character of service, interim and impact awards, announcement, revocation.
 
@@ -115,6 +115,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 3 (U.S. Army Individual Decorations)
+- Text: `doctrine/Regulations/AR_600-8-22/03_Chapter_3.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: U.S. Army individual decorations. Not transformed; read the PDF.
 
@@ -122,7 +123,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 4 (Army Good Conduct Medal and Army Reserve Components Achievement Medal)
-- Text: `Regulations/AR_600-8-22/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_600-8-22/04_Chapter_4.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: Army Good Conduct Medal approval and processing.
 
@@ -136,6 +137,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 5 (U.S. Army Service Medals and Service Ribbons)
+- Text: `doctrine/Regulations/AR_600-8-22/05_Chapter_5.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: Service medals and ribbons. Not transformed; read the PDF.
 
@@ -143,6 +145,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 8 (Badges and Tabs)
+- Text: `doctrine/Regulations/AR_600-8-22/08_Chapter_8.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: Badges and tabs, including recruiter badges. Not transformed; read the PDF.
 
@@ -150,7 +153,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - authority level 3
 - Chapter: all
-- Text: `Regulations/USAREC_Suppl_1_to_AR_600_8_22/.transform`
+- Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_8_22/USAREC Suppl 1 to  AR 600_8_22.pdf`
 - Why: USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -159,7 +162,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 14 February 2025, effective 14 February 2025, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_623-3/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_623-3/01_Chapter_1.md`
 - PDF: `Regulations/AR_623-3/AR_623-3.pdf`
 - Why: Assessments, changes to reports, commander's inquiry, access.
 
@@ -174,6 +177,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 14 February 2025, effective 14 February 2025, authority level 2
 - Chapter: 2 (The Rating Chain)
+- Text: `doctrine/Regulations/AR_623-3/02_Chapter_2.md`
 - PDF: `Regulations/AR_623-3/AR_623-3.pdf`
 - Why: The rating chain. Not transformed; read the PDF.
 
@@ -181,6 +185,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 14 February 2025, effective 14 February 2025, authority level 2
 - Chapter: 3 (Army Evaluation Principles)
+- Text: `doctrine/Regulations/AR_623-3/03_Chapter_3.md`
 - PDF: `Regulations/AR_623-3/AR_623-3.pdf`
 - Why: Army evaluation principles. Not transformed; read the PDF.
 
@@ -188,6 +193,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 14 February 2025, effective 14 February 2025, authority level 2
 - Chapter: 4 (Evaluation Report Redress Program)
+- Text: `doctrine/Regulations/AR_623-3/04_Chapter_4.md`
 - PDF: `Regulations/AR_623-3/AR_623-3.pdf`
 - Why: Evaluation report redress program. Not transformed; read the PDF.
 
@@ -195,7 +201,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 12 February 2025, effective 12 February 2025, authority level 2
 - Chapter: 3 (Noncommissioned Officer Evaluation Report Forms and Preparation)
-- Text: `Pamphlets/DA_PAM_623-3/.transform/03_Chapter_3.md`
+- Text: `doctrine/Pamphlets/DA_PAM_623-3/03_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf`
 - Why: NCOER forms and preparation, rater tendency and senior rater profile, relief for cause, addenda, corrections.
 
@@ -230,7 +236,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 12 February 2025, effective 12 February 2025, authority level 2
 - Chapter: 2 (Officer Evaluation Report Forms and Preparation)
-- Text: `Pamphlets/DA_PAM_623-3/.transform/02_Chapter_2.md`
+- Text: `doctrine/Pamphlets/DA_PAM_623-3/02_Chapter_2.md`
 - PDF: `Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf`
 - Why: OER forms and preparation (for company and battalion officers).
 
@@ -238,7 +244,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 12 February 2025, effective 12 February 2025, authority level 2
 - Chapter: 6 (Constructing an Evaluation Report Appeal)
-- Text: `Pamphlets/DA_PAM_623-3/.transform/06_Chapter_6.md`
+- Text: `doctrine/Pamphlets/DA_PAM_623-3/06_Chapter_6.md`
 - PDF: `Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf`
 - Why: Constructing an evaluation report appeal.
 
@@ -251,6 +257,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 5 April 2021, authority level 2
 - Chapter: 2 (Policy and Management of Flag)
+- Text: `doctrine/Regulations/AR_600-8-2/02_Chapter_2.md`
 - PDF: `Regulations/AR_600-8-2/AR_600-8-2.pdf`
 - Why: Policy and management of flags. Not transformed; read the PDF.
 
@@ -258,7 +265,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 5 April 2021, authority level 2
 - Chapter: 3 (Prohibitions and Retention of Flagged Personnel)
-- Text: `Regulations/AR_600-8-2/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_600-8-2/03_Chapter_3.md`
 - PDF: `Regulations/AR_600-8-2/AR_600-8-2.pdf`
 - Why: Actions prohibited by a flag; retention of flagged personnel.
 
@@ -271,7 +278,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 2 October 2020, effective 10 May 2018, authority level 2
 - Chapter: 3 (Unfavorable Information in Army Military Human Resources Record)
-- Text: `Regulations/AR_600-37/.transform/02_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_600-37/02_Chapter_3.md`
 - PDF: `Regulations/AR_600-37/AR_600-37.pdf`
 - Why: Unfavorable information in the AMHRR, including memoranda of reprimand.
 
@@ -282,12 +289,14 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 | 3-3 | Filing of information exempt from the referral procedure |
 | 3-4 | Filing of information on sex-related offenses |
 | 3-5 | Filing of nonpunitive administrative memoranda of reprimand, admonition, or censure |
+| 3-6 | Anonymous communications |
+| 3-7 | Referral of information |
 
 ### AR_600-37: Unfavorable Information
 
 - edition 2 October 2020, effective 10 May 2018, authority level 2
 - Chapter: 7 (Appeals)
-- Text: `Regulations/AR_600-37/.transform/06_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_600-37/06_Chapter_7.md`
 - PDF: `Regulations/AR_600-37/AR_600-37.pdf`
 - Why: Appeals.
 
@@ -305,7 +314,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 29 June 2023, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_600-8-104/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_600-8-104/01_Chapter_1.md`
 - PDF: `Regulations/AR_600-8-104/AR_600-8-104.pdf`
 - Why: Military human resource records management overview.
 
@@ -327,7 +336,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 27 June 2025, effective 27 July 2025, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_614-200/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_614-200/01_Chapter_1.md`
 - PDF: `Regulations/AR_614-200/AR_614-200.pdf`
 - Why: Deletions and deferments.
 
@@ -339,7 +348,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 27 June 2025, effective 27 July 2025, authority level 2
 - Chapter: 3 (Enlisted Assignment System)
-- Text: `Regulations/AR_614-200/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_614-200/03_Chapter_3.md`
 - PDF: `Regulations/AR_614-200/AR_614-200.pdf`
 - Why: Enlisted assignment system, selection criteria, preferences, stabilization.
 
@@ -354,6 +363,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 27 June 2025, effective 27 July 2025, authority level 2
 - Chapter: 8 (Assignment to Specific Type Organizations or Activities or Duty Positions)
+- Text: `doctrine/Regulations/AR_614-200/08_Chapter_8.md`
 - PDF: `Regulations/AR_614-200/AR_614-200.pdf`
 - Why: Assignment to specific type organizations or duty positions. Not transformed; read the PDF.
 
@@ -361,7 +371,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC/.transform`
+- Text: `doctrine/Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC`
 - PDF: `Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC/AR 601-1 10112016 Asg of Enl Pers to USAREC.pdf`
 - Why: AR 601-1 (11 October 2016): Ch.2 selection and training for recruiting duty, Ch.3 assignment and reassignment, Ch.4 completion of DA-selected period and reclassification to 79R, Ch.5 voluntary and involuntary reassignment, suspension, unqualified/ineffective/unsuitable recruiters, Ch.6 AGR recruiters. Predates the 42T conversion; check current messages.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -370,7 +380,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 7 March 2022, authority level 3
 - Chapter: 5 (Sustaining Operations)
-- Text: `Manuals/UM_3-31/.transform/05_Chapter_5.md`
+- Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's personnel management role.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -439,7 +449,7 @@ award, AAM, ARCOM, MSM, impact award, recruiter badge, gold badge, NCOER, OER, e
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -32,7 +32,7 @@ sources:
     pdf: Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Pamphlets/DA_PAM_601-208/.transform/01_Chapter_1.md
+    markdown: doctrine/Pamphlets/DA_PAM_601-208/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-5": Importance of the Army Marketing Program
@@ -55,7 +55,7 @@ sources:
     pdf: Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf
     chapter: "3"
     chapter_title: Army Marketing Processes
-    markdown: Pamphlets/DA_PAM_601-208/.transform/03_Chapter_3.md
+    markdown: doctrine/Pamphlets/DA_PAM_601-208/03_Chapter_3.md
     paragraphs:
       "3-1": New marketing initiatives
       "3-2": Annual marketing requirements
@@ -68,7 +68,7 @@ sources:
     pdf: Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf
     chapter: "4"
     chapter_title: Return on Investment
-    markdown: Pamphlets/DA_PAM_601-208/.transform/04_Chapter_4.md
+    markdown: doctrine/Pamphlets/DA_PAM_601-208/04_Chapter_4.md
     paragraphs:
       "4-1": Purpose
       "4-2": Background
@@ -85,7 +85,7 @@ sources:
     pdf: Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf
     chapter: "6"
     chapter_title: Army Regional Marketing System
-    markdown: Pamphlets/DA_PAM_601-208/.transform/06_Chapter_6.md
+    markdown: doctrine/Pamphlets/DA_PAM_601-208/06_Chapter_6.md
     paragraphs:
       "6-1": Purpose
       "6-2": Regional marketing team attributes
@@ -101,7 +101,7 @@ sources:
     pdf: Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf
     chapter: "7"
     chapter_title: Outreach
-    markdown: Pamphlets/DA_PAM_601-208/.transform/07_Chapter_7.md
+    markdown: doctrine/Pamphlets/DA_PAM_601-208/07_Chapter_7.md
     paragraphs:
       "7-1": "Junior Reserve Officers’ Training Corps"
       "7-2": Science, technology, engineering, and math education programs
@@ -116,7 +116,7 @@ sources:
     pdf: Regulations/AR_360-1/AR_360-1.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Regulations/AR_360-1/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_360-1/01_Chapter_1.md
     paragraphs:
       "1-7": Principles of Information
       "1-11": Authorization for direct communication
@@ -131,7 +131,7 @@ sources:
     pdf: Regulations/AR_360-1/AR_360-1.pdf
     chapter: "2"
     chapter_title: Responsibilities
-    markdown: Regulations/AR_360-1/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_360-1/02_Chapter_2.md
     paragraphs:
       "2-4": Commanders of all echelons
       "2-5": Public affairs officers
@@ -144,7 +144,7 @@ sources:
     pdf: Regulations/AR_360-1/AR_360-1.pdf
     chapter: "3"
     chapter_title: Policies
-    markdown: null
+    markdown: doctrine/Regulations/AR_360-1/03_Chapter_3.md
     note: "Public affairs policies. Not transformed; read the PDF."
   - doc: AR_360-1
     title: null
@@ -154,7 +154,7 @@ sources:
     pdf: Regulations/AR_360-1/AR_360-1.pdf
     chapter: "5"
     chapter_title: Public Affairs Resourcing
-    markdown: Regulations/AR_360-1/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_360-1/05_Chapter_5.md
     paragraphs:
       "5-2": Use of Army funds and other resources
       "5-3": Events or engagements qualifying for Army funding
@@ -168,11 +168,15 @@ sources:
     pdf: Regulations/AR_360-1/AR_360-1.pdf
     chapter: "6"
     chapter_title: Media Coverage
-    markdown: Regulations/AR_360-1/.transform/06_Chapter_6.md
+    markdown: doctrine/Regulations/AR_360-1/06_Chapter_6.md
     paragraphs:
       "6-1": Facilitating media visits
       "6-2": News media accreditation
       "6-3": Official discussions with the media
+      "6-4": Unofficial discussions
+      "6-5": Photographing and recording personnel in a hostile area
+      "6-6": Media coverage of equipment testing and evaluation
+      "6-7": Media coverage of battle labs and advanced warfighting experiments
     note: Media coverage, accreditation and official discussions with the media.
   - doc: AR_360-1
     title: null
@@ -182,7 +186,7 @@ sources:
     pdf: Regulations/AR_360-1/AR_360-1.pdf
     chapter: "7"
     chapter_title: Public Communication
-    markdown: null
+    markdown: doctrine/Regulations/AR_360-1/07_Chapter_7.md
     note: "Public communication. Not transformed; read the PDF."
   - doc: AR_360-1
     title: null
@@ -192,7 +196,7 @@ sources:
     pdf: Regulations/AR_360-1/AR_360-1.pdf
     chapter: "8"
     chapter_title: Digital Media Management and Publications
-    markdown: null
+    markdown: doctrine/Regulations/AR_360-1/08_Chapter_8.md
     note: "Digital media management and publications (Army social media policy). Not transformed; read the PDF."
   - doc: USAREC_Social_Media_SOP_21_JUN_18
     title: null
@@ -201,7 +205,7 @@ sources:
     authority_level: 4
     pdf: Guides/USAREC_Social_Media_SOP_21_JUN_18/USAREC Social Media SOP 21 JUN 18.pdf
     chapter: all
-    markdown: Guides/USAREC_Social_Media_SOP_21_JUN_18/.transform
+    markdown: doctrine/Guides/USAREC_Social_Media_SOP_21_JUN_18
     note: "USAREC Social Media SOP (May 2018, signed 21 Jun 2018): OPSEC and training, PII, online conduct, messaging, branding, account requirements, records, paid promotion, platforms, reporting, cease and desist. Check for a newer SOP."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -213,7 +217,7 @@ sources:
     pdf: Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf
     chapter: "3"
     chapter_title: Roles, Responsibilities, and Organizations of Virtual
-    markdown: Guides/UTP_3-10.4_(VRA)_V1/.transform/03_Chapter_3.md
+    markdown: doctrine/Guides/UTP_3-10.4_(VRA)_V1/03_Chapter_3.md
     note: Roles of the commander and USAREC virtual recruiting and advertising assets. Level 4.
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -225,7 +229,7 @@ sources:
     pdf: Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf
     chapter: "7"
     chapter_title: "Recruiters now have the ability to individually pay for and conduct social media boosting. b. Procedures: Using RER (Recruiter Expenses Reimbursement) to Boost Facebook and"
-    markdown: Guides/UTP_3-10.4_(VRA)_V1/.transform/07_Chapter_7.md
+    markdown: doctrine/Guides/UTP_3-10.4_(VRA)_V1/07_Chapter_7.md
     note: Social media boosting procedures. Level 4.
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -237,7 +241,7 @@ sources:
     pdf: Manuals/UM_3-29/UM 3-29.pdf
     chapter: "6"
     chapter_title: Shaping Operations
-    markdown: Manuals/UM_3-29/.transform/06_Chapter_6.md
+    markdown: doctrine/Manuals/UM_3-29/06_Chapter_6.md
     section_headings:
       - Advertising and Public Affairs
       - Training for Media Awareness
@@ -252,7 +256,7 @@ sources:
     pdf: Manuals/UM_3-29/UM 3-29.pdf
     chapter: "2"
     chapter_title: Recruiting Network
-    markdown: Manuals/UM_3-29/.transform/02_Chapter_2.md
+    markdown: doctrine/Manuals/UM_3-29/02_Chapter_2.md
     section_headings:
       - The News Media
     note: News media as part of the recruiting network.
@@ -266,7 +270,7 @@ sources:
     pdf: Manuals/UM_3-31/UM 3-31.pdf
     chapter: "5"
     chapter_title: Sustaining Operations
-    markdown: Manuals/UM_3-31/.transform/05_Chapter_5.md
+    markdown: doctrine/Manuals/UM_3-31/05_Chapter_5.md
     section_headings:
       - Advertising Assets
     note: Station use of advertising assets.
@@ -279,7 +283,7 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_25-30/UR 25-30.pdf
     chapter: all
-    markdown: Regulations/UR_25-30/.transform
+    markdown: doctrine/Regulations/UR_25-30
     note: "Actual subject: USAREC Business Cards (roster calls it visual information; no visual information publication is in the library) (formal printed and electronic). Chapter 2 ordering detail is PDF only."
 usarec_messages: []
 forms: []
@@ -371,7 +375,7 @@ guardrails:
   - Never advise posting applicant or Future Soldier PII or images without the consent and review steps the SOP requires.
   - Never draft content that impersonates a person or organization or uses unofficial branding.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

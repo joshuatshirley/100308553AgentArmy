@@ -30,7 +30,7 @@ sources:
     pdf: Manuals/UM_3-29/UM 3-29.pdf
     chapter: "3"
     chapter_title: Intelligence And Market Analysis
-    markdown: Manuals/UM_3-29/.transform/03_Chapter_3.md
+    markdown: doctrine/Manuals/UM_3-29/03_Chapter_3.md
     section_headings:
       - Intelligence Preparation of the Operational Environment
       - Recruiting Market Environment
@@ -50,7 +50,7 @@ sources:
     pdf: Manuals/UM_3-29/UM 3-29.pdf
     chapter: "4"
     chapter_title: Planning
-    markdown: Manuals/UM_3-29/.transform/04_Chapter_4.md
+    markdown: doctrine/Manuals/UM_3-29/04_Chapter_4.md
     section_headings:
       - Positioning
       - Mission Distribution
@@ -85,7 +85,7 @@ sources:
     pdf: Manuals/UM_3-31/UM 3-31.pdf
     chapter: "2"
     chapter_title: Recruiting Operations Process
-    markdown: Manuals/UM_3-31/.transform/02_Chapter_2.md
+    markdown: doctrine/Manuals/UM_3-31/02_Chapter_2.md
     section_headings:
       - Intelligence and Market Analysis
       - Recruiting Zones
@@ -100,7 +100,7 @@ sources:
     pdf: Manuals/UM_3-32/UM 3-32.pdf
     chapter: "6"
     chapter_title: null
-    markdown: Manuals/UM_3-32/.transform/06_Chapter_6.md
+    markdown: doctrine/Manuals/UM_3-32/06_Chapter_6.md
     section_headings:
       - Intelligence
       - Market Analysis
@@ -116,7 +116,7 @@ sources:
     pdf: Manuals/UM_3-0/UM 3-0.pdf
     chapter: "4"
     chapter_title: Support of Recruiting Operations
-    markdown: Manuals/UM_3-0/.transform/04_Chapter_4.md
+    markdown: doctrine/Manuals/UM_3-0/04_Chapter_4.md
     section_headings:
       - Position, Analysis and Evaluation (PAE)
       - Synchronizing Effects through the Targeting Process
@@ -133,7 +133,7 @@ sources:
     pdf: Guides/UTC_5-02/UTC 5-02.pdf
     chapter: "2"
     chapter_title: Market Analysis
-    markdown: Guides/UTC_5-02/.transform/02_Chapter_2.md
+    markdown: doctrine/Guides/UTC_5-02/02_Chapter_2.md
     note: "Actual title (front matter): UTC 5-02 Intelligence; catalog title is wrong. Market Analysis: steps of the recruiting IPB."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -145,7 +145,7 @@ sources:
     pdf: Guides/UTC_5-02/UTC 5-02.pdf
     chapter: "3"
     chapter_title: Types and Location of Intelligence Data Source
-    markdown: Guides/UTC_5-02/.transform/03_Chapter_3.md
+    markdown: doctrine/Guides/UTC_5-02/03_Chapter_3.md
     note: "Types and location of intelligence data sources: MID, G-2 market analysis tools, G2 Maps, MAR, Power BI."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -157,7 +157,7 @@ sources:
     pdf: Guides/UTC_5-02/UTC 5-02.pdf
     chapter: "4"
     chapter_title: null
-    markdown: Guides/UTC_5-02/.transform/04_Chapter_4.md
+    markdown: doctrine/Guides/UTC_5-02/04_Chapter_4.md
     note: "Defining the operational environment: PMESII-PT, ASCOPE, TMA, FQMA, segmentation, demographics, propensity."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -169,7 +169,7 @@ sources:
     pdf: Guides/UTC_5-02/UTC 5-02.pdf
     chapter: "5"
     chapter_title: Describe the Environmental Effects
-    markdown: Guides/UTC_5-02/.transform/05_Chapter_5.md
+    markdown: doctrine/Guides/UTC_5-02/05_Chapter_5.md
     note: "Describe the environmental effects: span of control, P2P, penetration, schools."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -181,7 +181,7 @@ sources:
     pdf: Guides/UTC_5-02/UTC 5-02.pdf
     chapter: "6"
     chapter_title: Evaluate the Threat
-    markdown: Guides/UTC_5-02/.transform/06_Chapter_6.md
+    markdown: doctrine/Guides/UTC_5-02/06_Chapter_6.md
     note: "Evaluate the threat: competition and market share, with its pitfalls."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -193,7 +193,7 @@ sources:
     pdf: Guides/UTC_5-02/UTC 5-02.pdf
     chapter: "7"
     chapter_title: Assess Market Potential
-    markdown: Guides/UTC_5-02/.transform/07_Chapter_7.md
+    markdown: doctrine/Guides/UTC_5-02/07_Chapter_7.md
     note: "Assess market potential: SAMA, MAR, SMR."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -204,7 +204,7 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-73/UR 601-73.pdf
     chapter: all
-    markdown: Regulations/UR_601-73/.transform
+    markdown: doctrine/Regulations/UR_601-73
     note: "Market Analysis to Support Recruiting Operations. Uses dotted numbering (5.1, 6.2); catalog extracted only 5-1/5-2. Sections 5 Recruiter Allocation, 6 Position Analysis and Evaluation, 7 Mission Analysis and Distribution, 8 Review and Implementation are in .transform/03_Contents_Listed_by_paragraph_and_page_number.md. Edition 2015; check for newer guidance."
   - doc: FM_2-0
     title: Intelligence
@@ -214,7 +214,7 @@ sources:
     pdf: FM/FM_2-0/FM_2-0.pdf
     chapter: "1"
     chapter_title: null
-    markdown: FM/FM_2-0/.transform/04_Chapter_1-_Intelligence.md
+    markdown: doctrine/FM/FM_2-0/04_Chapter_1-_Intelligence.md
     note: "Army intelligence doctrine; use only to explain intelligence process terms the USAREC manuals borrow."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -226,7 +226,7 @@ sources:
     pdf: ADP/ADP_2-0/ADP_2-0.pdf
     chapter: "3"
     chapter_title: null
-    markdown: ADP/ADP_2-0/.transform/08_Chapter_3-_The_Intelligence_Process.md
+    markdown: doctrine/ADP/ADP_2-0/08_Chapter_3-_The_Intelligence_Process.md
     note: "The intelligence process; background only."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -323,7 +323,7 @@ guardrails:
   - "Never invent or estimate market figures, demographics or named local organizations; empty is better than wrong."
   - "Use only open-source and publicly available information as UM 3-31 Ch.2 describes; never compile information on private individuals."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

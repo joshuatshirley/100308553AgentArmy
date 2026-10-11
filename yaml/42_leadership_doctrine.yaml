@@ -163,7 +163,7 @@ sources:
     authority_level: 4
     pdf: FM/FM_6-22/FM_6-22.pdf
     chapter: all
-    markdown: FM/FM_6-22/.transform
+    markdown: doctrine/FM/FM_6-22
     note: "Developing Leaders: tenets, setting conditions, feedback, coaching, counseling and mentoring (Section III, Fundamentals of Development), self-development, individual development plans (DA Form 7906), unit leader development programs. Paragraphs untitled; cite by section heading."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -175,7 +175,7 @@ sources:
     pdf: ADP/ADP_6-0/ADP_6-0.pdf
     chapter: "1"
     chapter_title: null
-    markdown: ADP/ADP_6-0/.transform/06_Chapter_1.md
+    markdown: doctrine/ADP/ADP_6-0/06_Chapter_1.md
     section_headings:
       - Mission Command
       - Principles of Mission Command
@@ -191,7 +191,7 @@ sources:
     pdf: ADP/ADP_6-0/ADP_6-0.pdf
     chapter: "2"
     chapter_title: null
-    markdown: ADP/ADP_6-0/.transform/07_Chapter_2.md
+    markdown: doctrine/ADP/ADP_6-0/07_Chapter_2.md
     section_headings:
       - Nature of Command
       - Elements of Command
@@ -207,7 +207,7 @@ sources:
     pdf: ADP/ADP_6-0/ADP_6-0.pdf
     chapter: "3"
     chapter_title: null
-    markdown: ADP/ADP_6-0/.transform/08_Chapter_3.md
+    markdown: doctrine/ADP/ADP_6-0/08_Chapter_3.md
     section_headings:
       - Nature of Control
       - Elements of Control
@@ -223,7 +223,7 @@ sources:
     pdf: ADP/ADP_5-0/ADP_5-0.pdf
     chapter: "1"
     chapter_title: null
-    markdown: ADP/ADP_5-0/.transform/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md
+    markdown: doctrine/ADP/ADP_5-0/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md
     section_headings:
       - The Framework of the Operations Process
       - Principles of the Operations Process
@@ -239,7 +239,7 @@ sources:
     pdf: ADP/ADP_5-0/ADP_5-0.pdf
     chapter: "2"
     chapter_title: null
-    markdown: ADP/ADP_5-0/.transform/06_Chapter_2-_Planning.md
+    markdown: doctrine/ADP/ADP_5-0/06_Chapter_2-_Planning.md
     section_headings:
       - Fundamentals of Planning
       - Key Components of a Plan
@@ -255,7 +255,7 @@ sources:
     pdf: ADP/ADP_5-0/ADP_5-0.pdf
     chapter: "3"
     chapter_title: null
-    markdown: ADP/ADP_5-0/.transform/07_Chapter_3-_Preparation.md
+    markdown: doctrine/ADP/ADP_5-0/07_Chapter_3-_Preparation.md
     section_headings:
       - Fundamentals of Preparation
       - Preparation Activities
@@ -269,7 +269,7 @@ sources:
     pdf: ADP/ADP_5-0/ADP_5-0.pdf
     chapter: "4"
     chapter_title: null
-    markdown: ADP/ADP_5-0/.transform/08_Chapter_4-_Execution.md
+    markdown: doctrine/ADP/ADP_5-0/08_Chapter_4-_Execution.md
     section_headings:
       - Fundamentals of Execution
       - Responsibilities During Execution
@@ -284,7 +284,7 @@ sources:
     pdf: ADP/ADP_5-0/ADP_5-0.pdf
     chapter: "5"
     chapter_title: null
-    markdown: ADP/ADP_5-0/.transform/09_Chapter_5-_Assessment.md
+    markdown: doctrine/ADP/ADP_5-0/09_Chapter_5-_Assessment.md
     section_headings:
       - Fundamentals of Assessment
       - Assessment Process
@@ -298,7 +298,7 @@ sources:
     authority_level: 2
     pdf: ADP/ADP_1/ADP_1.pdf
     chapter: all
-    markdown: ADP/ADP_1/.transform
+    markdown: doctrine/ADP/ADP_1
     note: "The Army; chapters not split. Cite by heading from .transform/00_Full_Document.md."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -309,7 +309,7 @@ sources:
     authority_level: 4
     pdf: FM/FM_1/FM_1.pdf
     chapter: all
-    markdown: FM/FM_1/.transform
+    markdown: doctrine/FM/FM_1
     note: "The Army (2025); chapter titles were not captured cleanly; cite by heading."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -320,7 +320,7 @@ sources:
     authority_level: 2
     pdf: ADP/ADP_3-0/ADP_3-0.pdf
     chapter: all
-    markdown: ADP/ADP_3-0/.transform
+    markdown: doctrine/ADP/ADP_3-0
     note: "Operations; chapters not split."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -331,7 +331,7 @@ sources:
     authority_level: 4
     pdf: FM/FM_3-0/FM_3-0.pdf
     chapter: all
-    markdown: FM/FM_3-0/.transform
+    markdown: doctrine/FM/FM_3-0
     note: "Operations (2025); chapter titles were not captured cleanly; cite by heading. Use only for terms such as mission command culture."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -429,7 +429,7 @@ guardrails:
   - Before answering, ask 41_policy_currency whether a current USAREC message changes the cited paragraph.
   - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

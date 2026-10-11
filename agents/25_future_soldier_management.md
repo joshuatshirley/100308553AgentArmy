@@ -89,7 +89,7 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section VII Delayed Entry Program.
 
@@ -108,10 +108,10 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 17 (Future Soldier (FS) Management)
-- Text: `Regulations/UR_601-210/.transform/17_Chapter_17.md`
+- Text: `doctrine/Regulations/UR_601-210/17_Chapter_17.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Future Soldier Management. 17-8e names the APFT; message 24-054 and AR 601-210 2-18 refer to the Army Fitness Test; surface the difference.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -129,10 +129,10 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 18 (DEP/DTP-Out Procedures)
-- Text: `Regulations/UR_601-210/.transform/18_Chapter_18.md`
+- Text: `doctrine/Regulations/UR_601-210/18_Chapter_18.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: DEP/DTP-out procedures, courtesy shippers, hometown shipping, BCT ship dates.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -147,16 +147,16 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.7 Procedures for Enlistment into DEP/DTP/DS and Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exist only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### UM_3-31: Station Operations
 
 - edition 7 March 2022, authority level 3
 - Chapter: 3 (Decisive Operations)
-- Text: `Manuals/UM_3-31/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -247,7 +247,7 @@ Future Soldier, FS, DEP, DTP, delayed entry, FSTP, FSAI, asset inventory, ship d
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

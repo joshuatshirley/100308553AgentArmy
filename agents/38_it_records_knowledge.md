@@ -171,7 +171,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 4 April 2019, effective 4 May 2019, authority level 2
 - Chapter: 2 (Responsibilities)
-- Text: `Regulations/AR_25-2/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_25-2/02_Chapter_2.md`
 - PDF: `Regulations/AR_25-2/AR 25-2.pdf`
 - Why: Responsibilities of all personnel and authorized users.
 
@@ -184,7 +184,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 4 April 2019, effective 4 May 2019, authority level 2
 - Chapter: 4 (Cybersecurity Risk Management Program)
-- Text: `Regulations/AR_25-2/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_25-2/04_Chapter_4.md`
 - PDF: `Regulations/AR_25-2/AR 25-2.pdf`
 - Why: Information security, OPSEC, protection of IT and information, access control. Chapter 3 is not transformed.
 
@@ -199,7 +199,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 15 July 2019, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_25-1_15Jul19_IM_Army_IT/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_25-1_15Jul19_IM_Army_IT/01_Chapter_1.md`
 - PDF: `Regulations/AR_25-1_15Jul19_IM_Army_IT/AR 25-1 15Jul19 IM Army IT.pdf`
 - Why: Army IT and information management overview and records-management requirement.
 
@@ -213,7 +213,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 11 May 2017, authority level 2
 - Chapter: 3 (Utilization of telecommunications and unified capabilities)
-- Text: `Regulations/AR_25-13/.transform/02_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_25-13/02_Chapter_3.md`
 - PDF: `Regulations/AR_25-13/AR 25-13.pdf`
 - Why: Official, unauthorized and prohibited uses of telecommunications; monitoring and recording.
 
@@ -227,7 +227,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 18 October 2022, effective 18 November 2022, authority level 2
 - Chapter: 3 (Record Definitions)
-- Text: `Regulations/AR_25-400-2/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_25-400-2/03_Chapter_3.md`
 - PDF: `Regulations/AR_25-400-2/AR_25-400-2.pdf`
 - Why: Record definitions: records, non-records, personal papers, essential and unscheduled records.
 
@@ -240,12 +240,15 @@ Specialist for recruiters, station commanders and battalion staff on information
 | 3-5 | Essential records |
 | 3-6 | Unscheduled records |
 | 3-7 | Contract records |
+| 3-8 | Social media records |
+| 3-9 | Unlawful or accidental removal, defacing, alteration, or destruction of records |
+| 3-10 | Records inspection |
 
 ### AR_25-400-2: Army Records Management Program
 
 - edition 18 October 2022, effective 18 November 2022, authority level 2
 - Chapter: 5 (Records Retention)
-- Text: `Regulations/AR_25-400-2/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_25-400-2/05_Chapter_5.md`
 - PDF: `Regulations/AR_25-400-2/AR_25-400-2.pdf`
 - Why: Records retention schedule and ARIMS. Chapters 4 and 6 (recordkeeping, disposition) are not transformed; read the PDF.
 
@@ -259,7 +262,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 14 June 2021, effective 14 July 2021, authority level 2
 - Chapter: 2 (Army Publications)
-- Text: `Regulations/AR_25-30/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_25-30/02_Chapter_2.md`
 - PDF: `Regulations/AR_25-30/AR_25-30.pdf`
 - Why: Types of Army publications, restrictions, electronic messages, records requirements. Chapter 3 (forms) is not transformed.
 
@@ -275,7 +278,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 1 January 2020, effective 1 January 2020, authority level 3
 - Chapter: 2
-- Text: `Regulations/UR_5-01/.transform/02_Chapter_2..md`
+- Text: `doctrine/Regulations/UR_5-01/02_Chapter_2..md`
 - PDF: `Regulations/UR_5-01/UR 5-01.pdf`
 - Why: USAREC knowledge management definition, principles, working group, board and tools.
 
@@ -291,7 +294,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 22 January 2019, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_380-4/.transform`
+- Text: `doctrine/Regulations/UR_380-4`
 - PDF: `Regulations/UR_380-4/UR 380-4.pdf`
 - Why: USAREC security programs including information security and threat awareness reporting. Paragraph headings largely not extracted.
 
@@ -299,10 +302,10 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.21 Electronic Records Management (ERM) exists only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -362,7 +365,7 @@ records retention, how long do I keep, files, ARIMS, destroy records, shred, cyb
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -96,7 +96,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - authority level 4
 - Chapter: all
-- Text: `FM/FM_7-22/.transform`
+- Text: `doctrine/FM/FM_7-22`
 - PDF: `FM/FM_7-22/FM_7-22.pdf`
 - Why: Holistic Health and Fitness: physical, nutritional, mental, spiritual and sleep readiness domains. Paragraphs untitled; cite by section heading.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -105,7 +105,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 19 October 2017, effective 19 November 2017, authority level 2
 - Chapter: 1 (Structure)
-- Text: `Regulations/AR_608-1/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_608-1/01_Chapter_1.md`
 - PDF: `Regulations/AR_608-1/AR_608-1.pdf`
 - Why: Army Community Service purpose, mission and eligibility. Chapters 2 to 4 (oversight, management, services) are not transformed; read the PDF.
 
@@ -119,7 +119,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 19 October 2017, effective 19 November 2017, authority level 2
 - Chapter: 5 (Volunteers)
-- Text: `Regulations/AR_608-1/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_608-1/05_Chapter_5.md`
 - PDF: `Regulations/AR_608-1/AR_608-1.pdf`
 - Why: Volunteers, including private organization volunteers and recognition.
 
@@ -152,7 +152,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_600-85/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_600-85/01_Chapter_1.md`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: ASAP concept and principles.
 
@@ -165,7 +165,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: 8 (Types of Substance Use Disorder Treatment)
-- Text: `Regulations/AR_600-85/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_600-85/08_Chapter_8.md`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: Treatment services and mandatory command notifications.
 
@@ -178,7 +178,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: 9 (Prevention, Education, and Training)
-- Text: `Regulations/AR_600-85/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_600-85/09_Chapter_9.md`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: Unit deterrence leader, leader and Soldier training, prevention and risk reduction.
 
@@ -194,7 +194,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: 10 (Legal and Administrative Procedures, and Media Relations)
-- Text: `Regulations/AR_600-85/.transform/10_Chapter_10.md`
+- Text: `doctrine/Regulations/AR_600-85/10_Chapter_10.md`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: Limited use policy and confidentiality of patient records. Chapters 2 to 7 (alcohol, drug testing, referral) are not transformed.
 
@@ -210,7 +210,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 1 September 2016, authority level 3
 - Chapter: all
-- Text: `Regulations/USAREC_Suppl_1_to_AR_600_85/.transform`
+- Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf`
 - Why: USAREC supplement (2016): unit prevention leader and drug testing program software requirements. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -288,7 +288,7 @@ SFRG, FRG, family, spouse, sponsorship, sponsor, new recruiter arriving, recepti
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -32,7 +32,7 @@ sources:
     pdf: Regulations/AR_600-8-22/AR_600-8-22.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Regulations/AR_600-8-22/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_600-8-22/01_Chapter_1.md
     paragraphs:
       "1-10": Principles of support
       "1-12": Objective and implementation
@@ -53,7 +53,7 @@ sources:
     pdf: Regulations/AR_600-8-22/AR_600-8-22.pdf
     chapter: "3"
     chapter_title: U.S. Army Individual Decorations
-    markdown: null
+    markdown: doctrine/Regulations/AR_600-8-22/03_Chapter_3.md
     note: "U.S. Army individual decorations. Not transformed; read the PDF."
   - doc: AR_600-8-22
     title: null
@@ -63,7 +63,7 @@ sources:
     pdf: Regulations/AR_600-8-22/AR_600-8-22.pdf
     chapter: "4"
     chapter_title: Army Good Conduct Medal and Army Reserve Components Achievement Medal
-    markdown: Regulations/AR_600-8-22/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_600-8-22/04_Chapter_4.md
     paragraphs:
       "4-3": Award approval authority for the Army Good Conduct Medal
       "4-4": Basis for Army Good Conduct Medal approval
@@ -77,7 +77,7 @@ sources:
     pdf: Regulations/AR_600-8-22/AR_600-8-22.pdf
     chapter: "5"
     chapter_title: U.S. Army Service Medals and Service Ribbons
-    markdown: null
+    markdown: doctrine/Regulations/AR_600-8-22/05_Chapter_5.md
     note: "Service medals and ribbons. Not transformed; read the PDF."
   - doc: AR_600-8-22
     title: null
@@ -87,7 +87,7 @@ sources:
     pdf: Regulations/AR_600-8-22/AR_600-8-22.pdf
     chapter: "8"
     chapter_title: Badges and Tabs
-    markdown: null
+    markdown: doctrine/Regulations/AR_600-8-22/08_Chapter_8.md
     note: "Badges and tabs, including recruiter badges. Not transformed; read the PDF."
   - doc: USAREC_Suppl_1_to_AR_600_8_22
     title: Military Awards
@@ -96,7 +96,7 @@ sources:
     authority_level: 3
     pdf: Regulations/USAREC_Suppl_1_to_AR_600_8_22/USAREC Suppl 1 to  AR 600_8_22.pdf
     chapter: all
-    markdown: Regulations/USAREC_Suppl_1_to_AR_600_8_22/.transform
+    markdown: doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22
     note: "USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -108,7 +108,7 @@ sources:
     pdf: Regulations/AR_623-3/AR_623-3.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Regulations/AR_623-3/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_623-3/01_Chapter_1.md
     paragraphs:
       "1-9": Assessments of performance and potential on evaluations
       "1-10": Changes to an evaluation report
@@ -123,7 +123,7 @@ sources:
     pdf: Regulations/AR_623-3/AR_623-3.pdf
     chapter: "2"
     chapter_title: The Rating Chain
-    markdown: null
+    markdown: doctrine/Regulations/AR_623-3/02_Chapter_2.md
     note: "The rating chain. Not transformed; read the PDF."
   - doc: AR_623-3
     title: Evaluation Reporting System
@@ -133,7 +133,7 @@ sources:
     pdf: Regulations/AR_623-3/AR_623-3.pdf
     chapter: "3"
     chapter_title: Army Evaluation Principles
-    markdown: null
+    markdown: doctrine/Regulations/AR_623-3/03_Chapter_3.md
     note: "Army evaluation principles. Not transformed; read the PDF."
   - doc: AR_623-3
     title: Evaluation Reporting System
@@ -143,7 +143,7 @@ sources:
     pdf: Regulations/AR_623-3/AR_623-3.pdf
     chapter: "4"
     chapter_title: Evaluation Report Redress Program
-    markdown: null
+    markdown: doctrine/Regulations/AR_623-3/04_Chapter_4.md
     note: "Evaluation report redress program. Not transformed; read the PDF."
   - doc: DA_PAM_623-3
     title: Evaluation Reporting System
@@ -153,7 +153,7 @@ sources:
     pdf: Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf
     chapter: "3"
     chapter_title: Noncommissioned Officer Evaluation Report Forms and Preparation
-    markdown: Pamphlets/DA_PAM_623-3/.transform/03_Chapter_3.md
+    markdown: doctrine/Pamphlets/DA_PAM_623-3/03_Chapter_3.md
     paragraphs:
       "3-1": "Purpose and process for DA Form 2166 – 9 – 1A"
       "3-2": "Purpose and process for DA Form 2166 – …"
@@ -188,7 +188,7 @@ sources:
     pdf: Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf
     chapter: "2"
     chapter_title: Officer Evaluation Report Forms and Preparation
-    markdown: Pamphlets/DA_PAM_623-3/.transform/02_Chapter_2.md
+    markdown: doctrine/Pamphlets/DA_PAM_623-3/02_Chapter_2.md
     note: OER forms and preparation (for company and battalion officers).
   - doc: DA_PAM_623-3
     title: Evaluation Reporting System
@@ -198,7 +198,7 @@ sources:
     pdf: Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf
     chapter: "6"
     chapter_title: Constructing an Evaluation Report Appeal
-    markdown: Pamphlets/DA_PAM_623-3/.transform/06_Chapter_6.md
+    markdown: doctrine/Pamphlets/DA_PAM_623-3/06_Chapter_6.md
     paragraphs:
       "6-1": Deciding to appeal
       "6-2": Preparing an appeal
@@ -211,7 +211,7 @@ sources:
     pdf: Regulations/AR_600-8-2/AR_600-8-2.pdf
     chapter: "2"
     chapter_title: Policy and Management of Flag
-    markdown: null
+    markdown: doctrine/Regulations/AR_600-8-2/02_Chapter_2.md
     note: "Policy and management of flags. Not transformed; read the PDF."
   - doc: AR_600-8-2
     title: Suspension of Favorable Personnel Actions (Flag)
@@ -221,7 +221,7 @@ sources:
     pdf: Regulations/AR_600-8-2/AR_600-8-2.pdf
     chapter: "3"
     chapter_title: Prohibitions and Retention of Flagged Personnel
-    markdown: Regulations/AR_600-8-2/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_600-8-2/03_Chapter_3.md
     paragraphs:
       "3-1": Actions prohibited by a Flag
       "3-2": Retention beyond expiration of terms of service or mandatory retirement date
@@ -234,13 +234,15 @@ sources:
     pdf: Regulations/AR_600-37/AR_600-37.pdf
     chapter: "3"
     chapter_title: Unfavorable Information in Army Military Human Resources Record
-    markdown: Regulations/AR_600-37/.transform/02_Chapter_3.md
+    markdown: doctrine/Regulations/AR_600-37/02_Chapter_3.md
     paragraphs:
       "3-1": General
       "3-2": Policies
       "3-3": Filing of information exempt from the referral procedure
       "3-4": Filing of information on sex-related offenses
       "3-5": Filing of nonpunitive administrative memoranda of reprimand, admonition, or censure
+      "3-6": Anonymous communications
+      "3-7": Referral of information
     note: Unfavorable information in the AMHRR, including memoranda of reprimand.
   - doc: AR_600-37
     title: Unfavorable Information
@@ -250,7 +252,7 @@ sources:
     pdf: Regulations/AR_600-37/AR_600-37.pdf
     chapter: "7"
     chapter_title: Appeals
-    markdown: Regulations/AR_600-37/.transform/06_Chapter_7.md
+    markdown: doctrine/Regulations/AR_600-37/06_Chapter_7.md
     paragraphs:
       "7-1": Appeal authority
       "7-2": Policies and Standards
@@ -268,7 +270,7 @@ sources:
     pdf: Regulations/AR_600-8-104/AR_600-8-104.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Regulations/AR_600-8-104/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_600-8-104/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-2": References and forms
@@ -290,7 +292,7 @@ sources:
     pdf: Regulations/AR_614-200/AR_614-200.pdf
     chapter: "1"
     chapter_title: General
-    markdown: Regulations/AR_614-200/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_614-200/01_Chapter_1.md
     paragraphs:
       "1-11": Deletions and deferments
     note: Deletions and deferments.
@@ -302,7 +304,7 @@ sources:
     pdf: Regulations/AR_614-200/AR_614-200.pdf
     chapter: "3"
     chapter_title: Enlisted Assignment System
-    markdown: Regulations/AR_614-200/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_614-200/03_Chapter_3.md
     paragraphs:
       "3-1": Overview
       "3-2": Assignment selection criteria
@@ -317,7 +319,7 @@ sources:
     pdf: Regulations/AR_614-200/AR_614-200.pdf
     chapter: "8"
     chapter_title: Assignment to Specific Type Organizations or Activities or Duty Positions
-    markdown: null
+    markdown: doctrine/Regulations/AR_614-200/08_Chapter_8.md
     note: "Assignment to specific type organizations or duty positions. Not transformed; read the PDF."
   - doc: AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC
     title: Assignment of Enlisted Personnel to USAREC
@@ -326,7 +328,7 @@ sources:
     authority_level: 2
     pdf: Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC/AR 601-1 10112016 Asg of Enl Pers to USAREC.pdf
     chapter: all
-    markdown: Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC/.transform
+    markdown: doctrine/Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC
     note: "AR 601-1 (11 October 2016): Ch.2 selection and training for recruiting duty, Ch.3 assignment and reassignment, Ch.4 completion of DA-selected period and reclassification to 79R, Ch.5 voluntary and involuntary reassignment, suspension, unqualified/ineffective/unsuitable recruiters, Ch.6 AGR recruiters. Predates the 42T conversion; check current messages."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -338,7 +340,7 @@ sources:
     pdf: Manuals/UM_3-31/UM 3-31.pdf
     chapter: "5"
     chapter_title: Sustaining Operations
-    markdown: Manuals/UM_3-31/.transform/05_Chapter_5.md
+    markdown: doctrine/Manuals/UM_3-31/05_Chapter_5.md
     section_headings:
       - Personnel Management
       - Personnel Integration
@@ -454,7 +456,7 @@ guardrails:
   - Output is a process path with citations, not a decision on an award, evaluation, flag or reassignment.
   - "AR 601-1 (2016) predates the 42T conversion; when it conflicts with a current message, present both and say which is newer."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

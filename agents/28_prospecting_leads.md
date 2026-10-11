@@ -89,7 +89,7 @@ Specialist for how recruiters generate, refine and work leads, written for recru
 
 - edition 9 March 2022, authority level 3
 - Chapter: 7
-- Text: `Manuals/UM_3-32/.transform/07_Chapter_7.md`
+- Text: `doctrine/Manuals/UM_3-32/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter-level doctrine on lead generation and prospecting; Figure 7-1 is the recruiting funnel.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -100,7 +100,7 @@ Sections: Lead Generation; Lead Refinement and Management; Referrals; Area Canva
 
 - edition 9 March 2022, authority level 3
 - Chapter: 8
-- Text: `Manuals/UM_3-32/.transform/08_Chapter_8.md`
+- Text: `doctrine/Manuals/UM_3-32/08_Chapter_8.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: The Army interview; Figure 8-1 (guideposts) and Figure 8-2 (SOLDIER acrostic) are images in the PDF.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -111,7 +111,7 @@ Sections: Guideposts; Counseling; The Army Story / Personal Army Story; Engender
 
 - edition 9 March 2022, authority level 3
 - Chapter: 3 (Sustaining Operations)
-- Text: `Manuals/UM_3-32/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-32/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Where prospecting sits in the recruiter's plan and battle rhythm.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -122,7 +122,7 @@ Sections: Decisive Operations; Shaping Operations; Maintaining Battle Rhythms; W
 
 - edition 7 March 2022, authority level 3
 - Chapter: 3 (Decisive Operations)
-- Text: `Manuals/UM_3-31/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: What the station commander directs and assesses in prospecting and the Army interview.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -133,7 +133,7 @@ Sections: Lead Generation and Prospecting; Prospecting; Telephone Prospecting; F
 
 - edition 7 March 2022, authority level 3
 - Chapter: 4 (Shaping Operations)
-- Text: `Manuals/UM_3-31/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Lead generation, referrals and refinement as station shaping operations.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -154,7 +154,7 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/UTC_5-03.1/.transform`
+- Text: `doctrine/Guides/UTC_5-03.1`
 - PDF: `Guides/UTC_5-03.1/UTC 5-03.1.pdf`
 - Why: Actual title (front matter): UTC 5-03.1 Prospecting, Processing, and Analysis; catalog title is wrong. Single full-document markdown, 00_Full_Document.md). Use its chapters on Basics of Prospecting, Lead Generation, Telephone, Face-to-Face and Virtual Prospecting, Contact Scripts, Follow-Up and Planning Considerations. Level 4 training product.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -163,7 +163,7 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 
 - edition 29 April 2020, authority level 4
 - Chapter: all
-- Text: `Guides/UTC_5-03.2/.transform`
+- Text: `doctrine/Guides/UTC_5-03.2`
 - PDF: `Guides/UTC_5-03.2/UTC 5-03.2.pdf`
 - Why: Actual title (front matter): UTC 5-03.2 Influencing and Interviewing; catalog title is wrong. Chapters: The Recruiter, Telling the Army Story, Components and Steps of the Army Interview, Engendering the Commitment, Overcoming Obstacles. Level 4 training product.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -172,7 +172,7 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 
 - edition 30 November 2020, authority level 4
 - Chapter: 2 (Aspects of Virtual Recruiting Activities and)
-- Text: `Guides/UTP_3-10.4_(VRA)_V1/.transform/02_Chapter_2.md`
+- Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/02_Chapter_2.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Virtual recruiting operations: messaging text and email, initial contact, virtual appointment. Level 4 training product.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -240,7 +240,7 @@ prospecting, prospect, phone calls, telephone prospecting, texting, text message
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

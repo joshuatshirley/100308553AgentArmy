@@ -1,4 +1,4 @@
-# Agent roster
+# Proposed agent roster
 
 Generated 2026-10-05 from `Station_Commander/Army_Doctrine`. One orchestrator plus 43 specialists.
 Every agent marked **seeded** has a full seed in `agents/<id>.md` (and `.yaml`). All are drafts pending SME review.

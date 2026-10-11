@@ -34,7 +34,7 @@ sources:
     pdf: Manuals/UM_3-32/UM 3-32.pdf
     chapter: "7"
     chapter_title: null
-    markdown: Manuals/UM_3-32/.transform/07_Chapter_7.md
+    markdown: doctrine/Manuals/UM_3-32/07_Chapter_7.md
     section_headings:
       - Lead Generation
       - Lead Refinement and Management
@@ -61,7 +61,7 @@ sources:
     pdf: Manuals/UM_3-32/UM 3-32.pdf
     chapter: "8"
     chapter_title: null
-    markdown: Manuals/UM_3-32/.transform/08_Chapter_8.md
+    markdown: doctrine/Manuals/UM_3-32/08_Chapter_8.md
     section_headings:
       - Guideposts
       - Counseling
@@ -79,7 +79,7 @@ sources:
     pdf: Manuals/UM_3-32/UM 3-32.pdf
     chapter: "3"
     chapter_title: Sustaining Operations
-    markdown: Manuals/UM_3-32/.transform/03_Chapter_3.md
+    markdown: doctrine/Manuals/UM_3-32/03_Chapter_3.md
     section_headings:
       - Decisive Operations
       - Shaping Operations
@@ -96,7 +96,7 @@ sources:
     pdf: Manuals/UM_3-31/UM 3-31.pdf
     chapter: "3"
     chapter_title: Decisive Operations
-    markdown: Manuals/UM_3-31/.transform/03_Chapter_3.md
+    markdown: doctrine/Manuals/UM_3-31/03_Chapter_3.md
     section_headings:
       - Lead Generation and Prospecting
       - Prospecting
@@ -115,7 +115,7 @@ sources:
     pdf: Manuals/UM_3-31/UM 3-31.pdf
     chapter: "4"
     chapter_title: Shaping Operations
-    markdown: Manuals/UM_3-31/.transform/04_Chapter_4.md
+    markdown: doctrine/Manuals/UM_3-31/04_Chapter_4.md
     section_headings:
       - Lead Generation
       - Referrals
@@ -147,7 +147,7 @@ sources:
     authority_level: 4
     pdf: Guides/UTC_5-03.1/UTC 5-03.1.pdf
     chapter: all
-    markdown: Guides/UTC_5-03.1/.transform
+    markdown: doctrine/Guides/UTC_5-03.1
     note: "Actual title (front matter): UTC 5-03.1 Prospecting, Processing, and Analysis; catalog title is wrong. Single full-document markdown, 00_Full_Document.md). Use its chapters on Basics of Prospecting, Lead Generation, Telephone, Face-to-Face and Virtual Prospecting, Contact Scripts, Follow-Up and Planning Considerations. Level 4 training product."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -158,7 +158,7 @@ sources:
     authority_level: 4
     pdf: Guides/UTC_5-03.2/UTC 5-03.2.pdf
     chapter: all
-    markdown: Guides/UTC_5-03.2/.transform
+    markdown: doctrine/Guides/UTC_5-03.2
     note: "Actual title (front matter): UTC 5-03.2 Influencing and Interviewing; catalog title is wrong. Chapters: The Recruiter, Telling the Army Story, Components and Steps of the Army Interview, Engendering the Commitment, Overcoming Obstacles. Level 4 training product."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -170,7 +170,7 @@ sources:
     pdf: Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf
     chapter: "2"
     chapter_title: Aspects of Virtual Recruiting Activities and
-    markdown: Guides/UTP_3-10.4_(VRA)_V1/.transform/02_Chapter_2.md
+    markdown: doctrine/Guides/UTP_3-10.4_(VRA)_V1/02_Chapter_2.md
     note: "Virtual recruiting operations: messaging text and email, initial contact, virtual appointment. Level 4 training product."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -278,7 +278,7 @@ guardrails:
   - "Never recommend automated or unsolicited mass texting; cite message 21-035 when the topic comes up."
   - "Training circulars and TPs are Level 4; when they and a UM or message differ, the higher level governs."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

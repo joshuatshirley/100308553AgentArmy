@@ -98,7 +98,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 8 January 2025, effective 8 January 2025, authority level 2
 - Chapter: 3 (Nonjudicial Punishment)
-- Text: `Regulations/AR_27-10/.transform/02_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_27-10/02_Chapter_3.md`
 - PDF: `Regulations/AR_27-10/AR_27-10.pdf`
 - Why: Nonjudicial punishment: policies, authority, procedure, punishment, suspension/mitigation, appeals and DA Form 2627 records.
 
@@ -153,7 +153,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 8 January 2025, effective 8 January 2025, authority level 2
 - Chapter: 5 (Procedures for Courts-Martial)
-- Text: `Regulations/AR_27-10/.transform/04_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_27-10/04_Chapter_5.md`
 - PDF: `Regulations/AR_27-10/AR_27-10.pdf`
 - Why: Courts-martial convening authority and reports of offenses; read only to explain why the case goes to the judge advocate.
 
@@ -168,7 +168,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 22 June 2025, effective 22 June 2025, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_15-6/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_15-6/01_Chapter_1.md`
 - PDF: `Regulations/AR_15-6/AR_15-6.pdf`
 - Why: Purpose and policy. Chapters 2, 3 and 6 (responsibilities, general procedures, boards) are not transformed; read the PDF.
 
@@ -182,7 +182,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 22 June 2025, effective 22 June 2025, authority level 2
 - Chapter: 4 (Preliminary Inquiry)
-- Text: `Regulations/AR_15-6/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_15-6/04_Chapter_4.md`
 - PDF: `Regulations/AR_15-6/AR_15-6.pdf`
 - Why: Preliminary inquiry.
 
@@ -197,7 +197,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 22 June 2025, effective 22 June 2025, authority level 2
 - Chapter: 5 (Administrative Investigations)
-- Text: `Regulations/AR_15-6/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_15-6/05_Chapter_5.md`
 - PDF: `Regulations/AR_15-6/AR_15-6.pdf`
 - Why: Administrative investigations and the right to respond to adverse information.
 
@@ -212,7 +212,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_600-20/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_600-20/01_Chapter_1.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Command.
 
@@ -224,7 +224,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 4 (Military Discipline and Conduct)
-- Text: `Regulations/AR_600-20/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_600-20/04_Chapter_4.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Discipline, conduct, extremism, standards of conduct, harassment prevention, travel card misuse, self-reporting. The paragraphs on relationships between Soldiers and recruiter/applicant relationships were not found in the extracted text; read the PDF.
 
@@ -245,7 +245,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 6 (Military Equal Opportunity Policy and Program)
-- Text: `Regulations/AR_600-20/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_600-20/06_Chapter_6.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Military equal opportunity policy, complaint processing and retaliation prevention. Chapters 2 and 5 and the SHARP chapters are not extracted.
 
@@ -266,7 +266,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 3
 - Chapter: all
-- Text: `Regulations/UR_27-4/.transform`
+- Text: `doctrine/Regulations/UR_27-4`
 - PDF: `Regulations/UR_27-4/UR 27-4.pdf`
 - Why: Prohibited and Regulated Activities for USAREC personnel; Chapter 2 is punitive and defines prohibited relationships with prospects and applicants. Paragraph headings not extracted; cite by paragraph from the text.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -275,7 +275,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 3
 - Chapter: all
-- Text: `Regulations/UR_27-3/.transform`
+- Text: `doctrine/Regulations/UR_27-3`
 - PDF: `Regulations/UR_27-3/UR 27-3.pdf`
 - Why: USAREC procedures in drunk-driving cases involving cadre (documents to gather, reprimand handling).
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -284,7 +284,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 1 March 2019, effective 1 March 2019, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_27-2(V3)/.transform`
+- Text: `doctrine/Regulations/UR_27-2(V3)`
 - PDF: `Regulations/UR_27-2(V3)/UR 27-2(V3).pdf`
 - Why: Legal support services: military justice coordination with the BJA, CG withholding of disciplinary authority, standards of conduct, administrative law, mental health evaluation consultation, BJA tracking of RI cases (appendix B).
 
@@ -292,6 +292,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 1 September 2014, authority level 3
 - Chapter: 1 (General)
+- Text: `doctrine/Regulations/UR_190-4(1)/01_Chapter_1.md`
 - PDF: `Regulations/UR_190-4(1)/UR 190-4(1).pdf`
 - Why: Incident reporting responsibilities, coordination and table 1-1 serious incident categories.
 
@@ -305,6 +306,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 1 September 2014, authority level 3
 - Chapter: 2 (Policy)
+- Text: `doctrine/Regulations/UR_190-4(1)/03_Chapter_2_Policy.md`
 - PDF: `Regulations/UR_190-4(1)/UR 190-4(1).pdf`
 - Why: Reporting policy and procedures. Table 2-1 (timelines and notification matrix) is an image only; chapters 3 to 5 (SIR forms, SIR addendum, DA Form 4833) were not transformed; read the PDF.
 
@@ -317,7 +319,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_190-45/.transform`
+- Text: `doctrine/Regulations/AR_190-45`
 - PDF: `Regulations/AR_190-45/AR_190-45.pdf`
 - Why: Law enforcement reporting; Chapter 4 offense reporting and DA Form 4833, Chapter 8 reportable serious incidents, Chapter 9 SIR procedures. Paragraph headings not extracted; cite by chapter.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -326,7 +328,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AD_2022-10/.transform`
+- Text: `doctrine/Regulations/AD_2022-10`
 - PDF: `Regulations/AD_2022-10/AD_2022-10.pdf`
 - Why: Safe-to-report: commander assessment of minor collateral misconduct by sexual assault victims.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -335,7 +337,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AD2018-16/.transform`
+- Text: `doctrine/Regulations/AD2018-16`
 - PDF: `Regulations/AD2018-16/AD2018-16.pdf`
 - Why: Suitability criteria and screening for recruiting cadre and other specified positions.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -344,7 +346,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/RI_-_Appointment_of_IO_Memo/.transform`
+- Text: `doctrine/Guides/RI_-_Appointment_of_IO_Memo`
 - PDF: `Guides/RI_-_Appointment_of_IO_Memo/RI - Appointment of IO Memo.pdf`
 - Why: Sample IO appointment memo for a recruiting impropriety investigation. It is a 2014 sample that cites superseded publications (UR 601-45, old UR 601-210 chapter 7); use for memo structure only and take governing citations from message 25-019 and AR 15-6.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -421,7 +423,7 @@ Article 15, NJP, nonjudicial punishment, 15-6, commander's inquiry, preliminary 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

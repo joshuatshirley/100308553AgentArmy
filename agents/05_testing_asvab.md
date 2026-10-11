@@ -78,7 +78,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Chapter 5 Section II Administration of the ASVAB. 5-8 and 5-11 point to DoDM 1145.02 for MEPS retest, confirmation and special purpose testing policy; DoDM 1145.02 is not in the doctrine library.
 
@@ -95,7 +95,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Trainability: test score categories, MOS aptitude area, waiver position.
 
@@ -107,7 +107,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1145.01/.transform`
+- Text: `doctrine/DoDI/DoDI_1145.01`
 - PDF: `DoDI/DoDI_1145.01/DoDI_1145.01.pdf`
 - Why: Qualitative distribution of manpower; AFQT category definitions and limits on lower categories (Glossary and Policy). Context for why categories matter; Army enlistment rules in AR 601-210 govern.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -116,7 +116,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Aptitude heading. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -125,7 +125,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.02/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.02`
 - PDF: `DoDI/DoDI_1304.02/DoDI_1304.02.pdf`
 - Why: Accession processing data collection forms (DD Form 1966 and others), not testing policy; cited only for the forms the testing history is recorded on. The roster listed it as a testing source; the ASVAB testing manual (DoDM 1145.02) is absent from the library.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -196,7 +196,7 @@ ASVAB, AFQT, retest, retake the test, PiCAT, APT, prescreen test, test scores, s
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

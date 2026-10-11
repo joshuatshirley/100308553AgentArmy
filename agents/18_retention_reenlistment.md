@@ -68,7 +68,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_601-280/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_601-280/01_Chapter_1.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Goals, secretarial authority, policy and authority to act on retention actions.
 
@@ -83,7 +83,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 3 (Qualifications for Retention)
-- Text: `Regulations/AR_601-280/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-280/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Qualifications for retention, disqualifications, waivers/ETPs, reenlistment ranks and periods.
 
@@ -103,12 +103,14 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 | 3-12 | Processing enlistment and reenlistment requests for officers and warrant officers |
 | 3-13 | Regular Army enlistment ranks and military occupational specialties for the Army National |
 | 3-14 | Sergeant major and command sergeant major retention program |
+| 3-15 | Noncommissioned Officer Career Status Program |
+| 3-16 | Reports on retention waivers |
 
 ### AR_601-280: Army Retention Program
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 5 (Selective Retention Bonus Program for Enlisted Personnel)
-- Text: `Regulations/AR_601-280/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-280/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Selective Retention Bonus program and recoupment.
 
@@ -125,12 +127,14 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 | 5-9 | Use of bonus recipients |
 | 5-10 | Recoupment from Soldiers who fail to complete obligated service and correction of |
 | 5-11 | Recoupment from Soldiers who are not technically qualified |
+| 5-12 | Recoupment from Soldiers who voluntarily reclassify |
+| 5-13 | Annual selective retention bonus reporting requirement to Director of Military Personnel |
 
 ### AR_601-280: Army Retention Program
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 8 (Bar to Continued Service)
-- Text: `Regulations/AR_601-280/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_601-280/08_Chapter_8.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Bar to continued service.
 
@@ -140,12 +144,13 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 | 8-2 | Standards for continued service |
 | 8-3 | Initiation and use of bar to continued service |
 | 8-4 | Criteria |
+| 8-5 | Separation |
 
 ### AR_601-280: Army Retention Program
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 13 (Administration of the Oath of Enlistment, Reenlistment, and Extension of Enlistment)
-- Text: `Regulations/AR_601-280/.transform/12_Chapter_13.md`
+- Text: `doctrine/Regulations/AR_601-280/12_Chapter_13.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Oath and ceremony.
 
@@ -158,6 +163,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 4 (Reenlistment Options, Reclassification, and Stabilization Agreements)
+- Text: `doctrine/Regulations/AR_601-280/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Reenlistment options, reclassification and stabilization. NOT transformed; read the PDF. Chapters 6, 7, 9, 10, 11 and 12 are also PDF-only.
 
@@ -165,7 +171,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_140-111/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_140-111/01_Chapter_1.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: USAR reenlistment program, responsibilities, interviews and bars.
 
@@ -212,7 +218,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 2 (Basic Qualifications for Reenlistment in the U.S. Army Reserve)
-- Text: `Regulations/AR_140-111/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_140-111/02_Chapter_2.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Basic qualifications for USAR reenlistment; paragraph headings not extracted, read the chapter file.
 
@@ -220,7 +226,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 3 (Extending Enlistment or Reenlistment Agreements)
-- Text: `Regulations/AR_140-111/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_140-111/03_Chapter_3.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Extending enlistment or reenlistment agreements; paragraph headings not extracted, read the chapter file.
 
@@ -228,7 +234,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 4 (Waivable and Nonwaivable Reenlistment Criteria)
-- Text: `Regulations/AR_140-111/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_140-111/04_Chapter_4.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Waivable and nonwaivable reenlistment criteria.
 
@@ -247,7 +253,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 5 (Reenlistment Processing)
-- Text: `Regulations/AR_140-111/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_140-111/05_Chapter_5.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Reenlistment processing, forms, oath.
 
@@ -276,7 +282,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 6 (Selected Reserve-Administrative Procedures)
-- Text: `Regulations/AR_140-111/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_140-111/06_Chapter_6.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Selected Reserve TPU procedures.
 
@@ -291,7 +297,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 7 (Individual Ready Reserve, Individual Mobilization Augmentation, and Standby Reserve (active list) Administrative Procedures)
-- Text: `Regulations/AR_140-111/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_140-111/07_Chapter_7.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: IRR, IMA and Standby Reserve procedures.
 
@@ -307,7 +313,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 8 (Active Guard/Reserve Administrative Procedures)
-- Text: `Regulations/AR_140-111/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_140-111/08_Chapter_8.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: AGR reenlistment procedures. AR 140-111 edition dated 2 March 2018; confirm currency.
 
@@ -337,7 +343,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 18 December 2023, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_601-280/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_601-280`
 - PDF: `Pamphlets/DA_PAM_601-280/DA_PAM_601-280.pdf`
 - Why: Army Retention Program procedures pamphlet; only the purpose, a Chapter 10 summary and glossary were extracted. Procedures must be read from the PDF.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -396,7 +402,7 @@ reenlist, reenlistment, retention, extension, extend, career counselor, SRB, sel
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

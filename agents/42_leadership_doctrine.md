@@ -149,7 +149,7 @@ Sections: Leaders and Challenges; Leadership and Management; Stress of Change; C
 
 - authority level 4
 - Chapter: all
-- Text: `FM/FM_6-22/.transform`
+- Text: `doctrine/FM/FM_6-22`
 - PDF: `FM/FM_6-22/FM_6-22.pdf`
 - Why: Developing Leaders: tenets, setting conditions, feedback, coaching, counseling and mentoring (Section III, Fundamentals of Development), self-development, individual development plans (DA Form 7906), unit leader development programs. Paragraphs untitled; cite by section heading.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -158,7 +158,7 @@ Sections: Leaders and Challenges; Leadership and Management; Stress of Change; C
 
 - edition 31 July 2019, authority level 2
 - Chapter: 1
-- Text: `ADP/ADP_6-0/.transform/06_Chapter_1.md`
+- Text: `doctrine/ADP/ADP_6-0/06_Chapter_1.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -168,7 +168,7 @@ Sections: Mission Command; Principles of Mission Command; The Role of Subordinat
 
 - edition 31 July 2019, authority level 2
 - Chapter: 2
-- Text: `ADP/ADP_6-0/.transform/07_Chapter_2.md`
+- Text: `doctrine/ADP/ADP_6-0/07_Chapter_2.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -178,7 +178,7 @@ Sections: Nature of Command; Elements of Command; The Role of Commanders in Oper
 
 - edition 31 July 2019, authority level 2
 - Chapter: 3
-- Text: `ADP/ADP_6-0/.transform/08_Chapter_3.md`
+- Text: `doctrine/ADP/ADP_6-0/08_Chapter_3.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -188,7 +188,7 @@ Sections: Nature of Control; Elements of Control; Control Measures; Guides to Ef
 
 - edition 31 July 2019, authority level 2
 - Chapter: 1
-- Text: `ADP/ADP_5-0/.transform/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md`
+- Text: `doctrine/ADP/ADP_5-0/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -198,7 +198,7 @@ Sections: The Framework of the Operations Process; Principles of the Operations 
 
 - edition 31 July 2019, authority level 2
 - Chapter: 2
-- Text: `ADP/ADP_5-0/.transform/06_Chapter_2-_Planning.md`
+- Text: `doctrine/ADP/ADP_5-0/06_Chapter_2-_Planning.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -208,7 +208,7 @@ Sections: Fundamentals of Planning; Key Components of a Plan; Guides to Effectiv
 
 - edition 31 July 2019, authority level 2
 - Chapter: 3
-- Text: `ADP/ADP_5-0/.transform/07_Chapter_3-_Preparation.md`
+- Text: `doctrine/ADP/ADP_5-0/07_Chapter_3-_Preparation.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -218,7 +218,7 @@ Sections: Fundamentals of Preparation; Preparation Activities
 
 - edition 31 July 2019, authority level 2
 - Chapter: 4
-- Text: `ADP/ADP_5-0/.transform/08_Chapter_4-_Execution.md`
+- Text: `doctrine/ADP/ADP_5-0/08_Chapter_4-_Execution.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -228,7 +228,7 @@ Sections: Fundamentals of Execution; Responsibilities During Execution; Rapid De
 
 - edition 31 July 2019, authority level 2
 - Chapter: 5
-- Text: `ADP/ADP_5-0/.transform/09_Chapter_5-_Assessment.md`
+- Text: `doctrine/ADP/ADP_5-0/09_Chapter_5-_Assessment.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -238,7 +238,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 
 - authority level 2
 - Chapter: all
-- Text: `ADP/ADP_1/.transform`
+- Text: `doctrine/ADP/ADP_1`
 - PDF: `ADP/ADP_1/ADP_1.pdf`
 - Why: The Army; chapters not split. Cite by heading from .transform/00_Full_Document.md.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -247,7 +247,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 
 - edition 01 May 2025, authority level 4
 - Chapter: all
-- Text: `FM/FM_1/.transform`
+- Text: `doctrine/FM/FM_1`
 - PDF: `FM/FM_1/FM_1.pdf`
 - Why: The Army (2025); chapter titles were not captured cleanly; cite by heading.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -256,7 +256,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 
 - authority level 2
 - Chapter: all
-- Text: `ADP/ADP_3-0/.transform`
+- Text: `doctrine/ADP/ADP_3-0`
 - PDF: `ADP/ADP_3-0/ADP_3-0.pdf`
 - Why: Operations; chapters not split.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -265,7 +265,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 
 - edition 21 March 2025, authority level 4
 - Chapter: all
-- Text: `FM/FM_3-0/.transform`
+- Text: `doctrine/FM/FM_3-0`
 - PDF: `FM/FM_3-0/FM_3-0.pdf`
 - Why: Operations (2025); chapter titles were not captured cleanly; cite by heading. Use only for terms such as mission command culture.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -320,7 +320,7 @@ counseling, how do I counsel, coaching, mentoring, leader development, LPD, IDP,
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

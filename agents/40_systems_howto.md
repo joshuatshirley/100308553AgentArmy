@@ -112,7 +112,7 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu/.transform`
+- Text: `doctrine/Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu`
 - PDF: `Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu/G6 Knowledge Document_LiveScan WEBS 2018 Set-up Guide.pdf`
 - Why: G6 knowledge document (Oct 2018) for installing and enrolling the LiveScan WEBS service.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -121,10 +121,10 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 4 (Recruit Quota System (REQUEST) Procedures)
-- Text: `Regulations/UR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/UR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST procedures: general, security and use.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -132,15 +132,16 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 | 4-2 | General |
 | 4-3 | Security |
 | 4-4 | REQUEST Use |
+| 4-5 | Alternate Procedures for Terminal or System Failure |
 
 ### UR_601-210: Enlistment & Accessions Processing
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 19 (Required USMEPCOM Daily Reports and RZ)
-- Text: `Regulations/UR_601-210/.transform/19_Chapter_19.md`
+- Text: `doctrine/Regulations/UR_601-210/19_Chapter_19.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Required USMEPCOM daily reports, REQUEST and close-out reports, RZ end-of-day reports.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -154,10 +155,10 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.5 Live Scan and Ch.21 Electronic Records Management exist only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -221,7 +222,7 @@ RZ, Recruiter Zone, My Work Zone, ROAM, route map, GCRc, ERM, project an applica
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

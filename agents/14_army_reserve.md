@@ -93,10 +93,10 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 12 (Army Reserve Specific Processing)
-- Text: `Regulations/UR_601-210/.transform/12_Chapter_12.md`
+- Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve Specific Processing: ATP, ESL, vacancies, PS DMOSQ acceptance, REFRAD for temporary medical reasons, AMEDD officer reservations, SMP.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -113,10 +113,10 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 11 (Active and Reserve Component Separations)
-- Text: `Regulations/UR_601-210/.transform/11_Chapter_11.md`
+- Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve entry level separations; who initiates, re-contract restrictions. Message 24-027 changes the waiting period text.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -126,7 +126,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Reserve Component separations or transfers as a waiverable disqualification.
 
@@ -138,7 +138,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Discharge or clearance from a Reserve Component; Section V special processing for enlistment of an ARNG Soldier into a USAR TPU.
 
@@ -153,7 +153,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Enlistment Program 9H, ROTC/Simultaneous Membership Program (enlisted side).
 
@@ -165,7 +165,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 16 July 2021, effective 16 August 2021, authority level 2
 - Chapter: 5 (Transfer between the U.S. Army Reserve and Army National Guard)
-- Text: `Regulations/AR_140-10/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_140-10/05_Chapter_5.md`
 - PDF: `Regulations/AR_140-10/AR_140-10.pdf`
 - Why: Transfer between the USAR and ARNG, including conditional release.
 
@@ -182,7 +182,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 16 July 2021, effective 16 August 2021, authority level 2
 - Chapter: 9 (Inter-Service Transfer and Attachment)
-- Text: `Regulations/AR_140-10/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_140-10/09_Chapter_9.md`
 - PDF: `Regulations/AR_140-10/AR_140-10.pdf`
 - Why: Inter-service transfer and attachment for Reserve Component members.
 
@@ -201,10 +201,10 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exists only in the PDF (not transformed).
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -284,7 +284,7 @@ Army Reserve, USAR, TPU, drill, unit vacancy, vacancy load, split option, ATP, a
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

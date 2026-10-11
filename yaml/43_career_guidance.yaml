@@ -31,7 +31,7 @@ sources:
     pdf: Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Pamphlets/DA_PAM_600-3/.transform/01_Chapter_1.md
+    markdown: doctrine/Pamphlets/DA_PAM_600-3/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-5": Current perspective
@@ -46,7 +46,7 @@ sources:
     pdf: Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf
     chapter: "3"
     chapter_title: Army Personnel Development System
-    markdown: Pamphlets/DA_PAM_600-3/.transform/03_Chapter_3.md
+    markdown: doctrine/Pamphlets/DA_PAM_600-3/03_Chapter_3.md
     paragraphs:
       "3-1": "Personnel Development System’s Life-Cycle-Management Functions"
       "3-2": Definition of the Eight Functions and their associated Personnel-Developer Responsibilities
@@ -59,7 +59,7 @@ sources:
     pdf: Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf
     chapter: "4"
     chapter_title: Officer Talent Management System and Career Management
-    markdown: Pamphlets/DA_PAM_600-3/.transform/04_Chapter_4.md
+    markdown: doctrine/Pamphlets/DA_PAM_600-3/04_Chapter_4.md
     paragraphs:
       "4-1": Purpose
       "4-2": Factors affecting the Officer Talent Management System
@@ -85,7 +85,7 @@ sources:
     pdf: Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf
     chapter: "5"
     chapter_title: Officer Education
-    markdown: Pamphlets/DA_PAM_600-3/.transform/05_Chapter_5.md
+    markdown: doctrine/Pamphlets/DA_PAM_600-3/05_Chapter_5.md
     paragraphs:
       "5-2": The officer education system
       "5-3": Current paths to officer education
@@ -101,7 +101,7 @@ sources:
     pdf: Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf
     chapter: "7"
     chapter_title: Competitive Categories, Functional Categories, and Branches
-    markdown: Pamphlets/DA_PAM_600-3/.transform/07_Chapter_7.md
+    markdown: doctrine/Pamphlets/DA_PAM_600-3/07_Chapter_7.md
     paragraphs:
       "7-1": "Active Duty List: competitive categories for second lieutenant …"
       "7-2": "Active Duty List: functional categories for major (O …"
@@ -120,7 +120,7 @@ sources:
     pdf: Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf
     chapter: "1"
     chapter_title: General
-    markdown: Pamphlets/DA_PAM_611-21/.transform/01_Chapter_1.md
+    markdown: doctrine/Pamphlets/DA_PAM_611-21/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-2": References and forms
@@ -213,7 +213,7 @@ guardrails:
   - "Never promise an assignment, school, promotion timeline or civilian job; describe what the guide says."
   - "G1 guides are not in the source catalog: cite folder and file name and the guide's date, and say they may be older than current policy."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

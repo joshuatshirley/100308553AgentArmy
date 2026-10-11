@@ -122,7 +122,7 @@ sources:
     pdf: Regulations/AR_25-2/AR 25-2.pdf
     chapter: "2"
     chapter_title: Responsibilities
-    markdown: Regulations/AR_25-2/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_25-2/02_Chapter_2.md
     paragraphs:
       "2-34": All personnel
       "2-37": Authorized users
@@ -135,7 +135,7 @@ sources:
     pdf: Regulations/AR_25-2/AR 25-2.pdf
     chapter: "4"
     chapter_title: Cybersecurity Risk Management Program
-    markdown: Regulations/AR_25-2/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_25-2/04_Chapter_4.md
     paragraphs:
       "4-6": Information security
       "4-9": Operations security
@@ -150,7 +150,7 @@ sources:
     pdf: Regulations/AR_25-1_15Jul19_IM_Army_IT/AR 25-1 15Jul19 IM Army IT.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Regulations/AR_25-1_15Jul19_IM_Army_IT/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_25-1_15Jul19_IM_Army_IT/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-5": Records management (recordkeeping) requirements
@@ -164,7 +164,7 @@ sources:
     pdf: Regulations/AR_25-13/AR 25-13.pdf
     chapter: "3"
     chapter_title: Utilization of telecommunications and unified capabilities
-    markdown: Regulations/AR_25-13/.transform/02_Chapter_3.md
+    markdown: doctrine/Regulations/AR_25-13/02_Chapter_3.md
     paragraphs:
       "3-1": Official uses of telecommunications and computing systems
       "3-2": Unauthorized and prohibited uses of telecommunications and computing systems
@@ -178,7 +178,7 @@ sources:
     pdf: Regulations/AR_25-400-2/AR_25-400-2.pdf
     chapter: "3"
     chapter_title: Record Definitions
-    markdown: Regulations/AR_25-400-2/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_25-400-2/03_Chapter_3.md
     paragraphs:
       "3-1": Records management
       "3-2": Records
@@ -187,6 +187,9 @@ sources:
       "3-5": Essential records
       "3-6": Unscheduled records
       "3-7": Contract records
+      "3-8": Social media records
+      "3-9": Unlawful or accidental removal, defacing, alteration, or destruction of records
+      "3-10": Records inspection
     note: "Record definitions: records, non-records, personal papers, essential and unscheduled records."
   - doc: AR_25-400-2
     title: Army Records Management Program
@@ -196,7 +199,7 @@ sources:
     pdf: Regulations/AR_25-400-2/AR_25-400-2.pdf
     chapter: "5"
     chapter_title: Records Retention
-    markdown: Regulations/AR_25-400-2/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_25-400-2/05_Chapter_5.md
     paragraphs:
       "5-1": Records Retention Schedule
       "5-2": The Records Retention Schedule-Army
@@ -210,7 +213,7 @@ sources:
     pdf: Regulations/AR_25-30/AR_25-30.pdf
     chapter: "2"
     chapter_title: Army Publications
-    markdown: Regulations/AR_25-30/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_25-30/02_Chapter_2.md
     paragraphs:
       "2-1": Department of the Army authenticated publications
       "2-2": Non-departmental publications
@@ -226,7 +229,7 @@ sources:
     pdf: Regulations/UR_5-01/UR 5-01.pdf
     chapter: "2"
     chapter_title: null
-    markdown: Regulations/UR_5-01/.transform/02_Chapter_2..md
+    markdown: doctrine/Regulations/UR_5-01/02_Chapter_2..md
     paragraphs:
       "2-1": KM Goals and Vision
       "2-2": KM Definition, Principles, and Responsibilities
@@ -241,7 +244,7 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_380-4/UR 380-4.pdf
     chapter: all
-    markdown: Regulations/UR_380-4/.transform
+    markdown: doctrine/Regulations/UR_380-4
     note: USAREC security programs including information security and threat awareness reporting. Paragraph headings largely not extracted.
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
@@ -250,10 +253,10 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: all
-    markdown: Regulations/UR_601-210/.transform
+    markdown: doctrine/Regulations/UR_601-210
     note: Ch.21 Electronic Records Management (ERM) exists only in the PDF.
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "25-029"
     subject: SF 86 Completion. Recruiters will not tell or encourage applicants to omit information from the SF 86.
@@ -371,7 +374,7 @@ guardrails:
   - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
   - Never suggest a workaround to a cybersecurity control.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

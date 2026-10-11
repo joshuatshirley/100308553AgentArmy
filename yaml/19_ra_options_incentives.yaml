@@ -32,7 +32,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "9"
     chapter_title: Enlistment Programs, Options, and Incentives
-    markdown: Regulations/AR_601-210/.transform/09_Chapter_9.md
+    markdown: doctrine/Regulations/AR_601-210/09_Chapter_9.md
     paragraphs:
       "9-1": General
       "9-2": Qualifications
@@ -53,7 +53,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-32": Processing procedures
     note: Renegotiating options and incentives for DEP enlistees who no longer qualify for their option at shipment.
@@ -65,7 +65,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "10"
     chapter_title: Selected Reserve Incentive Program (Enlisted and Officer Incentives)
-    markdown: Regulations/AR_601-210/.transform/10_Chapter_10.md
+    markdown: doctrine/Regulations/AR_601-210/10_Chapter_10.md
     paragraphs:
       "10-9": Recoupment of incentives
     note: Recoupment, referenced by 9-9 for security-clearance non-approval and for RC or former RC entering the RA.
@@ -76,7 +76,7 @@ sources:
     authority_level: 2
     pdf: Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf
     chapter: all
-    markdown: Pamphlets/DA_PAM_611-21/.transform
+    markdown: doctrine/Pamphlets/DA_PAM_611-21
     note: "MOS prerequisites that options require before and after enlistment; chapters 2 and 3 were not transformed, read the PDF."
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
@@ -85,10 +85,10 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: all
-    markdown: Regulations/UR_601-210/.transform
+    markdown: doctrine/Regulations/UR_601-210
     note: "Ch.13 Regular Army Options and Incentives exists only in the PDF; read it for USAREC procedures on RA options."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "26-019"
     subject: Regular Army Enlistment Incentives Program Change
@@ -233,7 +233,7 @@ guardrails:
   - Never quote a bonus amount or minimum term of service from memory or from an old message.
   - "Read a USAREC message's numbered Requirement lines or its PDF; never rely on the narrative summary paragraphs in the consolidated message file, which are machine-generated and contain known errors."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

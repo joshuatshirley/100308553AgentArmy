@@ -31,7 +31,7 @@ sources:
     pdf: Regulations/AR_601-280/AR_601-280.pdf
     chapter: "1"
     chapter_title: General
-    markdown: Regulations/AR_601-280/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_601-280/01_Chapter_1.md
     paragraphs:
       "1-6": Goals and mission
       "1-8": Secretarial authority and statutory entitlement
@@ -46,7 +46,7 @@ sources:
     pdf: Regulations/AR_601-280/AR_601-280.pdf
     chapter: "3"
     chapter_title: Qualifications for Retention
-    markdown: Regulations/AR_601-280/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_601-280/03_Chapter_3.md
     paragraphs:
       "3-1": Soldier processing
       "3-2": Determination of qualifications
@@ -62,6 +62,8 @@ sources:
       "3-12": Processing enlistment and reenlistment requests for officers and warrant officers
       "3-13": Regular Army enlistment ranks and military occupational specialties for the Army National
       "3-14": Sergeant major and command sergeant major retention program
+      "3-15": Noncommissioned Officer Career Status Program
+      "3-16": Reports on retention waivers
     note: Qualifications for retention, disqualifications, waivers/ETPs, reenlistment ranks and periods.
   - doc: AR_601-280
     title: Army Retention Program
@@ -71,7 +73,7 @@ sources:
     pdf: Regulations/AR_601-280/AR_601-280.pdf
     chapter: "5"
     chapter_title: Selective Retention Bonus Program for Enlisted Personnel
-    markdown: Regulations/AR_601-280/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-280/05_Chapter_5.md
     paragraphs:
       "5-1": Selective Retention Bonus Program
       "5-2": Program responsibilities
@@ -84,6 +86,8 @@ sources:
       "5-9": Use of bonus recipients
       "5-10": Recoupment from Soldiers who fail to complete obligated service and correction of
       "5-11": Recoupment from Soldiers who are not technically qualified
+      "5-12": Recoupment from Soldiers who voluntarily reclassify
+      "5-13": Annual selective retention bonus reporting requirement to Director of Military Personnel
     note: Selective Retention Bonus program and recoupment.
   - doc: AR_601-280
     title: Army Retention Program
@@ -93,12 +97,13 @@ sources:
     pdf: Regulations/AR_601-280/AR_601-280.pdf
     chapter: "8"
     chapter_title: Bar to Continued Service
-    markdown: Regulations/AR_601-280/.transform/08_Chapter_8.md
+    markdown: doctrine/Regulations/AR_601-280/08_Chapter_8.md
     paragraphs:
       "8-1": General
       "8-2": Standards for continued service
       "8-3": Initiation and use of bar to continued service
       "8-4": Criteria
+      "8-5": Separation
     note: Bar to continued service.
   - doc: AR_601-280
     title: Army Retention Program
@@ -108,7 +113,7 @@ sources:
     pdf: Regulations/AR_601-280/AR_601-280.pdf
     chapter: "13"
     chapter_title: Administration of the Oath of Enlistment, Reenlistment, and Extension of Enlistment
-    markdown: Regulations/AR_601-280/.transform/12_Chapter_13.md
+    markdown: doctrine/Regulations/AR_601-280/12_Chapter_13.md
     paragraphs:
       "13-1": Oath
       "13-2": Ceremony considerations
@@ -121,7 +126,7 @@ sources:
     pdf: Regulations/AR_601-280/AR_601-280.pdf
     chapter: "4"
     chapter_title: Reenlistment Options, Reclassification, and Stabilization Agreements
-    markdown: null
+    markdown: doctrine/Regulations/AR_601-280/04_Chapter_4.md
     note: "Reenlistment options, reclassification and stabilization. NOT transformed; read the PDF. Chapters 6, 7, 9, 10, 11 and 12 are also PDF-only."
   - doc: AR_140-111
     title: U.S. Army Reserve Reenlistment Program
@@ -131,7 +136,7 @@ sources:
     pdf: Regulations/AR_140-111/AR_140-111.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Regulations/AR_140-111/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_140-111/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-2": References
@@ -178,7 +183,7 @@ sources:
     pdf: Regulations/AR_140-111/AR_140-111.pdf
     chapter: "2"
     chapter_title: Basic Qualifications for Reenlistment in the U.S. Army Reserve
-    markdown: Regulations/AR_140-111/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_140-111/02_Chapter_2.md
     note: "Basic qualifications for USAR reenlistment; paragraph headings not extracted, read the chapter file."
   - doc: AR_140-111
     title: U.S. Army Reserve Reenlistment Program
@@ -188,7 +193,7 @@ sources:
     pdf: Regulations/AR_140-111/AR_140-111.pdf
     chapter: "3"
     chapter_title: Extending Enlistment or Reenlistment Agreements
-    markdown: Regulations/AR_140-111/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_140-111/03_Chapter_3.md
     note: "Extending enlistment or reenlistment agreements; paragraph headings not extracted, read the chapter file."
   - doc: AR_140-111
     title: U.S. Army Reserve Reenlistment Program
@@ -198,7 +203,7 @@ sources:
     pdf: Regulations/AR_140-111/AR_140-111.pdf
     chapter: "4"
     chapter_title: Waivable and Nonwaivable Reenlistment Criteria
-    markdown: Regulations/AR_140-111/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_140-111/04_Chapter_4.md
     paragraphs:
       "4-1": Moral and administrative disqualifications
       "4-2": Reenlistment eligibility codes
@@ -217,7 +222,7 @@ sources:
     pdf: Regulations/AR_140-111/AR_140-111.pdf
     chapter: "5"
     chapter_title: Reenlistment Processing
-    markdown: Regulations/AR_140-111/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_140-111/05_Chapter_5.md
     paragraphs:
       "5-1": Processing policy
       "5-2": Processing elements
@@ -246,7 +251,7 @@ sources:
     pdf: Regulations/AR_140-111/AR_140-111.pdf
     chapter: "6"
     chapter_title: Selected Reserve-Administrative Procedures
-    markdown: Regulations/AR_140-111/.transform/06_Chapter_6.md
+    markdown: doctrine/Regulations/AR_140-111/06_Chapter_6.md
     paragraphs:
       "6-1": U.S. Army Reserve troop program units
       "6-2": Scope
@@ -261,7 +266,7 @@ sources:
     pdf: Regulations/AR_140-111/AR_140-111.pdf
     chapter: "7"
     chapter_title: Individual Ready Reserve, Individual Mobilization Augmentation, and Standby Reserve (active list) Administrative Procedures
-    markdown: Regulations/AR_140-111/.transform/07_Chapter_7.md
+    markdown: doctrine/Regulations/AR_140-111/07_Chapter_7.md
     paragraphs:
       "7-1": General
       "7-2": Scope
@@ -277,7 +282,7 @@ sources:
     pdf: Regulations/AR_140-111/AR_140-111.pdf
     chapter: "8"
     chapter_title: Active Guard/Reserve Administrative Procedures
-    markdown: Regulations/AR_140-111/.transform/08_Chapter_8.md
+    markdown: doctrine/Regulations/AR_140-111/08_Chapter_8.md
     paragraphs:
       "8-1": General
       "8-2": Reenlistment of Active Guard Reserve personnel
@@ -306,7 +311,7 @@ sources:
     authority_level: 2
     pdf: Pamphlets/DA_PAM_601-280/DA_PAM_601-280.pdf
     chapter: all
-    markdown: Pamphlets/DA_PAM_601-280/.transform
+    markdown: doctrine/Pamphlets/DA_PAM_601-280
     note: "Army Retention Program procedures pamphlet; only the purpose, a Chapter 10 summary and glossary were extracted. Procedures must be read from the PDF."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -416,7 +421,7 @@ guardrails:
   - "Several AR 601-280 chapters and DA Pam 601-280 are PDF-only; say so rather than answering from memory."
   - Output is a process path with citations, not an approval of a reenlistment, waiver or bar.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

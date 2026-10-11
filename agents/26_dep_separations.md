@@ -78,10 +78,10 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 11 (Active and Reserve Component Separations)
-- Text: `Regulations/UR_601-210/.transform/11_Chapter_11.md`
+- Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Active and Reserve Component Separations. 11-4d cites AR 601-210 chapter 5-78, which does not exist in the 20 March 2026 edition (drug separation is 5-73). Message 24-027 changes 11-11.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -102,7 +102,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: DEP separation authority, extension for separation processing, special provisions, and pre-service drug test separation procedures.
 
@@ -122,7 +122,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 6 (Military Entrance Processing Station Processing Phase)
-- Text: `Regulations/AR_601-210/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_601-210/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Issues detected after the second swearing-in but before shipment.
 
@@ -134,7 +134,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 6 June 2025, effective 6 June 2025, authority level 2
 - Chapter: 7 (Defective Enlistments and Reenlistments)
-- Text: `Regulations/AR_135-178/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_135-178/07_Chapter_7.md`
 - PDF: `Regulations/AR_135-178/AR_135-178.pdf`
 - Why: Erroneous enlistment in the Reserve Components; DEP and DTP separations are governed by AR 135-178.
 
@@ -146,7 +146,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 6 June 2025, effective 6 June 2025, authority level 2
 - Chapter: 8 (Entry Level Performance and Conduct)
-- Text: `Regulations/AR_135-178/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_135-178/08_Chapter_8.md`
 - PDF: `Regulations/AR_135-178/AR_135-178.pdf`
 - Why: Entry level performance and conduct separations for Reserve Component Soldiers.
 
@@ -154,6 +154,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 30 June 2025, effective 30 July 2025, authority level 2
 - Chapter: 7 (Defective Enlistments, Reenlistments, and Extensions)
+- Text: `doctrine/Regulations/AR_635-200/07_Chapter_7.md`
 - PDF: `Regulations/AR_635-200/AR_635-200.pdf`
 - Why: Defective enlistments for the RA; chapter not transformed, read the PDF.
 
@@ -161,7 +162,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 7 March 2022, authority level 3
 - Chapter: 3 (Decisive Operations)
-- Text: `Manuals/UM_3-31/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -237,7 +238,7 @@ DEP discharge, DEP separation, separation request, doesn't want to go, wants out
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -85,7 +85,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Chapter 2 Section I basic eligibility criteria for non-prior-service applicants; 2-2 also defines glossary NPS. Edition 20 March 2026.
 
@@ -103,7 +103,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Waiver position for applicants above the maximum age in 2-3 and 3-3.
 
@@ -115,7 +115,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Minimum age for testing (5-7) and consent before a medical examination of a minor (5-12); detail owned by 05 and 07.
 
@@ -128,7 +128,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 6 (Military Entrance Processing Station Processing Phase)
-- Text: `Regulations/AR_601-210/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_601-210/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: DD Form 1966 entries (6-10) and administration of the oath (6-16). 2-3a cross-references 6-14 for the oath, but 6-14 is Claims of erroneous entries; the oath is at 6-16.
 
@@ -141,7 +141,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: DoD qualification standards; Enclosure 3 Basic Eligibility Criteria (Age, Citizenship, Education, Aptitude, Medical, Physical Fitness, Dependency Status, Character/Conduct). Paragraph headings not extracted; cite by enclosure and heading. Army detail in AR 601-210 governs.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -221,7 +221,7 @@ age, too old, too young, age waiver, age ETP, parental consent, parent won't sig
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -2,7 +2,11 @@
 import os, re, json
 ROOT = r"C:\Users\joshu\..Project\Station_Commander\Army_Doctrine"
 CATS = ["Regulations", "Manuals", "Pamphlets", "DoDI", "Guides", "ADP", "FM", "Certificates", "Forms"]
-SKIP_MANUAL_DUPES = {"UR_10-1_(28Sep22)", "UR_350-1", "UR_350-13", "UR_5-01", "UR_601-210_1", "UR_601-37"}
+SKIP_MANUAL_DUPES = {"UR_10-1_(28Sep22)", "UR_5-01", "UR_601-210_1", "UR_601-37"}
+# Regulations/ copies of these two are a 2022/2021 working draft superseded by the
+# 2024 Manuals/ copy (different page counts/metadata, not a byte-identical dupe) -
+# keep the current Manuals/ version as canonical instead.
+SKIP_REGULATIONS_DUPES = {"UR_350-1", "UR_350-13"}
 UNTITLED_PARA = ("UM_", "USAREC_MANUAL", "UTC_", "UTP_", "FM_", "ADP_", "STP")
 MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
 DATE = re.compile(r'\b(\d{1,2})\s+(' + MONTHS + r'),?\s+(\d{4})\b')
@@ -25,6 +29,7 @@ for c in CATS:
         full = os.path.join(base, name)
         if name.startswith(".") or not os.path.isdir(full): continue
         if c == "Manuals" and name in SKIP_MANUAL_DUPES: continue
+        if c == "Regulations" and name in SKIP_REGULATIONS_DUPES: continue
         tdir = os.path.join(full, ".transform")
         pdfs = [f for f in os.listdir(full) if f.lower().endswith(".pdf")]
         tfiles = sorted(f for f in os.listdir(tdir) if f.endswith(".md")) if os.path.isdir(tdir) else []

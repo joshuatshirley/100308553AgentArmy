@@ -86,8 +86,8 @@ Specialist for training management and leader development in USAREC, written for
 
 - edition 19 September 2022, effective 19 September 2022, authority level 3
 - Chapter: 1
-- Text: `Regulations/UR_350-1/.transform/01_Chapter_1..md`
-- PDF: `Regulations/UR_350-1/UR 350-1.pdf`
+- Text: `doctrine/Manuals/UR_350-1/01_Chapter_1..md`
+- PDF: `Manuals/UR_350-1/UR 350-1.pdf`
 - Why: Purpose, training challenge, goals, training management and development processes, unit training in DTMS. Paragraphs 1-11 to 1-13 (institutional training, evaluation, risk management) are in the PDF only.
 
 | Para | Heading |
@@ -103,15 +103,15 @@ Specialist for training management and leader development in USAREC, written for
 
 - edition 19 September 2022, effective 19 September 2022, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_350-1/.transform`
-- PDF: `Regulations/UR_350-1/UR 350-1.pdf`
+- Text: `doctrine/Manuals/UR_350-1`
+- PDF: `Manuals/UR_350-1/UR 350-1.pdf`
 - Why: Most of UR 350-1 is PDF only: Ch.2 responsibilities by echelon (2-14 company commanders, 2-16 medical station OIC, 2-17 station commanders); Ch.3 institutional training (course information, OML, deferments, Army Recruiter Course, Station Commander Course, Master Trainer Course and others); Ch.4 training in units (mandatory training, Advanced Training Program, certification programs, training records, LPD/OPD/NCOPD, self-development); appendixes on certification, CSTAR, leader transition and new recruiting NCO boards. The catalog's 3-1, 3-2 and 4-1 entries are table captions, not paragraphs.
 
 ### UM_3-31: Station Operations
 
 - edition 7 March 2022, authority level 3
 - Chapter: 5 (Sustaining Operations)
-- Text: `Manuals/UM_3-31/.transform/05_Chapter_5.md`
+- Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's training role; references STP 805K-79R-SMTG.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -122,7 +122,7 @@ Sections: Personnel Integration; Training and Leader Development
 
 - edition 9 March 2022, authority level 3
 - Chapter: 11 (Institutional Training Domain)
-- Text: `Manuals/UM_3-32/.transform/11_Chapter_11.md`
+- Text: `doctrine/Manuals/UM_3-32/11_Chapter_11.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view of training domains and the LDP.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -143,7 +143,7 @@ Sections: Training and Leader Development
 
 - edition 9 March 2022, authority level 3
 - Chapter: 7 (Sustaining Operations)
-- Text: `Manuals/UM_3-29/.transform/07_Chapter_7.md`
+- Text: `doctrine/Manuals/UM_3-29/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion training; Figure 7-1 three domains of training.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -154,7 +154,7 @@ Sections: Training
 
 - edition 1 June 2025, effective 1 June 2025, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_350-1/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_350-1/01_Chapter_1.md`
 - PDF: `Regulations/AR_350-1/AR_350-1.pdf`
 - Why: Army Training System, authorities, training domains.
 
@@ -168,7 +168,7 @@ Sections: Training
 
 - edition 1 June 2025, effective 1 June 2025, authority level 2
 - Chapter: 3 (The Army Institutional Training and Education System)
-- Text: `Regulations/AR_350-1/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_350-1/03_Chapter_3.md`
 - PDF: `Regulations/AR_350-1/AR_350-1.pdf`
 - Why: NCO Professional Development System guidance and requirements.
 
@@ -189,7 +189,7 @@ Sections: Training
 
 - edition 14 June 2021, authority level 4
 - Chapter: 1
-- Text: `FM/FM_7-0/.transform/06_Chapter_1.md`
+- Text: `doctrine/FM/FM_7-0/06_Chapter_1.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -199,7 +199,7 @@ Sections: Principles of Training; Training as Leader Development; Training Manag
 
 - edition 14 June 2021, authority level 4
 - Chapter: 3
-- Text: `FM/FM_7-0/.transform/08_Chapter_3.md`
+- Text: `doctrine/FM/FM_7-0/08_Chapter_3.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -209,7 +209,7 @@ Sections: Training Battle Rhythm; Long-Range Planning and Preparation; Mid-Range
 
 - edition 14 June 2021, authority level 4
 - Chapter: 4
-- Text: `FM/FM_7-0/.transform/09_Chapter_4.md`
+- Text: `doctrine/FM/FM_7-0/09_Chapter_4.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -219,7 +219,7 @@ Sections: Training Techniques; After Action Review; Recording Results
 
 - edition 14 June 2021, authority level 4
 - Chapter: 5
-- Text: `FM/FM_7-0/.transform/10_Chapter_5.md`
+- Text: `doctrine/FM/FM_7-0/10_Chapter_5.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -229,7 +229,7 @@ Sections: Evaluation; Assessment
 
 - authority level 2
 - Chapter: all
-- Text: `ADP/ADP_7-0/.transform`
+- Text: `doctrine/ADP/ADP_7-0`
 - PDF: `ADP/ADP_7-0/ADP_7-0.pdf`
 - Why: Training doctrine principles; chapters not extracted in the catalog.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -238,7 +238,7 @@ Sections: Evaluation; Assessment
 
 - edition 13 May 2018, authority level 4
 - Chapter: all
-- Text: `Manuals/STP805K-79R-SMTG/.transform`
+- Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -247,7 +247,7 @@ Sections: Evaluation; Assessment
 
 - edition 21 July 2020, authority level 4
 - Chapter: 10
-- Text: `Guides/UTC_5-03.4/.transform/10_Chapter_10..md`
+- Text: `doctrine/Guides/UTC_5-03.4/10_Chapter_10..md`
 - PDF: `Guides/UTC_5-03.4/UTC 5-03.4.pdf`
 - Why: Actual title (front matter): UTC 5-03.4 Training and Leader Development; catalog title is wrong. CSTAR example and use. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -256,7 +256,7 @@ Sections: Evaluation; Assessment
 
 - edition 21 July 2020, authority level 4
 - Chapter: 11
-- Text: `Guides/UTC_5-03.4/.transform/11_Chapter_11..md`
+- Text: `doctrine/Guides/UTC_5-03.4/11_Chapter_11..md`
 - PDF: `Guides/UTC_5-03.4/UTC 5-03.4.pdf`
 - Why: DTMS user guide and resources. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -319,7 +319,7 @@ training plan, near-term training plan, training record, UF 350-1, DTMS, CSTAR, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

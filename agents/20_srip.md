@@ -71,7 +71,7 @@ Specialist for the Selected Reserve Incentive Program as it touches Army Reserve
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 10 (Selected Reserve Incentive Program (Enlisted and Officer Incentives))
-- Text: `Regulations/AR_601-210/.transform/10_Chapter_10.md`
+- Text: `doctrine/Regulations/AR_601-210/10_Chapter_10.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Selected Reserve Incentive Program; administration in 10-1 to 10-11, individual incentives in 10-12 to 10-22.
 
@@ -104,7 +104,7 @@ Specialist for the Selected Reserve Incentive Program as it touches Army Reserve
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Selected Reserve incentive list, Program 9L applicant counseling points, SLRP/MGIB Kicker tie to the approved SRIP. 9-6 note points to AR 601-280, AR 621-202 and NGR 600-7; AR 621-202 and NGR 600-7 are not in the library.
 
@@ -120,7 +120,7 @@ Specialist for the Selected Reserve Incentive Program as it touches Army Reserve
 
 - edition 2 March 2018, authority level 2
 - Chapter: all
-- Text: `Regulations/AR_140-111/.transform`
+- Text: `doctrine/Regulations/AR_140-111`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: U.S. Army Reserve Reenlistment Program; consult only where Chapter 10 points to reenlistment or extension incentives.
 
@@ -184,7 +184,7 @@ SRIP, Reserve bonus, Army Reserve bonus, NPS bonus, NPSEB, PSEB, prior service b
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

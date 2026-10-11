@@ -32,7 +32,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "2"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_601-210/02_Chapter_2.md
     paragraphs:
       "2-9": Physical
     note: Physical criteria, medical moment of truth, waiver condition about current care or medication. 2-9a cites 'DoDI 6103.03', which appears to be a typo for DoDI 6130.03.
@@ -44,7 +44,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "4"
     chapter_title: Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions)
-    markdown: Regulations/AR_601-210/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_601-210/04_Chapter_4.md
     paragraphs:
       "4-5": Waiver requirements for medical disqualifications
     note: Medical waiver requirements, documents, approval authorities and delegation, height and weight waiver notes.
@@ -56,7 +56,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-12": General
       "5-13": Medical examinations
@@ -68,7 +68,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_6130.03_vol_1/DoDI_6130.03_vol_1.pdf
     chapter: all
-    markdown: DoDI/DoDI_6130.03_vol_1/.transform
+    markdown: doctrine/DoDI/DoDI_6130.03_vol_1
     note: "Medical standards for appointment, enlistment or induction (Change 5). Section 5 Medical Standards (Applicability, Procedures); Section 6 Disqualifying Conditions by body system (Head, Eyes, Vision, Ears, Hearing, Lungs, Heart, Abdominal, Spine, Extremities, Skin, Endocrine, Neurologic, Sleep, Learning/Psychiatric/Behavioral, Tumors, Miscellaneous). Cite by section and heading; paragraph headings not extracted."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -80,7 +80,7 @@ sources:
     pdf: Regulations/AR_40-501/AR_40-501.pdf
     chapter: "1"
     chapter_title: General Provisions
-    markdown: Regulations/AR_40-501/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_40-501/01_Chapter_1.md
     paragraphs:
       "1-6": Review authorities and waivers
     note: "Review authorities and waivers; MEPS as medical review authority and the enlistment medical waiver authority."
@@ -92,7 +92,7 @@ sources:
     pdf: Regulations/AR_40-501/AR_40-501.pdf
     chapter: "2"
     chapter_title: Physical Standards for Enlistment, Appointment, and Induction
-    markdown: null
+    markdown: doctrine/Regulations/AR_40-501/02_Chapter_2.md
     note: "Physical standards for enlistment, appointment and induction. Chapter exists only in the PDF. Library edition 27 June 2019; the folder also holds AR_40-501_ARN45126.pdf, so confirm which edition is current."
   - doc: AR_40-502
     title: Medical Readiness
@@ -102,7 +102,7 @@ sources:
     pdf: Regulations/AR_40-502/AR_40-502.pdf
     chapter: "3"
     chapter_title: Physical Profiling
-    markdown: null
+    markdown: doctrine/Regulations/AR_40-502/03_Chapter_3.md
     note: Physical profiling (PULHES). Chapter exists only in the PDF.
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
@@ -112,14 +112,14 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "15"
     chapter_title: Waiver Procedures
-    markdown: Regulations/UR_601-210/.transform/15_Chapter_15.md
+    markdown: doctrine/Regulations/UR_601-210/15_Chapter_15.md
     paragraphs:
       "15-2": Policy
       "15-4": Medical Waiver and Prescreen Procedures
       "15-5": Counseling of Applicants
     note: "Waiver policy and validity, medical waiver and prescreen procedures, CMO review, Command Surgeon role, counseling. 15-4 refers to a USMEPCOM prescreen SOP and an AR 40-501 paragraph from an older edition; neither is in the library."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "23-056"
     subject: USAREC Medical Prescreening Procedures.
@@ -253,7 +253,7 @@ guardrails:
   - Never direct an applicant to perform exercise or obtain civilian medical tests unless the Command Surgeon requests it (UR 601-210 15-4g).
   - "Describe health conditions generically; never store or repeat medical record details or provider names."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

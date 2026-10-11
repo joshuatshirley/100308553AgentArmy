@@ -75,7 +75,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 4-18 positive drug or alcohol test (waiting periods, permanent disqualification, waiver documents, PS rule); 4-22 nonwaiverable intoxication/alcoholism/drug dependence; 4-24 PS applicants; 4-28 waiver memorandum format that 4-18 points to.
 
@@ -90,7 +90,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Physical criteria for NPS applicants, including the drug and alcohol test lines.
 
@@ -102,7 +102,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 3 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-210/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Physical criteria for PS applicants, including the drug and alcohol test lines.
 
@@ -114,7 +114,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section XVII Pre-Service Alcohol and Drug Testing. Text for 5-73 to 5-76 is in the Chapter 6 markdown file (06_Chapter_6.md), not the Chapter 5 file.
 
@@ -136,10 +136,10 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 11 (Active and Reserve Component Separations)
-- Text: `Regulations/UR_601-210/.transform/11_Chapter_11.md`
+- Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Positive drug test separation: same-day reservation cancellation, cancellation codes by substance, order upload, Army Reserve TPU notification.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -149,7 +149,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: all
-- Text: `Regulations/AR_600-85/.transform`
+- Text: `doctrine/Regulations/AR_600-85`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: Army Substance Abuse Program. Governs Soldiers, not applicants; use only for ASAP principles that message 22-106 tells recruiters to explain to Future Soldiers. Chapters 2 to 7 are not transformed; read the PDF.
 
@@ -157,7 +157,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 1 September 2016, authority level 3
 - Chapter: all
-- Text: `Regulations/USAREC_Suppl_1_to_AR_600_85/.transform`
+- Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf`
 - Why: USAREC supplement covering cadre unit urinalysis (USAREC Form S600-85.1). Only figure pages were extracted to markdown; the body is PDF-only. Not an applicant-testing source.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -236,7 +236,7 @@ drug test, DAT, positive test, THC, marijuana, cocaine, alcohol test, popped hot
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

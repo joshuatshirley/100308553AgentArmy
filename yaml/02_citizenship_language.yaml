@@ -33,7 +33,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "2"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_601-210/02_Chapter_2.md
     paragraphs:
       "2-1": General
       "2-4": Citizenship
@@ -48,7 +48,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-53": General
       "5-54": Processing
@@ -64,12 +64,12 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "12"
     chapter_title: Army Reserve Specific Processing
-    markdown: Regulations/UR_601-210/.transform/12_Chapter_12.md
+    markdown: doctrine/Regulations/UR_601-210/12_Chapter_12.md
     paragraphs:
       "12-3": Processing AR applicants with English as a Second Language (ESL)
     note: "Army Reserve applicants with English as a second language; ECLT outcome and ship routing. UR 601-210 edition 3 January 2023 predates the current AR 601-210 and later messages."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -78,7 +78,7 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "14"
     chapter_title: Overseas Processing Procedures
-    markdown: Regulations/UR_601-210/.transform/14_Chapter_14.md
+    markdown: doctrine/Regulations/UR_601-210/14_Chapter_14.md
     paragraphs:
       "14-1": Purpose
       "14-2": General
@@ -86,7 +86,7 @@ sources:
       "14-4": Guidelines
     note: "Overseas processing: SSN for Future Soldiers enlisting on a temporary identification number, Europe, Japan/Korea, Guam/Saipan, Compact-nation and remote Alaska procedures."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: AR_11-6_Army_Foreign_Language_Program
     title: Army Foreign Language Program
     edition_date: "9 May 2024"
@@ -95,7 +95,7 @@ sources:
     pdf: Manuals/AR_11-6_Army_Foreign_Language_Program/AR 11-6 Army Foreign Language Program.pdf
     chapter: "2"
     chapter_title: Linguist Recruiting, Language Testing, Control Language, and Establishing Linguist Requirements
-    markdown: Manuals/AR_11-6_Army_Foreign_Language_Program/.transform/02_Chapter_2.md
+    markdown: doctrine/Manuals/AR_11-6_Army_Foreign_Language_Program/02_Chapter_2.md
     paragraphs:
       "2-2": Recruiting programs
       "2-3": Additional requirements for recruiting programs
@@ -108,7 +108,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_1304.26/DoDI_1304.26.pdf
     chapter: all
-    markdown: DoDI/DoDI_1304.26/.transform
+    markdown: doctrine/DoDI/DoDI_1304.26
     note: Enclosure 3 Basic Eligibility Criteria, Citizenship heading. Paragraph headings not extracted.
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -245,7 +245,7 @@ guardrails:
   - "Do not give immigration legal advice; where AR 601-210 2-4d calls for an attorney referral, say so."
   - Do not ask for or repeat alien registration numbers or passport numbers.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

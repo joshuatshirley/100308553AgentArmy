@@ -86,7 +86,7 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-7 education requirements, tiers, codes, foreign credentials, course requirements, withdrawals, hour conversions; 2-1 source documents; 2-8 and 2-18 only where 2-7 points to them.
 
@@ -101,10 +101,10 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 16 (Education Credentialing)
-- Text: `Regulations/UR_601-210/.transform/16_Chapter_16.md`
+- Text: `doctrine/Regulations/UR_601-210/16_Chapter_16.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: School profile evaluation (UF 601-210.40), tier evaluation workflow, Tier 1/2/3 detail, credential laundering. UR edition 3 January 2023 uses older education-code labels than AR 601-210 (20 March 2026); where they differ, the AR governs and the difference is reported. UF 601-210.40 is not in the Forms library.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -120,7 +120,7 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Education heading. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -129,7 +129,7 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1145.01/.transform`
+- Text: `doctrine/DoDI/DoDI_1145.01`
 - PDF: `DoDI/DoDI_1145.01/DoDI_1145.01.pdf`
 - Why: Defines education credential tiers used for qualitative distribution (Glossary). Context only.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -204,7 +204,7 @@ diploma, GED, HiSET, homeschool, home school, online school, virtual school, tie
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

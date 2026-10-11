@@ -74,7 +74,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 8 (Actions Required after Enlistment)
-- Text: `Regulations/AR_601-210/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Actions Required after Enlistment.
 
@@ -95,7 +95,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 6 (Military Entrance Processing Station Processing Phase)
-- Text: `Regulations/AR_601-210/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_601-210/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Correcting enlistment forms after distribution, claims of erroneous entries, defects found after the second swearing-in.
 
@@ -109,7 +109,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Honoring commitments, waiver counseling that options can be voided without an unfulfilled commitment, and the unfulfilled-commitment route in 9A.
 
@@ -123,7 +123,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 7 (Regular Army and Reserve Components Civilian-Acquired Skills Program)
-- Text: `Regulations/AR_601-210/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_601-210/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Denial of an ACASP MOS is not an unfulfilled commitment.
 
@@ -135,6 +135,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 30 June 2025, effective 30 July 2025, authority level 2
 - Chapter: 7 (Defective Enlistments, Reenlistments, and Extensions)
+- Text: `doctrine/Regulations/AR_635-200/07_Chapter_7.md`
 - PDF: `Regulations/AR_635-200/AR_635-200.pdf`
 - Why: Defective enlistments, including void erroneous enlistment procedure cited by 8-4c and 8-5b; not transformed, read the PDF.
 
@@ -142,10 +143,10 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.22 U.S. Army Recruiting Command Liaisons at U.S. Army Reception Battalions exists only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## Forms
 
@@ -208,7 +209,7 @@ wrong contract, contract error, promised, recruiter promised, unfulfilled commit
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

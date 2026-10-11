@@ -1,0 +1,1691 @@
+{
+ "26-019": {
+  "subject": "Regular Army Enlistment Incentives Program Change",
+  "rescinds": [
+   {
+    "number": "26-001",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11810,
+  "rescinded_by": null
+ },
+ "26-018": {
+  "subject": "Army Reserve Officer Candidate School (OCS) Board Change and update on AR OCS enlistment processing. SUMMARY OF CHANGES: Effective FY 2026, all OCS applicants (",
+  "rescinds": [
+   {
+    "number": "24-050",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 13630,
+  "rescinded_by": null
+ },
+ "26-017": {
+  "subject": "Future Soldier Preparatory Course, MOS 09M (09M/T7). This message will be effective 05 JAN 2026. Previous guidance will be used until the effective date of this",
+  "rescinds": [
+   {
+    "number": "26-006",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 14672,
+  "rescinded_by": null
+ },
+ "26-016": {
+  "subject": "New DD Form 214 and DD Form 214-1 for all Reserve Component discharges.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 11181,
+  "rescinded_by": null
+ },
+ "26-015": {
+  "subject": "Assessment of Recruit Motivation and Strength (ARMS) Updated. This change will become effective 15 December 2025 for all ARMS A6 applicants. Summary of Changes:",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 20280,
+  "rescinded_by": null
+ },
+ "26-014": {
+  "subject": "Processing Guidance for the Medical Corps (MC) Financial Assistance Program (FAP) into Post-Graduate Year-1 (PGY). The purpose of this message is to establish g",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6177,
+  "rescinded_by": null
+ },
+ "26-013": {
+  "subject": "Operational Change to AR 601-210, 2-18 (Enlistment pay grades for personnel without prior service). Effective 1 December 2025, and continuing for 12 months or u",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 14905,
+  "rescinded_by": null
+ },
+ "26-012": {
+  "subject": "Army Remote Delayed Entry/Training (DEP/DTP/DS) Enlistment Program (UPDATED). SUMMARY OF CHANGES: o Recruiting personnel completing the enlistment contract as t",
+  "rescinds": [
+   {
+    "number": "25-015",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 21123,
+  "rescinded_by": null
+ },
+ "26-011": {
+  "subject": "Accession Update for Medical Specialists (SP) Corps Army-Baylor University Occupational Therapy Doctorate Program (OTD) and Doctoral Program in Physical Therapy",
+  "rescinds": [
+   {
+    "number": "24-009",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 18427,
+  "rescinded_by": null
+ },
+ "26-010": {
+  "subject": "FY26 Accession Update for Medical Specialists (SP) Corps Army-Baylor University Masters Program in Nutrition (MPN).",
+  "rescinds": [
+   {
+    "number": "25-007",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 15335,
+  "rescinded_by": null
+ },
+ "26-009": {
+  "subject": "English Comprehension Language Test (ECLT) testing requirements, Foreign Language Recruiting Initiative (FLRI) and English as a Second Language (ESL) new qualif",
+  "rescinds": [
+   {
+    "number": "25-020",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 19971,
+  "rescinded_by": null
+ },
+ "26-008": {
+  "subject": "Document Translation Assistant (DTA).",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 10702,
+  "rescinded_by": null
+ },
+ "26-005": {
+  "subject": "COVID-19 Reinstatement Processing. MAJOR UPDATE 1:When submitting a medical waiver for a COVID reinstatement applicant \"Processing as a COVID-19 Reinstatement\" ",
+  "rescinds": [
+   {
+    "number": "25-040",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 17506,
+  "rescinded_by": null
+ },
+ "26-004": {
+  "subject": "Army Reserve (AR) Enlistment Incentives - FY26 Selected Reserve Incentive Programs (SRIP) Policy #26-00, effective 01 October 2025. NOTE: For a comprehensive re",
+  "rescinds": [
+   {
+    "number": "25-018",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 15991,
+  "rescinded_by": null
+ },
+ "26-003": {
+  "subject": "Update to Retention Control Point (RCP) for Enlisted Soldiers.",
+  "rescinds": [
+   {
+    "number": "22-082",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 8298,
+  "rescinded_by": null
+ },
+ "26-002": {
+  "subject": "Army Reserve (AR) Prior Service (PS) Enlistment Policy Reminders. Summary of Changes: Update 1. All Prior Service reservations must be pulled by the ROC. Update",
+  "rescinds": [
+   {
+    "number": "23-063",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 15564,
+  "rescinded_by": null
+ },
+ "26-001": {
+  "subject": "Regular Army Enlistment Incentives Program Change",
+  "rescinds": [
+   {
+    "number": "25-036",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10339,
+  "rescinded_by": "26-019",
+  "rescission_evidence": "message text"
+ },
+ "25-052": {
+  "subject": "FY 26 Regular Army (RA) and Army Reserve (AR) Army Civilian Acquired Skills Program (ACASP)",
+  "rescinds": [
+   {
+    "number": "25-002",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9158,
+  "rescinded_by": null
+ },
+ "25-051": {
+  "subject": "Implementation of Future Soldier engagement with Sandboxx Application (APP).",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8845,
+  "rescinded_by": null
+ },
+ "25-050": {
+  "subject": "FY26 Army Reserve Alternate Training Program (ATP): Phase II AIT Scheduling Guidance.",
+  "rescinds": [
+   {
+    "number": "23-010",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9581,
+  "rescinded_by": null
+ },
+ "25-049": {
+  "subject": "FY 26 Army Reserve (AR) Alternate Training Program (ATP) Guidance. ***IMPORTANT - Only term of enlistment authorized for ATP is a 6 x 2 term. - Applicants who a",
+  "rescinds": [
+   {
+    "number": "25-004",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 16646,
+  "rescinded_by": null
+ },
+ "25-048": {
+  "subject": "Expedited Screening Protocol (ESP) Updated Instructions. SUMMARY OF CHANGES: The purpose of this Message is to reestablish information and guidance in reference",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11567,
+  "rescinded_by": null
+ },
+ "25-047": {
+  "subject": "FY26 RPI 200 (Future Soldier Kits) Distribution.",
+  "rescinds": [
+   {
+    "number": "24-015",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7692,
+  "rescinded_by": null
+ },
+ "25-046": {
+  "subject": "Authorized Signatures for Applicant Processing (UPDATED). UPDATE: Added para 2. d. that prohibits wet signatures for all system generated enlistment documents t",
+  "rescinds": [
+   {
+    "number": "25-042",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11464,
+  "rescinded_by": null
+ },
+ "25-045": {
+  "subject": "Approval Authority for Army Reserve Conditional Release, DD 368.",
+  "rescinds": [
+   {
+    "number": "22-004",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 8300,
+  "rescinded_by": null
+ },
+ "25-044": {
+  "subject": "Inter-Service Transfer - updated.",
+  "rescinds": [
+   {
+    "number": "21-048",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "Expired Term of Service (ETS)",
+   "Expired Term of Service (ETS), Air Force Specialty Code (AFSC) or N"
+  ],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 18727,
+  "rescinded_by": null
+ },
+ "25-043": {
+  "subject": "Operational Change to UR 601-210 (Foreign Education Evaluation). UPDATE 1: Foreign evaluation companies are not required to be contacted by the Education Servic",
+  "rescinds": [
+   {
+    "number": "23-024",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 6991,
+  "rescinded_by": null
+ },
+ "25-041": {
+  "subject": "Exceptional Family Member Program (EFMP) Screening Process.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 13935,
+  "rescinded_by": null
+ },
+ "25-039": {
+  "subject": "USARD 42T Talent Acquisition Specialist PAR Submission for 79R (UPDATED). Summary of Changes: a. Removed paragraph 4. d. \"I will reenlist/extend to meet the 36-",
+  "rescinds": [],
+  "expiry_text": [
+   "Expiration Date if applicable, and confirmation that the individual ha",
+   "Expiration Date if applicable: h"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 12694,
+  "rescinded_by": null
+ },
+ "25-038": {
+  "subject": "USARD 42T Talent Acquisition Specialist PAR Submission for DASRs. (Updated) UPDATE 18 September 2025 Effective immediately as of 18 September 2025, Active Compo",
+  "rescinds": [],
+  "expiry_text": [
+   "Expiration Term of Service) date",
+   "Expiration Date if applicable:"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 17298,
+  "rescinded_by": null
+ },
+ "25-037": {
+  "subject": "Community College Enlisted Training Corps (ETC) Demonstration Program.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8352,
+  "rescinded_by": null
+ },
+ "25-034": {
+  "subject": "FY25 RPI 200 (Future Soldier Kits) Distribution.",
+  "rescinds": [
+   {
+    "number": "24-015",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7397,
+  "rescinded_by": null
+ },
+ "25-033": {
+  "subject": "Implementation of Future Soldier Asset Inventory (FSAI) USAREC FORM 601-210.19",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8199,
+  "rescinded_by": null
+ },
+ "25-032": {
+  "subject": "Exceptions to Policy and Grade Determination Processing Requirements Prior to Processing.",
+  "rescinds": [
+   {
+    "number": "18-011",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 10535,
+  "rescinded_by": null
+ },
+ "25-030": {
+  "subject": "Security Clearance Eligibility Screening Changes.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 20547,
+  "rescinded_by": null
+ },
+ "25-029": {
+  "subject": "SF 86 Completion. Recruiters will not tell or encourage applicants to omit information from the SF 86.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 16230,
+  "rescinded_by": null
+ },
+ "25-028": {
+  "subject": "CMF 17/35 Series MOS Exceptions to Policy Procedures.",
+  "rescinds": [
+   {
+    "number": "23-033",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 14825,
+  "rescinded_by": null
+ },
+ "25-027": {
+  "subject": "Special Forces (SF) 18X Enlistment Program Qualification Update.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9660,
+  "rescinded_by": null
+ },
+ "25-025": {
+  "subject": "Processing Requirements for MOS 42R, Army Musician.",
+  "rescinds": [
+   {
+    "number": "23-036",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 14404,
+  "rescinded_by": null
+ },
+ "25-023": {
+  "subject": "REAL-ID implementation.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10990,
+  "rescinded_by": null
+ },
+ "25-022": {
+  "subject": "Regular Army Enlistment Incentives Program Change",
+  "rescinds": [
+   {
+    "number": "25-014",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 12347,
+  "rescinded_by": null
+ },
+ "25-021": {
+  "subject": "FY25 18X Incentives Program.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9051,
+  "rescinded_by": null
+ },
+ "25-020": {
+  "subject": "English Comprehension Language Test (ECLT) testing requirements, Foreign Language Recruiting Initiative (FLRI) and English as a Second Language (ESL) new qualif",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 20017,
+  "rescinded_by": "26-009",
+  "rescission_evidence": "message text"
+ },
+ "25-019": {
+  "subject": "Operational Update to UR 601-210 Chapter 3 Recruiting Standards Program. UPDATE: Effective immediately, UR 601-210 chapter 3 dated 3 January 2023 is obsolete du",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 13705,
+  "rescinded_by": null
+ },
+ "25-017": {
+  "subject": "Future Soldier (FS) Graduation Stole FY25.",
+  "rescinds": [
+   {
+    "number": "24-025",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8491,
+  "rescinded_by": null
+ },
+ "25-016": {
+  "subject": "AMEDD Release from Active Duty and Individual Ready Reserve Transfer Business Rules UPDATED.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 16292,
+  "rescinded_by": null
+ },
+ "25-013": {
+  "subject": "Option 40, 61 and 62 Ranger Assessment and Selection Program (RASP).",
+  "rescinds": [
+   {
+    "number": "24-028",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8233,
+  "rescinded_by": null
+ },
+ "25-011": {
+  "subject": "Enterprise Marketing Management (EMM) Connect update and registration on recruiting station Government iPhones and iPads.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11451,
+  "rescinded_by": null
+ },
+ "25-010": {
+  "subject": "RA Prior Service (PS) and Glossary Non Prior Service (GNPS) HRC Business Rules (UPDATED).",
+  "rescinds": [
+   {
+    "number": "21-025",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 18828,
+  "rescinded_by": null
+ },
+ "25-009": {
+  "subject": "Minimum Application Criteria for Submission, Processing and Disposition of MAC Waiver Requests from USAREC",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 12356,
+  "rescinded_by": null
+ },
+ "25-008": {
+  "subject": "Accession Update for Medical Specialists (SP) Corps Army-Baylor University Occupational Therapy Doctorate Program (OTD) and Doctoral Program in Physical Therapy",
+  "rescinds": [
+   {
+    "number": "24-009",
+    "evidence": "summary only - verify in PDF"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 15563,
+  "rescinded_by": null
+ },
+ "25-006": {
+  "subject": "Contacting Other Army Organizations and Releasing Information.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9959,
+  "rescinded_by": null
+ },
+ "25-003": {
+  "subject": "Language Training Pilot Program - Use of ASVAB Skilled Technical (ST) Line Score Only for RA MOS 35W or 35M/P if AR, Updated Qualifications. SUMMARY OF CHANGES:",
+  "rescinds": [
+   {
+    "number": "23-002",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 13595,
+  "rescinded_by": null
+ },
+ "24-055": {
+  "subject": "Temporary Reservations for Prior Service (PS) Applicants (DOS, GNPS, and PS).",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11620,
+  "rescinded_by": null
+ },
+ "24-054": {
+  "subject": "Implementation of the Army Fitness Test (AFT) for Future Soldier Promotion. Effective immediately the Army Fitness Test (AFT) is the only fitness test authorize",
+  "rescinds": [
+   {
+    "number": "20-071",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6815,
+  "rescinded_by": null
+ },
+ "24-053": {
+  "subject": "Positive Drug (DAT) Waiver Procedures (Updated). Summary of Changes: Clarification of waiverable DAT failures IAW AR 601-210 chapter 4-18.",
+  "rescinds": [
+   {
+    "number": "24-020",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 11300,
+  "rescinded_by": null
+ },
+ "24-052": {
+  "subject": "Sophia Learning Center.",
+  "rescinds": [
+   {
+    "number": "23-025",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 9303,
+  "rescinded_by": null
+ },
+ "24-051": {
+  "subject": "Scroll Submission for AMEDD Applicants. This message replaces USAREC Message 22-023 which is rescinded",
+  "rescinds": [
+   {
+    "number": "22-023",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "expire and can be used unless they have been tendered, meaning the",
+   "expire and can be used unless than have been tendered (meaning the"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 18191,
+  "rescinded_by": null
+ },
+ "24-049": {
+  "subject": "Medical Corps Health Professions Scholarship (HPSP) Declines.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6015,
+  "rescinded_by": null
+ },
+ "24-048": {
+  "subject": "One-Year Medical Corps (MC) Health Professions Scholarship Program (HPSP) Applicants.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8232,
+  "rescinded_by": null
+ },
+ "24-047": {
+  "subject": "Recruiting Station Live Scan (LS) Support for Army ROTC/JROTC, Judge Advocate Recruiting Office (JARO), Cyber Specialty Direct Commission (DC), Army Civilian Pe",
+  "rescinds": [
+   {
+    "number": "21-002",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11658,
+  "rescinded_by": null
+ },
+ "24-046": {
+  "subject": "USAREC Behavioral Health Consult Scheduling and Processing.",
+  "rescinds": [
+   {
+    "number": "23-057",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10919,
+  "rescinded_by": null
+ },
+ "24-045": {
+  "subject": "Expedited Screening Protocol (ESP) Updated Instructions. SUMMARY OF CHANGES: The purpose of this Message is to reestablish information and guidance in reference",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11501,
+  "rescinded_by": null
+ },
+ "24-044": {
+  "subject": "Establishing Grade Entry Date (GED) upon enlistment (RA/USAR) Prior Service (EXCEPT ARMY).",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9120,
+  "rescinded_by": null
+ },
+ "24-043": {
+  "subject": "Ranger Assessment and Selection Program (RASP) Volunteers. SUMMARY OF CHANGES: Allows certain Enlistments to Volunteer for a direct assignment to the 75th Range",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10972,
+  "rescinded_by": null
+ },
+ "24-040": {
+  "subject": "Clarifications for Suitability Reviews. UPDATE PUBLISHED TO PARAGRAPH 6.",
+  "rescinds": [
+   {
+    "number": "21-038",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 18031,
+  "rescinded_by": null
+ },
+ "24-038": {
+  "subject": "National Practitioner Database (NPDB) Checks",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7804,
+  "rescinded_by": null
+ },
+ "24-035": {
+  "subject": "Basic Allowance for Housing (BAH) Procedures for Reserve Component (RC) Future Soldiers Without-Dependents Attending Initial Entry Training (BCT/AIT).",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8044,
+  "rescinded_by": null
+ },
+ "24-034": {
+  "subject": "Delegation of Authority Regarding Civil Convictions for Marijuana and DUI waivers.",
+  "rescinds": [],
+  "expiry_text": [
+   "expiration date until this message is rescinded",
+   "expiration date as listed on the memo or until this message is rescind"
+  ],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 10600,
+  "rescinded_by": null
+ },
+ "24-033": {
+  "subject": "USAREC Medical Prescreen Procedures Pilot Suspended.",
+  "rescinds": [
+   {
+    "number": "23-056",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9322,
+  "rescinded_by": null
+ },
+ "24-030": {
+  "subject": "MEPCOM Hotel Information. SUMMARY OF CHANGES: MEPS Lodging Check in Time Photo ID Requirement Hotel Lodging for Applicants Under the Age of 18 Applicant Lodging",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11112,
+  "rescinded_by": null
+ },
+ "24-029": {
+  "subject": "Clarification of Qualifications for Career Management Field (CMF) 68. Summary of Changes: DA PAM 611-21 has been updated to add additional law violation disqual",
+  "rescinds": [
+   {
+    "number": "20-002",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 13070,
+  "rescinded_by": null
+ },
+ "24-027": {
+  "subject": "Operational Changes to UR 601-210, USAR Army Reserve Entry Level Separations waiting period.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 12478,
+  "rescinded_by": null
+ },
+ "24-024": {
+  "subject": "Ship Location Reminders. SUMMARY OF CHANGES: Due to a recent increase in ship location errors, a reminder message is being posted to reinform the field of the s",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10753,
+  "rescinded_by": null
+ },
+ "24-022": {
+  "subject": "Operational Update to AR 601-210, Paragraph 3-7 Basic Eligibility Criteria - Physical. MAJOR UPDATE 1. ALL PS/GNPS applicants that will attend any form of BCT, ",
+  "rescinds": [
+   {
+    "number": "19-030",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 19952,
+  "rescinded_by": null
+ },
+ "24-021": {
+  "subject": "MEPCOM Fingerprint Submission Change. SUMMARY OF CHANGES: MEPCOM will not capture and submit fingerprints on applicants provided there are recent Live Scan/Prev",
+  "rescinds": [],
+  "expiry_text": [
+   "expired\" (captured more than 100-days prior to MEPS processing) d",
+   "expired\" (captured more than 100-days "
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11223,
+  "rescinded_by": null
+ },
+ "24-017": {
+  "subject": "Tattoos Waiver Submissions. Summary of Changes: Adds clarification on approval authority. Clarifies what type of tattoos require an exception.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 18996,
+  "rescinded_by": null
+ },
+ "24-016": {
+  "subject": "High School Students Protection Guidance.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8622,
+  "rescinded_by": null
+ },
+ "24-012": {
+  "subject": "Submission of DMPM Waivers for Regular Army (RA) and Army Reserve (AR).",
+  "rescinds": [
+   {
+    "number": "19-040",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 15248,
+  "rescinded_by": null
+ },
+ "24-010": {
+  "subject": "Early Assurance Program (EAP), BA/BS to MD Programs.",
+  "rescinds": [
+   {
+    "number": "23-012",
+    "evidence": "summary only - verify in PDF"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7969,
+  "rescinded_by": null
+ },
+ "24-006": {
+  "subject": "Soldier Referral Program Validation.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 13807,
+  "rescinded_by": null
+ },
+ "24-004": {
+  "subject": "MEPCOM CON DEP Expansion for Same-Day Medical Waiver Approvals.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11031,
+  "rescinded_by": null
+ },
+ "24-003": {
+  "subject": "Operational Change to UR 601-210. Update: UR 601-210, Chapter 25, OCS/WOFT Processing Procedures",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 9728,
+  "rescinded_by": null
+ },
+ "23-060": {
+  "subject": "Army Civilian Acquired Skills Program (ACASP) in the Army Reserve (AR).",
+  "rescinds": [
+   {
+    "number": "22-070",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10824,
+  "rescinded_by": null
+ },
+ "23-059": {
+  "subject": "DMDC REDD Report Requirement.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8479,
+  "rescinded_by": null
+ },
+ "23-058": {
+  "subject": "Meritorious Requests for Age Exceptions to Policy (ETP). Major Change: The requirement for the physical to be completed prior to the submission of an age ETP ha",
+  "rescinds": [
+   {
+    "number": "23-042",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "remain in effect until rescinded or revoked",
+   "remain in effect until rescinded or revoked"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8509,
+  "rescinded_by": null
+ },
+ "23-056": {
+  "subject": "USAREC Medical Prescreening Procedures.",
+  "rescinds": [
+   {
+    "number": "23-028",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 18666,
+  "rescinded_by": "24-033",
+  "rescission_evidence": "message text"
+ },
+ "23-055": {
+  "subject": "The Multiple Circle Stereopsis Test (MCST) for Military Occupational Specialties (MOS) 12Y, 46V and 35G. UPDATE: MOS 25V has been changed to MOS 46V Visual Info",
+  "rescinds": [
+   {
+    "number": "19-069",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10873,
+  "rescinded_by": null
+ },
+ "23-053": {
+  "subject": "Army Dental Corps (DC) Advanced Education Program in General Dentistry 1-Year (AEGD-1) Fiscal Year 2024 Application Process.",
+  "rescinds": [
+   {
+    "number": "22-091",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "rescission of UM 22-091 and provides references for appointment of com"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 20271,
+  "rescinded_by": null
+ },
+ "23-051": {
+  "subject": "MC Health Professions Scholarship Program (HPSP) FY Carryover.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6964,
+  "rescinded_by": null
+ },
+ "23-050": {
+  "subject": "Establishment of Regular Army (RA) Warrant Officer MOS 170D, Cyber Capabilities Developer Technician Training Enlistment Program.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11344,
+  "rescinded_by": null
+ },
+ "23-049": {
+  "subject": "School Year (SY) 24 High School Seniors (HSSR) for RA and AR Enlistments. UPDATE: SY 24 HSSR are qualified to use the ARMS 2.0/ARMS FSPC, IIIB FSPC, 09M FSPC or",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11420,
+  "rescinded_by": null
+ },
+ "23-044": {
+  "subject": "Army Reserve (AR) 09R Simultaneous Membership Program (SMP). UPDATE: Potential SMPs no longer require ACT/SAT/PSAT and or GT score requirements to enlist as 09R",
+  "rescinds": [
+   {
+    "number": "23-019",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 17750,
+  "rescinded_by": null
+ },
+ "23-043": {
+  "subject": "Availability of MOS 18X to Lawful Permanent Residents (LPR).",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9491,
+  "rescinded_by": null
+ },
+ "23-041": {
+  "subject": "Special Forces (SF) 18X Enlistment Program (Update).",
+  "rescinds": [
+   {
+    "number": "21-031",
+    "evidence": "summary only - verify in PDF"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 12212,
+  "rescinded_by": null
+ },
+ "23-038": {
+  "subject": "RESCISSION OF VACCINATION AGAINST COVID-19.",
+  "rescinds": [],
+  "expiry_text": [
+   "RESCISSION OF VACCINATION AGAINST COVID-19",
+   "Rescission of August 24, 2021 and November 30, 2021 Coronavirus Diseas"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6746,
+  "rescinded_by": null
+ },
+ "23-035": {
+  "subject": "Religious Accommodation Exceptions to Policy (ETP). (UPDATE)",
+  "rescinds": [
+   {
+    "number": "22-035",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 18945,
+  "rescinded_by": null
+ },
+ "23-033": {
+  "subject": "CMF 17/35 Series MOS Exceptions to Policy Procedures.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 15466,
+  "rescinded_by": "25-028",
+  "rescission_evidence": "message text"
+ },
+ "23-032": {
+  "subject": "Authorization for Two-Year Medical Corps Health Professions Scholarship (MC HPSP2).",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8973,
+  "rescinded_by": null
+ },
+ "23-030": {
+  "subject": "Future Soldier Retesting Program.",
+  "rescinds": [],
+  "expiry_text": [
+   "expiration dates listed in their \"My Profile\" section on the website",
+   "expiration date listed in the \"My Profile\" section of the March2Succes"
+  ],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 13921,
+  "rescinded_by": null
+ },
+ "23-022": {
+  "subject": "Army Medical Department (AMEDD) and Chaplain Applicant Commission/ Accession Physical Requirements Regular Army (RA) and Army Reserve (AR) (UPDATED).",
+  "rescinds": [
+   {
+    "number": "20-059",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "expire prior to accession into the Army",
+   "expires prior to accession into the b"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 15353,
+  "rescinded_by": null
+ },
+ "23-018": {
+  "subject": "Managing Accession Data For Prior Service (PS) and Glossary Non Prior Service (GNPS) Applicants for IPPS-A Record Creation.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6727,
+  "rescinded_by": null
+ },
+ "23-017": {
+  "subject": "Update to Operational Change to UR 601-210, M-2 d.",
+  "rescinds": [
+   {
+    "number": "23-013",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7295,
+  "rescinded_by": null
+ },
+ "23-012": {
+  "subject": "Early Assurance Program (EAP), BA/BS to MD Programs.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 4950,
+  "rescinded_by": "24-010",
+  "rescission_evidence": "summary only - verify in PDF"
+ },
+ "23-011": {
+  "subject": "Additional Requirements when Completing Army Reserve (AR) Renegotiations and Entry Level Separations (ELS) after the Initial Oath of Enlistment.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7802,
+  "rescinded_by": null
+ },
+ "23-008": {
+  "subject": "Requesting MHS Genesis User Access Accounts. (UPDATED)",
+  "rescinds": [
+   {
+    "number": "22-095",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7279,
+  "rescinded_by": null
+ },
+ "23-007": {
+  "subject": "Health Professions Scholarship Program (HPSP) Enrollments.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7518,
+  "rescinded_by": null
+ },
+ "23-005": {
+  "subject": "Procedures to Update an Armed Forces Classification Test (AFCT) Reenlistment Eligibility Data Display (REDD).",
+  "rescinds": [
+   {
+    "number": "22-015",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7882,
+  "rescinded_by": null
+ },
+ "23-003": {
+  "subject": "Recruiter Zone (RZ) HIV/DAT Results. (UPDATE)",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8085,
+  "rescinded_by": null
+ },
+ "22-106": {
+  "subject": "Applicant Drug Screening/Army Substance Abuse Program and Drug Screening Ordering Procedures",
+  "rescinds": [
+   {
+    "number": "19-061",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11665,
+  "rescinded_by": null
+ },
+ "22-105": {
+  "subject": "Accelerated Naturalization Update for MAVNI and Lawful Permanent Residents (LPR)",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 14145,
+  "rescinded_by": null
+ },
+ "22-104": {
+  "subject": "Additional Background Screening Questions",
+  "rescinds": [
+   {
+    "number": "22-031",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 15294,
+  "rescinded_by": null
+ },
+ "22-094": {
+  "subject": "Update to the Operator's/Driver's License Exceptions To Policy",
+  "rescinds": [
+   {
+    "number": "21-059",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "expires while in the Field Service Training Program (FSTP), but thi",
+   "expires while in the FSTP"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 11493,
+  "rescinded_by": null
+ },
+ "22-092": {
+  "subject": "Hometown Recruiting Assistance Program (HRAP)",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10950,
+  "rescinded_by": null
+ },
+ "22-090": {
+  "subject": "Optometry Pre-accession Evaluation Form",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7524,
+  "rescinded_by": null
+ },
+ "22-088": {
+  "subject": "Regular Army Conditional Enlistment Program (CEP)",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 14594,
+  "rescinded_by": null
+ },
+ "22-085": {
+  "subject": "Army Reserve (AR) MOS 09W Warrant Officer Flight training Enlistment Program",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10226,
+  "rescinded_by": null
+ },
+ "22-084": {
+  "subject": "Army Reserve Delayed Training Program Timeframe",
+  "rescinds": [
+   {
+    "number": "22-076",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6697,
+  "rescinded_by": null
+ },
+ "22-083": {
+  "subject": "Lawful Permanent Resident(LPR)/Naturalized US Citizen Enlistment Information/Accelerated Naturalization",
+  "rescinds": [
+   {
+    "number": "14-004",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "expiration date",
+   "expiration of their I-551 card"
+  ],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 15575,
+  "rescinded_by": null
+ },
+ "22-078": {
+  "subject": "Processing of Army Medical Department Malpractice Waivers",
+  "rescinds": [],
+  "expiry_text": [
+   "remain in effect until rescinded or revoked",
+   "remain in effect until rescinded or revoked"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9118,
+  "rescinded_by": null
+ },
+ "22-077": {
+  "subject": "Senior Year (SY) 23 High School Seniors",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8725,
+  "rescinded_by": null
+ },
+ "22-075": {
+  "subject": "Army Reserve Future Soldier Promotion Authority and Hometown Shipper Checklist Update",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 8146,
+  "rescinded_by": null
+ },
+ "22-072": {
+  "subject": "Wet Signature Contract Upload Procedures (Revised)",
+  "rescinds": [
+   {
+    "number": "22-048",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10818,
+  "rescinded_by": null
+ },
+ "22-071": {
+  "subject": "Defense Manpower Data Center (DMDC) Reenlistment Eligibility Data Display (REDD)",
+  "rescinds": [
+   {
+    "number": "16-032",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 12180,
+  "rescinded_by": null
+ },
+ "22-069": {
+  "subject": "MEPS Processing Applicant Photo Identification (ID) Requirements",
+  "rescinds": [
+   {
+    "number": "20-018",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6045,
+  "rescinded_by": null
+ },
+ "22-068": {
+  "subject": "Modification of Height/Weight Procedures at MEPS/RPS and Height/Weight/Tape Responsibility and Procedures at the RS (UPDATED)",
+  "rescinds": [
+   {
+    "number": "22-036",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8235,
+  "rescinded_by": null
+ },
+ "22-067": {
+  "subject": "Flight Physical Requirement for MOSs 15C, 15Q, and 15W",
+  "rescinds": [
+   {
+    "number": "18-051",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 4838,
+  "rescinded_by": null
+ },
+ "22-066": {
+  "subject": "Transcripts with Numerical Grades",
+  "rescinds": [
+   {
+    "number": "16-026",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 5496,
+  "rescinded_by": null
+ },
+ "22-065": {
+  "subject": "Recruit/Trainee Prohibited Activities Acknowledgment and Use of the DD Form 2983, dated January 2015",
+  "rescinds": [
+   {
+    "number": "16-024",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7763,
+  "rescinded_by": null
+ },
+ "22-061": {
+  "subject": "Guidance Concerning Contraband at Military Entrance Processing Stations (MEPS) and Federal Facilities",
+  "rescinds": [
+   {
+    "number": "16-022",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8911,
+  "rescinded_by": null
+ },
+ "22-060": {
+  "subject": "Processing of Army Medical Department DMPM Level Conduct Waivers",
+  "rescinds": [
+   {
+    "number": "20-082",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "remain in effect until rescinded or revoked",
+   "remain in effect until rescinded or revoked"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 10828,
+  "rescinded_by": null
+ },
+ "22-059": {
+  "subject": "Processing of AMEDD Battalion (Bn) Level Conduct Waivers",
+  "rescinds": [
+   {
+    "number": "20-082",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "remain in effect until rescinded or revoked",
+   "remain in effect until rescinded or revoked"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 8921,
+  "rescinded_by": null
+ },
+ "22-058": {
+  "subject": "Medical Waiver and Prescreen Supporting Documents (Updated)",
+  "rescinds": [
+   {
+    "number": "18-073",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6182,
+  "rescinded_by": null
+ },
+ "22-004": {
+  "subject": "Approval Authority for Army Reserve Conditional Release, DD 368.",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 9010,
+  "rescinded_by": "25-045",
+  "rescission_evidence": "message text"
+ },
+ "22-002": {
+  "subject": "Prescreen ASVAB (PiCAT) and AFQT Predictor Test (APT) Testing Procedures and Set-up Instructions (UPDATE)",
+  "rescinds": [
+   {
+    "number": "19-015",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [
+   "expires exactly one minute after completion, so it's not recommende",
+   "expire to the minute it was finished; therefore it is not recommen"
+  ],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9860,
+  "rescinded_by": null
+ },
+ "21-061": {
+  "subject": "Support of Direct Accession Applicants",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 9879,
+  "rescinded_by": null
+ },
+ "21-058": {
+  "subject": "United States Army Audit Agency Corrective Timeline Measures",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 5193,
+  "rescinded_by": null
+ },
+ "21-055": {
+  "subject": "Option 18 Request for Orders (RFO) Criteria",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 5473,
+  "rescinded_by": null
+ },
+ "21-051": {
+  "subject": "NPS Option 20 guaranteed assignment to Alaska",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 5878,
+  "rescinded_by": null
+ },
+ "21-049": {
+  "subject": "Mandatory Training Ship Requirements for Future Soldiers (FS)",
+  "rescinds": [
+   {
+    "number": "21-019",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 6315,
+  "rescinded_by": null
+ },
+ "21-047": {
+  "subject": "15 CMF Direct Assignment to US Army Special Operations Aviation Command (ARSOAC) (REQUEST Option 1)",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7554,
+  "rescinded_by": null
+ },
+ "21-040": {
+  "subject": "High Potential Lead (HPL) SOP",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 4976,
+  "rescinded_by": null
+ },
+ "21-038": {
+  "subject": "Operational Update to AR 601-210, Chapter 4 (Updated)",
+  "rescinds": [
+   {
+    "number": "21-005",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 9414,
+  "rescinded_by": "24-040",
+  "rescission_evidence": "message text"
+ },
+ "21-035": {
+  "subject": "Mass Texting Operations (Email to Phone Texting Applications)",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7855,
+  "rescinded_by": null
+ },
+ "21-031": {
+  "subject": "Special Forces (SF) 18X Enlistment Program",
+  "rescinds": [
+   {
+    "number": "19-077",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 7666,
+  "rescinded_by": "23-041",
+  "rescission_evidence": "summary only - verify in PDF"
+ },
+ "21-029": {
+  "subject": "USMEPCOM Operational Update",
+  "rescinds": [
+   {
+    "number": "21-004",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 5056,
+  "rescinded_by": null
+ },
+ "21-028": {
+  "subject": "Social Security Number Verification",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 4900,
+  "rescinded_by": null
+ },
+ "21-026": {
+  "subject": "SF 1199A Direct Deposit Form, Established Bank Account, Transit Meal Vouchers and Stored Value EZ Pay Card (UPDATED)",
+  "rescinds": [
+   {
+    "number": "16-007",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 4637,
+  "rescinded_by": null
+ },
+ "21-024": {
+  "subject": "Applicants Temporarily Disqualified for English Language Deficiency",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 4846,
+  "rescinded_by": null
+ },
+ "21-022": {
+  "subject": "Required Query of the National Sex Offender Public Website (NSOPW) (Updated)",
+  "rescinds": [
+   {
+    "number": "19-016",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": true,
+  "chars": 5087,
+  "rescinded_by": null
+ },
+ "21-013": {
+  "subject": "Background Investigation Statuses Required for Shipping",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 4245,
+  "rescinded_by": null
+ },
+ "21-006": {
+  "subject": "Armed Services Vocational Aptitude Battery (ASVAB) Retest Policy",
+  "rescinds": [
+   {
+    "number": "16-025",
+    "evidence": "message text"
+   }
+  ],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 4566,
+  "rescinded_by": null
+ },
+ "21-003": {
+  "subject": "Update to Conditional Release Requirements for AMEDD Accessions",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 3204,
+  "rescinded_by": null
+ },
+ "20-018": {
+  "subject": "Redundant Original Appointment Processes for Army Medical Department (AMEDD) Regular Army (RA) Direct Accessions",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 688,
+  "rescinded_by": "22-069",
+  "rescission_evidence": "message text"
+ },
+ "20-015": {
+  "subject": "Change to Register to Win (RTW) Program",
+  "rescinds": [],
+  "expiry_text": [],
+  "cites_ar_601_210_paragraph": false,
+  "chars": 618,
+  "rescinded_by": null
+ }
+}

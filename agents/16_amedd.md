@@ -308,10 +308,10 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 12 (Army Reserve Specific Processing)
-- Text: `Regulations/UR_601-210/.transform/12_Chapter_12.md`
+- Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST reservations for Army Reserve AMEDD officers.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -321,7 +321,7 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 
 - edition 27 April 2023, authority level 2
 - Chapter: 2 (Officer Leader Development)
-- Text: `Pamphlets/DA_PAM_600-4/.transform/02_Chapter_2.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-4/02_Chapter_2.md`
 - PDF: `Pamphlets/DA_PAM_600-4/DA_PAM_600-4.pdf`
 - Why: The AMEDD corps; Chapters 3, 5 and 6 (career management, promotions, RC career management) are NOT transformed; read the PDF.
 
@@ -333,7 +333,7 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_135-101/.transform`
+- Text: `doctrine/Regulations/AR_135-101`
 - PDF: `Regulations/AR_135-101/AR_135-101.pdf`
 - Why: Appointment of Reserve commissioned officers for assignment to AMEDD branches. Edition dated 15 February 1984; markdown flagged for PDF use; paragraph headings not extracted. Confirm currency.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -446,7 +446,7 @@ AMEDD, doctor, physician, nurse, Army Nurse Corps, dentist, dental corps, veteri
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

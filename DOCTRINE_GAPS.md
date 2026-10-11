@@ -2,40 +2,33 @@
 
 Things the agents cannot cite precisely yet, grouped by fix. All dates are as found in the library.
 
-## Chapters that exist only as PDF (convert to text to make them citable)
+## Chapters that existed only as PDF — resolved 2026-10-11
 
-| Document | Missing chapters | Agents affected |
-|---|---|---|
-| UR 601-210 (3 Jan 2023) | 3 Recruiting Standards Program, 5 Live Scan, 6 QC, 7 DEP/DTP, 10 renegotiation, 13 RA options, 20 meals and lodging, 21 ERM, 22 RECBN liaisons, 23 OPAT, 24 temporary reservations, 25 OCS/WOFT | 08, 12, 15, 19, 21, 24, 25, 36, 38 |
-| AR 670-1 | 3 (tattoos, grooming, religious accommodation) | 11 |
-| DA PAM 670-1 | 3 | 11 |
-| AR 600-20 | 2 (relationships), 5 (religious accommodation, family care plans), SHARP chapters | 04, 11, 36 |
-| AR 40-501 | 2 (enlistment standards, height/weight tables) | 07, 08 |
-| AR 40-502 | 3 (profiling) | 07 |
-| AR 600-85 | 2 to 7 | 10, 39 |
-| AR 380-67 | 3 (investigative requirements) | 12 |
-| AR 135-100 (1994) | 2, 5 | 15 |
-| DA PAM 601-6 | 3 | 15 |
-| DA PAM 600-4 | 3, 5, 6 | 16 |
-| UR 601-108 | all procedures | 17 |
-| AR 601-280 | 4, 6, 7, 9 to 12 | 18 |
-| AR 635-200 | 7 (defective enlistments) | 27 |
-| DA PAM 611-21 | 2, 3 (MOS specs, line scores, physical demands) | 06, 22 |
-| UR 350-1 | 2 to 4 | 34 |
-| UR 350-13 | 2 to 9 | 29 |
-| AR 601-2 | 6, 7 (HRAP/SRAP) | 32 |
-| AR 360-1 | 3, 7, 8 (social media) | 33 |
-| AR 15-6 | 2, 3, 6 | 36 |
-| UR 190-4 | Table 2-1 (image), 3 to 5 | 36 |
-| AR 735-5 | 7 to 10 (FLIPL) | 37 |
-| AR 25-400-2 | 4, 6 | 38 |
-| AR 608-1 | 2 to 4 | 39 |
-| Personnel ARs | AR 600-8-2 Ch.2, AR 623-3 Ch.2-4, AR 600-8-22 Ch.3, 5, 8, AR 614-200 Ch.4-6, 8, AR 600-37 Ch.2, 4-6 | 35 |
-| DA PAM 600-3 | 2, 6, 9, 10 | 43 |
+All 30 documents below have been re-split and transformed to markdown; every chapter listed as
+missing is now in `catalog/source_catalog.json` with a `markdown` path under `doctrine/` in this
+repo. Root cause: the PDF splitter's TOC-boundary logic silently dropped a chapter whenever (a) the
+chapter had no split boundary recorded at all (29 of the 30 docs — a stale/incomplete historical run,
+fixed by re-running the existing split+transform pipeline fresh) or (b) two chapters start on the
+exact same PDF page (`AR 601-280` ch.10/11, `DA PAM 611-21` ch.1/2, `AR 25-400-2` ch.5/6, `AR 600-37`
+ch.1/2) — in those four cases the "missing" chapter's text is physically present inside the
+neighboring chapter's file (verified by grep), since a PDF page can only be assigned to one output
+file; cite the neighboring chapter's file for those four.
 
-Paragraph headings were not extracted (different numbering style) for the DoDIs, AR 600-9, AR 190-45,
-AR 350-51, AR 601-1, DA PAM 601-280, AD 2018-16, AD 2022-10 and several USAREC regulations. FM 6-22,
-FM 7-22, FM 1, FM 3-0, ADP 1 and ADP 3-0 are not split into chapters.
+Affected docs (all now complete): UR 601-210, AR 670-1, DA PAM 670-1, AR 600-20, AR 40-501, AR 40-502,
+AR 600-85, AR 380-67, AR 135-100, DA PAM 601-6, DA PAM 600-4, UR 601-108 (needed `--deep` split; its
+real chapter structure is one TOC level deeper than usual), AR 601-280, AR 635-200, DA PAM 611-21,
+UR 350-1, UR 350-13, AR 601-2, AR 360-1, AR 15-6, UR 190-4, AR 735-5, AR 25-400-2, AR 608-1,
+AR 600-8-2, AR 623-3, AR 600-8-22, AR 614-200, AR 600-37, DA PAM 600-3.
+
+**Found in the process:** the library held two copies of UR 350-1 and UR 350-13 — one under
+`Manuals/` (clean final PDF) and one under `Regulations/` (explicitly titled "Working Draft" in its
+own PDF metadata, same printed edition date but an earlier/incomplete scan). The catalog build was
+keeping the stale `Regulations/` draft; fixed to use the `Manuals/` copy as canonical.
+
+Paragraph headings still aren't extracted (different numbering style) for the DoDIs, AR 600-9,
+AR 190-45, AR 350-51, AR 601-1, DA PAM 601-280, AD 2018-16, AD 2022-10 and several USAREC regulations.
+FM 6-22, FM 7-22, FM 1, FM 3-0, ADP 1 and ADP 3-0 are not split into chapters. These are a different,
+unrelated extractor limitation (not "exists only as PDF") and remain open.
 
 ## Not in the library
 

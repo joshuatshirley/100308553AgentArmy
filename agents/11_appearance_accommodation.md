@@ -67,7 +67,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 4-2d requires tattoo screening under AR 670-1; 4-2e covers extremism indicators, which this agent only flags and hands off.
 
@@ -79,6 +79,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 26 January 2021, authority level 2
 - Chapter: 3 (Appearance and Grooming Policies)
+- Text: `doctrine/Regulations/AR_670-1/03_Chapter_3.md`
 - PDF: `Regulations/AR_670-1/AR_670-1_ARN30302.pdf`
 - Why: Appearance and Grooming Policies: 3-2 hair and fingernail standards, 3-3 tattoo, branding and body mutilation policy, 3-4 jewelry, 3-15 religious jewelry/apparel, 3-16 religious accommodations. NOT transformed to markdown; read the PDF. Paragraph titles taken from the front matter table of contents.
 
@@ -86,7 +87,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 26 January 2021, authority level 2
 - Chapter: all
-- Text: `Regulations/AR_670-1/.transform`
+- Text: `doctrine/Regulations/AR_670-1`
 - PDF: `Regulations/AR_670-1/AR_670-1_ARN30302.pdf`
 - Why: Glossary defines terms used in the tattoo policy (for example the neck boundary). Use for definitions only.
 
@@ -94,6 +95,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 26 January 2021, authority level 2
 - Chapter: 3 (Appearance and Grooming)
+- Text: `doctrine/Pamphlets/DA_PAM_670-1/02_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_670-1/DA_PAM_670-1.pdf`
 - Why: Appearance and grooming chapter (tattoo, branding and body mutilation entry in the table of contents). NOT transformed; read the PDF.
 
@@ -101,6 +103,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 5 (Other Responsibilities of Command)
+- Text: `doctrine/Regulations/AR_600-20/05_Chapter_5.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Accommodating religious practices is para 5-6 per the front matter; Chapter 5 is NOT transformed, read the PDF. Message 23-035 cites AR 600-20 for immunization accommodations.
 
@@ -162,7 +165,7 @@ tattoo, brand, branding, piercing, body modification, hand tattoo, neck tattoo, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

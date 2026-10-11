@@ -33,7 +33,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-6": General
       "5-7": Testing
@@ -50,7 +50,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "2"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_601-210/02_Chapter_2.md
     paragraphs:
       "2-8": Trainability
     note: "Trainability: test score categories, MOS aptitude area, waiver position."
@@ -61,7 +61,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_1145.01/DoDI_1145.01.pdf
     chapter: all
-    markdown: DoDI/DoDI_1145.01/.transform
+    markdown: doctrine/DoDI/DoDI_1145.01
     note: "Qualitative distribution of manpower; AFQT category definitions and limits on lower categories (Glossary and Policy). Context for why categories matter; Army enlistment rules in AR 601-210 govern."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -72,7 +72,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_1304.26/DoDI_1304.26.pdf
     chapter: all
-    markdown: DoDI/DoDI_1304.26/.transform
+    markdown: doctrine/DoDI/DoDI_1304.26
     note: Enclosure 3 Basic Eligibility Criteria, Aptitude heading. Paragraph headings not extracted.
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -83,7 +83,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_1304.02/DoDI_1304.02.pdf
     chapter: all
-    markdown: DoDI/DoDI_1304.02/.transform
+    markdown: doctrine/DoDI/DoDI_1304.02
     note: "Accession processing data collection forms (DD Form 1966 and others), not testing policy; cited only for the forms the testing history is recorded on. The roster listed it as a testing source; the ASVAB testing manual (DoDM 1145.02) is absent from the library."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -199,7 +199,7 @@ guardrails:
   - Never suggest any recruiter involvement in administering, proctoring or scoring a test (AR 601-210 5-7b, 5-9h).
   - Quote AFQT categories, retest intervals and validity periods from the cited text only.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

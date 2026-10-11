@@ -35,7 +35,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "2"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_601-210/02_Chapter_2.md
     paragraphs:
       "2-1": General
       "2-2": Basic eligibility criteria for all non-prior service applicants
@@ -53,7 +53,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "4"
     chapter_title: Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions)
-    markdown: Regulations/AR_601-210/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_601-210/04_Chapter_4.md
     paragraphs:
       "4-17": Age
     note: Waiver position for applicants above the maximum age in 2-3 and 3-3.
@@ -65,7 +65,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-7": Testing
       "5-12": General
@@ -78,7 +78,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "6"
     chapter_title: Military Entrance Processing Station Processing Phase
-    markdown: Regulations/AR_601-210/.transform/06_Chapter_6.md
+    markdown: doctrine/Regulations/AR_601-210/06_Chapter_6.md
     paragraphs:
       "6-10": DD Form 1966
       "6-16": Administration of oath of enlistment
@@ -90,7 +90,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_1304.26/DoDI_1304.26.pdf
     chapter: all
-    markdown: DoDI/DoDI_1304.26/.transform
+    markdown: doctrine/DoDI/DoDI_1304.26
     note: "DoD qualification standards; Enclosure 3 Basic Eligibility Criteria (Age, Citizenship, Education, Aptitude, Medical, Physical Fitness, Dependency Status, Character/Conduct). Paragraph headings not extracted; cite by enclosure and heading. Army detail in AR 601-210 governs."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -215,7 +215,7 @@ guardrails:
   - "Never advise an applicant on how to obtain consent from a parent who objects; read and quote the consent rule."
   - Output is a checklist with citations, not an eligibility determination.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

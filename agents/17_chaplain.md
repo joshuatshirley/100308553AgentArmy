@@ -69,7 +69,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.28/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.28`
 - PDF: `DoDI/DoDI_1304.28/DoDI_1304.28.pdf`
 - Why: The Appointment and Service of Chaplains. Paragraph headings not extracted in the catalog; cite by section: 3.1 capability requirements, 3.2 appointment considerations, 3.3 educational institutions, 3.4 DD Form 2088, 3.5 application requirements, 3.7 Chaplain Candidate Program, Section 4 religious-endorsing organizations.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -78,7 +78,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_5120.08/.transform`
+- Text: `doctrine/DoDI/DoDI_5120.08`
 - PDF: `DoDI/DoDI_5120.08/DoDI_5120.08.pdf`
 - Why: Armed Forces Chaplains Board; context for endorsing-organization oversight.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -87,7 +87,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 3 (Appointments)
-- Text: `Regulations/AR_135-100/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_135-100/03_Chapter_3.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: Section III Appointments of Chaplains (Reserve). Edition dated 1 September 1994; confirm currency.
 
@@ -103,7 +103,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_135-100/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_135-100/01_Chapter_1.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: General eligibility, ineligibles and waiver for Reserve appointments.
 
@@ -117,10 +117,9 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - edition 1 January 2015, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-108/.transform`
+- Text: `doctrine/Regulations/UR_601-108`
 - PDF: `Regulations/UR_601-108/UR 601-108.pdf`
 - Why: Army Chaplain Recruiting Program, 1 January 2015. Only the cover and summary of change were extracted (about 2 KB); the body (application process, waiver processing, Senior Army Chaplain interview, board packet, selection, Future Chaplains, mission credit) must be read from the PDF.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -186,7 +185,7 @@ chaplain, chaplain candidate, ecclesiastical endorsement, endorsement, DD 2088, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

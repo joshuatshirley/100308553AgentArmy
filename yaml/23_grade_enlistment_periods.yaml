@@ -31,7 +31,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "2"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_601-210/02_Chapter_2.md
     paragraphs:
       "2-16": Authorized enlistment periods
       "2-17": Pay grade and date of rank
@@ -46,7 +46,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "3"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_601-210/03_Chapter_3.md
     paragraphs:
       "3-14": Authorized enlistment periods
       "3-15": Authorized enlistment pay grade determination
@@ -61,7 +61,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-31": Terms of service and authorized pay grades
       "5-35": Promotion opportunity through referrals
@@ -74,7 +74,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "7"
     chapter_title: Regular Army and Reserve Components Civilian-Acquired Skills Program
-    markdown: Regulations/AR_601-210/.transform/07_Chapter_7.md
+    markdown: doctrine/Regulations/AR_601-210/07_Chapter_7.md
     paragraphs:
       "7-10": Determination of qualifications and enlistment grades
       "7-11": Award of military occupational specialty, enlistment grade, and accelerated promotion
@@ -201,7 +201,7 @@ guardrails:
   - "Never state an entry grade, credit-hour count or document deadline from memory; quote 2-18, 2-19 or Chapter 3."
   - "Read a USAREC message's numbered Requirement lines or its PDF; never rely on the narrative summary paragraphs in the consolidated message file, which are machine-generated and contain known errors."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

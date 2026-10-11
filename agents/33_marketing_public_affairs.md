@@ -80,7 +80,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/01_Chapter_1.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/01_Chapter_1.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: Purpose and importance of the Army Marketing Program.
 
@@ -100,7 +100,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 3 (Army Marketing Processes)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/03_Chapter_3.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/03_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: New marketing initiatives and annual marketing requirements.
 
@@ -113,7 +113,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 4 (Return on Investment)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/04_Chapter_4.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/04_Chapter_4.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: Return on investment framework and funnel metrics.
 
@@ -130,7 +130,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 6 (Army Regional Marketing System)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/06_Chapter_6.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/06_Chapter_6.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: Army Regional Marketing System.
 
@@ -146,7 +146,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 7 (Outreach)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/07_Chapter_7.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/07_Chapter_7.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: Outreach programs.
 
@@ -161,7 +161,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_360-1/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_360-1/01_Chapter_1.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Principles of information, direct communication, communication synchronization, countering misinformation.
 
@@ -176,7 +176,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 2 (Responsibilities)
-- Text: `Regulations/AR_360-1/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_360-1/02_Chapter_2.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Commanders' and public affairs officers' responsibilities.
 
@@ -189,6 +189,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 3 (Policies)
+- Text: `doctrine/Regulations/AR_360-1/03_Chapter_3.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Public affairs policies. Not transformed; read the PDF.
 
@@ -196,7 +197,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 5 (Public Affairs Resourcing)
-- Text: `Regulations/AR_360-1/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_360-1/05_Chapter_5.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Use of Army funds and events qualifying for Army or outside funding.
 
@@ -210,7 +211,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 6 (Media Coverage)
-- Text: `Regulations/AR_360-1/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_360-1/06_Chapter_6.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Media coverage, accreditation and official discussions with the media.
 
@@ -219,11 +220,16 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 | 6-1 | Facilitating media visits |
 | 6-2 | News media accreditation |
 | 6-3 | Official discussions with the media |
+| 6-4 | Unofficial discussions |
+| 6-5 | Photographing and recording personnel in a hostile area |
+| 6-6 | Media coverage of equipment testing and evaluation |
+| 6-7 | Media coverage of battle labs and advanced warfighting experiments |
 
 ### AR_360-1
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 7 (Public Communication)
+- Text: `doctrine/Regulations/AR_360-1/07_Chapter_7.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Public communication. Not transformed; read the PDF.
 
@@ -231,6 +237,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 8 (Digital Media Management and Publications)
+- Text: `doctrine/Regulations/AR_360-1/08_Chapter_8.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Digital media management and publications (Army social media policy). Not transformed; read the PDF.
 
@@ -238,7 +245,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/USAREC_Social_Media_SOP_21_JUN_18/.transform`
+- Text: `doctrine/Guides/USAREC_Social_Media_SOP_21_JUN_18`
 - PDF: `Guides/USAREC_Social_Media_SOP_21_JUN_18/USAREC Social Media SOP 21 JUN 18.pdf`
 - Why: USAREC Social Media SOP (May 2018, signed 21 Jun 2018): OPSEC and training, PII, online conduct, messaging, branding, account requirements, records, paid promotion, platforms, reporting, cease and desist. Check for a newer SOP.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -247,7 +254,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 30 November 2020, authority level 4
 - Chapter: 3 (Roles, Responsibilities, and Organizations of Virtual)
-- Text: `Guides/UTP_3-10.4_(VRA)_V1/.transform/03_Chapter_3.md`
+- Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/03_Chapter_3.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Roles of the commander and USAREC virtual recruiting and advertising assets. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -256,7 +263,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 30 November 2020, authority level 4
 - Chapter: 7 (Recruiters now have the ability to individually pay for and conduct social media boosting. b. Procedures: Using RER (Recruiter Expenses Reimbursement) to Boost Facebook and)
-- Text: `Guides/UTP_3-10.4_(VRA)_V1/.transform/07_Chapter_7.md`
+- Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/07_Chapter_7.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Social media boosting procedures. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -265,7 +272,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 9 March 2022, authority level 3
 - Chapter: 6 (Shaping Operations)
-- Text: `Manuals/UM_3-29/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Battalion advertising and public affairs and media awareness.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -276,7 +283,7 @@ Sections: Advertising and Public Affairs; Training for Media Awareness
 
 - edition 9 March 2022, authority level 3
 - Chapter: 2 (Recruiting Network)
-- Text: `Manuals/UM_3-29/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/UM_3-29/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: News media as part of the recruiting network.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -287,7 +294,7 @@ Sections: The News Media
 
 - edition 7 March 2022, authority level 3
 - Chapter: 5 (Sustaining Operations)
-- Text: `Manuals/UM_3-31/.transform/05_Chapter_5.md`
+- Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station use of advertising assets.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -298,7 +305,7 @@ Sections: Advertising Assets
 
 - edition 30 September 2022, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_25-30/.transform`
+- Text: `doctrine/Regulations/UR_25-30`
 - PDF: `Regulations/UR_25-30/UR 25-30.pdf`
 - Why: Actual subject: USAREC Business Cards (roster calls it visual information; no visual information publication is in the library) (formal printed and electronic). Chapter 2 ordering detail is PDF only.
 
@@ -353,7 +360,7 @@ social media, post, Facebook, Instagram, TikTok, boost, paid promotion, advertis
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

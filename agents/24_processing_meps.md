@@ -91,7 +91,7 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section I General and the transportation/movement paragraphs of Section III.
 
@@ -110,7 +110,7 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 6 (Military Entrance Processing Station Processing Phase)
-- Text: `Regulations/AR_601-210/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_601-210/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: MEPS processing phase. Paragraphs 6-12, 6-15 and 6-16 point to DoDM 1145.02, which is not in the library.
 
@@ -140,10 +140,10 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 2 (Responsibilities for Recruiting Personnel)
-- Text: `Regulations/UR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/UR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Responsibilities for recruiting personnel, GC and Ops NCO duties.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -157,10 +157,10 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 4 (Recruit Quota System (REQUEST) Procedures)
-- Text: `Regulations/UR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/UR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST procedures, security and prohibited uses.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -168,15 +168,16 @@ Specialist for applicant processing from the recruiting station through the MEPS
 | 4-2 | General |
 | 4-3 | Security |
 | 4-4 | REQUEST Use |
+| 4-5 | Alternate Procedures for Terminal or System Failure |
 
 ### UR_601-210: Enlistment & Accessions Processing
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 19 (Required USMEPCOM Daily Reports and RZ)
-- Text: `Regulations/UR_601-210/.transform/19_Chapter_19.md`
+- Text: `doctrine/Regulations/UR_601-210/19_Chapter_19.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Required USMEPCOM daily reports, REQUEST close-out and RZ end-of-day result codes.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -190,10 +191,10 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.6 Quality Control Procedures and Scheduling of Applicants, Ch.20 Government Meals and Lodging and Ch.24 Temporary Reservation Procedures exist only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -277,7 +278,7 @@ MEPS, processing, DD 1966, DD Form 4, oath, swear in, contract, guidance counsel
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

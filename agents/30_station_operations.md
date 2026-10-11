@@ -76,7 +76,7 @@ Specialist for running a recruiting station, written for station commanders and 
 
 - edition 7 March 2022, authority level 3
 - Chapter: 1 (Overview of Recruiting Operations)
-- Text: `Manuals/UM_3-31/.transform/01_Chapter_1.md`
+- Text: `doctrine/Manuals/UM_3-31/01_Chapter_1.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -86,7 +86,7 @@ Sections: Introduction; Leadership Roles and Responsibilities; Station Commander
 
 - edition 7 March 2022, authority level 3
 - Chapter: 2 (Recruiting Operations Process)
-- Text: `Manuals/UM_3-31/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -96,7 +96,7 @@ Sections: What Is the Recruiting Operations Process?; Understand; Visualize; Int
 
 - edition 7 March 2022, authority level 3
 - Chapter: 3 (Decisive Operations)
-- Text: `Manuals/UM_3-31/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -106,7 +106,7 @@ Sections: Lead Generation and Prospecting; Army Interview; Processing; In Progre
 
 - edition 7 March 2022, authority level 3
 - Chapter: 4 (Shaping Operations)
-- Text: `Manuals/UM_3-31/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -116,7 +116,7 @@ Sections: Lead Generation; Referrals; Lead Refinement; Planning; Battle Rhythm; 
 
 - edition 7 March 2022, authority level 3
 - Chapter: 5 (Sustaining Operations)
-- Text: `Manuals/UM_3-31/.transform/05_Chapter_5.md`
+- Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -126,7 +126,7 @@ Sections: Logistics; Advertising Assets; Personnel Management; Personnel Integra
 
 - edition 7 March 2022, authority level 3
 - Chapter: 6 (Networks)
-- Text: `Manuals/UM_3-31/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-31/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -136,7 +136,7 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 
 - edition 9 March 2022, authority level 3
 - Chapter: all
-- Text: `Manuals/UM_3-0/.transform`
+- Text: `doctrine/Manuals/UM_3-0`
 - PDF: `Manuals/UM_3-0/UM 3-0.pdf`
 - Why: Command-level recruiting operations, networks and the eight recruiting functions; context for why the station plan is built the way it is.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -145,7 +145,7 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 
 - edition 7 March 2022, authority level 3
 - Chapter: all
-- Text: `Manuals/UM_3-30/.transform`
+- Text: `doctrine/Manuals/UM_3-30`
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team view: how the company validates station commanders, IPRs, training and sustainment expectations of the station.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -154,7 +154,7 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 
 - edition 13 May 2018, authority level 4
 - Chapter: all
-- Text: `Manuals/STP805K-79R-SMTG/.transform`
+- Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide for MOS 79R; station-commander-level tasks. Paragraph headings were not extracted; cite by task title from the PDF.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -216,7 +216,7 @@ station commander, ASC, assistant station commander, station plan, station recru
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

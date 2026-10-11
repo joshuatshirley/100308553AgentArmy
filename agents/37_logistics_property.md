@@ -181,7 +181,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_735-5/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_735-5/01_Chapter_1.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Purpose and command responsibilities for property accountability.
 
@@ -195,7 +195,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 4 (Methods of Obtaining Relief from Responsibility or Accountability for Property)
-- Text: `Regulations/AR_735-5/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_735-5/04_Chapter_4.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Methods of obtaining relief from responsibility; reporting; admitted negligence; adjusting property records.
 
@@ -212,7 +212,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 5 (Financial Liability Investigations of Property Loss)
-- Text: `Regulations/AR_735-5/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_735-5/05_Chapter_5.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Financial liability investigations of property loss: when mandatory, DD Form 200 preparation, time constraints, appointing and approving authority.
 
@@ -248,7 +248,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 6 (Appointment of Financial Liability Officer)
-- Text: `Regulations/AR_735-5/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_735-5/06_Chapter_6.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Financial liability officer appointment and responsibilities. Chapters 7 to 10 (cost of loss, investigation, liability, findings) are not transformed; read the PDF.
 
@@ -263,12 +263,13 @@ Specialist for station commanders, company command teams and supply personnel on
 | 6-7 | Financial liability officer’s responsibilities |
 | 6-8 | Time constraints for conducting the investigation by the financial liability officer |
 | 6-9 | Relief of financial liability officer |
+| 6-10 | Number of copies |
 
 ### AR_735-5
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 11 (Actions after Making Recommendations)
-- Text: `Regulations/AR_735-5/.transform/11_Chapter_11.md`
+- Text: `doctrine/Regulations/AR_735-5/11_Chapter_11.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Actions after recommendations: legal review, respondent rights, rebuttal, reconsideration, remission.
 
@@ -299,7 +300,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 12 (Special Procedures)
-- Text: `Regulations/AR_735-5/.transform/12_Chapter_12.md`
+- Text: `doctrine/Regulations/AR_735-5/12_Chapter_12.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Vehicle accidents, sensitive items, keys, leased property, inventory losses.
 
@@ -316,7 +317,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - authority level 3
 - Chapter: all
-- Text: `Regulations/UR_570-1/.transform`
+- Text: `doctrine/Regulations/UR_570-1`
 - PDF: `Regulations/UR_570-1/UR 570-1.pdf`
 - Why: Manpower and equipment control: TDA changes and recruiting station establishment, disestablishment and relocation (2006 edition). Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -392,7 +393,7 @@ hand receipt, sub-hand receipt, property book, CSDP, inventory, change of comman
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -86,7 +86,7 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-4 citizenship categories, documents, lost documents, dual citizenship, place of birth; 2-1c translation; 2-5f LPR enlistment name; 2-8b English ability.
 
@@ -101,7 +101,7 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section XIII special processing for lawful permanent residents; Section XVI recruiting in foreign countries and replies to inquiries.
 
@@ -117,10 +117,10 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 12 (Army Reserve Specific Processing)
-- Text: `Regulations/UR_601-210/.transform/12_Chapter_12.md`
+- Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve applicants with English as a second language; ECLT outcome and ship routing. UR 601-210 edition 3 January 2023 predates the current AR 601-210 and later messages.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -130,10 +130,10 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 14 (Overseas Processing Procedures)
-- Text: `Regulations/UR_601-210/.transform/14_Chapter_14.md`
+- Text: `doctrine/Regulations/UR_601-210/14_Chapter_14.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Overseas processing: SSN for Future Soldiers enlisting on a temporary identification number, Europe, Japan/Korea, Guam/Saipan, Compact-nation and remote Alaska procedures.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -146,7 +146,7 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 9 May 2024, effective 9 June 2024, authority level 2
 - Chapter: 2 (Linguist Recruiting, Language Testing, Control Language, and Establishing Linguist Requirements)
-- Text: `Manuals/AR_11-6_Army_Foreign_Language_Program/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/AR_11-6_Army_Foreign_Language_Program/02_Chapter_2.md`
 - PDF: `Manuals/AR_11-6_Army_Foreign_Language_Program/AR 11-6 Army Foreign Language Program.pdf`
 - Why: Linguist recruiting programs, language-training qualification routes, ECLT requirements for 35M/35P and applicants enlisting outside the United States.
 
@@ -160,7 +160,7 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Citizenship heading. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -239,7 +239,7 @@ green card, LPR, permanent resident, conditional resident, I-551, citizenship, n
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

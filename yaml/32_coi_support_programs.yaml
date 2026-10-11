@@ -31,7 +31,7 @@ sources:
     pdf: Regulations/AR_601-2/AR_601-2.pdf
     chapter: "2"
     chapter_title: Total Army Involvement in Recruiting Program
-    markdown: Regulations/AR_601-2/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_601-2/02_Chapter_2.md
     paragraphs:
       "2-1": Objectives
       "2-2": Policy
@@ -45,7 +45,7 @@ sources:
     pdf: Regulations/AR_601-2/AR_601-2.pdf
     chapter: "3"
     chapter_title: General Officer/Senior Executive Service Recruiting Support Program
-    markdown: Regulations/AR_601-2/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_601-2/03_Chapter_3.md
     paragraphs:
       "3-1": Objectives
       "3-2": Policy
@@ -59,7 +59,7 @@ sources:
     pdf: Regulations/AR_601-2/AR_601-2.pdf
     chapter: "4"
     chapter_title: Educator/Centers of Influence Tour Program
-    markdown: Regulations/AR_601-2/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_601-2/04_Chapter_4.md
     paragraphs:
       "4-1": Objectives
       "4-2": Policy
@@ -73,7 +73,7 @@ sources:
     pdf: Regulations/AR_601-2/AR_601-2.pdf
     chapter: "5"
     chapter_title: Centers of Influence Events Program
-    markdown: Regulations/AR_601-2/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-2/05_Chapter_5.md
     paragraphs:
       "5-1": Objective
       "5-2": Event policies
@@ -86,7 +86,7 @@ sources:
     pdf: Regulations/AR_601-2/AR_601-2.pdf
     chapter: "6"
     chapter_title: Delayed Entry Program/Delayed Training Program Gatherings
-    markdown: null
+    markdown: doctrine/Regulations/AR_601-2/06_Chapter_6.md
     note: "DEP/DTP gatherings. Not transformed; read the PDF."
   - doc: AR_601-2
     title: Army Recruiting Support Programs
@@ -96,7 +96,7 @@ sources:
     pdf: Regulations/AR_601-2/AR_601-2.pdf
     chapter: "7"
     chapter_title: Hometown and Special Recruiter Assistance Program
-    markdown: null
+    markdown: doctrine/Regulations/AR_601-2/07_Chapter_7.md
     note: "Hometown and Special Recruiter Assistance Program (HRAP 7-3, SRAP 7-4 per contents). Not transformed; read the PDF."
   - doc: AR_601-2
     title: Army Recruiting Support Programs
@@ -106,7 +106,7 @@ sources:
     pdf: Regulations/AR_601-2/AR_601-2.pdf
     chapter: "8"
     chapter_title: Recruiting and Reserve Partnership Council
-    markdown: Regulations/AR_601-2/.transform/08_Chapter_8.md
+    markdown: doctrine/Regulations/AR_601-2/08_Chapter_8.md
     paragraphs:
       "8-1": Objectives
       "8-2": Policy
@@ -193,7 +193,7 @@ sources:
     pdf: Guides/UTC_5-03.3/UTC 5-03.3.pdf
     chapter: "2"
     chapter_title: null
-    markdown: Guides/UTC_5-03.3/.transform/02_Chapter_2.md
+    markdown: doctrine/Guides/UTC_5-03.3/02_Chapter_2.md
     note: "Actual title (front matter): UTC 5-03.3 Partnerships; catalog title is wrong. Engaging community partners, advocates, key leader engagements. Level 4."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -205,7 +205,7 @@ sources:
     pdf: Guides/UTC_5-03.3/UTC 5-03.3.pdf
     chapter: "3"
     chapter_title: null
-    markdown: Guides/UTC_5-03.3/.transform/03_Chapter_3.md
+    markdown: doctrine/Guides/UTC_5-03.3/03_Chapter_3.md
     note: Employer partnerships, PaYS, P3. Level 4.
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -217,7 +217,7 @@ sources:
     pdf: Guides/UTC_5-03.3/UTC 5-03.3.pdf
     chapter: "4"
     chapter_title: null
-    markdown: Guides/UTC_5-03.3/.transform/04_Chapter_4.md
+    markdown: doctrine/Guides/UTC_5-03.3/04_Chapter_4.md
     note: Partnerships with educators and educator tours (types, nominations, activities). Level 4.
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -229,7 +229,7 @@ sources:
     pdf: Guides/UTC_5-03.3/UTC 5-03.3.pdf
     chapter: "6"
     chapter_title: Employer Support of the Guard and Reserve (ESGR) committee chair to identify the movers and shakers in your market. Select the most promising CP advocates to lead
-    markdown: Guides/UTC_5-03.3/.transform/06_Chapter_6.md
+    markdown: doctrine/Guides/UTC_5-03.3/06_Chapter_6.md
     note: Community action committees. Level 4.
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -241,7 +241,7 @@ sources:
     pdf: Manuals/UM_3-31/UM 3-31.pdf
     chapter: "6"
     chapter_title: Networks
-    markdown: Manuals/UM_3-31/.transform/06_Chapter_6.md
+    markdown: doctrine/Manuals/UM_3-31/06_Chapter_6.md
     section_headings:
       - Internal Network
       - External Network
@@ -257,7 +257,7 @@ sources:
     pdf: Manuals/UM_3-29/UM 3-29.pdf
     chapter: "6"
     chapter_title: Shaping Operations
-    markdown: Manuals/UM_3-29/.transform/06_Chapter_6.md
+    markdown: doctrine/Manuals/UM_3-29/06_Chapter_6.md
     section_headings:
       - Community Partners (CP) and Advocates
     note: Battalion/brigade view.
@@ -375,7 +375,7 @@ guardrails:
   - "Never state a dollar limit, group size or frequency from memory; quote the paragraph or say it must be read."
   - "Spell out Soldier Referral Program; do not use the bare acronym SRP (it also means School Recruiting Program)."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

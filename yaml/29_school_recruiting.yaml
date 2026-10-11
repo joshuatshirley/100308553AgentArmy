@@ -28,12 +28,12 @@ sources:
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "1"
     chapter_title: General
-    markdown: Regulations/UR_350-13/.transform/01_Chapter_1.md
+    markdown: doctrine/Manuals/UR_350-13/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-4": Policy
@@ -42,82 +42,82 @@ sources:
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "2"
     chapter_title: The School Recruiting Plan
-    markdown: null
+    markdown: doctrine/Manuals/UR_350-13/02_Chapter_2.md
     note: "The School Recruiting Plan (goals, responsibilities, brigade/battalion, company and station school plans). PDF only; not transformed."
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "3"
     chapter_title: High School Relations
-    markdown: null
+    markdown: doctrine/Manuals/UR_350-13/03_Chapter_3.md
     note: High School Relations (rapport, school profile, influencers, E/COI tours, recruiter responsibilities). PDF only.
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "4"
     chapter_title: School Guidelines
-    markdown: null
+    markdown: doctrine/Manuals/UR_350-13/04_Chapter_4.md
     note: School Guidelines (annual planning meeting, expectations between recruiters and school officials). PDF only.
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "5"
     chapter_title: School Zone
-    markdown: null
+    markdown: doctrine/Manuals/UR_350-13/05_Chapter_5.md
     note: School Zone (responsibilities, school information, filing and disposition). PDF only.
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "6"
     chapter_title: School Recruiting Education Programs
-    markdown: null
+    markdown: doctrine/Manuals/UR_350-13/06_Chapter_6.md
     note: School Recruiting Education Programs (ASVAB CEP, March 2 Success, ConAP). PDF only.
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "7"
     chapter_title: Education Incentives
-    markdown: null
+    markdown: doctrine/Manuals/UR_350-13/07_Chapter_7.md
     note: Education Incentives and recruiter responsibilities. PDF only.
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "8"
     chapter_title: Release of Student Recruiting Information
-    markdown: null
+    markdown: doctrine/Manuals/UR_350-13/08_Chapter_8.md
     note: "Release of Student Recruiting Information (Solomon, Hutchinson, ESSA, FERPA). PDF only; appendix L has the student directory request example."
   - doc: UR_350-13
     title: School Recruiting Programs
     edition_date: "17 March 2021"
-    effective_date: null
+    effective_date: "17 March 2021"
     authority_level: 3
-    pdf: Regulations/UR_350-13/UR 350-13.pdf
+    pdf: Manuals/UR_350-13/UR 350-13.pdf
     chapter: "9"
     chapter_title: HSS/FAZR
-    markdown: null
+    markdown: doctrine/Manuals/UR_350-13/09_Chapter_9.md
     note: HSS/FAZR and battalion ESS procedures. PDF only.
   - doc: UM_3-31
     title: Station Operations
@@ -127,7 +127,7 @@ sources:
     pdf: Manuals/UM_3-31/UM 3-31.pdf
     chapter: "4"
     chapter_title: Shaping Operations
-    markdown: Manuals/UM_3-31/.transform/04_Chapter_4.md
+    markdown: doctrine/Manuals/UM_3-31/04_Chapter_4.md
     section_headings:
       - School Recruiting Program
     note: Station commander's responsibility for developing the SRP and validating school folders, events and documentation.
@@ -141,7 +141,7 @@ sources:
     pdf: Manuals/UM_3-31/UM 3-31.pdf
     chapter: "2"
     chapter_title: Recruiting Operations Process
-    markdown: Manuals/UM_3-31/.transform/02_Chapter_2.md
+    markdown: doctrine/Manuals/UM_3-31/02_Chapter_2.md
     section_headings:
       - Running Estimates
     note: Use of school data to build a school prospecting plan.
@@ -155,7 +155,7 @@ sources:
     pdf: Manuals/UM_3-32/UM 3-32.pdf
     chapter: "7"
     chapter_title: null
-    markdown: Manuals/UM_3-32/.transform/07_Chapter_7.md
+    markdown: doctrine/Manuals/UM_3-32/07_Chapter_7.md
     section_headings:
       - High Schools
     note: Recruiter's view of high school presence and lead generation.
@@ -184,7 +184,7 @@ sources:
     pdf: Manuals/UM_3-29/UM 3-29.pdf
     chapter: "6"
     chapter_title: Shaping Operations
-    markdown: Manuals/UM_3-29/.transform/06_Chapter_6.md
+    markdown: doctrine/Manuals/UM_3-29/06_Chapter_6.md
     section_headings:
       - School Recruiting Program
     note: Brigade and battalion view of the school program.
@@ -198,7 +198,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-10": High school testing program
     note: "High school testing program; hand score-use and retest questions to 05_testing_asvab."
@@ -210,7 +210,7 @@ sources:
     pdf: Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf
     chapter: "7"
     chapter_title: Outreach
-    markdown: Pamphlets/DA_PAM_601-208/.transform/07_Chapter_7.md
+    markdown: doctrine/Pamphlets/DA_PAM_601-208/07_Chapter_7.md
     paragraphs:
       "7-1": "Junior Reserve Officers’ Training Corps"
     note: JROTC as an Army outreach program.
@@ -306,7 +306,7 @@ guardrails:
   - "UR 350-13 chapters 2 to 9 exist only in the PDF; say so when citing them and read the PDF text, never paraphrase from memory."
   - Do not use the bare acronym SRP without spelling out School Recruiting Program (the Soldier Referral Program uses the same letters).
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

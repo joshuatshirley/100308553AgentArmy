@@ -29,7 +29,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_1304.28/DoDI_1304.28.pdf
     chapter: all
-    markdown: DoDI/DoDI_1304.28/.transform
+    markdown: doctrine/DoDI/DoDI_1304.28
     note: "The Appointment and Service of Chaplains. Paragraph headings not extracted in the catalog; cite by section: 3.1 capability requirements, 3.2 appointment considerations, 3.3 educational institutions, 3.4 DD Form 2088, 3.5 application requirements, 3.7 Chaplain Candidate Program, Section 4 religious-endorsing organizations."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -40,7 +40,7 @@ sources:
     authority_level: 2
     pdf: DoDI/DoDI_5120.08/DoDI_5120.08.pdf
     chapter: all
-    markdown: DoDI/DoDI_5120.08/.transform
+    markdown: doctrine/DoDI/DoDI_5120.08
     note: "Armed Forces Chaplains Board; context for endorsing-organization oversight."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -52,7 +52,7 @@ sources:
     pdf: Regulations/AR_135-100/AR_135-100.pdf
     chapter: "3"
     chapter_title: Appointments
-    markdown: Regulations/AR_135-100/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_135-100/03_Chapter_3.md
     paragraphs:
       "3-5": General
       "3-6": Special requirements
@@ -68,7 +68,7 @@ sources:
     pdf: Regulations/AR_135-100/AR_135-100.pdf
     chapter: "1"
     chapter_title: General
-    markdown: Regulations/AR_135-100/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_135-100/01_Chapter_1.md
     paragraphs:
       "1-6": Eligibility criteria
       "1-7": Ineligibles
@@ -81,10 +81,8 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-108/UR 601-108.pdf
     chapter: all
-    markdown: Regulations/UR_601-108/.transform
+    markdown: doctrine/Regulations/UR_601-108
     note: "Army Chaplain Recruiting Program, 1 January 2015. Only the cover and summary of change were extracted (about 2 KB); the body (application process, waiver processing, Senior Army Chaplain interview, board packet, selection, Future Chaplains, mission credit) must be read from the PDF."
-    known_gaps:
-      - "paragraph headings not extracted (numbering style differs); cite by chapter"
 usarec_messages:
   - number: "23-022"
     subject: Army Medical Department (AMEDD) and Chaplain Applicant Commission/ Accession Physical Requirements Regular Army (RA) and Army Reserve (AR) (UPDATED).
@@ -179,7 +177,7 @@ guardrails:
   - "UR 601-108 is PDF-only in this library; never describe its procedures from memory."
   - "Never evaluate or comment on an applicant's religion or faith group; endorsement is the religious organization's decision."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

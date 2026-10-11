@@ -36,7 +36,7 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "12"
     chapter_title: Army Reserve Specific Processing
-    markdown: Regulations/UR_601-210/.transform/12_Chapter_12.md
+    markdown: doctrine/Regulations/UR_601-210/12_Chapter_12.md
     paragraphs:
       "12-1": Purpose
       "12-2": Alternate Training Program Enlistment Procedures
@@ -48,7 +48,7 @@ sources:
       "12-8": Simultaneous Membership Program
     note: "Army Reserve Specific Processing: ATP, ESL, vacancies, PS DMOSQ acceptance, REFRAD for temporary medical reasons, AMEDD officer reservations, SMP."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -57,12 +57,12 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "11"
     chapter_title: Active and Reserve Component Separations
-    markdown: Regulations/UR_601-210/.transform/11_Chapter_11.md
+    markdown: doctrine/Regulations/UR_601-210/11_Chapter_11.md
     paragraphs:
       "11-11": Army Reserve Entry Level Separations
     note: "Army Reserve entry level separations; who initiates, re-contract restrictions. Message 24-027 changes the waiting period text."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: AR_601-210
     title: Regular Army and Reserve Components Enlistment Program
     edition_date: "20 March 2026"
@@ -71,7 +71,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "4"
     chapter_title: Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions)
-    markdown: Regulations/AR_601-210/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_601-210/04_Chapter_4.md
     paragraphs:
       "4-16": Reserve Component separations or transfers
     note: Reserve Component separations or transfers as a waiverable disqualification.
@@ -83,7 +83,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-19": Request for discharge or clearance from a Reserve Component
       "5-22": General
@@ -98,7 +98,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "9"
     chapter_title: Enlistment Programs, Options, and Incentives
-    markdown: Regulations/AR_601-210/.transform/09_Chapter_9.md
+    markdown: doctrine/Regulations/AR_601-210/09_Chapter_9.md
     paragraphs:
       "9-14": "Enlistment Program 9H, U.S. Army Reserve Officers’ Training Corps/Simultaneous"
     note: Enlistment Program 9H, ROTC/Simultaneous Membership Program (enlisted side).
@@ -110,7 +110,7 @@ sources:
     pdf: Regulations/AR_140-10/AR_140-10.pdf
     chapter: "5"
     chapter_title: Transfer between the U.S. Army Reserve and Army National Guard
-    markdown: Regulations/AR_140-10/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_140-10/05_Chapter_5.md
     paragraphs:
       "5-1": Conditional release
       "5-2": Enlistment or appointment in Army National Guard
@@ -127,7 +127,7 @@ sources:
     pdf: Regulations/AR_140-10/AR_140-10.pdf
     chapter: "9"
     chapter_title: Inter-Service Transfer and Attachment
-    markdown: Regulations/AR_140-10/.transform/09_Chapter_9.md
+    markdown: doctrine/Regulations/AR_140-10/09_Chapter_9.md
     paragraphs:
       "9-1": Inter-Service transfer
       "9-2": Approval authority
@@ -145,10 +145,10 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: all
-    markdown: Regulations/UR_601-210/.transform
+    markdown: doctrine/Regulations/UR_601-210
     note: Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exists only in the PDF (not transformed).
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "25-045"
     subject: Approval Authority for Army Reserve Conditional Release, DD 368.
@@ -302,7 +302,7 @@ guardrails:
   - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
   - "When quoting a USAREC message, quote only its Subject line and 'Requirement:' lines (or the PDF). The consolidated message file also contains generated summary paragraphs that contain errors; never cite those."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

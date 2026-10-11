@@ -138,7 +138,7 @@ sources:
     pdf: Regulations/AR_735-5/AR_735-5.pdf
     chapter: "1"
     chapter_title: General
-    markdown: Regulations/AR_735-5/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_735-5/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-14": Brigade, battalion, and equivalent-level commanders or civilian activity supervisors
@@ -152,7 +152,7 @@ sources:
     pdf: Regulations/AR_735-5/AR_735-5.pdf
     chapter: "4"
     chapter_title: Methods of Obtaining Relief from Responsibility or Accountability for Property
-    markdown: Regulations/AR_735-5/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_735-5/04_Chapter_4.md
     paragraphs:
       "4-1": Administrative action
       "4-2": Reporting requirements
@@ -169,7 +169,7 @@ sources:
     pdf: Regulations/AR_735-5/AR_735-5.pdf
     chapter: "5"
     chapter_title: Financial Liability Investigations of Property Loss
-    markdown: Regulations/AR_735-5/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_735-5/05_Chapter_5.md
     paragraphs:
       "5-1": Financial liability investigation of property loss
       "5-2": Purpose of a financial liability investigation of property loss
@@ -205,7 +205,7 @@ sources:
     pdf: Regulations/AR_735-5/AR_735-5.pdf
     chapter: "6"
     chapter_title: Appointment of Financial Liability Officer
-    markdown: Regulations/AR_735-5/.transform/06_Chapter_6.md
+    markdown: doctrine/Regulations/AR_735-5/06_Chapter_6.md
     paragraphs:
       "6-1": Role of a financial liability investigating officer
       "6-2": Determining the type of investigating officer
@@ -216,6 +216,7 @@ sources:
       "6-7": "Financial liability officer’s responsibilities"
       "6-8": Time constraints for conducting the investigation by the financial liability officer
       "6-9": Relief of financial liability officer
+      "6-10": Number of copies
     note: "Financial liability officer appointment and responsibilities. Chapters 7 to 10 (cost of loss, investigation, liability, findings) are not transformed; read the PDF."
   - doc: AR_735-5
     title: null
@@ -225,7 +226,7 @@ sources:
     pdf: Regulations/AR_735-5/AR_735-5.pdf
     chapter: "11"
     chapter_title: Actions after Making Recommendations
-    markdown: Regulations/AR_735-5/.transform/11_Chapter_11.md
+    markdown: doctrine/Regulations/AR_735-5/11_Chapter_11.md
     paragraphs:
       "11-1": Signing the findings and recommendations
       "11-2": Actions when financial liability is not recommended
@@ -256,7 +257,7 @@ sources:
     pdf: Regulations/AR_735-5/AR_735-5.pdf
     chapter: "12"
     chapter_title: Special Procedures
-    markdown: Regulations/AR_735-5/.transform/12_Chapter_12.md
+    markdown: doctrine/Regulations/AR_735-5/12_Chapter_12.md
     paragraphs:
       "12-13": Vehicular accidents involving government-owned or government-leased vehicles
       "12-17": Vehicular accidents
@@ -272,7 +273,7 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_570-1/UR 570-1.pdf
     chapter: all
-    markdown: Regulations/UR_570-1/.transform
+    markdown: doctrine/Regulations/UR_570-1
     note: "Manpower and equipment control: TDA changes and recruiting station establishment, disestablishment and relocation (2006 edition). Paragraph headings not extracted."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -435,7 +436,7 @@ guardrails:
   - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
   - Output is a process path with citations, not a liability determination.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

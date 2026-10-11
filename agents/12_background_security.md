@@ -84,10 +84,10 @@ Specialist for applicant background screening and security investigation require
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 9 (Applicant Background Screening (ABS): Technical (tech) Check and National Agency Check and Local Check (NACLC))
-- Text: `Regulations/UR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/UR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Applicant Background Screening: tech check and NACLC/Secret submissions and results, PS/GNPS processing, matches, FSs without favorable results, records, security interview.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -108,7 +108,7 @@ Specialist for applicant background screening and security investigation require
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-14 background investigation and vetting requirements (investigation level, SF 86 data, fingerprints, HSPD-12/CAC); 2-11f sex offender check only (the rest of 2-11 belongs to 09_conduct_waivers).
 
@@ -121,7 +121,7 @@ Specialist for applicant background screening and security investigation require
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section XV personnel security investigation policy for all accessions.
 
@@ -149,7 +149,7 @@ Specialist for applicant background screening and security investigation require
 
 - edition 27 March 2025, effective 27 April 2025, authority level 2
 - Chapter: 7 (National Security Eligibility and Granting Access)
-- Text: `Regulations/AR_380-67/.transform/06_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_380-67/06_Chapter_7.md`
 - PDF: `Regulations/AR_380-67/AR_380-67.pdf`
 - Why: National security eligibility and interim eligibility.
 
@@ -162,6 +162,7 @@ Specialist for applicant background screening and security investigation require
 
 - edition 27 March 2025, effective 27 April 2025, authority level 2
 - Chapter: 3 (Specific Investigative Requirements by Population)
+- Text: `doctrine/Regulations/AR_380-67/03_Chapter_3.md`
 - PDF: `Regulations/AR_380-67/AR_380-67.pdf`
 - Why: Specific investigative requirements by population (includes accessions). NOT transformed; read the PDF.
 
@@ -169,10 +170,10 @@ Specialist for applicant background screening and security investigation require
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.5 Live Scan exists only in the PDF (not transformed).
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -247,7 +248,7 @@ SF 86, e-QIP, tech check, NACLC, secret clearance, clearance, background investi
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

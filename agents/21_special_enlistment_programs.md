@@ -91,7 +91,7 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 9-7 lists the Airborne Ranger, ESL and FLRI options under 9A; 9-11 is the USAR Bands Program 9E; 9-17 is 9K. 18X, 09M, ETC, CEP and remote enlistment are not named in AR 601-210 and are governed by messages.
 
@@ -109,7 +109,7 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 7 (Regular Army and Reserve Components Civilian-Acquired Skills Program)
-- Text: `Regulations/AR_601-210/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_601-210/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Special band selection and accelerated promotion for ACASP band enlistees (42R).
 
@@ -123,16 +123,16 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.13 Regular Army Options and Incentives and Ch.7 DEP/DTP/DS enlistment procedures exist only in the PDF; no transformed USAREC chapter covers these programs.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### DA_PAM_611-21: Military Occupational Classification and Structure
 
 - edition 20 December 2022, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_611-21/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: MOS prerequisites for 18X, 11X, 42R and other program MOSs; chapters 2 and 3 not transformed.
 
@@ -208,7 +208,7 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

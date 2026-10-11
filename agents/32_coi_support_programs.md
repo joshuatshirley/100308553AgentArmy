@@ -79,7 +79,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 2 (Total Army Involvement in Recruiting Program)
-- Text: `Regulations/AR_601-2/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-2/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Total Army Involvement in Recruiting program.
 
@@ -93,7 +93,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 3 (General Officer/Senior Executive Service Recruiting Support Program)
-- Text: `Regulations/AR_601-2/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-2/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: General Officer/Senior Executive Service Recruiting Support Program.
 
@@ -107,7 +107,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 4 (Educator/Centers of Influence Tour Program)
-- Text: `Regulations/AR_601-2/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-2/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Educator/Centers of Influence Tour Program; group size and participant rules are in 4-2.
 
@@ -121,7 +121,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 5 (Centers of Influence Events Program)
-- Text: `Regulations/AR_601-2/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-2/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Centers of Influence Events Program; meal and funding authority in 5-2. Paragraph 5-3 (program roles) is in the PDF only.
 
@@ -134,6 +134,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 6 (Delayed Entry Program/Delayed Training Program Gatherings)
+- Text: `doctrine/Regulations/AR_601-2/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: DEP/DTP gatherings. Not transformed; read the PDF.
 
@@ -141,6 +142,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 7 (Hometown and Special Recruiter Assistance Program)
+- Text: `doctrine/Regulations/AR_601-2/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Hometown and Special Recruiter Assistance Program (HRAP 7-3, SRAP 7-4 per contents). Not transformed; read the PDF.
 
@@ -148,7 +150,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 8 (Recruiting and Reserve Partnership Council)
-- Text: `Regulations/AR_601-2/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_601-2/08_Chapter_8.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Recruiting and Reserve Partnership Council.
 
@@ -226,7 +228,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 May 2020, authority level 4
 - Chapter: 2
-- Text: `Guides/UTC_5-03.3/.transform/02_Chapter_2.md`
+- Text: `doctrine/Guides/UTC_5-03.3/02_Chapter_2.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Actual title (front matter): UTC 5-03.3 Partnerships; catalog title is wrong. Engaging community partners, advocates, key leader engagements. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -235,7 +237,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 May 2020, authority level 4
 - Chapter: 3
-- Text: `Guides/UTC_5-03.3/.transform/03_Chapter_3.md`
+- Text: `doctrine/Guides/UTC_5-03.3/03_Chapter_3.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Employer partnerships, PaYS, P3. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -244,7 +246,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 May 2020, authority level 4
 - Chapter: 4
-- Text: `Guides/UTC_5-03.3/.transform/04_Chapter_4.md`
+- Text: `doctrine/Guides/UTC_5-03.3/04_Chapter_4.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Partnerships with educators and educator tours (types, nominations, activities). Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -253,7 +255,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 May 2020, authority level 4
 - Chapter: 6 (Employer Support of the Guard and Reserve (ESGR) committee chair to identify the movers and shakers in your market. Select the most promising CP advocates to lead)
-- Text: `Guides/UTC_5-03.3/.transform/06_Chapter_6.md`
+- Text: `doctrine/Guides/UTC_5-03.3/06_Chapter_6.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Community action committees. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -262,7 +264,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 March 2022, authority level 3
 - Chapter: 6 (Networks)
-- Text: `Manuals/UM_3-31/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-31/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station networks and community partners.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -273,7 +275,7 @@ Sections: Internal Network; External Network; Community Partners
 
 - edition 9 March 2022, authority level 3
 - Chapter: 6 (Shaping Operations)
-- Text: `Manuals/UM_3-29/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Battalion/brigade view.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -349,7 +351,7 @@ COI, center of influence, COI event, educator tour, E/COI, community partner, ad
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

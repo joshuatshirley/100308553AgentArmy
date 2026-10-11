@@ -67,7 +67,7 @@ Specialist for the Army Civilian-Acquired Skills Program for Regular Army and Re
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 7 (Regular Army and Reserve Components Civilian-Acquired Skills Program)
-- Text: `Regulations/AR_601-210/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_601-210/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Regular Army and RC Civilian-Acquired Skills Program; 7-15 continues into the Chapter 8 markdown file.
 
@@ -94,7 +94,7 @@ Specialist for the Army Civilian-Acquired Skills Program for Regular Army and Re
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: ACASP as an exception to entry grade for NPS applicants.
 
@@ -107,7 +107,7 @@ Specialist for the Army Civilian-Acquired Skills Program for Regular Army and Re
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: USAR Bands Program 9E, which uses ACASP criteria. Program 9F (USAR MI/SIGINT units, also ACASP) is in the chapter text but not in the paragraph catalog.
 
@@ -119,7 +119,7 @@ Specialist for the Army Civilian-Acquired Skills Program for Regular Army and Re
 
 - edition 20 December 2022, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_611-21/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: Training and work experience requirements per ACASP MOS; message 23-060 points to a table in it. Chapters 2 and 3 not transformed; read the PDF.
 
@@ -188,7 +188,7 @@ ACASP, civilian acquired skills, civilian skills, civilian certification, skille
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -36,7 +36,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "3"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_601-210/03_Chapter_3.md
     paragraphs:
       "3-1": General
       "3-2": Basic eligibility criteria for all prior service applicants
@@ -75,7 +75,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "4"
     chapter_title: Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions)
-    markdown: Regulations/AR_601-210/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_601-210/04_Chapter_4.md
     paragraphs:
       "4-13": Prior military service
       "4-14": Absent without leave or lost time
@@ -92,7 +92,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-19": Request for discharge or clearance from a Reserve Component
     note: Request for discharge or clearance from a Reserve Component.
@@ -104,7 +104,7 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "8"
     chapter_title: Procedures for Enlisting Prior Service and Glossary Non-Prior Service (Regular Army)
-    markdown: Regulations/UR_601-210/.transform/08_Chapter_8.md
+    markdown: doctrine/Regulations/UR_601-210/08_Chapter_8.md
     paragraphs:
       "8-1": Purpose
       "8-2": General
@@ -114,7 +114,7 @@ sources:
       "8-11": Movement of GNPS/PS Soldiers from Place of Enlistment
     note: USAREC procedures for PS/GNPS (Regular Army). 8-4 to 8-8 belong to 15_officer_warrant_programs.
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: AR_635-200
     title: null
     edition_date: "30 June 2025"
@@ -123,7 +123,7 @@ sources:
     pdf: Regulations/AR_635-200/AR_635-200.pdf
     chapter: "3"
     chapter_title: Character of Service and Description of Separation
-    markdown: Regulations/AR_635-200/.transform/03_Chapter_3.md
+    markdown: doctrine/Regulations/AR_635-200/03_Chapter_3.md
     paragraphs:
       "3-1": Statutory authority
       "3-2": Discharge certificates
@@ -139,6 +139,7 @@ sources:
       "3-12": Soldiers confined in foreign penal institutions
       "3-13": Reason and authority for discharge
       "3-14": Discharge in absentia
+      "3-15": Form of separation certificate to be given
     note: "Character of service and description of separation; use to read what a DD 214 characterization means. Several AR 635-200 chapters (4, 5, 7, 10, 14) are not transformed; read the PDF."
   - doc: AR_135-178
     title: Enlisted Administrative Separations
@@ -148,7 +149,7 @@ sources:
     pdf: Regulations/AR_135-178/AR_135-178.pdf
     chapter: "2"
     chapter_title: Guidelines on Separation and Characterization
-    markdown: Regulations/AR_135-178/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_135-178/02_Chapter_2.md
     paragraphs:
       "2-1": Scope
       "2-2": Guidance
@@ -354,7 +355,7 @@ guardrails:
   - "When quoting a USAREC message, quote only its Subject line and 'Requirement:' lines (or the PDF). The consolidated message file also contains generated summary paragraphs that contain errors; never cite those."
   - "Never answer a PS question from AR 601-210 Chapter 2; cite Chapter 3 (or say Chapter 3 is silent)."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

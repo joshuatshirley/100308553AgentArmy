@@ -89,7 +89,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-8 trainability: MOS aptitude area per REQUEST; 2-7h specific course requirements.
 
@@ -102,7 +102,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Qualification sources for programs and options; honoring enlistment commitments; counseling on waivers that affect options.
 
@@ -116,7 +116,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: MOS considerations in pre-service drug and alcohol testing.
 
@@ -128,7 +128,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 December 2022, effective 15 August 2019, authority level 2
 - Chapter: 6 (The Enlisted Classification System)
-- Text: `Regulations/AR_611-1/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_611-1/06_Chapter_6.md`
 - PDF: `Regulations/AR_611-1/AR_611-1.pdf`
 - Why: Enlisted classification system; 6-5 and 6-10 say MOS specifications and aptitude area detail are in DA PAM 611-21.
 
@@ -144,7 +144,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 December 2022, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_611-21/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: The library copy (20 December 2022) holds only the framework chapters, and Chapters 2 and 3 exist only in the PDF. The enlisted MOS specifications, aptitude area composites and physical demands ratings are NOT in the library; confirm requirements in REQUEST or the current online DA PAM 611-21.
 
@@ -152,7 +152,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 27 June 2019, authority level 2
 - Chapter: 5 (Medical Fitness Standards for Miscellaneous Purposes)
-- Text: `Regulations/AR_40-501/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_40-501/05_Chapter_5.md`
 - PDF: `Regulations/AR_40-501/AR_40-501.pdf`
 - Why: Medical fitness standards for selection for airborne, Ranger, special forces, Army service schools and diver duty. Library edition 27 June 2019.
 
@@ -167,7 +167,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 9 May 2024, effective 9 June 2024, authority level 2
 - Chapter: 2 (Linguist Recruiting, Language Testing, Control Language, and Establishing Linguist Requirements)
-- Text: `Manuals/AR_11-6_Army_Foreign_Language_Program/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/AR_11-6_Army_Foreign_Language_Program/02_Chapter_2.md`
 - PDF: `Manuals/AR_11-6_Army_Foreign_Language_Program/AR 11-6 Army Foreign Language Program.pdf`
 - Why: Language-training qualification routes and added requirements for 35M and 35P.
 
@@ -247,7 +247,7 @@ MOS, job, qualifies for, line score for, GT score, ST score, CMF, color vision, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

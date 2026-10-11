@@ -15,7 +15,8 @@ doctrine. Every seed is a draft pending SME review.
 | `ROSTER.md` | The roster by group, with primary sources and how each agent maps to the earlier FlorenceTaskingCommand agents |
 | `SCHEMA.yaml` | Field-by-field definition of a seed |
 | `DOCTRINE_GAPS.md` | Where the source library is thin, out of date or not yet converted to text |
-| `catalog/source_catalog.json` | 174 source documents: title, edition, authority level, chapter files, 3,485 paragraph headings |
+| `catalog/source_catalog.json` | 174 source documents: title, edition, authority level, chapter files, 5,139 paragraph headings |
+| `doctrine/` | The actual chapter/paragraph markdown text for every cataloged document (1,144 files, ~33MB) — what `markdown` paths in the seeds point to, so a checkout of this repo alone is enough to run the agents |
 | `catalog/usarec_message_catalog.json` | 155 USAREC/USARD messages with subject, rescission status and evidence, review flags |
 | `build/` | Scripts that regenerate everything from the doctrine library |
 
@@ -47,8 +48,10 @@ doctrine. Every seed is a draft pending SME review.
 
 ## Source library
 
-Paths inside the seeds (`markdown`, `pdf`) are relative to the doctrine library root
-(`Station_Commander/Army_Doctrine` on the author's machine), which is not part of this repo.
+`markdown` paths inside the seeds are relative to this repo's own `doctrine/` folder — the chapter
+text is bundled here, so a cloud agent with just this repo checked out can load it directly, no access
+to the author's private library required. `pdf` paths are informational only (the original PDF filename,
+for a human to cross-reference against the author's library); the PDFs themselves are not in this repo.
 AR 601-210 in the library is the 20 March 2026 edition, effective 20 April 2026. The newest USAREC
 message is dated 29 December 2025.
 

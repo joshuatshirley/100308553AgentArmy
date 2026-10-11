@@ -81,7 +81,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Physical criteria reference AR 40-501 procurement standards.
 
@@ -93,7 +93,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 4-5g height waiver documents; 4-5h weight waiver position.
 
@@ -105,6 +105,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 27 June 2019, authority level 2
 - Chapter: 2 (Physical Standards for Enlistment, Appointment, and Induction)
+- Text: `doctrine/Regulations/AR_40-501/02_Chapter_2.md`
 - PDF: `Regulations/AR_40-501/AR_40-501.pdf`
 - Why: Physical standards for enlistment, including height and weight and the procurement weight tables. Exists only in the PDF. Library edition 27 June 2019; the folder also holds AR_40-501_ARN45126.pdf, so confirm which edition is current.
 
@@ -112,7 +113,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_600-9/.transform`
+- Text: `doctrine/Regulations/AR_600-9`
 - PDF: `Regulations/AR_600-9/AR_600-9.pdf`
 - Why: The Army Body Composition Program. Library copy is dated 28 June 2013 and is likely superseded; its new-recruit provision differs from message 26-015. Appendix B covers measurement and body-fat worksheets (DA Forms 5500/5501, not in the Forms library). Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -121,10 +122,10 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 17 (Future Soldier (FS) Management)
-- Text: `Regulations/UR_601-210/.transform/17_Chapter_17.md`
+- Text: `doctrine/Regulations/UR_601-210/17_Chapter_17.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Future Soldier sustainment and physical training safety. Text still refers to the APFT; message 24-054 names the current Future Soldier fitness test.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -134,10 +135,10 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 18 (DEP/DTP-Out Procedures)
-- Text: `Regulations/UR_601-210/.transform/18_Chapter_18.md`
+- Text: `doctrine/Regulations/UR_601-210/18_Chapter_18.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ship-out verification of OPAT documents.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -147,15 +148,16 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 23 (Occupational Physical Assessment Test (OPAT))
+- Text: `doctrine/Regulations/UR_601-210/23_Chapter_23.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Occupational Physical Assessment Test (OPAT) procedures. Chapter exists only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### FM_7-22: Holistic Health and Fitness
 
 - authority level 4
 - Chapter: all
-- Text: `FM/FM_7-22/.transform`
+- Text: `doctrine/FM/FM_7-22`
 - PDF: `FM/FM_7-22/FM_7-22.pdf`
 - Why: Holistic Health and Fitness (Change 2). Doctrine context for training; it does not address Future Soldiers or applicants. Chapter headings only.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -164,7 +166,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Physical Fitness heading. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -242,7 +244,7 @@ height, weight, overweight, tape, tape test, body fat, BMI, ARMS, OPAT, PT, work
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

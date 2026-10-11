@@ -212,8 +212,8 @@ Never:
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 00_orchestrator -->
@@ -306,7 +306,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Chapter 2 Section I basic eligibility criteria for non-prior-service applicants; 2-2 also defines glossary NPS. Edition 20 March 2026.
 
@@ -324,7 +324,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Waiver position for applicants above the maximum age in 2-3 and 3-3.
 
@@ -336,7 +336,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Minimum age for testing (5-7) and consent before a medical examination of a minor (5-12); detail owned by 05 and 07.
 
@@ -349,7 +349,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 6 (Military Entrance Processing Station Processing Phase)
-- Text: `Regulations/AR_601-210/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_601-210/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: DD Form 1966 entries (6-10) and administration of the oath (6-16). 2-3a cross-references 6-14 for the oath, but 6-14 is Claims of erroneous entries; the oath is at 6-16.
 
@@ -362,7 +362,7 @@ Specialist for the basic eligibility checklist of a non-prior-service enlisted a
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: DoD qualification standards; Enclosure 3 Basic Eligibility Criteria (Age, Citizenship, Education, Aptitude, Medical, Physical Fitness, Dependency Status, Character/Conduct). Paragraph headings not extracted; cite by enclosure and heading. Army detail in AR 601-210 governs.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -442,8 +442,8 @@ age, too old, too young, age waiver, age ETP, parental consent, parent won't sig
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 01_basic_eligibility -->
@@ -537,7 +537,7 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-4 citizenship categories, documents, lost documents, dual citizenship, place of birth; 2-1c translation; 2-5f LPR enlistment name; 2-8b English ability.
 
@@ -552,7 +552,7 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section XIII special processing for lawful permanent residents; Section XVI recruiting in foreign countries and replies to inquiries.
 
@@ -568,10 +568,10 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 12 (Army Reserve Specific Processing)
-- Text: `Regulations/UR_601-210/.transform/12_Chapter_12.md`
+- Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve applicants with English as a second language; ECLT outcome and ship routing. UR 601-210 edition 3 January 2023 predates the current AR 601-210 and later messages.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -581,10 +581,10 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 14 (Overseas Processing Procedures)
-- Text: `Regulations/UR_601-210/.transform/14_Chapter_14.md`
+- Text: `doctrine/Regulations/UR_601-210/14_Chapter_14.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Overseas processing: SSN for Future Soldiers enlisting on a temporary identification number, Europe, Japan/Korea, Guam/Saipan, Compact-nation and remote Alaska procedures.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -597,7 +597,7 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - edition 9 May 2024, effective 9 June 2024, authority level 2
 - Chapter: 2 (Linguist Recruiting, Language Testing, Control Language, and Establishing Linguist Requirements)
-- Text: `Manuals/AR_11-6_Army_Foreign_Language_Program/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/AR_11-6_Army_Foreign_Language_Program/02_Chapter_2.md`
 - PDF: `Manuals/AR_11-6_Army_Foreign_Language_Program/AR 11-6 Army Foreign Language Program.pdf`
 - Why: Linguist recruiting programs, language-training qualification routes, ECLT requirements for 35M/35P and applicants enlisting outside the United States.
 
@@ -611,7 +611,7 @@ Specialist for citizenship, immigration status and English-language questions on
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Citizenship heading. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -690,8 +690,8 @@ green card, LPR, permanent resident, conditional resident, I-551, citizenship, n
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 02_citizenship_language -->
@@ -785,7 +785,7 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-7 education requirements, tiers, codes, foreign credentials, course requirements, withdrawals, hour conversions; 2-1 source documents; 2-8 and 2-18 only where 2-7 points to them.
 
@@ -800,10 +800,10 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 16 (Education Credentialing)
-- Text: `Regulations/UR_601-210/.transform/16_Chapter_16.md`
+- Text: `doctrine/Regulations/UR_601-210/16_Chapter_16.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: School profile evaluation (UF 601-210.40), tier evaluation workflow, Tier 1/2/3 detail, credential laundering. UR edition 3 January 2023 uses older education-code labels than AR 601-210 (20 March 2026); where they differ, the AR governs and the difference is reported. UF 601-210.40 is not in the Forms library.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -819,7 +819,7 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Education heading. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -828,7 +828,7 @@ Specialist for an enlisted applicant's education credential, asked by recruiters
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1145.01/.transform`
+- Text: `doctrine/DoDI/DoDI_1145.01`
 - PDF: `DoDI/DoDI_1145.01/DoDI_1145.01.pdf`
 - Why: Defines education credential tiers used for qualitative distribution (Glossary). Context only.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -903,8 +903,8 @@ diploma, GED, HiSET, homeschool, home school, online school, virtual school, tie
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 03_education_credentialing -->
@@ -990,7 +990,7 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-10 dependency criteria, definitions, custody rules, documents; 2-1 note on certified marriage, divorce and birth documents.
 
@@ -1003,7 +1003,7 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 3 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-210/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Prior-service dependents criteria; consulted only when 13_prior_service routes a dependents question here.
 
@@ -1015,7 +1015,7 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Dependents waiver documents and approval authority, single parent (RC only) family care plan, surviving son or daughter; 4-28 waiver memorandum instructions referenced by both.
 
@@ -1029,6 +1029,7 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 5 (Other Responsibilities of Command)
+- Text: `doctrine/Regulations/AR_600-20/05_Chapter_5.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Family care plans (para 5-3, referenced by AR 601-210 4-19d). Chapter 5 exists only in the PDF; not transformed to markdown.
 
@@ -1036,10 +1037,10 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 15 (Waiver Procedures)
-- Text: `Regulations/UR_601-210/.transform/15_Chapter_15.md`
+- Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC administrative waiver procedures, counseling and supporting documents that apply to dependents waivers.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -1051,7 +1052,7 @@ Specialist for an applicant's dependents and family situation, asked by recruite
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Dependency Status and Enclosure 4 Dependent Waiver headings. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -1125,8 +1126,8 @@ married, spouse, wife, husband, children, kids, pregnant, custody, joint custody
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 04_dependents_family -->
@@ -1212,7 +1213,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Chapter 5 Section II Administration of the ASVAB. 5-8 and 5-11 point to DoDM 1145.02 for MEPS retest, confirmation and special purpose testing policy; DoDM 1145.02 is not in the doctrine library.
 
@@ -1229,7 +1230,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Trainability: test score categories, MOS aptitude area, waiver position.
 
@@ -1241,7 +1242,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1145.01/.transform`
+- Text: `doctrine/DoDI/DoDI_1145.01`
 - PDF: `DoDI/DoDI_1145.01/DoDI_1145.01.pdf`
 - Why: Qualitative distribution of manpower; AFQT category definitions and limits on lower categories (Glossary and Policy). Context for why categories matter; Army enlistment rules in AR 601-210 govern.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -1250,7 +1251,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Aptitude heading. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -1259,7 +1260,7 @@ Specialist for aptitude testing of enlisted applicants, asked by recruiters, sta
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.02/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.02`
 - PDF: `DoDI/DoDI_1304.02/DoDI_1304.02.pdf`
 - Why: Accession processing data collection forms (DD Form 1966 and others), not testing policy; cited only for the forms the testing history is recorded on. The roster listed it as a testing source; the ASVAB testing manual (DoDM 1145.02) is absent from the library.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -1330,8 +1331,8 @@ ASVAB, AFQT, retest, retake the test, PiCAT, APT, prescreen test, test scores, s
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 05_testing_asvab -->
@@ -1428,7 +1429,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-8 trainability: MOS aptitude area per REQUEST; 2-7h specific course requirements.
 
@@ -1441,7 +1442,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Qualification sources for programs and options; honoring enlistment commitments; counseling on waivers that affect options.
 
@@ -1455,7 +1456,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: MOS considerations in pre-service drug and alcohol testing.
 
@@ -1467,7 +1468,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 December 2022, effective 15 August 2019, authority level 2
 - Chapter: 6 (The Enlisted Classification System)
-- Text: `Regulations/AR_611-1/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_611-1/06_Chapter_6.md`
 - PDF: `Regulations/AR_611-1/AR_611-1.pdf`
 - Why: Enlisted classification system; 6-5 and 6-10 say MOS specifications and aptitude area detail are in DA PAM 611-21.
 
@@ -1483,7 +1484,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 20 December 2022, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_611-21/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: The library copy (20 December 2022) holds only the framework chapters, and Chapters 2 and 3 exist only in the PDF. The enlisted MOS specifications, aptitude area composites and physical demands ratings are NOT in the library; confirm requirements in REQUEST or the current online DA PAM 611-21.
 
@@ -1491,7 +1492,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 27 June 2019, authority level 2
 - Chapter: 5 (Medical Fitness Standards for Miscellaneous Purposes)
-- Text: `Regulations/AR_40-501/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_40-501/05_Chapter_5.md`
 - PDF: `Regulations/AR_40-501/AR_40-501.pdf`
 - Why: Medical fitness standards for selection for airborne, Ranger, special forces, Army service schools and diver duty. Library edition 27 June 2019.
 
@@ -1506,7 +1507,7 @@ Specialist for whether an enlisted applicant qualifies for a particular MOS, ask
 
 - edition 9 May 2024, effective 9 June 2024, authority level 2
 - Chapter: 2 (Linguist Recruiting, Language Testing, Control Language, and Establishing Linguist Requirements)
-- Text: `Manuals/AR_11-6_Army_Foreign_Language_Program/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/AR_11-6_Army_Foreign_Language_Program/02_Chapter_2.md`
 - PDF: `Manuals/AR_11-6_Army_Foreign_Language_Program/AR 11-6 Army Foreign Language Program.pdf`
 - Why: Language-training qualification routes and added requirements for 35M and 35P.
 
@@ -1586,8 +1587,8 @@ MOS, job, qualifies for, line score for, GT score, ST score, CMF, color vision, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 06_mos_classification -->
@@ -1685,7 +1686,7 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Physical criteria, medical moment of truth, waiver condition about current care or medication. 2-9a cites 'DoDI 6103.03', which appears to be a typo for DoDI 6130.03.
 
@@ -1697,7 +1698,7 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Medical waiver requirements, documents, approval authorities and delegation, height and weight waiver notes.
 
@@ -1709,7 +1710,7 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Consent before examination of a minor; MEPS medical examinations, DD Form 2807-2 and physical validity.
 
@@ -1722,7 +1723,7 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_6130.03_vol_1/.transform`
+- Text: `doctrine/DoDI/DoDI_6130.03_vol_1`
 - PDF: `DoDI/DoDI_6130.03_vol_1/DoDI_6130.03_vol_1.pdf`
 - Why: Medical standards for appointment, enlistment or induction (Change 5). Section 5 Medical Standards (Applicability, Procedures); Section 6 Disqualifying Conditions by body system (Head, Eyes, Vision, Ears, Hearing, Lungs, Heart, Abdominal, Spine, Extremities, Skin, Endocrine, Neurologic, Sleep, Learning/Psychiatric/Behavioral, Tumors, Miscellaneous). Cite by section and heading; paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -1731,7 +1732,7 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 
 - edition 27 June 2019, authority level 2
 - Chapter: 1 (General Provisions)
-- Text: `Regulations/AR_40-501/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_40-501/01_Chapter_1.md`
 - PDF: `Regulations/AR_40-501/AR_40-501.pdf`
 - Why: Review authorities and waivers; MEPS as medical review authority and the enlistment medical waiver authority.
 
@@ -1743,6 +1744,7 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 
 - edition 27 June 2019, authority level 2
 - Chapter: 2 (Physical Standards for Enlistment, Appointment, and Induction)
+- Text: `doctrine/Regulations/AR_40-501/02_Chapter_2.md`
 - PDF: `Regulations/AR_40-501/AR_40-501.pdf`
 - Why: Physical standards for enlistment, appointment and induction. Chapter exists only in the PDF. Library edition 27 June 2019; the folder also holds AR_40-501_ARN45126.pdf, so confirm which edition is current.
 
@@ -1750,6 +1752,7 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 
 - edition 27 June 2019, effective 27 July 2019, authority level 2
 - Chapter: 3 (Physical Profiling)
+- Text: `doctrine/Regulations/AR_40-502/03_Chapter_3.md`
 - PDF: `Regulations/AR_40-502/AR_40-502.pdf`
 - Why: Physical profiling (PULHES). Chapter exists only in the PDF.
 
@@ -1757,10 +1760,10 @@ Specialist for medical qualification of enlisted applicants, asked by recruiters
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 15 (Waiver Procedures)
-- Text: `Regulations/UR_601-210/.transform/15_Chapter_15.md`
+- Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Waiver policy and validity, medical waiver and prescreen procedures, CMO review, Command Surgeon role, counseling. 15-4 refers to a USMEPCOM prescreen SOP and an AR 40-501 paragraph from an older edition; neither is in the library.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -1842,8 +1845,8 @@ medical, condition, surgery, medication, prescription, ADHD, asthma, allergy, de
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 07_medical_standards -->
@@ -1932,7 +1935,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Physical criteria reference AR 40-501 procurement standards.
 
@@ -1944,7 +1947,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 4-5g height waiver documents; 4-5h weight waiver position.
 
@@ -1956,6 +1959,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 27 June 2019, authority level 2
 - Chapter: 2 (Physical Standards for Enlistment, Appointment, and Induction)
+- Text: `doctrine/Regulations/AR_40-501/02_Chapter_2.md`
 - PDF: `Regulations/AR_40-501/AR_40-501.pdf`
 - Why: Physical standards for enlistment, including height and weight and the procurement weight tables. Exists only in the PDF. Library edition 27 June 2019; the folder also holds AR_40-501_ARN45126.pdf, so confirm which edition is current.
 
@@ -1963,7 +1967,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_600-9/.transform`
+- Text: `doctrine/Regulations/AR_600-9`
 - PDF: `Regulations/AR_600-9/AR_600-9.pdf`
 - Why: The Army Body Composition Program. Library copy is dated 28 June 2013 and is likely superseded; its new-recruit provision differs from message 26-015. Appendix B covers measurement and body-fat worksheets (DA Forms 5500/5501, not in the Forms library). Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -1972,10 +1976,10 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 17 (Future Soldier (FS) Management)
-- Text: `Regulations/UR_601-210/.transform/17_Chapter_17.md`
+- Text: `doctrine/Regulations/UR_601-210/17_Chapter_17.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Future Soldier sustainment and physical training safety. Text still refers to the APFT; message 24-054 names the current Future Soldier fitness test.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -1985,10 +1989,10 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 18 (DEP/DTP-Out Procedures)
-- Text: `Regulations/UR_601-210/.transform/18_Chapter_18.md`
+- Text: `doctrine/Regulations/UR_601-210/18_Chapter_18.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ship-out verification of OPAT documents.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -1998,15 +2002,16 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 23 (Occupational Physical Assessment Test (OPAT))
+- Text: `doctrine/Regulations/UR_601-210/23_Chapter_23.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Occupational Physical Assessment Test (OPAT) procedures. Chapter exists only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### FM_7-22: Holistic Health and Fitness
 
 - authority level 4
 - Chapter: all
-- Text: `FM/FM_7-22/.transform`
+- Text: `doctrine/FM/FM_7-22`
 - PDF: `FM/FM_7-22/FM_7-22.pdf`
 - Why: Holistic Health and Fitness (Change 2). Doctrine context for training; it does not address Future Soldiers or applicants. Chapter headings only.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -2015,7 +2020,7 @@ Specialist for height, weight, body fat and physical fitness questions on applic
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.26/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.26`
 - PDF: `DoDI/DoDI_1304.26/DoDI_1304.26.pdf`
 - Why: Enclosure 3 Basic Eligibility Criteria, Physical Fitness heading. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -2093,8 +2098,8 @@ height, weight, overweight, tape, tape test, body fat, BMI, ARMS, OPAT, PT, work
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 08_body_composition_fitness -->
@@ -2182,7 +2187,7 @@ Specialist for an enlisted applicant's conduct record and administrative disqual
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section I waiverable, Section II nonwaiverable, Section III administrative instructions; tables 4-1 to 4-4 are inside paras 4-8 to 4-11.
 
@@ -2229,7 +2234,7 @@ Specialist for an enlisted applicant's conduct record and administrative disqual
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Basic conduct and administrative criteria for NPS applicants; background investigation and vetting.
 
@@ -2242,7 +2247,7 @@ Specialist for an enlisted applicant's conduct record and administrative disqual
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Processing elements, prohibitions and required forms that the waiver packet depends on.
 
@@ -2256,10 +2261,10 @@ Specialist for an enlisted applicant's conduct record and administrative disqual
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 15 (Waiver Procedures)
-- Text: `Regulations/UR_601-210/.transform/15_Chapter_15.md`
+- Text: `doctrine/Regulations/UR_601-210/15_Chapter_15.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC waiver procedures, counseling, supporting documents, personal conduct, USAREC-level reviews, exceptions to policy.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -2350,8 +2355,8 @@ arrest, charged, conviction, convicted, probation, traffic ticket, speeding, DUI
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 09_conduct_waivers -->
@@ -2434,7 +2439,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 4-18 positive drug or alcohol test (waiting periods, permanent disqualification, waiver documents, PS rule); 4-22 nonwaiverable intoxication/alcoholism/drug dependence; 4-24 PS applicants; 4-28 waiver memorandum format that 4-18 points to.
 
@@ -2449,7 +2454,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Physical criteria for NPS applicants, including the drug and alcohol test lines.
 
@@ -2461,7 +2466,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 3 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-210/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Physical criteria for PS applicants, including the drug and alcohol test lines.
 
@@ -2473,7 +2478,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section XVII Pre-Service Alcohol and Drug Testing. Text for 5-73 to 5-76 is in the Chapter 6 markdown file (06_Chapter_6.md), not the Chapter 5 file.
 
@@ -2495,10 +2500,10 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 11 (Active and Reserve Component Separations)
-- Text: `Regulations/UR_601-210/.transform/11_Chapter_11.md`
+- Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Positive drug test separation: same-day reservation cancellation, cancellation codes by substance, order upload, Army Reserve TPU notification.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -2508,7 +2513,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: all
-- Text: `Regulations/AR_600-85/.transform`
+- Text: `doctrine/Regulations/AR_600-85`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: Army Substance Abuse Program. Governs Soldiers, not applicants; use only for ASAP principles that message 22-106 tells recruiters to explain to Future Soldiers. Chapters 2 to 7 are not transformed; read the PDF.
 
@@ -2516,7 +2521,7 @@ Specialist for applicant drug and alcohol screening, written for recruiters, sta
 
 - edition 1 September 2016, authority level 3
 - Chapter: all
-- Text: `Regulations/USAREC_Suppl_1_to_AR_600_85/.transform`
+- Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf`
 - Why: USAREC supplement covering cadre unit urinalysis (USAREC Form S600-85.1). Only figure pages were extracted to markdown; the body is PDF-only. Not an applicant-testing source.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -2595,8 +2600,8 @@ drug test, DAT, positive test, THC, marijuana, cocaine, alcohol test, popped hot
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 10_drug_alcohol -->
@@ -2671,7 +2676,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 4-2d requires tattoo screening under AR 670-1; 4-2e covers extremism indicators, which this agent only flags and hands off.
 
@@ -2683,6 +2688,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 26 January 2021, authority level 2
 - Chapter: 3 (Appearance and Grooming Policies)
+- Text: `doctrine/Regulations/AR_670-1/03_Chapter_3.md`
 - PDF: `Regulations/AR_670-1/AR_670-1_ARN30302.pdf`
 - Why: Appearance and Grooming Policies: 3-2 hair and fingernail standards, 3-3 tattoo, branding and body mutilation policy, 3-4 jewelry, 3-15 religious jewelry/apparel, 3-16 religious accommodations. NOT transformed to markdown; read the PDF. Paragraph titles taken from the front matter table of contents.
 
@@ -2690,7 +2696,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 26 January 2021, authority level 2
 - Chapter: all
-- Text: `Regulations/AR_670-1/.transform`
+- Text: `doctrine/Regulations/AR_670-1`
 - PDF: `Regulations/AR_670-1/AR_670-1_ARN30302.pdf`
 - Why: Glossary defines terms used in the tattoo policy (for example the neck boundary). Use for definitions only.
 
@@ -2698,6 +2704,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 26 January 2021, authority level 2
 - Chapter: 3 (Appearance and Grooming)
+- Text: `doctrine/Pamphlets/DA_PAM_670-1/02_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_670-1/DA_PAM_670-1.pdf`
 - Why: Appearance and grooming chapter (tattoo, branding and body mutilation entry in the table of contents). NOT transformed; read the PDF.
 
@@ -2705,6 +2712,7 @@ Specialist for applicant tattoos, brands, body modification, grooming and religi
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 5 (Other Responsibilities of Command)
+- Text: `doctrine/Regulations/AR_600-20/05_Chapter_5.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Accommodating religious practices is para 5-6 per the front matter; Chapter 5 is NOT transformed, read the PDF. Message 23-035 cites AR 600-20 for immunization accommodations.
 
@@ -2766,8 +2774,8 @@ tattoo, brand, branding, piercing, body modification, hand tattoo, neck tattoo, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 11_appearance_accommodation -->
@@ -2859,10 +2867,10 @@ Specialist for applicant background screening and security investigation require
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 9 (Applicant Background Screening (ABS): Technical (tech) Check and National Agency Check and Local Check (NACLC))
-- Text: `Regulations/UR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/UR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Applicant Background Screening: tech check and NACLC/Secret submissions and results, PS/GNPS processing, matches, FSs without favorable results, records, security interview.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -2883,7 +2891,7 @@ Specialist for applicant background screening and security investigation require
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 2-14 background investigation and vetting requirements (investigation level, SF 86 data, fingerprints, HSPD-12/CAC); 2-11f sex offender check only (the rest of 2-11 belongs to 09_conduct_waivers).
 
@@ -2896,7 +2904,7 @@ Specialist for applicant background screening and security investigation require
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section XV personnel security investigation policy for all accessions.
 
@@ -2924,7 +2932,7 @@ Specialist for applicant background screening and security investigation require
 
 - edition 27 March 2025, effective 27 April 2025, authority level 2
 - Chapter: 7 (National Security Eligibility and Granting Access)
-- Text: `Regulations/AR_380-67/.transform/06_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_380-67/06_Chapter_7.md`
 - PDF: `Regulations/AR_380-67/AR_380-67.pdf`
 - Why: National security eligibility and interim eligibility.
 
@@ -2937,6 +2945,7 @@ Specialist for applicant background screening and security investigation require
 
 - edition 27 March 2025, effective 27 April 2025, authority level 2
 - Chapter: 3 (Specific Investigative Requirements by Population)
+- Text: `doctrine/Regulations/AR_380-67/03_Chapter_3.md`
 - PDF: `Regulations/AR_380-67/AR_380-67.pdf`
 - Why: Specific investigative requirements by population (includes accessions). NOT transformed; read the PDF.
 
@@ -2944,10 +2953,10 @@ Specialist for applicant background screening and security investigation require
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.5 Live Scan exists only in the PDF (not transformed).
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -3022,8 +3031,8 @@ SF 86, e-QIP, tech check, NACLC, secret clearance, clearance, background investi
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 12_background_security -->
@@ -3128,7 +3137,7 @@ Specialist for prior-service (PS) and glossary non-prior-service (GNPS) applican
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 3 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-210/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Governing chapter for PS and GNPS applicants. Grade paragraphs 3-14 to 3-17 are listed but owned by 23_grade_enlistment_periods; 3-28 incentives by 19/20.
 
@@ -3167,7 +3176,7 @@ Specialist for prior-service (PS) and glossary non-prior-service (GNPS) applican
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: PS waiverable items (4-13 to 4-16) and nonwaiverable separations/PS disqualifiers (4-23, 4-24).
 
@@ -3184,7 +3193,7 @@ Specialist for prior-service (PS) and glossary non-prior-service (GNPS) applican
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Request for discharge or clearance from a Reserve Component.
 
@@ -3196,10 +3205,10 @@ Specialist for prior-service (PS) and glossary non-prior-service (GNPS) applican
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 8 (Procedures for Enlisting Prior Service and Glossary Non-Prior Service (Regular Army))
-- Text: `Regulations/UR_601-210/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/UR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USAREC procedures for PS/GNPS (Regular Army). 8-4 to 8-8 belong to 15_officer_warrant_programs.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -3214,7 +3223,7 @@ Specialist for prior-service (PS) and glossary non-prior-service (GNPS) applican
 
 - edition 30 June 2025, effective 30 July 2025, authority level 2
 - Chapter: 3 (Character of Service and Description of Separation)
-- Text: `Regulations/AR_635-200/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_635-200/03_Chapter_3.md`
 - PDF: `Regulations/AR_635-200/AR_635-200.pdf`
 - Why: Character of service and description of separation; use to read what a DD 214 characterization means. Several AR 635-200 chapters (4, 5, 7, 10, 14) are not transformed; read the PDF.
 
@@ -3234,12 +3243,13 @@ Specialist for prior-service (PS) and glossary non-prior-service (GNPS) applican
 | 3-12 | Soldiers confined in foreign penal institutions |
 | 3-13 | Reason and authority for discharge |
 | 3-14 | Discharge in absentia |
+| 3-15 | Form of separation certificate to be given |
 
 ### AR_135-178: Enlisted Administrative Separations
 
 - edition 6 June 2025, effective 6 June 2025, authority level 2
 - Chapter: 2 (Guidelines on Separation and Characterization)
-- Text: `Regulations/AR_135-178/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_135-178/02_Chapter_2.md`
 - PDF: `Regulations/AR_135-178/AR_135-178.pdf`
 - Why: Reserve Component separation and characterization guidelines, for applicants whose last service was in a Reserve Component.
 
@@ -3350,8 +3360,8 @@ prior service, PS, GNPS, glossary NPS, RE code, reentry code, SPD, DD 214, disch
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 13_prior_service -->
@@ -3452,10 +3462,10 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 12 (Army Reserve Specific Processing)
-- Text: `Regulations/UR_601-210/.transform/12_Chapter_12.md`
+- Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve Specific Processing: ATP, ESL, vacancies, PS DMOSQ acceptance, REFRAD for temporary medical reasons, AMEDD officer reservations, SMP.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -3472,10 +3482,10 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 11 (Active and Reserve Component Separations)
-- Text: `Regulations/UR_601-210/.transform/11_Chapter_11.md`
+- Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Army Reserve entry level separations; who initiates, re-contract restrictions. Message 24-027 changes the waiting period text.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -3485,7 +3495,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 4 (Enlistment Waivers (Waiverable and Nonwaiverable Criteria and Administrative Instructions))
-- Text: `Regulations/AR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Reserve Component separations or transfers as a waiverable disqualification.
 
@@ -3497,7 +3507,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Discharge or clearance from a Reserve Component; Section V special processing for enlistment of an ARNG Soldier into a USAR TPU.
 
@@ -3512,7 +3522,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Enlistment Program 9H, ROTC/Simultaneous Membership Program (enlisted side).
 
@@ -3524,7 +3534,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 16 July 2021, effective 16 August 2021, authority level 2
 - Chapter: 5 (Transfer between the U.S. Army Reserve and Army National Guard)
-- Text: `Regulations/AR_140-10/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_140-10/05_Chapter_5.md`
 - PDF: `Regulations/AR_140-10/AR_140-10.pdf`
 - Why: Transfer between the USAR and ARNG, including conditional release.
 
@@ -3541,7 +3551,7 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 16 July 2021, effective 16 August 2021, authority level 2
 - Chapter: 9 (Inter-Service Transfer and Attachment)
-- Text: `Regulations/AR_140-10/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_140-10/09_Chapter_9.md`
 - PDF: `Regulations/AR_140-10/AR_140-10.pdf`
 - Why: Inter-service transfer and attachment for Reserve Component members.
 
@@ -3560,10 +3570,10 @@ Specialist for Army Reserve (USAR) enlisted processing, written for recruiters, 
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exists only in the PDF (not transformed).
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -3643,8 +3653,8 @@ Army Reserve, USAR, TPU, drill, unit vacancy, vacancy load, split option, ATP, a
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 14_army_reserve -->
@@ -3736,7 +3746,7 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 9D RA OCS/WOFT; 9H ROTC/SMP; 9I USAR OCS; 9J USAR WOFT.
 
@@ -3751,10 +3761,10 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 8 (Procedures for Enlisting Prior Service and Glossary Non-Prior Service (Regular Army))
-- Text: `Regulations/UR_601-210/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/UR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USMA ordered to AD, ROTC cadets ordered to AD, disenrolled ROTC cadets, disenrolled academy applicants, WOC selectees from sister services.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -3768,16 +3778,16 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.25 OCS/WOFT Processing Procedures exists only in the PDF. Message 24-003 refers to its waiver paragraphs; read them in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### DA_PAM_601-6: Warrant Officer Procurement Program
 
 - edition 21 August 2023, authority level 2
 - Chapter: 1 (General)
-- Text: `Pamphlets/DA_PAM_601-6/.transform/01_Chapter_1.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-6/01_Chapter_1.md`
 - PDF: `Pamphlets/DA_PAM_601-6/DA_PAM_601-6_ARN39016.pdf`
 - Why: Warrant Officer Procurement Program: general requirements and non-waiverable items listed in 1-5.
 
@@ -3795,7 +3805,7 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 21 August 2023, authority level 2
 - Chapter: 2 (Applicants for Concurrent Call to Active Duty and Placed on the Active Duty List)
-- Text: `Pamphlets/DA_PAM_601-6/.transform/02_Chapter_2.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-6/02_Chapter_2.md`
 - PDF: `Pamphlets/DA_PAM_601-6/DA_PAM_601-6_ARN39016.pdf`
 - Why: Applicants for concurrent call to active duty: procurement schedule, eligibility, application preparation and processing, waivers (2-5e), selection.
 
@@ -3807,11 +3817,14 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 | 2-4 | Application preparation |
 | 2-5 | Application processing |
 | 2-6 | Selection proceedings |
+| 2-7 | Warrant Officer Candidate Program |
+| 2-8 | Failure to complete certification training |
 
 ### DA_PAM_601-6: Warrant Officer Procurement Program
 
 - edition 21 August 2023, authority level 2
 - Chapter: 3 (Applicants Without Concurrent Call to Active Duty (National Guard, Army Reserve Troop Program Unit) and Concurrent Call to Active Duty Not on the Active Duty List (Active Guard and Re-)
+- Text: `doctrine/Pamphlets/DA_PAM_601-6/03_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_601-6/DA_PAM_601-6_ARN39016.pdf`
 - Why: Applicants without concurrent call to active duty (ARNG, USAR TPU) and AGR. NOT transformed; read the PDF.
 
@@ -3819,7 +3832,7 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_135-100/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_135-100/01_Chapter_1.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: Appointing authority, eligibility, ineligibles, waiver, grade on appointment. Edition dated 1 September 1994; confirm currency.
 
@@ -3834,12 +3847,13 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 | 1-7 | Ineligibles |
 | 1-8 | Waiver |
 | 1-9 | Grade on appointment |
+| 1-10 | Service obligations |
 
 ### AR_135-100: Appointment of Commissioned and Warrant Officers of the Army
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 3 (Appointments)
-- Text: `Regulations/AR_135-100/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_135-100/03_Chapter_3.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: Appointment of warrant officers and enlisted as commissioned officers; appointment as Reserve warrant officers.
 
@@ -3854,7 +3868,7 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 4 (Examining Boards)
-- Text: `Regulations/AR_135-100/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_135-100/04_Chapter_4.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: Examining boards, notification and retest policy.
 
@@ -3863,12 +3877,15 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 | 4-1 | Appointment |
 | 4-2 | Notification to applicants |
 | 4-3 | Retest policy |
+| 4-4 | Interviewing |
+| 4-5 | Appraisal of experience |
+| 4-6 | Disposition of records |
 
 ### AR_350-51: United States Army Officer Candidate School
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_350-51/.transform`
+- Text: `doctrine/Regulations/AR_350-51`
 - PDF: `Regulations/AR_350-51/AR_350-51.pdf`
 - Why: U.S. Army Officer Candidate School, edition dated 11 June 2001. Paragraph headings not extracted; key paragraphs are 1-5 criteria, 1-6 who may apply, 1-7 who may not apply, 1-9 waivers, 1-10/1-11 service commitments. Confirm currency.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -3945,8 +3962,8 @@ OCS, officer candidate, WOFT, warrant officer, flight school, 09W, 09S, 170D, of
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 15_officer_warrant_programs -->
@@ -4262,10 +4279,10 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 12 (Army Reserve Specific Processing)
-- Text: `Regulations/UR_601-210/.transform/12_Chapter_12.md`
+- Text: `doctrine/Regulations/UR_601-210/12_Chapter_12.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST reservations for Army Reserve AMEDD officers.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -4275,7 +4292,7 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 
 - edition 27 April 2023, authority level 2
 - Chapter: 2 (Officer Leader Development)
-- Text: `Pamphlets/DA_PAM_600-4/.transform/02_Chapter_2.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-4/02_Chapter_2.md`
 - PDF: `Pamphlets/DA_PAM_600-4/DA_PAM_600-4.pdf`
 - Why: The AMEDD corps; Chapters 3, 5 and 6 (career management, promotions, RC career management) are NOT transformed; read the PDF.
 
@@ -4287,7 +4304,7 @@ Specialist for Army Medical Department (AMEDD) officer and student-program recru
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_135-101/.transform`
+- Text: `doctrine/Regulations/AR_135-101`
 - PDF: `Regulations/AR_135-101/AR_135-101.pdf`
 - Why: Appointment of Reserve commissioned officers for assignment to AMEDD branches. Edition dated 15 February 1984; markdown flagged for PDF use; paragraph headings not extracted. Confirm currency.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -4400,8 +4417,8 @@ AMEDD, doctor, physician, nurse, Army Nurse Corps, dentist, dental corps, veteri
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 16_amedd -->
@@ -4478,7 +4495,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_1304.28/.transform`
+- Text: `doctrine/DoDI/DoDI_1304.28`
 - PDF: `DoDI/DoDI_1304.28/DoDI_1304.28.pdf`
 - Why: The Appointment and Service of Chaplains. Paragraph headings not extracted in the catalog; cite by section: 3.1 capability requirements, 3.2 appointment considerations, 3.3 educational institutions, 3.4 DD Form 2088, 3.5 application requirements, 3.7 Chaplain Candidate Program, Section 4 religious-endorsing organizations.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -4487,7 +4504,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - authority level 2
 - Chapter: all
-- Text: `DoDI/DoDI_5120.08/.transform`
+- Text: `doctrine/DoDI/DoDI_5120.08`
 - PDF: `DoDI/DoDI_5120.08/DoDI_5120.08.pdf`
 - Why: Armed Forces Chaplains Board; context for endorsing-organization oversight.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -4496,7 +4513,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 3 (Appointments)
-- Text: `Regulations/AR_135-100/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_135-100/03_Chapter_3.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: Section III Appointments of Chaplains (Reserve). Edition dated 1 September 1994; confirm currency.
 
@@ -4512,7 +4529,7 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_135-100/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_135-100/01_Chapter_1.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: General eligibility, ineligibles and waiver for Reserve appointments.
 
@@ -4526,10 +4543,9 @@ Specialist for Army chaplain and chaplain candidate recruiting, written for chap
 
 - edition 1 January 2015, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-108/.transform`
+- Text: `doctrine/Regulations/UR_601-108`
 - PDF: `Regulations/UR_601-108/UR 601-108.pdf`
 - Why: Army Chaplain Recruiting Program, 1 January 2015. Only the cover and summary of change were extracted (about 2 KB); the body (application process, waiver processing, Senior Army Chaplain interview, board packet, selection, Future Chaplains, mission credit) must be read from the PDF.
-- Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
 
 ## USAREC messages
 
@@ -4595,8 +4611,8 @@ chaplain, chaplain candidate, ecclesiastical endorsement, endorsement, DD 2088, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 17_chaplain -->
@@ -4672,7 +4688,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_601-280/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_601-280/01_Chapter_1.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Goals, secretarial authority, policy and authority to act on retention actions.
 
@@ -4687,7 +4703,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 3 (Qualifications for Retention)
-- Text: `Regulations/AR_601-280/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-280/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Qualifications for retention, disqualifications, waivers/ETPs, reenlistment ranks and periods.
 
@@ -4707,12 +4723,14 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 | 3-12 | Processing enlistment and reenlistment requests for officers and warrant officers |
 | 3-13 | Regular Army enlistment ranks and military occupational specialties for the Army National |
 | 3-14 | Sergeant major and command sergeant major retention program |
+| 3-15 | Noncommissioned Officer Career Status Program |
+| 3-16 | Reports on retention waivers |
 
 ### AR_601-280: Army Retention Program
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 5 (Selective Retention Bonus Program for Enlisted Personnel)
-- Text: `Regulations/AR_601-280/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-280/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Selective Retention Bonus program and recoupment.
 
@@ -4729,12 +4747,14 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 | 5-9 | Use of bonus recipients |
 | 5-10 | Recoupment from Soldiers who fail to complete obligated service and correction of |
 | 5-11 | Recoupment from Soldiers who are not technically qualified |
+| 5-12 | Recoupment from Soldiers who voluntarily reclassify |
+| 5-13 | Annual selective retention bonus reporting requirement to Director of Military Personnel |
 
 ### AR_601-280: Army Retention Program
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 8 (Bar to Continued Service)
-- Text: `Regulations/AR_601-280/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_601-280/08_Chapter_8.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Bar to continued service.
 
@@ -4744,12 +4764,13 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 | 8-2 | Standards for continued service |
 | 8-3 | Initiation and use of bar to continued service |
 | 8-4 | Criteria |
+| 8-5 | Separation |
 
 ### AR_601-280: Army Retention Program
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 13 (Administration of the Oath of Enlistment, Reenlistment, and Extension of Enlistment)
-- Text: `Regulations/AR_601-280/.transform/12_Chapter_13.md`
+- Text: `doctrine/Regulations/AR_601-280/12_Chapter_13.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Oath and ceremony.
 
@@ -4762,6 +4783,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 14 April 2023, effective 14 May 2023, authority level 2
 - Chapter: 4 (Reenlistment Options, Reclassification, and Stabilization Agreements)
+- Text: `doctrine/Regulations/AR_601-280/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-280/AR_601-280.pdf`
 - Why: Reenlistment options, reclassification and stabilization. NOT transformed; read the PDF. Chapters 6, 7, 9, 10, 11 and 12 are also PDF-only.
 
@@ -4769,7 +4791,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_140-111/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_140-111/01_Chapter_1.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: USAR reenlistment program, responsibilities, interviews and bars.
 
@@ -4816,7 +4838,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 2 (Basic Qualifications for Reenlistment in the U.S. Army Reserve)
-- Text: `Regulations/AR_140-111/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_140-111/02_Chapter_2.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Basic qualifications for USAR reenlistment; paragraph headings not extracted, read the chapter file.
 
@@ -4824,7 +4846,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 3 (Extending Enlistment or Reenlistment Agreements)
-- Text: `Regulations/AR_140-111/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_140-111/03_Chapter_3.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Extending enlistment or reenlistment agreements; paragraph headings not extracted, read the chapter file.
 
@@ -4832,7 +4854,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 4 (Waivable and Nonwaivable Reenlistment Criteria)
-- Text: `Regulations/AR_140-111/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_140-111/04_Chapter_4.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Waivable and nonwaivable reenlistment criteria.
 
@@ -4851,7 +4873,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 5 (Reenlistment Processing)
-- Text: `Regulations/AR_140-111/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_140-111/05_Chapter_5.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Reenlistment processing, forms, oath.
 
@@ -4880,7 +4902,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 6 (Selected Reserve-Administrative Procedures)
-- Text: `Regulations/AR_140-111/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_140-111/06_Chapter_6.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: Selected Reserve TPU procedures.
 
@@ -4895,7 +4917,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 7 (Individual Ready Reserve, Individual Mobilization Augmentation, and Standby Reserve (active list) Administrative Procedures)
-- Text: `Regulations/AR_140-111/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_140-111/07_Chapter_7.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: IRR, IMA and Standby Reserve procedures.
 
@@ -4911,7 +4933,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 2 March 2018, authority level 2
 - Chapter: 8 (Active Guard/Reserve Administrative Procedures)
-- Text: `Regulations/AR_140-111/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_140-111/08_Chapter_8.md`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: AGR reenlistment procedures. AR 140-111 edition dated 2 March 2018; confirm currency.
 
@@ -4941,7 +4963,7 @@ Specialist for Army retention and reenlistment rules as they apply inside a recr
 
 - edition 18 December 2023, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_601-280/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_601-280`
 - PDF: `Pamphlets/DA_PAM_601-280/DA_PAM_601-280.pdf`
 - Why: Army Retention Program procedures pamphlet; only the purpose, a Chapter 10 summary and glossary were extracted. Procedures must be read from the PDF.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -5000,8 +5022,8 @@ reenlist, reenlistment, retention, extension, extend, career counselor, SRB, sel
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 18_retention_reenlistment -->
@@ -5094,7 +5116,7 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section I general rules and Section II RA programs. 9-10 (9D) is listed so the agent can recognize it and hand off; 9-20 is the Secretariat review of accession incentives.
 
@@ -5115,7 +5137,7 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Renegotiating options and incentives for DEP enlistees who no longer qualify for their option at shipment.
 
@@ -5127,7 +5149,7 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 10 (Selected Reserve Incentive Program (Enlisted and Officer Incentives))
-- Text: `Regulations/AR_601-210/.transform/10_Chapter_10.md`
+- Text: `doctrine/Regulations/AR_601-210/10_Chapter_10.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Recoupment, referenced by 9-9 for security-clearance non-approval and for RC or former RC entering the RA.
 
@@ -5139,7 +5161,7 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 20 December 2022, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_611-21/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: MOS prerequisites that options require before and after enlistment; chapters 2 and 3 were not transformed, read the PDF.
 
@@ -5147,10 +5169,10 @@ Specialist for Regular Army enlistment programs, options and incentives, asked b
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.13 Regular Army Options and Incentives exists only in the PDF; read it for USAREC procedures on RA options.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -5227,8 +5249,8 @@ bonus, enlistment bonus, incentive, option, REQUEST option, station of choice, O
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 19_ra_options_incentives -->
@@ -5307,7 +5329,7 @@ Specialist for the Selected Reserve Incentive Program as it touches Army Reserve
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 10 (Selected Reserve Incentive Program (Enlisted and Officer Incentives))
-- Text: `Regulations/AR_601-210/.transform/10_Chapter_10.md`
+- Text: `doctrine/Regulations/AR_601-210/10_Chapter_10.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Selected Reserve Incentive Program; administration in 10-1 to 10-11, individual incentives in 10-12 to 10-22.
 
@@ -5340,7 +5362,7 @@ Specialist for the Selected Reserve Incentive Program as it touches Army Reserve
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Selected Reserve incentive list, Program 9L applicant counseling points, SLRP/MGIB Kicker tie to the approved SRIP. 9-6 note points to AR 601-280, AR 621-202 and NGR 600-7; AR 621-202 and NGR 600-7 are not in the library.
 
@@ -5356,7 +5378,7 @@ Specialist for the Selected Reserve Incentive Program as it touches Army Reserve
 
 - edition 2 March 2018, authority level 2
 - Chapter: all
-- Text: `Regulations/AR_140-111/.transform`
+- Text: `doctrine/Regulations/AR_140-111`
 - PDF: `Regulations/AR_140-111/AR_140-111.pdf`
 - Why: U.S. Army Reserve Reenlistment Program; consult only where Chapter 10 points to reenlistment or extension incentives.
 
@@ -5420,8 +5442,8 @@ SRIP, Reserve bonus, Army Reserve bonus, NPS bonus, NPSEB, PSEB, prior service b
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 20_srip -->
@@ -5520,7 +5542,7 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 9-7 lists the Airborne Ranger, ESL and FLRI options under 9A; 9-11 is the USAR Bands Program 9E; 9-17 is 9K. 18X, 09M, ETC, CEP and remote enlistment are not named in AR 601-210 and are governed by messages.
 
@@ -5538,7 +5560,7 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 7 (Regular Army and Reserve Components Civilian-Acquired Skills Program)
-- Text: `Regulations/AR_601-210/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_601-210/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Special band selection and accelerated promotion for ACASP band enlistees (42R).
 
@@ -5552,16 +5574,16 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.13 Regular Army Options and Incentives and Ch.7 DEP/DTP/DS enlistment procedures exist only in the PDF; no transformed USAREC chapter covers these programs.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### DA_PAM_611-21: Military Occupational Classification and Structure
 
 - edition 20 December 2022, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_611-21/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: MOS prerequisites for 18X, 11X, 42R and other program MOSs; chapters 2 and 3 not transformed.
 
@@ -5637,8 +5659,8 @@ Specialist for special enlistment programs that are governed mostly by USAREC me
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 21_special_enlistment_programs -->
@@ -5713,7 +5735,7 @@ Specialist for the Army Civilian-Acquired Skills Program for Regular Army and Re
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 7 (Regular Army and Reserve Components Civilian-Acquired Skills Program)
-- Text: `Regulations/AR_601-210/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_601-210/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Regular Army and RC Civilian-Acquired Skills Program; 7-15 continues into the Chapter 8 markdown file.
 
@@ -5740,7 +5762,7 @@ Specialist for the Army Civilian-Acquired Skills Program for Regular Army and Re
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: ACASP as an exception to entry grade for NPS applicants.
 
@@ -5753,7 +5775,7 @@ Specialist for the Army Civilian-Acquired Skills Program for Regular Army and Re
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: USAR Bands Program 9E, which uses ACASP criteria. Program 9F (USAR MI/SIGINT units, also ACASP) is in the chapter text but not in the paragraph catalog.
 
@@ -5765,7 +5787,7 @@ Specialist for the Army Civilian-Acquired Skills Program for Regular Army and Re
 
 - edition 20 December 2022, authority level 2
 - Chapter: all
-- Text: `Pamphlets/DA_PAM_611-21/.transform`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: Training and work experience requirements per ACASP MOS; message 23-060 points to a table in it. Chapters 2 and 3 not transformed; read the PDF.
 
@@ -5834,8 +5856,8 @@ ACASP, civilian acquired skills, civilian skills, civilian certification, skille
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 22_acasp -->
@@ -5920,7 +5942,7 @@ Specialist for enlistment pay grade, date of rank and authorized enlistment peri
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 2 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section II Enlistment Periods and Pay Grades for NPS applicants. 2-18 is subject to an operational-change message; compare both texts.
 
@@ -5935,7 +5957,7 @@ Specialist for enlistment pay grade, date of rank and authorized enlistment peri
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 3 (Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Prior Service Applicants)
-- Text: `Regulations/AR_601-210/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-210/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section II Enlistment Periods and Pay Grades for PS applicants.
 
@@ -5950,7 +5972,7 @@ Specialist for enlistment pay grade, date of rank and authorized enlistment peri
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: DEP terms of service and authorized pay grades; referral promotion opportunity.
 
@@ -5963,7 +5985,7 @@ Specialist for enlistment pay grade, date of rank and authorized enlistment peri
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 7 (Regular Army and Reserve Components Civilian-Acquired Skills Program)
-- Text: `Regulations/AR_601-210/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_601-210/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: ACASP grade, referenced from 2-17 and 2-18; qualification itself belongs to 22_acasp.
 
@@ -6042,8 +6064,8 @@ rank, pay grade, enlist as, E-2, E-3, E-4, advanced rank, college credit rank, J
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 23_grade_enlistment_periods -->
@@ -6142,7 +6164,7 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section I General and the transportation/movement paragraphs of Section III.
 
@@ -6161,7 +6183,7 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 6 (Military Entrance Processing Station Processing Phase)
-- Text: `Regulations/AR_601-210/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_601-210/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: MEPS processing phase. Paragraphs 6-12, 6-15 and 6-16 point to DoDM 1145.02, which is not in the library.
 
@@ -6191,10 +6213,10 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 2 (Responsibilities for Recruiting Personnel)
-- Text: `Regulations/UR_601-210/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/UR_601-210/02_Chapter_2.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Responsibilities for recruiting personnel, GC and Ops NCO duties.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6208,10 +6230,10 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 4 (Recruit Quota System (REQUEST) Procedures)
-- Text: `Regulations/UR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/UR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST procedures, security and prohibited uses.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6219,15 +6241,16 @@ Specialist for applicant processing from the recruiting station through the MEPS
 | 4-2 | General |
 | 4-3 | Security |
 | 4-4 | REQUEST Use |
+| 4-5 | Alternate Procedures for Terminal or System Failure |
 
 ### UR_601-210: Enlistment & Accessions Processing
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 19 (Required USMEPCOM Daily Reports and RZ)
-- Text: `Regulations/UR_601-210/.transform/19_Chapter_19.md`
+- Text: `doctrine/Regulations/UR_601-210/19_Chapter_19.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Required USMEPCOM daily reports, REQUEST close-out and RZ end-of-day result codes.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6241,10 +6264,10 @@ Specialist for applicant processing from the recruiting station through the MEPS
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.6 Quality Control Procedures and Scheduling of Applicants, Ch.20 Government Meals and Lodging and Ch.24 Temporary Reservation Procedures exist only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -6328,8 +6351,8 @@ MEPS, processing, DD 1966, DD Form 4, oath, swear in, contract, guidance counsel
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 24_processing_meps -->
@@ -6426,7 +6449,7 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Section VII Delayed Entry Program.
 
@@ -6445,10 +6468,10 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 17 (Future Soldier (FS) Management)
-- Text: `Regulations/UR_601-210/.transform/17_Chapter_17.md`
+- Text: `doctrine/Regulations/UR_601-210/17_Chapter_17.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Future Soldier Management. 17-8e names the APFT; message 24-054 and AR 601-210 2-18 refer to the Army Fitness Test; surface the difference.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6466,10 +6489,10 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 18 (DEP/DTP-Out Procedures)
-- Text: `Regulations/UR_601-210/.transform/18_Chapter_18.md`
+- Text: `doctrine/Regulations/UR_601-210/18_Chapter_18.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: DEP/DTP-out procedures, courtesy shippers, hometown shipping, BCT ship dates.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6484,16 +6507,16 @@ Specialist for managing Future Soldiers from enlistment to shipping, asked by re
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.7 Procedures for Enlistment into DEP/DTP/DS and Ch.10 Change in Active Duty Date and DEP/DTP Renegotiation exist only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### UM_3-31: Station Operations
 
 - edition 7 March 2022, authority level 3
 - Chapter: 3 (Decisive Operations)
-- Text: `Manuals/UM_3-31/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -6584,8 +6607,8 @@ Future Soldier, FS, DEP, DTP, delayed entry, FSTP, FSAI, asset inventory, ship d
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 25_future_soldier_management -->
@@ -6671,10 +6694,10 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 11 (Active and Reserve Component Separations)
-- Text: `Regulations/UR_601-210/.transform/11_Chapter_11.md`
+- Text: `doctrine/Regulations/UR_601-210/11_Chapter_11.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Active and Reserve Component Separations. 11-4d cites AR 601-210 chapter 5-78, which does not exist in the 20 March 2026 edition (drug separation is 5-73). Message 24-027 changes 11-11.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -6695,7 +6718,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: DEP separation authority, extension for separation processing, special provisions, and pre-service drug test separation procedures.
 
@@ -6715,7 +6738,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 6 (Military Entrance Processing Station Processing Phase)
-- Text: `Regulations/AR_601-210/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_601-210/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Issues detected after the second swearing-in but before shipment.
 
@@ -6727,7 +6750,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 6 June 2025, effective 6 June 2025, authority level 2
 - Chapter: 7 (Defective Enlistments and Reenlistments)
-- Text: `Regulations/AR_135-178/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_135-178/07_Chapter_7.md`
 - PDF: `Regulations/AR_135-178/AR_135-178.pdf`
 - Why: Erroneous enlistment in the Reserve Components; DEP and DTP separations are governed by AR 135-178.
 
@@ -6739,7 +6762,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 6 June 2025, effective 6 June 2025, authority level 2
 - Chapter: 8 (Entry Level Performance and Conduct)
-- Text: `Regulations/AR_135-178/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_135-178/08_Chapter_8.md`
 - PDF: `Regulations/AR_135-178/AR_135-178.pdf`
 - Why: Entry level performance and conduct separations for Reserve Component Soldiers.
 
@@ -6747,6 +6770,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 30 June 2025, effective 30 July 2025, authority level 2
 - Chapter: 7 (Defective Enlistments, Reenlistments, and Extensions)
+- Text: `doctrine/Regulations/AR_635-200/07_Chapter_7.md`
 - PDF: `Regulations/AR_635-200/AR_635-200.pdf`
 - Why: Defective enlistments for the RA; chapter not transformed, read the PDF.
 
@@ -6754,7 +6778,7 @@ Specialist for separating Future Soldiers and handling DEP/DTP/DS losses, asked 
 
 - edition 7 March 2022, authority level 3
 - Chapter: 3 (Decisive Operations)
-- Text: `Manuals/UM_3-31/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -6830,8 +6854,8 @@ DEP discharge, DEP separation, separation request, doesn't want to go, wants out
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 26_dep_separations -->
@@ -6913,7 +6937,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 8 (Actions Required after Enlistment)
-- Text: `Regulations/AR_601-210/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Actions Required after Enlistment.
 
@@ -6934,7 +6958,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 6 (Military Entrance Processing Station Processing Phase)
-- Text: `Regulations/AR_601-210/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_601-210/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Correcting enlistment forms after distribution, claims of erroneous entries, defects found after the second swearing-in.
 
@@ -6948,7 +6972,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Honoring commitments, waiver counseling that options can be voided without an unfulfilled commitment, and the unfulfilled-commitment route in 9A.
 
@@ -6962,7 +6986,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 7 (Regular Army and Reserve Components Civilian-Acquired Skills Program)
-- Text: `Regulations/AR_601-210/.transform/07_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_601-210/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: Denial of an ACASP MOS is not an unfulfilled commitment.
 
@@ -6974,6 +6998,7 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 30 June 2025, effective 30 July 2025, authority level 2
 - Chapter: 7 (Defective Enlistments, Reenlistments, and Extensions)
+- Text: `doctrine/Regulations/AR_635-200/07_Chapter_7.md`
 - PDF: `Regulations/AR_635-200/AR_635-200.pdf`
 - Why: Defective enlistments, including void erroneous enlistment procedure cited by 8-4c and 8-5b; not transformed, read the PDF.
 
@@ -6981,10 +7006,10 @@ Specialist for problems discovered after enlistment: enlistment commitments that
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.22 U.S. Army Recruiting Command Liaisons at U.S. Army Reception Battalions exists only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## Forms
 
@@ -7047,8 +7072,8 @@ wrong contract, contract error, promised, recruiter promised, unfulfilled commit
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 27_post_enlistment_corrections -->
@@ -7145,7 +7170,7 @@ Specialist for how recruiters generate, refine and work leads, written for recru
 
 - edition 9 March 2022, authority level 3
 - Chapter: 7
-- Text: `Manuals/UM_3-32/.transform/07_Chapter_7.md`
+- Text: `doctrine/Manuals/UM_3-32/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter-level doctrine on lead generation and prospecting; Figure 7-1 is the recruiting funnel.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7156,7 +7181,7 @@ Sections: Lead Generation; Lead Refinement and Management; Referrals; Area Canva
 
 - edition 9 March 2022, authority level 3
 - Chapter: 8
-- Text: `Manuals/UM_3-32/.transform/08_Chapter_8.md`
+- Text: `doctrine/Manuals/UM_3-32/08_Chapter_8.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: The Army interview; Figure 8-1 (guideposts) and Figure 8-2 (SOLDIER acrostic) are images in the PDF.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7167,7 +7192,7 @@ Sections: Guideposts; Counseling; The Army Story / Personal Army Story; Engender
 
 - edition 9 March 2022, authority level 3
 - Chapter: 3 (Sustaining Operations)
-- Text: `Manuals/UM_3-32/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-32/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Where prospecting sits in the recruiter's plan and battle rhythm.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7178,7 +7203,7 @@ Sections: Decisive Operations; Shaping Operations; Maintaining Battle Rhythms; W
 
 - edition 7 March 2022, authority level 3
 - Chapter: 3 (Decisive Operations)
-- Text: `Manuals/UM_3-31/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: What the station commander directs and assesses in prospecting and the Army interview.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7189,7 +7214,7 @@ Sections: Lead Generation and Prospecting; Prospecting; Telephone Prospecting; F
 
 - edition 7 March 2022, authority level 3
 - Chapter: 4 (Shaping Operations)
-- Text: `Manuals/UM_3-31/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Lead generation, referrals and refinement as station shaping operations.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7210,7 +7235,7 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/UTC_5-03.1/.transform`
+- Text: `doctrine/Guides/UTC_5-03.1`
 - PDF: `Guides/UTC_5-03.1/UTC 5-03.1.pdf`
 - Why: Actual title (front matter): UTC 5-03.1 Prospecting, Processing, and Analysis; catalog title is wrong. Single full-document markdown, 00_Full_Document.md). Use its chapters on Basics of Prospecting, Lead Generation, Telephone, Face-to-Face and Virtual Prospecting, Contact Scripts, Follow-Up and Planning Considerations. Level 4 training product.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7219,7 +7244,7 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 
 - edition 29 April 2020, authority level 4
 - Chapter: all
-- Text: `Guides/UTC_5-03.2/.transform`
+- Text: `doctrine/Guides/UTC_5-03.2`
 - PDF: `Guides/UTC_5-03.2/UTC 5-03.2.pdf`
 - Why: Actual title (front matter): UTC 5-03.2 Influencing and Interviewing; catalog title is wrong. Chapters: The Recruiter, Telling the Army Story, Components and Steps of the Army Interview, Engendering the Commitment, Overcoming Obstacles. Level 4 training product.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7228,7 +7253,7 @@ Sections: Decisive Operations; Lead Generation; Prospecting; Interviewing
 
 - edition 30 November 2020, authority level 4
 - Chapter: 2 (Aspects of Virtual Recruiting Activities and)
-- Text: `Guides/UTP_3-10.4_(VRA)_V1/.transform/02_Chapter_2.md`
+- Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/02_Chapter_2.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Virtual recruiting operations: messaging text and email, initial contact, virtual appointment. Level 4 training product.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7296,8 +7321,8 @@ prospecting, prospect, phone calls, telephone prospecting, texting, text message
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 28_prospecting_leads -->
@@ -7387,10 +7412,10 @@ Specialist for the School Recruiting Program, written for recruiters, station co
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 1 (General)
-- Text: `Regulations/UR_350-13/.transform/01_Chapter_1.md`
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/01_Chapter_1.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: Actual title (front matter): UR 350-13 School Recruiting Programs; catalog title is wrong. Purpose, policy and responsibilities by echelon, including brigade and battalion ESS, company commander and station commander duties.
 
 | Para | Heading |
@@ -7401,65 +7426,73 @@ Specialist for the School Recruiting Program, written for recruiters, station co
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 2 (The School Recruiting Plan)
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/02_Chapter_2.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: The School Recruiting Plan (goals, responsibilities, brigade/battalion, company and station school plans). PDF only; not transformed.
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 3 (High School Relations)
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/03_Chapter_3.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: High School Relations (rapport, school profile, influencers, E/COI tours, recruiter responsibilities). PDF only.
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 4 (School Guidelines)
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/04_Chapter_4.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: School Guidelines (annual planning meeting, expectations between recruiters and school officials). PDF only.
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 5 (School Zone)
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/05_Chapter_5.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: School Zone (responsibilities, school information, filing and disposition). PDF only.
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 6 (School Recruiting Education Programs)
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/06_Chapter_6.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: School Recruiting Education Programs (ASVAB CEP, March 2 Success, ConAP). PDF only.
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 7 (Education Incentives)
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/07_Chapter_7.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: Education Incentives and recruiter responsibilities. PDF only.
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 8 (Release of Student Recruiting Information)
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/08_Chapter_8.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: Release of Student Recruiting Information (Solomon, Hutchinson, ESSA, FERPA). PDF only; appendix L has the student directory request example.
 
 ### UR_350-13: School Recruiting Programs
 
-- edition 17 March 2021, authority level 3
+- edition 17 March 2021, effective 17 March 2021, authority level 3
 - Chapter: 9 (HSS/FAZR)
-- PDF: `Regulations/UR_350-13/UR 350-13.pdf`
+- Text: `doctrine/Manuals/UR_350-13/09_Chapter_9.md`
+- PDF: `Manuals/UR_350-13/UR 350-13.pdf`
 - Why: HSS/FAZR and battalion ESS procedures. PDF only.
 
 ### UM_3-31: Station Operations
 
 - edition 7 March 2022, authority level 3
 - Chapter: 4 (Shaping Operations)
-- Text: `Manuals/UM_3-31/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's responsibility for developing the SRP and validating school folders, events and documentation.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7470,7 +7503,7 @@ Sections: School Recruiting Program
 
 - edition 7 March 2022, authority level 3
 - Chapter: 2 (Recruiting Operations Process)
-- Text: `Manuals/UM_3-31/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Use of school data to build a school prospecting plan.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7481,7 +7514,7 @@ Sections: Running Estimates
 
 - edition 9 March 2022, authority level 3
 - Chapter: 7
-- Text: `Manuals/UM_3-32/.transform/07_Chapter_7.md`
+- Text: `doctrine/Manuals/UM_3-32/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view of high school presence and lead generation.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7502,7 +7535,7 @@ Sections: Shaping; School Recruiting Program (SRP)
 
 - edition 9 March 2022, authority level 3
 - Chapter: 6 (Shaping Operations)
-- Text: `Manuals/UM_3-29/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion view of the school program.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7513,7 +7546,7 @@ Sections: School Recruiting Program
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 5 (Processing Applicants)
-- Text: `Regulations/AR_601-210/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-210/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: High school testing program; hand score-use and retest questions to 05_testing_asvab.
 
@@ -7525,7 +7558,7 @@ Sections: School Recruiting Program
 
 - edition 10 November 2021, authority level 2
 - Chapter: 7 (Outreach)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/07_Chapter_7.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/07_Chapter_7.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: JROTC as an Army outreach program.
 
@@ -7593,8 +7626,8 @@ high school, school recruiting program, school plan, school visit, school folder
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 29_school_recruiting -->
@@ -7678,7 +7711,7 @@ Specialist for running a recruiting station, written for station commanders and 
 
 - edition 7 March 2022, authority level 3
 - Chapter: 1 (Overview of Recruiting Operations)
-- Text: `Manuals/UM_3-31/.transform/01_Chapter_1.md`
+- Text: `doctrine/Manuals/UM_3-31/01_Chapter_1.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -7688,7 +7721,7 @@ Sections: Introduction; Leadership Roles and Responsibilities; Station Commander
 
 - edition 7 March 2022, authority level 3
 - Chapter: 2 (Recruiting Operations Process)
-- Text: `Manuals/UM_3-31/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -7698,7 +7731,7 @@ Sections: What Is the Recruiting Operations Process?; Understand; Visualize; Int
 
 - edition 7 March 2022, authority level 3
 - Chapter: 3 (Decisive Operations)
-- Text: `Manuals/UM_3-31/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-31/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -7708,7 +7741,7 @@ Sections: Lead Generation and Prospecting; Army Interview; Processing; In Progre
 
 - edition 7 March 2022, authority level 3
 - Chapter: 4 (Shaping Operations)
-- Text: `Manuals/UM_3-31/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-31/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -7718,7 +7751,7 @@ Sections: Lead Generation; Referrals; Lead Refinement; Planning; Battle Rhythm; 
 
 - edition 7 March 2022, authority level 3
 - Chapter: 5 (Sustaining Operations)
-- Text: `Manuals/UM_3-31/.transform/05_Chapter_5.md`
+- Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -7728,7 +7761,7 @@ Sections: Logistics; Advertising Assets; Personnel Management; Personnel Integra
 
 - edition 7 March 2022, authority level 3
 - Chapter: 6 (Networks)
-- Text: `Manuals/UM_3-31/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-31/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -7738,7 +7771,7 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 
 - edition 9 March 2022, authority level 3
 - Chapter: all
-- Text: `Manuals/UM_3-0/.transform`
+- Text: `doctrine/Manuals/UM_3-0`
 - PDF: `Manuals/UM_3-0/UM 3-0.pdf`
 - Why: Command-level recruiting operations, networks and the eight recruiting functions; context for why the station plan is built the way it is.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7747,7 +7780,7 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 
 - edition 7 March 2022, authority level 3
 - Chapter: all
-- Text: `Manuals/UM_3-30/.transform`
+- Text: `doctrine/Manuals/UM_3-30`
 - PDF: `Manuals/UM_3-30/UM 3-30.pdf`
 - Why: Company command team view: how the company validates station commanders, IPRs, training and sustainment expectations of the station.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7756,7 +7789,7 @@ Sections: Internal Network; External Network; Information Systems; Community Par
 
 - edition 13 May 2018, authority level 4
 - Chapter: all
-- Text: `Manuals/STP805K-79R-SMTG/.transform`
+- Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide for MOS 79R; station-commander-level tasks. Paragraph headings were not extracted; cite by task title from the PDF.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7818,8 +7851,8 @@ station commander, ASC, assistant station commander, station plan, station recru
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 30_station_operations -->
@@ -7909,7 +7942,7 @@ Specialist for recruiting market intelligence and targeting, written for station
 
 - edition 9 March 2022, authority level 3
 - Chapter: 3 (Intelligence And Market Analysis)
-- Text: `Manuals/UM_3-29/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-29/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion intelligence and market analysis, IPOE, event and geographic targeting.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7920,7 +7953,7 @@ Sections: Intelligence Preparation of the Operational Environment; Recruiting Ma
 
 - edition 9 March 2022, authority level 3
 - Chapter: 4 (Planning)
-- Text: `Manuals/UM_3-29/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-29/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Figure 4-4 high payoff event list and Figure 4-5 synchronization matrix are in this chapter.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7941,7 +7974,7 @@ Sections: The Command Team's Role In the Intelligence Process; Intelligence Prep
 
 - edition 7 March 2022, authority level 3
 - Chapter: 2 (Recruiting Operations Process)
-- Text: `Manuals/UM_3-31/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station level: recruiters as sensors, open-source and publicly available information, ASCOPE, zone tools.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7952,7 +7985,7 @@ Sections: Intelligence and Market Analysis; Recruiting Zones
 
 - edition 9 March 2022, authority level 3
 - Chapter: 6
-- Text: `Manuals/UM_3-32/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-32/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view; Figure 6-1 G-2 Market Intelligence Dashboard.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7963,7 +7996,7 @@ Sections: Intelligence; Market Analysis; Intelligence and Market Analysis
 
 - edition 9 March 2022, authority level 3
 - Chapter: 4 (Support of Recruiting Operations)
-- Text: `Manuals/UM_3-0/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-0/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-0/UM 3-0.pdf`
 - Why: Command-level doctrine; appendix B (PMESII-PT and METT-TC) is in the same markdown file.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7974,7 +8007,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 2 (Market Analysis)
-- Text: `Guides/UTC_5-02/.transform/02_Chapter_2.md`
+- Text: `doctrine/Guides/UTC_5-02/02_Chapter_2.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Actual title (front matter): UTC 5-02 Intelligence; catalog title is wrong. Market Analysis: steps of the recruiting IPB.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7983,7 +8016,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 3 (Types and Location of Intelligence Data Source)
-- Text: `Guides/UTC_5-02/.transform/03_Chapter_3.md`
+- Text: `doctrine/Guides/UTC_5-02/03_Chapter_3.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Types and location of intelligence data sources: MID, G-2 market analysis tools, G2 Maps, MAR, Power BI.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -7992,7 +8025,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 4
-- Text: `Guides/UTC_5-02/.transform/04_Chapter_4.md`
+- Text: `doctrine/Guides/UTC_5-02/04_Chapter_4.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Defining the operational environment: PMESII-PT, ASCOPE, TMA, FQMA, segmentation, demographics, propensity.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8001,7 +8034,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 5 (Describe the Environmental Effects)
-- Text: `Guides/UTC_5-02/.transform/05_Chapter_5.md`
+- Text: `doctrine/Guides/UTC_5-02/05_Chapter_5.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Describe the environmental effects: span of control, P2P, penetration, schools.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8010,7 +8043,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 6 (Evaluate the Threat)
-- Text: `Guides/UTC_5-02/.transform/06_Chapter_6.md`
+- Text: `doctrine/Guides/UTC_5-02/06_Chapter_6.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Evaluate the threat: competition and market share, with its pitfalls.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8019,7 +8052,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 7 (Assess Market Potential)
-- Text: `Guides/UTC_5-02/.transform/07_Chapter_7.md`
+- Text: `doctrine/Guides/UTC_5-02/07_Chapter_7.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Assess market potential: SAMA, MAR, SMR.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8028,7 +8061,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - edition 1 February 2015, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-73/.transform`
+- Text: `doctrine/Regulations/UR_601-73`
 - PDF: `Regulations/UR_601-73/UR 601-73.pdf`
 - Why: Market Analysis to Support Recruiting Operations. Uses dotted numbering (5.1, 6.2); catalog extracted only 5-1/5-2. Sections 5 Recruiter Allocation, 6 Position Analysis and Evaluation, 7 Mission Analysis and Distribution, 8 Review and Implementation are in .transform/03_Contents_Listed_by_paragraph_and_page_number.md. Edition 2015; check for newer guidance.
 
@@ -8036,7 +8069,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - edition 01 October 2023, authority level 4
 - Chapter: 1
-- Text: `FM/FM_2-0/.transform/04_Chapter_1-_Intelligence.md`
+- Text: `doctrine/FM/FM_2-0/04_Chapter_1-_Intelligence.md`
 - PDF: `FM/FM_2-0/FM_2-0.pdf`
 - Why: Army intelligence doctrine; use only to explain intelligence process terms the USAREC manuals borrow.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8045,7 +8078,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 2
 - Chapter: 3
-- Text: `ADP/ADP_2-0/.transform/08_Chapter_3-_The_Intelligence_Process.md`
+- Text: `doctrine/ADP/ADP_2-0/08_Chapter_3-_The_Intelligence_Process.md`
 - PDF: `ADP/ADP_2-0/ADP_2-0.pdf`
 - Why: The intelligence process; background only.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8101,8 +8134,8 @@ market, market analysis, market share, IPOE, IPB, PMESII, ASCOPE, targeting, tar
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 31_market_intelligence -->
@@ -8189,7 +8222,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 2 (Total Army Involvement in Recruiting Program)
-- Text: `Regulations/AR_601-2/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_601-2/02_Chapter_2.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Total Army Involvement in Recruiting program.
 
@@ -8203,7 +8236,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 3 (General Officer/Senior Executive Service Recruiting Support Program)
-- Text: `Regulations/AR_601-2/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_601-2/03_Chapter_3.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: General Officer/Senior Executive Service Recruiting Support Program.
 
@@ -8217,7 +8250,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 4 (Educator/Centers of Influence Tour Program)
-- Text: `Regulations/AR_601-2/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_601-2/04_Chapter_4.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Educator/Centers of Influence Tour Program; group size and participant rules are in 4-2.
 
@@ -8231,7 +8264,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 5 (Centers of Influence Events Program)
-- Text: `Regulations/AR_601-2/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_601-2/05_Chapter_5.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Centers of Influence Events Program; meal and funding authority in 5-2. Paragraph 5-3 (program roles) is in the PDF only.
 
@@ -8244,6 +8277,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 6 (Delayed Entry Program/Delayed Training Program Gatherings)
+- Text: `doctrine/Regulations/AR_601-2/06_Chapter_6.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: DEP/DTP gatherings. Not transformed; read the PDF.
 
@@ -8251,6 +8285,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 7 (Hometown and Special Recruiter Assistance Program)
+- Text: `doctrine/Regulations/AR_601-2/07_Chapter_7.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Hometown and Special Recruiter Assistance Program (HRAP 7-3, SRAP 7-4 per contents). Not transformed; read the PDF.
 
@@ -8258,7 +8293,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 13 April 2020, effective 13 May 2020, authority level 2
 - Chapter: 8 (Recruiting and Reserve Partnership Council)
-- Text: `Regulations/AR_601-2/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_601-2/08_Chapter_8.md`
 - PDF: `Regulations/AR_601-2/AR_601-2.pdf`
 - Why: Recruiting and Reserve Partnership Council.
 
@@ -8336,7 +8371,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 May 2020, authority level 4
 - Chapter: 2
-- Text: `Guides/UTC_5-03.3/.transform/02_Chapter_2.md`
+- Text: `doctrine/Guides/UTC_5-03.3/02_Chapter_2.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Actual title (front matter): UTC 5-03.3 Partnerships; catalog title is wrong. Engaging community partners, advocates, key leader engagements. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8345,7 +8380,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 May 2020, authority level 4
 - Chapter: 3
-- Text: `Guides/UTC_5-03.3/.transform/03_Chapter_3.md`
+- Text: `doctrine/Guides/UTC_5-03.3/03_Chapter_3.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Employer partnerships, PaYS, P3. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8354,7 +8389,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 May 2020, authority level 4
 - Chapter: 4
-- Text: `Guides/UTC_5-03.3/.transform/04_Chapter_4.md`
+- Text: `doctrine/Guides/UTC_5-03.3/04_Chapter_4.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Partnerships with educators and educator tours (types, nominations, activities). Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8363,7 +8398,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 May 2020, authority level 4
 - Chapter: 6 (Employer Support of the Guard and Reserve (ESGR) committee chair to identify the movers and shakers in your market. Select the most promising CP advocates to lead)
-- Text: `Guides/UTC_5-03.3/.transform/06_Chapter_6.md`
+- Text: `doctrine/Guides/UTC_5-03.3/06_Chapter_6.md`
 - PDF: `Guides/UTC_5-03.3/UTC 5-03.3.pdf`
 - Why: Community action committees. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8372,7 +8407,7 @@ Specialist for centers of influence and Army recruiting support programs, writte
 
 - edition 7 March 2022, authority level 3
 - Chapter: 6 (Networks)
-- Text: `Manuals/UM_3-31/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-31/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station networks and community partners.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8383,7 +8418,7 @@ Sections: Internal Network; External Network; Community Partners
 
 - edition 9 March 2022, authority level 3
 - Chapter: 6 (Shaping Operations)
-- Text: `Manuals/UM_3-29/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Battalion/brigade view.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8459,8 +8494,8 @@ COI, center of influence, COI event, educator tour, E/COI, community partner, ad
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 32_coi_support_programs -->
@@ -8548,7 +8583,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/01_Chapter_1.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/01_Chapter_1.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: Purpose and importance of the Army Marketing Program.
 
@@ -8568,7 +8603,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 3 (Army Marketing Processes)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/03_Chapter_3.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/03_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: New marketing initiatives and annual marketing requirements.
 
@@ -8581,7 +8616,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 4 (Return on Investment)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/04_Chapter_4.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/04_Chapter_4.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: Return on investment framework and funnel metrics.
 
@@ -8598,7 +8633,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 6 (Army Regional Marketing System)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/06_Chapter_6.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/06_Chapter_6.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: Army Regional Marketing System.
 
@@ -8614,7 +8649,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 10 November 2021, authority level 2
 - Chapter: 7 (Outreach)
-- Text: `Pamphlets/DA_PAM_601-208/.transform/07_Chapter_7.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-208/07_Chapter_7.md`
 - PDF: `Pamphlets/DA_PAM_601-208/DA_PAM_601-208.pdf`
 - Why: Outreach programs.
 
@@ -8629,7 +8664,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_360-1/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_360-1/01_Chapter_1.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Principles of information, direct communication, communication synchronization, countering misinformation.
 
@@ -8644,7 +8679,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 2 (Responsibilities)
-- Text: `Regulations/AR_360-1/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_360-1/02_Chapter_2.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Commanders' and public affairs officers' responsibilities.
 
@@ -8657,6 +8692,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 3 (Policies)
+- Text: `doctrine/Regulations/AR_360-1/03_Chapter_3.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Public affairs policies. Not transformed; read the PDF.
 
@@ -8664,7 +8700,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 5 (Public Affairs Resourcing)
-- Text: `Regulations/AR_360-1/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_360-1/05_Chapter_5.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Use of Army funds and events qualifying for Army or outside funding.
 
@@ -8678,7 +8714,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 6 (Media Coverage)
-- Text: `Regulations/AR_360-1/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_360-1/06_Chapter_6.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Media coverage, accreditation and official discussions with the media.
 
@@ -8687,11 +8723,16 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 | 6-1 | Facilitating media visits |
 | 6-2 | News media accreditation |
 | 6-3 | Official discussions with the media |
+| 6-4 | Unofficial discussions |
+| 6-5 | Photographing and recording personnel in a hostile area |
+| 6-6 | Media coverage of equipment testing and evaluation |
+| 6-7 | Media coverage of battle labs and advanced warfighting experiments |
 
 ### AR_360-1
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 7 (Public Communication)
+- Text: `doctrine/Regulations/AR_360-1/07_Chapter_7.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Public communication. Not transformed; read the PDF.
 
@@ -8699,6 +8740,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 8 October 2020, effective 8 November 2020, authority level 2
 - Chapter: 8 (Digital Media Management and Publications)
+- Text: `doctrine/Regulations/AR_360-1/08_Chapter_8.md`
 - PDF: `Regulations/AR_360-1/AR_360-1.pdf`
 - Why: Digital media management and publications (Army social media policy). Not transformed; read the PDF.
 
@@ -8706,7 +8748,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/USAREC_Social_Media_SOP_21_JUN_18/.transform`
+- Text: `doctrine/Guides/USAREC_Social_Media_SOP_21_JUN_18`
 - PDF: `Guides/USAREC_Social_Media_SOP_21_JUN_18/USAREC Social Media SOP 21 JUN 18.pdf`
 - Why: USAREC Social Media SOP (May 2018, signed 21 Jun 2018): OPSEC and training, PII, online conduct, messaging, branding, account requirements, records, paid promotion, platforms, reporting, cease and desist. Check for a newer SOP.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -8715,7 +8757,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 30 November 2020, authority level 4
 - Chapter: 3 (Roles, Responsibilities, and Organizations of Virtual)
-- Text: `Guides/UTP_3-10.4_(VRA)_V1/.transform/03_Chapter_3.md`
+- Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/03_Chapter_3.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Roles of the commander and USAREC virtual recruiting and advertising assets. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8724,7 +8766,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 30 November 2020, authority level 4
 - Chapter: 7 (Recruiters now have the ability to individually pay for and conduct social media boosting. b. Procedures: Using RER (Recruiter Expenses Reimbursement) to Boost Facebook and)
-- Text: `Guides/UTP_3-10.4_(VRA)_V1/.transform/07_Chapter_7.md`
+- Text: `doctrine/Guides/UTP_3-10.4_(VRA)_V1/07_Chapter_7.md`
 - PDF: `Guides/UTP_3-10.4_(VRA)_V1/UTP 3-10.4  (VRA)  V1.pdf`
 - Why: Social media boosting procedures. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8733,7 +8775,7 @@ Specialist for Army marketing, local advertising, public affairs, media and offi
 
 - edition 9 March 2022, authority level 3
 - Chapter: 6 (Shaping Operations)
-- Text: `Manuals/UM_3-29/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-29/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Battalion advertising and public affairs and media awareness.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8744,7 +8786,7 @@ Sections: Advertising and Public Affairs; Training for Media Awareness
 
 - edition 9 March 2022, authority level 3
 - Chapter: 2 (Recruiting Network)
-- Text: `Manuals/UM_3-29/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/UM_3-29/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: News media as part of the recruiting network.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8755,7 +8797,7 @@ Sections: The News Media
 
 - edition 7 March 2022, authority level 3
 - Chapter: 5 (Sustaining Operations)
-- Text: `Manuals/UM_3-31/.transform/05_Chapter_5.md`
+- Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station use of advertising assets.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8766,7 +8808,7 @@ Sections: Advertising Assets
 
 - edition 30 September 2022, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_25-30/.transform`
+- Text: `doctrine/Regulations/UR_25-30`
 - PDF: `Regulations/UR_25-30/UR 25-30.pdf`
 - Why: Actual subject: USAREC Business Cards (roster calls it visual information; no visual information publication is in the library) (formal printed and electronic). Chapter 2 ordering detail is PDF only.
 
@@ -8821,8 +8863,8 @@ social media, post, Facebook, Instagram, TikTok, boost, paid promotion, advertis
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 33_marketing_public_affairs -->
@@ -8916,8 +8958,8 @@ Specialist for training management and leader development in USAREC, written for
 
 - edition 19 September 2022, effective 19 September 2022, authority level 3
 - Chapter: 1
-- Text: `Regulations/UR_350-1/.transform/01_Chapter_1..md`
-- PDF: `Regulations/UR_350-1/UR 350-1.pdf`
+- Text: `doctrine/Manuals/UR_350-1/01_Chapter_1..md`
+- PDF: `Manuals/UR_350-1/UR 350-1.pdf`
 - Why: Purpose, training challenge, goals, training management and development processes, unit training in DTMS. Paragraphs 1-11 to 1-13 (institutional training, evaluation, risk management) are in the PDF only.
 
 | Para | Heading |
@@ -8933,15 +8975,15 @@ Specialist for training management and leader development in USAREC, written for
 
 - edition 19 September 2022, effective 19 September 2022, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_350-1/.transform`
-- PDF: `Regulations/UR_350-1/UR 350-1.pdf`
+- Text: `doctrine/Manuals/UR_350-1`
+- PDF: `Manuals/UR_350-1/UR 350-1.pdf`
 - Why: Most of UR 350-1 is PDF only: Ch.2 responsibilities by echelon (2-14 company commanders, 2-16 medical station OIC, 2-17 station commanders); Ch.3 institutional training (course information, OML, deferments, Army Recruiter Course, Station Commander Course, Master Trainer Course and others); Ch.4 training in units (mandatory training, Advanced Training Program, certification programs, training records, LPD/OPD/NCOPD, self-development); appendixes on certification, CSTAR, leader transition and new recruiting NCO boards. The catalog's 3-1, 3-2 and 4-1 entries are table captions, not paragraphs.
 
 ### UM_3-31: Station Operations
 
 - edition 7 March 2022, authority level 3
 - Chapter: 5 (Sustaining Operations)
-- Text: `Manuals/UM_3-31/.transform/05_Chapter_5.md`
+- Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's training role; references STP 805K-79R-SMTG.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8952,7 +8994,7 @@ Sections: Personnel Integration; Training and Leader Development
 
 - edition 9 March 2022, authority level 3
 - Chapter: 11 (Institutional Training Domain)
-- Text: `Manuals/UM_3-32/.transform/11_Chapter_11.md`
+- Text: `doctrine/Manuals/UM_3-32/11_Chapter_11.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view of training domains and the LDP.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8973,7 +9015,7 @@ Sections: Training and Leader Development
 
 - edition 9 March 2022, authority level 3
 - Chapter: 7 (Sustaining Operations)
-- Text: `Manuals/UM_3-29/.transform/07_Chapter_7.md`
+- Text: `doctrine/Manuals/UM_3-29/07_Chapter_7.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion training; Figure 7-1 three domains of training.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -8984,7 +9026,7 @@ Sections: Training
 
 - edition 1 June 2025, effective 1 June 2025, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_350-1/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_350-1/01_Chapter_1.md`
 - PDF: `Regulations/AR_350-1/AR_350-1.pdf`
 - Why: Army Training System, authorities, training domains.
 
@@ -8998,7 +9040,7 @@ Sections: Training
 
 - edition 1 June 2025, effective 1 June 2025, authority level 2
 - Chapter: 3 (The Army Institutional Training and Education System)
-- Text: `Regulations/AR_350-1/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_350-1/03_Chapter_3.md`
 - PDF: `Regulations/AR_350-1/AR_350-1.pdf`
 - Why: NCO Professional Development System guidance and requirements.
 
@@ -9019,7 +9061,7 @@ Sections: Training
 
 - edition 14 June 2021, authority level 4
 - Chapter: 1
-- Text: `FM/FM_7-0/.transform/06_Chapter_1.md`
+- Text: `doctrine/FM/FM_7-0/06_Chapter_1.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -9029,7 +9071,7 @@ Sections: Principles of Training; Training as Leader Development; Training Manag
 
 - edition 14 June 2021, authority level 4
 - Chapter: 3
-- Text: `FM/FM_7-0/.transform/08_Chapter_3.md`
+- Text: `doctrine/FM/FM_7-0/08_Chapter_3.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -9039,7 +9081,7 @@ Sections: Training Battle Rhythm; Long-Range Planning and Preparation; Mid-Range
 
 - edition 14 June 2021, authority level 4
 - Chapter: 4
-- Text: `FM/FM_7-0/.transform/09_Chapter_4.md`
+- Text: `doctrine/FM/FM_7-0/09_Chapter_4.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -9049,7 +9091,7 @@ Sections: Training Techniques; After Action Review; Recording Results
 
 - edition 14 June 2021, authority level 4
 - Chapter: 5
-- Text: `FM/FM_7-0/.transform/10_Chapter_5.md`
+- Text: `doctrine/FM/FM_7-0/10_Chapter_5.md`
 - PDF: `FM/FM_7-0/FM_7-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -9059,7 +9101,7 @@ Sections: Evaluation; Assessment
 
 - authority level 2
 - Chapter: all
-- Text: `ADP/ADP_7-0/.transform`
+- Text: `doctrine/ADP/ADP_7-0`
 - PDF: `ADP/ADP_7-0/ADP_7-0.pdf`
 - Why: Training doctrine principles; chapters not extracted in the catalog.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -9068,7 +9110,7 @@ Sections: Evaluation; Assessment
 
 - edition 13 May 2018, authority level 4
 - Chapter: all
-- Text: `Manuals/STP805K-79R-SMTG/.transform`
+- Text: `doctrine/Manuals/STP805K-79R-SMTG`
 - PDF: `Manuals/STP805K-79R-SMTG/STP805K-79R-SMTG.PDF`
 - Why: Soldier's Manual and Training Guide, MOS 79R (2018 edition): tasks, conditions, standards. Cite by task title from the PDF; check whether a 42T product supersedes it.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -9077,7 +9119,7 @@ Sections: Evaluation; Assessment
 
 - edition 21 July 2020, authority level 4
 - Chapter: 10
-- Text: `Guides/UTC_5-03.4/.transform/10_Chapter_10..md`
+- Text: `doctrine/Guides/UTC_5-03.4/10_Chapter_10..md`
 - PDF: `Guides/UTC_5-03.4/UTC 5-03.4.pdf`
 - Why: Actual title (front matter): UTC 5-03.4 Training and Leader Development; catalog title is wrong. CSTAR example and use. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -9086,7 +9128,7 @@ Sections: Evaluation; Assessment
 
 - edition 21 July 2020, authority level 4
 - Chapter: 11
-- Text: `Guides/UTC_5-03.4/.transform/11_Chapter_11..md`
+- Text: `doctrine/Guides/UTC_5-03.4/11_Chapter_11..md`
 - PDF: `Guides/UTC_5-03.4/UTC 5-03.4.pdf`
 - Why: DTMS user guide and resources. Level 4.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -9149,8 +9191,8 @@ training plan, near-term training plan, training record, UF 350-1, DTMS, CSTAR, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 34_training_development -->
@@ -9252,7 +9294,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_600-8-22/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_600-8-22/01_Chapter_1.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: Award principles, categories, time limitation, reconsideration, character of service, interim and impact awards, announcement, revocation.
 
@@ -9273,6 +9315,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 3 (U.S. Army Individual Decorations)
+- Text: `doctrine/Regulations/AR_600-8-22/03_Chapter_3.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: U.S. Army individual decorations. Not transformed; read the PDF.
 
@@ -9280,7 +9323,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 4 (Army Good Conduct Medal and Army Reserve Components Achievement Medal)
-- Text: `Regulations/AR_600-8-22/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_600-8-22/04_Chapter_4.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: Army Good Conduct Medal approval and processing.
 
@@ -9294,6 +9337,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 5 (U.S. Army Service Medals and Service Ribbons)
+- Text: `doctrine/Regulations/AR_600-8-22/05_Chapter_5.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: Service medals and ribbons. Not transformed; read the PDF.
 
@@ -9301,6 +9345,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 30 July 2025, effective 30 August 2025, authority level 2
 - Chapter: 8 (Badges and Tabs)
+- Text: `doctrine/Regulations/AR_600-8-22/08_Chapter_8.md`
 - PDF: `Regulations/AR_600-8-22/AR_600-8-22.pdf`
 - Why: Badges and tabs, including recruiter badges. Not transformed; read the PDF.
 
@@ -9308,7 +9353,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - authority level 3
 - Chapter: all
-- Text: `Regulations/USAREC_Suppl_1_to_AR_600_8_22/.transform`
+- Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_8_22`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_8_22/USAREC Suppl 1 to  AR 600_8_22.pdf`
 - Why: USAREC awards supplement (6 June 2019): USAREC awards program, Basic, Gold and Master Recruiter Badge criteria and permanent wear (appendix F), revocation. Predates the current AR 600-8-22 edition; check alignment.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -9317,7 +9362,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 14 February 2025, effective 14 February 2025, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_623-3/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_623-3/01_Chapter_1.md`
 - PDF: `Regulations/AR_623-3/AR_623-3.pdf`
 - Why: Assessments, changes to reports, commander's inquiry, access.
 
@@ -9332,6 +9377,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 14 February 2025, effective 14 February 2025, authority level 2
 - Chapter: 2 (The Rating Chain)
+- Text: `doctrine/Regulations/AR_623-3/02_Chapter_2.md`
 - PDF: `Regulations/AR_623-3/AR_623-3.pdf`
 - Why: The rating chain. Not transformed; read the PDF.
 
@@ -9339,6 +9385,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 14 February 2025, effective 14 February 2025, authority level 2
 - Chapter: 3 (Army Evaluation Principles)
+- Text: `doctrine/Regulations/AR_623-3/03_Chapter_3.md`
 - PDF: `Regulations/AR_623-3/AR_623-3.pdf`
 - Why: Army evaluation principles. Not transformed; read the PDF.
 
@@ -9346,6 +9393,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 14 February 2025, effective 14 February 2025, authority level 2
 - Chapter: 4 (Evaluation Report Redress Program)
+- Text: `doctrine/Regulations/AR_623-3/04_Chapter_4.md`
 - PDF: `Regulations/AR_623-3/AR_623-3.pdf`
 - Why: Evaluation report redress program. Not transformed; read the PDF.
 
@@ -9353,7 +9401,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 12 February 2025, effective 12 February 2025, authority level 2
 - Chapter: 3 (Noncommissioned Officer Evaluation Report Forms and Preparation)
-- Text: `Pamphlets/DA_PAM_623-3/.transform/03_Chapter_3.md`
+- Text: `doctrine/Pamphlets/DA_PAM_623-3/03_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf`
 - Why: NCOER forms and preparation, rater tendency and senior rater profile, relief for cause, addenda, corrections.
 
@@ -9388,7 +9436,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 12 February 2025, effective 12 February 2025, authority level 2
 - Chapter: 2 (Officer Evaluation Report Forms and Preparation)
-- Text: `Pamphlets/DA_PAM_623-3/.transform/02_Chapter_2.md`
+- Text: `doctrine/Pamphlets/DA_PAM_623-3/02_Chapter_2.md`
 - PDF: `Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf`
 - Why: OER forms and preparation (for company and battalion officers).
 
@@ -9396,7 +9444,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 12 February 2025, effective 12 February 2025, authority level 2
 - Chapter: 6 (Constructing an Evaluation Report Appeal)
-- Text: `Pamphlets/DA_PAM_623-3/.transform/06_Chapter_6.md`
+- Text: `doctrine/Pamphlets/DA_PAM_623-3/06_Chapter_6.md`
 - PDF: `Pamphlets/DA_PAM_623-3/DA_PAM_623-3.pdf`
 - Why: Constructing an evaluation report appeal.
 
@@ -9409,6 +9457,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 5 April 2021, authority level 2
 - Chapter: 2 (Policy and Management of Flag)
+- Text: `doctrine/Regulations/AR_600-8-2/02_Chapter_2.md`
 - PDF: `Regulations/AR_600-8-2/AR_600-8-2.pdf`
 - Why: Policy and management of flags. Not transformed; read the PDF.
 
@@ -9416,7 +9465,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 5 April 2021, authority level 2
 - Chapter: 3 (Prohibitions and Retention of Flagged Personnel)
-- Text: `Regulations/AR_600-8-2/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_600-8-2/03_Chapter_3.md`
 - PDF: `Regulations/AR_600-8-2/AR_600-8-2.pdf`
 - Why: Actions prohibited by a flag; retention of flagged personnel.
 
@@ -9429,7 +9478,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 2 October 2020, effective 10 May 2018, authority level 2
 - Chapter: 3 (Unfavorable Information in Army Military Human Resources Record)
-- Text: `Regulations/AR_600-37/.transform/02_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_600-37/02_Chapter_3.md`
 - PDF: `Regulations/AR_600-37/AR_600-37.pdf`
 - Why: Unfavorable information in the AMHRR, including memoranda of reprimand.
 
@@ -9440,12 +9489,14 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 | 3-3 | Filing of information exempt from the referral procedure |
 | 3-4 | Filing of information on sex-related offenses |
 | 3-5 | Filing of nonpunitive administrative memoranda of reprimand, admonition, or censure |
+| 3-6 | Anonymous communications |
+| 3-7 | Referral of information |
 
 ### AR_600-37: Unfavorable Information
 
 - edition 2 October 2020, effective 10 May 2018, authority level 2
 - Chapter: 7 (Appeals)
-- Text: `Regulations/AR_600-37/.transform/06_Chapter_7.md`
+- Text: `doctrine/Regulations/AR_600-37/06_Chapter_7.md`
 - PDF: `Regulations/AR_600-37/AR_600-37.pdf`
 - Why: Appeals.
 
@@ -9463,7 +9514,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 29 June 2023, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_600-8-104/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_600-8-104/01_Chapter_1.md`
 - PDF: `Regulations/AR_600-8-104/AR_600-8-104.pdf`
 - Why: Military human resource records management overview.
 
@@ -9485,7 +9536,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 27 June 2025, effective 27 July 2025, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_614-200/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_614-200/01_Chapter_1.md`
 - PDF: `Regulations/AR_614-200/AR_614-200.pdf`
 - Why: Deletions and deferments.
 
@@ -9497,7 +9548,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 27 June 2025, effective 27 July 2025, authority level 2
 - Chapter: 3 (Enlisted Assignment System)
-- Text: `Regulations/AR_614-200/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_614-200/03_Chapter_3.md`
 - PDF: `Regulations/AR_614-200/AR_614-200.pdf`
 - Why: Enlisted assignment system, selection criteria, preferences, stabilization.
 
@@ -9512,6 +9563,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 27 June 2025, effective 27 July 2025, authority level 2
 - Chapter: 8 (Assignment to Specific Type Organizations or Activities or Duty Positions)
+- Text: `doctrine/Regulations/AR_614-200/08_Chapter_8.md`
 - PDF: `Regulations/AR_614-200/AR_614-200.pdf`
 - Why: Assignment to specific type organizations or duty positions. Not transformed; read the PDF.
 
@@ -9519,7 +9571,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC/.transform`
+- Text: `doctrine/Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC`
 - PDF: `Regulations/AR_601-1_10112016_Asg_of_Enl_Pers_to_USAREC/AR 601-1 10112016 Asg of Enl Pers to USAREC.pdf`
 - Why: AR 601-1 (11 October 2016): Ch.2 selection and training for recruiting duty, Ch.3 assignment and reassignment, Ch.4 completion of DA-selected period and reclassification to 79R, Ch.5 voluntary and involuntary reassignment, suspension, unqualified/ineffective/unsuitable recruiters, Ch.6 AGR recruiters. Predates the 42T conversion; check current messages.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -9528,7 +9580,7 @@ Specialist for personnel actions affecting recruiting cadre, written for station
 
 - edition 7 March 2022, authority level 3
 - Chapter: 5 (Sustaining Operations)
-- Text: `Manuals/UM_3-31/.transform/05_Chapter_5.md`
+- Text: `doctrine/Manuals/UM_3-31/05_Chapter_5.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station commander's personnel management role.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -9597,8 +9649,8 @@ award, AAM, ARCOM, MSM, impact award, recruiter badge, gold badge, NCOER, OER, e
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 35_personnel_actions -->
@@ -9704,7 +9756,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 8 January 2025, effective 8 January 2025, authority level 2
 - Chapter: 3 (Nonjudicial Punishment)
-- Text: `Regulations/AR_27-10/.transform/02_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_27-10/02_Chapter_3.md`
 - PDF: `Regulations/AR_27-10/AR_27-10.pdf`
 - Why: Nonjudicial punishment: policies, authority, procedure, punishment, suspension/mitigation, appeals and DA Form 2627 records.
 
@@ -9759,7 +9811,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 8 January 2025, effective 8 January 2025, authority level 2
 - Chapter: 5 (Procedures for Courts-Martial)
-- Text: `Regulations/AR_27-10/.transform/04_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_27-10/04_Chapter_5.md`
 - PDF: `Regulations/AR_27-10/AR_27-10.pdf`
 - Why: Courts-martial convening authority and reports of offenses; read only to explain why the case goes to the judge advocate.
 
@@ -9774,7 +9826,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 22 June 2025, effective 22 June 2025, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_15-6/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_15-6/01_Chapter_1.md`
 - PDF: `Regulations/AR_15-6/AR_15-6.pdf`
 - Why: Purpose and policy. Chapters 2, 3 and 6 (responsibilities, general procedures, boards) are not transformed; read the PDF.
 
@@ -9788,7 +9840,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 22 June 2025, effective 22 June 2025, authority level 2
 - Chapter: 4 (Preliminary Inquiry)
-- Text: `Regulations/AR_15-6/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_15-6/04_Chapter_4.md`
 - PDF: `Regulations/AR_15-6/AR_15-6.pdf`
 - Why: Preliminary inquiry.
 
@@ -9803,7 +9855,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 22 June 2025, effective 22 June 2025, authority level 2
 - Chapter: 5 (Administrative Investigations)
-- Text: `Regulations/AR_15-6/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_15-6/05_Chapter_5.md`
 - PDF: `Regulations/AR_15-6/AR_15-6.pdf`
 - Why: Administrative investigations and the right to respond to adverse information.
 
@@ -9818,7 +9870,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_600-20/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_600-20/01_Chapter_1.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Command.
 
@@ -9830,7 +9882,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 4 (Military Discipline and Conduct)
-- Text: `Regulations/AR_600-20/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_600-20/04_Chapter_4.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Discipline, conduct, extremism, standards of conduct, harassment prevention, travel card misuse, self-reporting. The paragraphs on relationships between Soldiers and recruiter/applicant relationships were not found in the extracted text; read the PDF.
 
@@ -9851,7 +9903,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 6 February 2025, effective 6 February 2025, authority level 2
 - Chapter: 6 (Military Equal Opportunity Policy and Program)
-- Text: `Regulations/AR_600-20/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_600-20/06_Chapter_6.md`
 - PDF: `Regulations/AR_600-20/AR_600-20.pdf`
 - Why: Military equal opportunity policy, complaint processing and retaliation prevention. Chapters 2 and 5 and the SHARP chapters are not extracted.
 
@@ -9872,7 +9924,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 3
 - Chapter: all
-- Text: `Regulations/UR_27-4/.transform`
+- Text: `doctrine/Regulations/UR_27-4`
 - PDF: `Regulations/UR_27-4/UR 27-4.pdf`
 - Why: Prohibited and Regulated Activities for USAREC personnel; Chapter 2 is punitive and defines prohibited relationships with prospects and applicants. Paragraph headings not extracted; cite by paragraph from the text.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -9881,7 +9933,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 3
 - Chapter: all
-- Text: `Regulations/UR_27-3/.transform`
+- Text: `doctrine/Regulations/UR_27-3`
 - PDF: `Regulations/UR_27-3/UR 27-3.pdf`
 - Why: USAREC procedures in drunk-driving cases involving cadre (documents to gather, reprimand handling).
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -9890,7 +9942,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 1 March 2019, effective 1 March 2019, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_27-2(V3)/.transform`
+- Text: `doctrine/Regulations/UR_27-2(V3)`
 - PDF: `Regulations/UR_27-2(V3)/UR 27-2(V3).pdf`
 - Why: Legal support services: military justice coordination with the BJA, CG withholding of disciplinary authority, standards of conduct, administrative law, mental health evaluation consultation, BJA tracking of RI cases (appendix B).
 
@@ -9898,6 +9950,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 1 September 2014, authority level 3
 - Chapter: 1 (General)
+- Text: `doctrine/Regulations/UR_190-4(1)/01_Chapter_1.md`
 - PDF: `Regulations/UR_190-4(1)/UR 190-4(1).pdf`
 - Why: Incident reporting responsibilities, coordination and table 1-1 serious incident categories.
 
@@ -9911,6 +9964,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - edition 1 September 2014, authority level 3
 - Chapter: 2 (Policy)
+- Text: `doctrine/Regulations/UR_190-4(1)/03_Chapter_2_Policy.md`
 - PDF: `Regulations/UR_190-4(1)/UR 190-4(1).pdf`
 - Why: Reporting policy and procedures. Table 2-1 (timelines and notification matrix) is an image only; chapters 3 to 5 (SIR forms, SIR addendum, DA Form 4833) were not transformed; read the PDF.
 
@@ -9923,7 +9977,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_190-45/.transform`
+- Text: `doctrine/Regulations/AR_190-45`
 - PDF: `Regulations/AR_190-45/AR_190-45.pdf`
 - Why: Law enforcement reporting; Chapter 4 offense reporting and DA Form 4833, Chapter 8 reportable serious incidents, Chapter 9 SIR procedures. Paragraph headings not extracted; cite by chapter.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -9932,7 +9986,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AD_2022-10/.transform`
+- Text: `doctrine/Regulations/AD_2022-10`
 - PDF: `Regulations/AD_2022-10/AD_2022-10.pdf`
 - Why: Safe-to-report: commander assessment of minor collateral misconduct by sexual assault victims.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -9941,7 +9995,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AD2018-16/.transform`
+- Text: `doctrine/Regulations/AD2018-16`
 - PDF: `Regulations/AD2018-16/AD2018-16.pdf`
 - Why: Suitability criteria and screening for recruiting cadre and other specified positions.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -9950,7 +10004,7 @@ Specialist for company and battalion command teams and station commanders who mu
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/RI_-_Appointment_of_IO_Memo/.transform`
+- Text: `doctrine/Guides/RI_-_Appointment_of_IO_Memo`
 - PDF: `Guides/RI_-_Appointment_of_IO_Memo/RI - Appointment of IO Memo.pdf`
 - Why: Sample IO appointment memo for a recruiting impropriety investigation. It is a 2014 sample that cites superseded publications (UR 601-45, old UR 601-210 chapter 7); use for memo structure only and take governing citations from message 25-019 and AR 15-6.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -10027,8 +10081,8 @@ Article 15, NJP, nonjudicial punishment, 15-6, commander's inquiry, preliminary 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 36_military_justice_command -->
@@ -10217,7 +10271,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_735-5/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_735-5/01_Chapter_1.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Purpose and command responsibilities for property accountability.
 
@@ -10231,7 +10285,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 4 (Methods of Obtaining Relief from Responsibility or Accountability for Property)
-- Text: `Regulations/AR_735-5/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_735-5/04_Chapter_4.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Methods of obtaining relief from responsibility; reporting; admitted negligence; adjusting property records.
 
@@ -10248,7 +10302,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 5 (Financial Liability Investigations of Property Loss)
-- Text: `Regulations/AR_735-5/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_735-5/05_Chapter_5.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Financial liability investigations of property loss: when mandatory, DD Form 200 preparation, time constraints, appointing and approving authority.
 
@@ -10284,7 +10338,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 6 (Appointment of Financial Liability Officer)
-- Text: `Regulations/AR_735-5/.transform/06_Chapter_6.md`
+- Text: `doctrine/Regulations/AR_735-5/06_Chapter_6.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Financial liability officer appointment and responsibilities. Chapters 7 to 10 (cost of loss, investigation, liability, findings) are not transformed; read the PDF.
 
@@ -10299,12 +10353,13 @@ Specialist for station commanders, company command teams and supply personnel on
 | 6-7 | Financial liability officer’s responsibilities |
 | 6-8 | Time constraints for conducting the investigation by the financial liability officer |
 | 6-9 | Relief of financial liability officer |
+| 6-10 | Number of copies |
 
 ### AR_735-5
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 11 (Actions after Making Recommendations)
-- Text: `Regulations/AR_735-5/.transform/11_Chapter_11.md`
+- Text: `doctrine/Regulations/AR_735-5/11_Chapter_11.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Actions after recommendations: legal review, respondent rights, rebuttal, reconsideration, remission.
 
@@ -10335,7 +10390,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - edition 10 March 2024, effective 10 April 2024, authority level 2
 - Chapter: 12 (Special Procedures)
-- Text: `Regulations/AR_735-5/.transform/12_Chapter_12.md`
+- Text: `doctrine/Regulations/AR_735-5/12_Chapter_12.md`
 - PDF: `Regulations/AR_735-5/AR_735-5.pdf`
 - Why: Vehicle accidents, sensitive items, keys, leased property, inventory losses.
 
@@ -10352,7 +10407,7 @@ Specialist for station commanders, company command teams and supply personnel on
 
 - authority level 3
 - Chapter: all
-- Text: `Regulations/UR_570-1/.transform`
+- Text: `doctrine/Regulations/UR_570-1`
 - PDF: `Regulations/UR_570-1/UR 570-1.pdf`
 - Why: Manpower and equipment control: TDA changes and recruiting station establishment, disestablishment and relocation (2006 edition). Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -10428,8 +10483,8 @@ hand receipt, sub-hand receipt, property book, CSDP, inventory, change of comman
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 37_logistics_property -->
@@ -10608,7 +10663,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 4 April 2019, effective 4 May 2019, authority level 2
 - Chapter: 2 (Responsibilities)
-- Text: `Regulations/AR_25-2/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_25-2/02_Chapter_2.md`
 - PDF: `Regulations/AR_25-2/AR 25-2.pdf`
 - Why: Responsibilities of all personnel and authorized users.
 
@@ -10621,7 +10676,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 4 April 2019, effective 4 May 2019, authority level 2
 - Chapter: 4 (Cybersecurity Risk Management Program)
-- Text: `Regulations/AR_25-2/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_25-2/04_Chapter_4.md`
 - PDF: `Regulations/AR_25-2/AR 25-2.pdf`
 - Why: Information security, OPSEC, protection of IT and information, access control. Chapter 3 is not transformed.
 
@@ -10636,7 +10691,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 15 July 2019, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Regulations/AR_25-1_15Jul19_IM_Army_IT/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_25-1_15Jul19_IM_Army_IT/01_Chapter_1.md`
 - PDF: `Regulations/AR_25-1_15Jul19_IM_Army_IT/AR 25-1 15Jul19 IM Army IT.pdf`
 - Why: Army IT and information management overview and records-management requirement.
 
@@ -10650,7 +10705,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 11 May 2017, authority level 2
 - Chapter: 3 (Utilization of telecommunications and unified capabilities)
-- Text: `Regulations/AR_25-13/.transform/02_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_25-13/02_Chapter_3.md`
 - PDF: `Regulations/AR_25-13/AR 25-13.pdf`
 - Why: Official, unauthorized and prohibited uses of telecommunications; monitoring and recording.
 
@@ -10664,7 +10719,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 18 October 2022, effective 18 November 2022, authority level 2
 - Chapter: 3 (Record Definitions)
-- Text: `Regulations/AR_25-400-2/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_25-400-2/03_Chapter_3.md`
 - PDF: `Regulations/AR_25-400-2/AR_25-400-2.pdf`
 - Why: Record definitions: records, non-records, personal papers, essential and unscheduled records.
 
@@ -10677,12 +10732,15 @@ Specialist for recruiters, station commanders and battalion staff on information
 | 3-5 | Essential records |
 | 3-6 | Unscheduled records |
 | 3-7 | Contract records |
+| 3-8 | Social media records |
+| 3-9 | Unlawful or accidental removal, defacing, alteration, or destruction of records |
+| 3-10 | Records inspection |
 
 ### AR_25-400-2: Army Records Management Program
 
 - edition 18 October 2022, effective 18 November 2022, authority level 2
 - Chapter: 5 (Records Retention)
-- Text: `Regulations/AR_25-400-2/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_25-400-2/05_Chapter_5.md`
 - PDF: `Regulations/AR_25-400-2/AR_25-400-2.pdf`
 - Why: Records retention schedule and ARIMS. Chapters 4 and 6 (recordkeeping, disposition) are not transformed; read the PDF.
 
@@ -10696,7 +10754,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 14 June 2021, effective 14 July 2021, authority level 2
 - Chapter: 2 (Army Publications)
-- Text: `Regulations/AR_25-30/.transform/02_Chapter_2.md`
+- Text: `doctrine/Regulations/AR_25-30/02_Chapter_2.md`
 - PDF: `Regulations/AR_25-30/AR_25-30.pdf`
 - Why: Types of Army publications, restrictions, electronic messages, records requirements. Chapter 3 (forms) is not transformed.
 
@@ -10712,7 +10770,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 1 January 2020, effective 1 January 2020, authority level 3
 - Chapter: 2
-- Text: `Regulations/UR_5-01/.transform/02_Chapter_2..md`
+- Text: `doctrine/Regulations/UR_5-01/02_Chapter_2..md`
 - PDF: `Regulations/UR_5-01/UR 5-01.pdf`
 - Why: USAREC knowledge management definition, principles, working group, board and tools.
 
@@ -10728,7 +10786,7 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 22 January 2019, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_380-4/.transform`
+- Text: `doctrine/Regulations/UR_380-4`
 - PDF: `Regulations/UR_380-4/UR 380-4.pdf`
 - Why: USAREC security programs including information security and threat awareness reporting. Paragraph headings largely not extracted.
 
@@ -10736,10 +10794,10 @@ Specialist for recruiters, station commanders and battalion staff on information
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.21 Electronic Records Management (ERM) exists only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -10799,8 +10857,8 @@ records retention, how long do I keep, files, ARIMS, destroy records, shred, cyb
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 38_it_records_knowledge -->
@@ -10904,7 +10962,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - authority level 4
 - Chapter: all
-- Text: `FM/FM_7-22/.transform`
+- Text: `doctrine/FM/FM_7-22`
 - PDF: `FM/FM_7-22/FM_7-22.pdf`
 - Why: Holistic Health and Fitness: physical, nutritional, mental, spiritual and sleep readiness domains. Paragraphs untitled; cite by section heading.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -10913,7 +10971,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 19 October 2017, effective 19 November 2017, authority level 2
 - Chapter: 1 (Structure)
-- Text: `Regulations/AR_608-1/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_608-1/01_Chapter_1.md`
 - PDF: `Regulations/AR_608-1/AR_608-1.pdf`
 - Why: Army Community Service purpose, mission and eligibility. Chapters 2 to 4 (oversight, management, services) are not transformed; read the PDF.
 
@@ -10927,7 +10985,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 19 October 2017, effective 19 November 2017, authority level 2
 - Chapter: 5 (Volunteers)
-- Text: `Regulations/AR_608-1/.transform/05_Chapter_5.md`
+- Text: `doctrine/Regulations/AR_608-1/05_Chapter_5.md`
 - PDF: `Regulations/AR_608-1/AR_608-1.pdf`
 - Why: Volunteers, including private organization volunteers and recognition.
 
@@ -10960,7 +11018,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_600-85/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_600-85/01_Chapter_1.md`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: ASAP concept and principles.
 
@@ -10973,7 +11031,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: 8 (Types of Substance Use Disorder Treatment)
-- Text: `Regulations/AR_600-85/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/AR_600-85/08_Chapter_8.md`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: Treatment services and mandatory command notifications.
 
@@ -10986,7 +11044,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: 9 (Prevention, Education, and Training)
-- Text: `Regulations/AR_600-85/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_600-85/09_Chapter_9.md`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: Unit deterrence leader, leader and Soldier training, prevention and risk reduction.
 
@@ -11002,7 +11060,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 4 October 2024, effective 4 October 2024, authority level 2
 - Chapter: 10 (Legal and Administrative Procedures, and Media Relations)
-- Text: `Regulations/AR_600-85/.transform/10_Chapter_10.md`
+- Text: `doctrine/Regulations/AR_600-85/10_Chapter_10.md`
 - PDF: `Regulations/AR_600-85/AR_600-85.pdf`
 - Why: Limited use policy and confidentiality of patient records. Chapters 2 to 7 (alcohol, drug testing, referral) are not transformed.
 
@@ -11018,7 +11076,7 @@ Sections: Personnel Integration; Soldier and Family Readiness Group (SFRG); Pers
 
 - edition 1 September 2016, authority level 3
 - Chapter: all
-- Text: `Regulations/USAREC_Suppl_1_to_AR_600_85/.transform`
+- Text: `doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85`
 - PDF: `Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf`
 - Why: USAREC supplement (2016): unit prevention leader and drug testing program software requirements. Paragraph headings not extracted.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -11096,8 +11154,8 @@ SFRG, FRG, family, spouse, sponsorship, sponsor, new recruiter arriving, recepti
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 39_soldier_family_wellness -->
@@ -11217,7 +11275,7 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 
 - authority level 4
 - Chapter: all
-- Text: `Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu/.transform`
+- Text: `doctrine/Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu`
 - PDF: `Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu/G6 Knowledge Document_LiveScan WEBS 2018 Set-up Guide.pdf`
 - Why: G6 knowledge document (Oct 2018) for installing and enrolling the LiveScan WEBS service.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -11226,10 +11284,10 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 4 (Recruit Quota System (REQUEST) Procedures)
-- Text: `Regulations/UR_601-210/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/UR_601-210/04_Chapter_4.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: REQUEST procedures: general, security and use.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -11237,15 +11295,16 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 | 4-2 | General |
 | 4-3 | Security |
 | 4-4 | REQUEST Use |
+| 4-5 | Alternate Procedures for Terminal or System Failure |
 
 ### UR_601-210: Enlistment & Accessions Processing
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 19 (Required USMEPCOM Daily Reports and RZ)
-- Text: `Regulations/UR_601-210/.transform/19_Chapter_19.md`
+- Text: `doctrine/Regulations/UR_601-210/19_Chapter_19.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Required USMEPCOM daily reports, REQUEST and close-out reports, RZ end-of-day reports.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -11259,10 +11318,10 @@ Specialist for recruiters, station commanders, guidance counselors and battalion
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.5 Live Scan and Ch.21 Electronic Records Management exist only in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ## USAREC messages
 
@@ -11326,8 +11385,8 @@ RZ, Recruiter Zone, My Work Zone, ROAM, route map, GCRc, ERM, project an applica
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 40_systems_howto -->
@@ -11485,8 +11544,8 @@ latest, current, still in effect, still valid, new message, changed, rescinded, 
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 41_policy_currency -->
@@ -11643,7 +11702,7 @@ Sections: Leaders and Challenges; Leadership and Management; Stress of Change; C
 
 - authority level 4
 - Chapter: all
-- Text: `FM/FM_6-22/.transform`
+- Text: `doctrine/FM/FM_6-22`
 - PDF: `FM/FM_6-22/FM_6-22.pdf`
 - Why: Developing Leaders: tenets, setting conditions, feedback, coaching, counseling and mentoring (Section III, Fundamentals of Development), self-development, individual development plans (DA Form 7906), unit leader development programs. Paragraphs untitled; cite by section heading.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -11652,7 +11711,7 @@ Sections: Leaders and Challenges; Leadership and Management; Stress of Change; C
 
 - edition 31 July 2019, authority level 2
 - Chapter: 1
-- Text: `ADP/ADP_6-0/.transform/06_Chapter_1.md`
+- Text: `doctrine/ADP/ADP_6-0/06_Chapter_1.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -11662,7 +11721,7 @@ Sections: Mission Command; Principles of Mission Command; The Role of Subordinat
 
 - edition 31 July 2019, authority level 2
 - Chapter: 2
-- Text: `ADP/ADP_6-0/.transform/07_Chapter_2.md`
+- Text: `doctrine/ADP/ADP_6-0/07_Chapter_2.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -11672,7 +11731,7 @@ Sections: Nature of Command; Elements of Command; The Role of Commanders in Oper
 
 - edition 31 July 2019, authority level 2
 - Chapter: 3
-- Text: `ADP/ADP_6-0/.transform/08_Chapter_3.md`
+- Text: `doctrine/ADP/ADP_6-0/08_Chapter_3.md`
 - PDF: `ADP/ADP_6-0/ADP_6-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -11682,7 +11741,7 @@ Sections: Nature of Control; Elements of Control; Control Measures; Guides to Ef
 
 - edition 31 July 2019, authority level 2
 - Chapter: 1
-- Text: `ADP/ADP_5-0/.transform/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md`
+- Text: `doctrine/ADP/ADP_5-0/05_Chapter_1-_Fundamentals_of_the_Operations_Process.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -11692,7 +11751,7 @@ Sections: The Framework of the Operations Process; Principles of the Operations 
 
 - edition 31 July 2019, authority level 2
 - Chapter: 2
-- Text: `ADP/ADP_5-0/.transform/06_Chapter_2-_Planning.md`
+- Text: `doctrine/ADP/ADP_5-0/06_Chapter_2-_Planning.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -11702,7 +11761,7 @@ Sections: Fundamentals of Planning; Key Components of a Plan; Guides to Effectiv
 
 - edition 31 July 2019, authority level 2
 - Chapter: 3
-- Text: `ADP/ADP_5-0/.transform/07_Chapter_3-_Preparation.md`
+- Text: `doctrine/ADP/ADP_5-0/07_Chapter_3-_Preparation.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -11712,7 +11771,7 @@ Sections: Fundamentals of Preparation; Preparation Activities
 
 - edition 31 July 2019, authority level 2
 - Chapter: 4
-- Text: `ADP/ADP_5-0/.transform/08_Chapter_4-_Execution.md`
+- Text: `doctrine/ADP/ADP_5-0/08_Chapter_4-_Execution.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -11722,7 +11781,7 @@ Sections: Fundamentals of Execution; Responsibilities During Execution; Rapid De
 
 - edition 31 July 2019, authority level 2
 - Chapter: 5
-- Text: `ADP/ADP_5-0/.transform/09_Chapter_5-_Assessment.md`
+- Text: `doctrine/ADP/ADP_5-0/09_Chapter_5-_Assessment.md`
 - PDF: `ADP/ADP_5-0/ADP_5-0.pdf`
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
 
@@ -11732,7 +11791,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 
 - authority level 2
 - Chapter: all
-- Text: `ADP/ADP_1/.transform`
+- Text: `doctrine/ADP/ADP_1`
 - PDF: `ADP/ADP_1/ADP_1.pdf`
 - Why: The Army; chapters not split. Cite by heading from .transform/00_Full_Document.md.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -11741,7 +11800,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 
 - edition 01 May 2025, authority level 4
 - Chapter: all
-- Text: `FM/FM_1/.transform`
+- Text: `doctrine/FM/FM_1`
 - PDF: `FM/FM_1/FM_1.pdf`
 - Why: The Army (2025); chapter titles were not captured cleanly; cite by heading.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -11750,7 +11809,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 
 - authority level 2
 - Chapter: all
-- Text: `ADP/ADP_3-0/.transform`
+- Text: `doctrine/ADP/ADP_3-0`
 - PDF: `ADP/ADP_3-0/ADP_3-0.pdf`
 - Why: Operations; chapters not split.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -11759,7 +11818,7 @@ Sections: Fundamentals of Assessment; Assessment Process; Guides to Effective As
 
 - edition 21 March 2025, authority level 4
 - Chapter: all
-- Text: `FM/FM_3-0/.transform`
+- Text: `doctrine/FM/FM_3-0`
 - PDF: `FM/FM_3-0/FM_3-0.pdf`
 - Why: Operations (2025); chapter titles were not captured cleanly; cite by heading. Use only for terms such as mission command culture.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -11814,8 +11873,8 @@ counseling, how do I counsel, coaching, mentoring, leader development, LPD, IDP,
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 42_leadership_doctrine -->
@@ -11894,7 +11953,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/01_Chapter_1.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/01_Chapter_1.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Officer talent management overview. The G1 folder under the doctrine root (G1/) holds the branch and functional area DA PAM 600-3 chapters (for example infantry, aviation, cyber, signal, MI, MP, AG, quartermaster, ordnance, FA and FA 30 to 59), warrant officer career charts, enlisted CMF_<number> board-guidance and career products, DA_PAM_611-21_MOS_Manual chapters, a DA PAM 601-280 smartbook and a Civilian_Employment_Guide; most have .transform markdown. These are not in the source catalog; cite them by folder and file name and note their dates.
 
@@ -11909,7 +11968,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 3 (Army Personnel Development System)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/03_Chapter_3.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/03_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Army personnel development system life-cycle functions.
 
@@ -11922,7 +11981,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 4 (Officer Talent Management System and Career Management)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/04_Chapter_4.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/04_Chapter_4.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Officer talent management system and career management; warrant officer definitions, career patterns and development; assignment process; individual career management.
 
@@ -11948,7 +12007,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 5 (Officer Education)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/05_Chapter_5.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/05_Chapter_5.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Officer education system, educational counseling, service obligation, civilian education.
 
@@ -11964,7 +12023,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 7 (Competitive Categories, Functional Categories, and Branches)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/07_Chapter_7.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/07_Chapter_7.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Competitive categories, functional categories and branches. Chapters 2, 6, 9 and 10 are not transformed; read the PDF.
 
@@ -11983,7 +12042,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 20 December 2022, authority level 2
 - Chapter: 1 (General)
-- Text: `Pamphlets/DA_PAM_611-21/.transform/01_Chapter_1.md`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21/01_Chapter_1.md`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: Purpose of the classification structure. Chapters 2 and 3 summaries are in the catalog without files; the full MOS manual chapters are under G1/DA_PAM_611-21_MOS_Manual/.
 
@@ -12047,8 +12106,8 @@ career, career path, career map, promotion path, what is this job like, CMF, bra
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05
 <!-- END AGENT: 43_career_guidance -->

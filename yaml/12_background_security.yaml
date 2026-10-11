@@ -33,7 +33,7 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "9"
     chapter_title: "Applicant Background Screening (ABS): Technical (tech) Check and National Agency Check and Local Check (NACLC)"
-    markdown: Regulations/UR_601-210/.transform/09_Chapter_9.md
+    markdown: doctrine/Regulations/UR_601-210/09_Chapter_9.md
     paragraphs:
       "9-1": Purpose
       "9-2": General
@@ -49,7 +49,7 @@ sources:
       "9-12": Security Interview
     note: "Applicant Background Screening: tech check and NACLC/Secret submissions and results, PS/GNPS processing, matches, FSs without favorable results, records, security interview."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: AR_601-210
     title: Regular Army and Reserve Components Enlistment Program
     edition_date: "20 March 2026"
@@ -58,7 +58,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "2"
     chapter_title: Enlistment in the Regular Army, U.S. Army Reserve, or Army National Guard for Non-Prior Service Applicants
-    markdown: Regulations/AR_601-210/.transform/02_Chapter_2.md
+    markdown: doctrine/Regulations/AR_601-210/02_Chapter_2.md
     paragraphs:
       "2-11": Conduct and administrative criteria
       "2-14": Background Investigation and vetting requirements
@@ -71,7 +71,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "5"
     chapter_title: Processing Applicants
-    markdown: Regulations/AR_601-210/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_601-210/05_Chapter_5.md
     paragraphs:
       "5-61": Policy
       "5-62": Title
@@ -100,7 +100,7 @@ sources:
     pdf: Regulations/AR_380-67/AR_380-67.pdf
     chapter: "7"
     chapter_title: National Security Eligibility and Granting Access
-    markdown: Regulations/AR_380-67/.transform/06_Chapter_7.md
+    markdown: doctrine/Regulations/AR_380-67/06_Chapter_7.md
     paragraphs:
       "7-2": National security eligibility
       "7-3": Interim (or temporary) national security eligibility
@@ -113,7 +113,7 @@ sources:
     pdf: Regulations/AR_380-67/AR_380-67.pdf
     chapter: "3"
     chapter_title: Specific Investigative Requirements by Population
-    markdown: null
+    markdown: doctrine/Regulations/AR_380-67/03_Chapter_3.md
     note: "Specific investigative requirements by population (includes accessions). NOT transformed; read the PDF."
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
@@ -122,10 +122,10 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: all
-    markdown: Regulations/UR_601-210/.transform
+    markdown: doctrine/Regulations/UR_601-210
     note: Ch.5 Live Scan exists only in the PDF (not transformed).
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "25-029"
     subject: SF 86 Completion. Recruiters will not tell or encourage applicants to omit information from the SF 86.
@@ -274,7 +274,7 @@ guardrails:
   - Never tell or encourage an applicant to omit or soften information on the SF 86 (message 25-029).
   - Never predict or characterize a clearance adjudication outcome.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

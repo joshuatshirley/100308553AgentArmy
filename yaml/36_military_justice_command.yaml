@@ -34,7 +34,7 @@ sources:
     pdf: Regulations/AR_27-10/AR_27-10.pdf
     chapter: "3"
     chapter_title: Nonjudicial Punishment
-    markdown: Regulations/AR_27-10/.transform/02_Chapter_3.md
+    markdown: doctrine/Regulations/AR_27-10/02_Chapter_3.md
     paragraphs:
       "3-1": General
       "3-2": Use of nonjudicial punishment
@@ -89,7 +89,7 @@ sources:
     pdf: Regulations/AR_27-10/AR_27-10.pdf
     chapter: "5"
     chapter_title: Procedures for Courts-Martial
-    markdown: Regulations/AR_27-10/.transform/04_Chapter_5.md
+    markdown: doctrine/Regulations/AR_27-10/04_Chapter_5.md
     paragraphs:
       "5-2": Secretarial designation of convening authorities
       "5-3": Authority to convene summary courts-martial
@@ -104,7 +104,7 @@ sources:
     pdf: Regulations/AR_15-6/AR_15-6.pdf
     chapter: "1"
     chapter_title: General
-    markdown: Regulations/AR_15-6/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_15-6/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-6": Other governing regulations
@@ -118,7 +118,7 @@ sources:
     pdf: Regulations/AR_15-6/AR_15-6.pdf
     chapter: "4"
     chapter_title: Preliminary Inquiry
-    markdown: Regulations/AR_15-6/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_15-6/04_Chapter_4.md
     paragraphs:
       "4-1": Purpose
       "4-2": Appointing authority
@@ -133,7 +133,7 @@ sources:
     pdf: Regulations/AR_15-6/AR_15-6.pdf
     chapter: "5"
     chapter_title: Administrative Investigations
-    markdown: Regulations/AR_15-6/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_15-6/05_Chapter_5.md
     paragraphs:
       "5-1": Purpose
       "5-2": Appointing authority
@@ -148,7 +148,7 @@ sources:
     pdf: Regulations/AR_600-20/AR_600-20.pdf
     chapter: "1"
     chapter_title: Introduction
-    markdown: Regulations/AR_600-20/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_600-20/01_Chapter_1.md
     paragraphs:
       "1-6": Command
     note: Command.
@@ -160,7 +160,7 @@ sources:
     pdf: Regulations/AR_600-20/AR_600-20.pdf
     chapter: "4"
     chapter_title: Military Discipline and Conduct
-    markdown: Regulations/AR_600-20/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/AR_600-20/04_Chapter_4.md
     paragraphs:
       "4-1": Military discipline
       "4-2": Obedience to orders
@@ -181,7 +181,7 @@ sources:
     pdf: Regulations/AR_600-20/AR_600-20.pdf
     chapter: "6"
     chapter_title: Military Equal Opportunity Policy and Program
-    markdown: Regulations/AR_600-20/.transform/06_Chapter_6.md
+    markdown: doctrine/Regulations/AR_600-20/06_Chapter_6.md
     paragraphs:
       "6-1": Purpose
       "6-2": Military equal opportunity policies
@@ -201,7 +201,7 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_27-4/UR 27-4.pdf
     chapter: all
-    markdown: Regulations/UR_27-4/.transform
+    markdown: doctrine/Regulations/UR_27-4
     note: "Prohibited and Regulated Activities for USAREC personnel; Chapter 2 is punitive and defines prohibited relationships with prospects and applicants. Paragraph headings not extracted; cite by paragraph from the text."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -212,7 +212,7 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_27-3/UR 27-3.pdf
     chapter: all
-    markdown: Regulations/UR_27-3/.transform
+    markdown: doctrine/Regulations/UR_27-3
     note: USAREC procedures in drunk-driving cases involving cadre (documents to gather, reprimand handling).
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -223,7 +223,7 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_27-2(V3)/UR 27-2(V3).pdf
     chapter: all
-    markdown: Regulations/UR_27-2(V3)/.transform
+    markdown: doctrine/Regulations/UR_27-2(V3)
     note: "Legal support services: military justice coordination with the BJA, CG withholding of disciplinary authority, standards of conduct, administrative law, mental health evaluation consultation, BJA tracking of RI cases (appendix B)."
   - doc: UR_190-4(1)
     title: Incident Reporting
@@ -233,7 +233,7 @@ sources:
     pdf: Regulations/UR_190-4(1)/UR 190-4(1).pdf
     chapter: "1"
     chapter_title: General
-    markdown: null
+    markdown: doctrine/Regulations/UR_190-4(1)/01_Chapter_1.md
     paragraphs:
       "1-4": Responsibilities
       "1-5": Coordination
@@ -247,7 +247,7 @@ sources:
     pdf: Regulations/UR_190-4(1)/UR 190-4(1).pdf
     chapter: "2"
     chapter_title: Policy
-    markdown: null
+    markdown: doctrine/Regulations/UR_190-4(1)/03_Chapter_2_Policy.md
     paragraphs:
       "2-1": General
       "2-2": Reporting procedures
@@ -259,7 +259,7 @@ sources:
     authority_level: 2
     pdf: Regulations/AR_190-45/AR_190-45.pdf
     chapter: all
-    markdown: Regulations/AR_190-45/.transform
+    markdown: doctrine/Regulations/AR_190-45
     note: "Law enforcement reporting; Chapter 4 offense reporting and DA Form 4833, Chapter 8 reportable serious incidents, Chapter 9 SIR procedures. Paragraph headings not extracted; cite by chapter."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -270,7 +270,7 @@ sources:
     authority_level: 2
     pdf: Regulations/AD_2022-10/AD_2022-10.pdf
     chapter: all
-    markdown: Regulations/AD_2022-10/.transform
+    markdown: doctrine/Regulations/AD_2022-10
     note: "Safe-to-report: commander assessment of minor collateral misconduct by sexual assault victims."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -281,7 +281,7 @@ sources:
     authority_level: 2
     pdf: Regulations/AD2018-16/AD2018-16.pdf
     chapter: all
-    markdown: Regulations/AD2018-16/.transform
+    markdown: doctrine/Regulations/AD2018-16
     note: Suitability criteria and screening for recruiting cadre and other specified positions.
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -292,7 +292,7 @@ sources:
     authority_level: 4
     pdf: Guides/RI_-_Appointment_of_IO_Memo/RI - Appointment of IO Memo.pdf
     chapter: all
-    markdown: Guides/RI_-_Appointment_of_IO_Memo/.transform
+    markdown: doctrine/Guides/RI_-_Appointment_of_IO_Memo
     note: "Sample IO appointment memo for a recruiting impropriety investigation. It is a 2014 sample that cites superseded publications (UR 601-45, old UR 601-210 chapter 7); use for memo structure only and take governing citations from message 25-019 and AR 15-6."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -447,7 +447,7 @@ guardrails:
   - "Never discourage or delay a report; when unsure whether an incident is reportable, cite UR 190-4 2-1 guidance to report."
   - "Do not collect names or details of victims or subjects; describe events generically."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

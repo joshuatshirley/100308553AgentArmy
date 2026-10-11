@@ -82,7 +82,7 @@ Specialist for recruiting market intelligence and targeting, written for station
 
 - edition 9 March 2022, authority level 3
 - Chapter: 3 (Intelligence And Market Analysis)
-- Text: `Manuals/UM_3-29/.transform/03_Chapter_3.md`
+- Text: `doctrine/Manuals/UM_3-29/03_Chapter_3.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Brigade and battalion intelligence and market analysis, IPOE, event and geographic targeting.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -93,7 +93,7 @@ Sections: Intelligence Preparation of the Operational Environment; Recruiting Ma
 
 - edition 9 March 2022, authority level 3
 - Chapter: 4 (Planning)
-- Text: `Manuals/UM_3-29/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-29/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-29/UM 3-29.pdf`
 - Why: Figure 4-4 high payoff event list and Figure 4-5 synchronization matrix are in this chapter.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -114,7 +114,7 @@ Sections: The Command Team's Role In the Intelligence Process; Intelligence Prep
 
 - edition 7 March 2022, authority level 3
 - Chapter: 2 (Recruiting Operations Process)
-- Text: `Manuals/UM_3-31/.transform/02_Chapter_2.md`
+- Text: `doctrine/Manuals/UM_3-31/02_Chapter_2.md`
 - PDF: `Manuals/UM_3-31/UM 3-31.pdf`
 - Why: Station level: recruiters as sensors, open-source and publicly available information, ASCOPE, zone tools.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -125,7 +125,7 @@ Sections: Intelligence and Market Analysis; Recruiting Zones
 
 - edition 9 March 2022, authority level 3
 - Chapter: 6
-- Text: `Manuals/UM_3-32/.transform/06_Chapter_6.md`
+- Text: `doctrine/Manuals/UM_3-32/06_Chapter_6.md`
 - PDF: `Manuals/UM_3-32/UM 3-32.pdf`
 - Why: Recruiter's view; Figure 6-1 G-2 Market Intelligence Dashboard.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -136,7 +136,7 @@ Sections: Intelligence; Market Analysis; Intelligence and Market Analysis
 
 - edition 9 March 2022, authority level 3
 - Chapter: 4 (Support of Recruiting Operations)
-- Text: `Manuals/UM_3-0/.transform/04_Chapter_4.md`
+- Text: `doctrine/Manuals/UM_3-0/04_Chapter_4.md`
 - PDF: `Manuals/UM_3-0/UM 3-0.pdf`
 - Why: Command-level doctrine; appendix B (PMESII-PT and METT-TC) is in the same markdown file.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -147,7 +147,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 2 (Market Analysis)
-- Text: `Guides/UTC_5-02/.transform/02_Chapter_2.md`
+- Text: `doctrine/Guides/UTC_5-02/02_Chapter_2.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Actual title (front matter): UTC 5-02 Intelligence; catalog title is wrong. Market Analysis: steps of the recruiting IPB.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -156,7 +156,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 3 (Types and Location of Intelligence Data Source)
-- Text: `Guides/UTC_5-02/.transform/03_Chapter_3.md`
+- Text: `doctrine/Guides/UTC_5-02/03_Chapter_3.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Types and location of intelligence data sources: MID, G-2 market analysis tools, G2 Maps, MAR, Power BI.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -165,7 +165,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 4
-- Text: `Guides/UTC_5-02/.transform/04_Chapter_4.md`
+- Text: `doctrine/Guides/UTC_5-02/04_Chapter_4.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Defining the operational environment: PMESII-PT, ASCOPE, TMA, FQMA, segmentation, demographics, propensity.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -174,7 +174,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 5 (Describe the Environmental Effects)
-- Text: `Guides/UTC_5-02/.transform/05_Chapter_5.md`
+- Text: `doctrine/Guides/UTC_5-02/05_Chapter_5.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Describe the environmental effects: span of control, P2P, penetration, schools.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -183,7 +183,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 6 (Evaluate the Threat)
-- Text: `Guides/UTC_5-02/.transform/06_Chapter_6.md`
+- Text: `doctrine/Guides/UTC_5-02/06_Chapter_6.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Evaluate the threat: competition and market share, with its pitfalls.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -192,7 +192,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 4
 - Chapter: 7 (Assess Market Potential)
-- Text: `Guides/UTC_5-02/.transform/07_Chapter_7.md`
+- Text: `doctrine/Guides/UTC_5-02/07_Chapter_7.md`
 - PDF: `Guides/UTC_5-02/UTC 5-02.pdf`
 - Why: Assess market potential: SAMA, MAR, SMR.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -201,7 +201,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - edition 1 February 2015, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-73/.transform`
+- Text: `doctrine/Regulations/UR_601-73`
 - PDF: `Regulations/UR_601-73/UR 601-73.pdf`
 - Why: Market Analysis to Support Recruiting Operations. Uses dotted numbering (5.1, 6.2); catalog extracted only 5-1/5-2. Sections 5 Recruiter Allocation, 6 Position Analysis and Evaluation, 7 Mission Analysis and Distribution, 8 Review and Implementation are in .transform/03_Contents_Listed_by_paragraph_and_page_number.md. Edition 2015; check for newer guidance.
 
@@ -209,7 +209,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - edition 01 October 2023, authority level 4
 - Chapter: 1
-- Text: `FM/FM_2-0/.transform/04_Chapter_1-_Intelligence.md`
+- Text: `doctrine/FM/FM_2-0/04_Chapter_1-_Intelligence.md`
 - PDF: `FM/FM_2-0/FM_2-0.pdf`
 - Why: Army intelligence doctrine; use only to explain intelligence process terms the USAREC manuals borrow.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -218,7 +218,7 @@ Sections: Position, Analysis and Evaluation (PAE); Synchronizing Effects through
 
 - authority level 2
 - Chapter: 3
-- Text: `ADP/ADP_2-0/.transform/08_Chapter_3-_The_Intelligence_Process.md`
+- Text: `doctrine/ADP/ADP_2-0/08_Chapter_3-_The_Intelligence_Process.md`
 - PDF: `ADP/ADP_2-0/ADP_2-0.pdf`
 - Why: The intelligence process; background only.
 - Known gap: paragraphs are untitled in source; cite chapter/section headings only
@@ -274,7 +274,7 @@ market, market analysis, market share, IPOE, IPB, PMESII, ASCOPE, targeting, tar
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -84,7 +84,7 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 20 March 2026, effective 20 April 2026, authority level 1
 - Chapter: 9 (Enlistment Programs, Options, and Incentives)
-- Text: `Regulations/AR_601-210/.transform/09_Chapter_9.md`
+- Text: `doctrine/Regulations/AR_601-210/09_Chapter_9.md`
 - PDF: `Regulations/AR_601-210/AR_601-210_ARN42922.pdf`
 - Why: 9D RA OCS/WOFT; 9H ROTC/SMP; 9I USAR OCS; 9J USAR WOFT.
 
@@ -99,10 +99,10 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: 8 (Procedures for Enlisting Prior Service and Glossary Non-Prior Service (Regular Army))
-- Text: `Regulations/UR_601-210/.transform/08_Chapter_8.md`
+- Text: `doctrine/Regulations/UR_601-210/08_Chapter_8.md`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: USMA ordered to AD, ROTC cadets ordered to AD, disenrolled ROTC cadets, disenrolled academy applicants, WOC selectees from sister services.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 | Para | Heading |
 |---|---|
@@ -116,16 +116,16 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 3 January 2023, effective 3 January 2023, authority level 3
 - Chapter: all
-- Text: `Regulations/UR_601-210/.transform`
+- Text: `doctrine/Regulations/UR_601-210`
 - PDF: `Regulations/UR_601-210/UR 601-210.pdf`
 - Why: Ch.25 OCS/WOFT Processing Procedures exists only in the PDF. Message 24-003 refers to its waiver paragraphs; read them in the PDF.
-- Known gap: chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+- Known gap: chapters  exist only in the PDF (not transformed)
 
 ### DA_PAM_601-6: Warrant Officer Procurement Program
 
 - edition 21 August 2023, authority level 2
 - Chapter: 1 (General)
-- Text: `Pamphlets/DA_PAM_601-6/.transform/01_Chapter_1.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-6/01_Chapter_1.md`
 - PDF: `Pamphlets/DA_PAM_601-6/DA_PAM_601-6_ARN39016.pdf`
 - Why: Warrant Officer Procurement Program: general requirements and non-waiverable items listed in 1-5.
 
@@ -143,7 +143,7 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 21 August 2023, authority level 2
 - Chapter: 2 (Applicants for Concurrent Call to Active Duty and Placed on the Active Duty List)
-- Text: `Pamphlets/DA_PAM_601-6/.transform/02_Chapter_2.md`
+- Text: `doctrine/Pamphlets/DA_PAM_601-6/02_Chapter_2.md`
 - PDF: `Pamphlets/DA_PAM_601-6/DA_PAM_601-6_ARN39016.pdf`
 - Why: Applicants for concurrent call to active duty: procurement schedule, eligibility, application preparation and processing, waivers (2-5e), selection.
 
@@ -155,11 +155,14 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 | 2-4 | Application preparation |
 | 2-5 | Application processing |
 | 2-6 | Selection proceedings |
+| 2-7 | Warrant Officer Candidate Program |
+| 2-8 | Failure to complete certification training |
 
 ### DA_PAM_601-6: Warrant Officer Procurement Program
 
 - edition 21 August 2023, authority level 2
 - Chapter: 3 (Applicants Without Concurrent Call to Active Duty (National Guard, Army Reserve Troop Program Unit) and Concurrent Call to Active Duty Not on the Active Duty List (Active Guard and Re-)
+- Text: `doctrine/Pamphlets/DA_PAM_601-6/03_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_601-6/DA_PAM_601-6_ARN39016.pdf`
 - Why: Applicants without concurrent call to active duty (ARNG, USAR TPU) and AGR. NOT transformed; read the PDF.
 
@@ -167,7 +170,7 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 1 (General)
-- Text: `Regulations/AR_135-100/.transform/01_Chapter_1.md`
+- Text: `doctrine/Regulations/AR_135-100/01_Chapter_1.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: Appointing authority, eligibility, ineligibles, waiver, grade on appointment. Edition dated 1 September 1994; confirm currency.
 
@@ -182,12 +185,13 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 | 1-7 | Ineligibles |
 | 1-8 | Waiver |
 | 1-9 | Grade on appointment |
+| 1-10 | Service obligations |
 
 ### AR_135-100: Appointment of Commissioned and Warrant Officers of the Army
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 3 (Appointments)
-- Text: `Regulations/AR_135-100/.transform/03_Chapter_3.md`
+- Text: `doctrine/Regulations/AR_135-100/03_Chapter_3.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: Appointment of warrant officers and enlisted as commissioned officers; appointment as Reserve warrant officers.
 
@@ -202,7 +206,7 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 
 - edition 1 September 1994, effective 1 October 1994, authority level 2
 - Chapter: 4 (Examining Boards)
-- Text: `Regulations/AR_135-100/.transform/04_Chapter_4.md`
+- Text: `doctrine/Regulations/AR_135-100/04_Chapter_4.md`
 - PDF: `Regulations/AR_135-100/AR_135-100.pdf`
 - Why: Examining boards, notification and retest policy.
 
@@ -211,12 +215,15 @@ Specialist for enlisting applicants into officer and warrant officer programs, w
 | 4-1 | Appointment |
 | 4-2 | Notification to applicants |
 | 4-3 | Retest policy |
+| 4-4 | Interviewing |
+| 4-5 | Appraisal of experience |
+| 4-6 | Disposition of records |
 
 ### AR_350-51: United States Army Officer Candidate School
 
 - authority level 2
 - Chapter: all
-- Text: `Regulations/AR_350-51/.transform`
+- Text: `doctrine/Regulations/AR_350-51`
 - PDF: `Regulations/AR_350-51/AR_350-51.pdf`
 - Why: U.S. Army Officer Candidate School, edition dated 11 June 2001. Paragraph headings not extracted; key paragraphs are 1-5 criteria, 1-6 who may apply, 1-7 who may not apply, 1-9 waivers, 1-10/1-11 service commitments. Confirm currency.
 - Known gap: paragraph headings not extracted (numbering style differs); cite by chapter
@@ -293,7 +300,7 @@ OCS, officer candidate, WOFT, warrant officer, flight school, 09W, 09S, 170D, of
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

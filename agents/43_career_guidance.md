@@ -71,7 +71,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 1 (Introduction)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/01_Chapter_1.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/01_Chapter_1.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Officer talent management overview. The G1 folder under the doctrine root (G1/) holds the branch and functional area DA PAM 600-3 chapters (for example infantry, aviation, cyber, signal, MI, MP, AG, quartermaster, ordnance, FA and FA 30 to 59), warrant officer career charts, enlisted CMF_<number> board-guidance and career products, DA_PAM_611-21_MOS_Manual chapters, a DA PAM 601-280 smartbook and a Civilian_Employment_Guide; most have .transform markdown. These are not in the source catalog; cite them by folder and file name and note their dates.
 
@@ -86,7 +86,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 3 (Army Personnel Development System)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/03_Chapter_3.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/03_Chapter_3.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Army personnel development system life-cycle functions.
 
@@ -99,7 +99,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 4 (Officer Talent Management System and Career Management)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/04_Chapter_4.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/04_Chapter_4.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Officer talent management system and career management; warrant officer definitions, career patterns and development; assignment process; individual career management.
 
@@ -125,7 +125,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 5 (Officer Education)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/05_Chapter_5.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/05_Chapter_5.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Officer education system, educational counseling, service obligation, civilian education.
 
@@ -141,7 +141,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 14 April 2023, authority level 2
 - Chapter: 7 (Competitive Categories, Functional Categories, and Branches)
-- Text: `Pamphlets/DA_PAM_600-3/.transform/07_Chapter_7.md`
+- Text: `doctrine/Pamphlets/DA_PAM_600-3/07_Chapter_7.md`
 - PDF: `Pamphlets/DA_PAM_600-3/DA_PAM_600-3.pdf`
 - Why: Competitive categories, functional categories and branches. Chapters 2, 6, 9 and 10 are not transformed; read the PDF.
 
@@ -160,7 +160,7 @@ Specialist for recruiters and guidance counselors who need to explain to an appl
 
 - edition 20 December 2022, authority level 2
 - Chapter: 1 (General)
-- Text: `Pamphlets/DA_PAM_611-21/.transform/01_Chapter_1.md`
+- Text: `doctrine/Pamphlets/DA_PAM_611-21/01_Chapter_1.md`
 - PDF: `Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf`
 - Why: Purpose of the classification structure. Chapters 2 and 3 summaries are in the catalog without files; the full MOS manual chapters are under G1/DA_PAM_611-21_MOS_Manual/.
 
@@ -224,7 +224,7 @@ career, career path, career map, promotion path, what is this job like, CMF, bra
 
 ## Provenance
 
-- doctrine_root: Station_Commander/Army_Doctrine
-- paths: relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time
+- doctrine_root: doctrine
+- paths: relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time
 - authority_levels: 1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products
 - editions: edition and effective dates read from each document's front matter on 2026-10-05

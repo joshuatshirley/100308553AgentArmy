@@ -49,7 +49,7 @@ sources:
     authority_level: 4
     pdf: FM/FM_7-22/FM_7-22.pdf
     chapter: all
-    markdown: FM/FM_7-22/.transform
+    markdown: doctrine/FM/FM_7-22
     note: "Holistic Health and Fitness: physical, nutritional, mental, spiritual and sleep readiness domains. Paragraphs untitled; cite by section heading."
     known_gaps:
       - "paragraphs are untitled in source; cite chapter/section headings only"
@@ -61,7 +61,7 @@ sources:
     pdf: Regulations/AR_608-1/AR_608-1.pdf
     chapter: "1"
     chapter_title: Structure
-    markdown: Regulations/AR_608-1/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_608-1/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-6": Mission statement
@@ -75,7 +75,7 @@ sources:
     pdf: Regulations/AR_608-1/AR_608-1.pdf
     chapter: "5"
     chapter_title: Volunteers
-    markdown: Regulations/AR_608-1/.transform/05_Chapter_5.md
+    markdown: doctrine/Regulations/AR_608-1/05_Chapter_5.md
     paragraphs:
       "5-1": Purpose
       "5-2": Types of volunteers
@@ -108,7 +108,7 @@ sources:
     pdf: Regulations/AR_600-85/AR_600-85.pdf
     chapter: "1"
     chapter_title: General
-    markdown: Regulations/AR_600-85/.transform/01_Chapter_1.md
+    markdown: doctrine/Regulations/AR_600-85/01_Chapter_1.md
     paragraphs:
       "1-1": Purpose
       "1-7": Army Substance Abuse Program concept and principles
@@ -121,7 +121,7 @@ sources:
     pdf: Regulations/AR_600-85/AR_600-85.pdf
     chapter: "8"
     chapter_title: Types of Substance Use Disorder Treatment
-    markdown: Regulations/AR_600-85/.transform/08_Chapter_8.md
+    markdown: doctrine/Regulations/AR_600-85/08_Chapter_8.md
     paragraphs:
       "8-1": Types of Substance Use Disorder Treatment Services
       "8-4": Mandatory command notifications
@@ -134,7 +134,7 @@ sources:
     pdf: Regulations/AR_600-85/AR_600-85.pdf
     chapter: "9"
     chapter_title: Prevention, Education, and Training
-    markdown: Regulations/AR_600-85/.transform/09_Chapter_9.md
+    markdown: doctrine/Regulations/AR_600-85/09_Chapter_9.md
     paragraphs:
       "9-6": Battalion/Unit Deterrence Leader qualifications, training, and certification
       "9-10": Leadership training and schools
@@ -150,7 +150,7 @@ sources:
     pdf: Regulations/AR_600-85/AR_600-85.pdf
     chapter: "10"
     chapter_title: Legal and Administrative Procedures, and Media Relations
-    markdown: Regulations/AR_600-85/.transform/10_Chapter_10.md
+    markdown: doctrine/Regulations/AR_600-85/10_Chapter_10.md
     paragraphs:
       "10-11": Limited Use Policy
       "10-12": Definition of the Limited Use Policy
@@ -165,7 +165,7 @@ sources:
     authority_level: 3
     pdf: Regulations/USAREC_Suppl_1_to_AR_600_85/USAREC Suppl 1 to AR 600_85.pdf
     chapter: all
-    markdown: Regulations/USAREC_Suppl_1_to_AR_600_85/.transform
+    markdown: doctrine/Regulations/USAREC_Suppl_1_to_AR_600_85
     note: "USAREC supplement (2016): unit prevention leader and drug testing program software requirements. Paragraph headings not extracted."
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -291,7 +291,7 @@ guardrails:
   - "Not a crisis or clinical service: for any risk of harm, direct the user to the chain of command and emergency resources first."
   - Do not collect health or family details about a named person.
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

@@ -63,7 +63,7 @@ sources:
     authority_level: 4
     pdf: Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu/G6 Knowledge Document_LiveScan WEBS 2018 Set-up Guide.pdf
     chapter: all
-    markdown: Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu/.transform
+    markdown: doctrine/Guides/G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu
     note: G6 knowledge document (Oct 2018) for installing and enrolling the LiveScan WEBS service.
     known_gaps:
       - "paragraph headings not extracted (numbering style differs); cite by chapter"
@@ -75,15 +75,16 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "4"
     chapter_title: Recruit Quota System (REQUEST) Procedures
-    markdown: Regulations/UR_601-210/.transform/04_Chapter_4.md
+    markdown: doctrine/Regulations/UR_601-210/04_Chapter_4.md
     paragraphs:
       "4-1": Purpose
       "4-2": General
       "4-3": Security
       "4-4": REQUEST Use
+      "4-5": Alternate Procedures for Terminal or System Failure
     note: "REQUEST procedures: general, security and use."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -92,7 +93,7 @@ sources:
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: "19"
     chapter_title: Required USMEPCOM Daily Reports and RZ
-    markdown: Regulations/UR_601-210/.transform/19_Chapter_19.md
+    markdown: doctrine/Regulations/UR_601-210/19_Chapter_19.md
     paragraphs:
       "19-1": Purpose
       "19-2": General
@@ -101,7 +102,7 @@ sources:
       "19-5": Procedures for Completing RZ End-Of-Day Reports
     note: Required USMEPCOM daily reports, REQUEST and close-out reports, RZ end-of-day reports.
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: UR_601-210
     title: Enlistment & Accessions Processing
     edition_date: "3 January 2023"
@@ -109,10 +110,10 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: all
-    markdown: Regulations/UR_601-210/.transform
+    markdown: doctrine/Regulations/UR_601-210
     note: Ch.5 Live Scan and Ch.21 Electronic Records Management exist only in the PDF.
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
 usarec_messages:
   - number: "23-008"
     subject: Requesting MHS Genesis User Access Accounts. (UPDATED)
@@ -227,7 +228,7 @@ guardrails:
   - "Do not request, repeat or store applicant PII (names, SSNs, DOBs, addresses). Work from facts described generically; the system of record holds PII."
   - "Say which guide edition the steps come from; user guides in the library may be older than the live system."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05

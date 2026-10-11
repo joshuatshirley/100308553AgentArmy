@@ -32,7 +32,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "9"
     chapter_title: Enlistment Programs, Options, and Incentives
-    markdown: Regulations/AR_601-210/.transform/09_Chapter_9.md
+    markdown: doctrine/Regulations/AR_601-210/09_Chapter_9.md
     paragraphs:
       "9-1": General
       "9-2": Qualifications
@@ -50,7 +50,7 @@ sources:
     pdf: Regulations/AR_601-210/AR_601-210_ARN42922.pdf
     chapter: "7"
     chapter_title: Regular Army and Reserve Components Civilian-Acquired Skills Program
-    markdown: Regulations/AR_601-210/.transform/07_Chapter_7.md
+    markdown: doctrine/Regulations/AR_601-210/07_Chapter_7.md
     paragraphs:
       "7-3": Procedures
       "7-6": Accelerated promotions
@@ -63,10 +63,10 @@ sources:
     authority_level: 3
     pdf: Regulations/UR_601-210/UR 601-210.pdf
     chapter: all
-    markdown: Regulations/UR_601-210/.transform
+    markdown: doctrine/Regulations/UR_601-210
     note: "Ch.13 Regular Army Options and Incentives and Ch.7 DEP/DTP/DS enlistment procedures exist only in the PDF; no transformed USAREC chapter covers these programs."
     known_gaps:
-      - chapters 3, 5, 6, 7, 10, 13, 20, 21, 22, 23, 24, 25 exist only in the PDF (not transformed)
+      - chapters  exist only in the PDF (not transformed)
   - doc: DA_PAM_611-21
     title: Military Occupational Classification and Structure
     edition_date: "20 December 2022"
@@ -74,7 +74,7 @@ sources:
     authority_level: 2
     pdf: Pamphlets/DA_PAM_611-21/DA_PAM_611-21.pdf
     chapter: all
-    markdown: Pamphlets/DA_PAM_611-21/.transform
+    markdown: doctrine/Pamphlets/DA_PAM_611-21
     note: "MOS prerequisites for 18X, 11X, 42R and other program MOSs; chapters 2 and 3 not transformed."
 usarec_messages:
   - number: "25-027"
@@ -216,7 +216,7 @@ guardrails:
   - "These programs are message-driven: always state the message number and date the answer rests on."
   - "Read a USAREC message's numbered Requirement lines or its PDF; never rely on the narrative summary paragraphs in the consolidated message file, which are machine-generated and contain known errors."
 provenance:
-  doctrine_root: Station_Commander/Army_Doctrine
-  paths: "relative to doctrine_root; 'markdown' is the pre-split .transform text the agent should load at run time"
+  doctrine_root: doctrine
+  paths: "relative to doctrine_root; 'markdown' is a repo-relative path to the pre-split doctrine text; load it directly at run time"
   authority_levels: "1 AR 601-210; 2 other AR/DoDI/AD/DA PAM; 3 UR/UM/USAREC messages; 4 guides and training products"
   editions: edition and effective dates read from each document's front matter on 2026-10-05
