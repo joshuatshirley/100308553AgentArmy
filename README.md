@@ -15,8 +15,8 @@ doctrine. Every seed is a draft pending SME review.
 | `ROSTER.md` | The roster by group, with primary sources and how each agent maps to the earlier FlorenceTaskingCommand agents |
 | `SCHEMA.yaml` | Field-by-field definition of a seed |
 | `DOCTRINE_GAPS.md` | Where the source library is thin, out of date or not yet converted to text |
-| `catalog/source_catalog.json` | 180 source documents: title, edition, authority level, chapter files, 13,172 paragraph headings |
-| `doctrine/` | The actual chapter/paragraph markdown text for every cataloged document (1,280 files, ~34MB) — what `markdown` paths in the seeds point to, so a checkout of this repo alone is enough to run the agents |
+| `catalog/source_catalog.json` | 194 source documents: title, edition, authority level, chapter files, 14,061 paragraph headings |
+| `doctrine/` | The actual chapter/paragraph markdown text for every cataloged document (1,424 files, ~36MB) — what `markdown` paths in the seeds point to, so a checkout of this repo alone is enough to run the agents |
 | `catalog/usarec_message_catalog.json` | 155 USAREC/USARD messages with subject, rescission status and evidence, review flags |
 | `build/` | Scripts that regenerate everything from the doctrine library |
 

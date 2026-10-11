@@ -112,11 +112,31 @@ citations). None required a login — the sandbox's own `curl`/fetch tooling get
 `.mil` domains (confirmed: generic sites load fine, army.mil doesn't even with browser headers),
 so these were pulled through an actual browser session instead.
 
-Still not in the library (not attempted this pass):
-- **USAREC:** USAREC pamphlets, UTP 3-10.6 Chaplain Recruiting (all reportedly on recruiting.army.mil).
-- **Army regulations and directives:** AR 600-8-19, AR 621-202, AR 612-201, AR 145-1, AR 601-141, AR 601-100 and AR 40-562; Army Directive 2022-09 (tattoo locations).
-- **Guard:** NGR 600-7.
-- **Forms:** DA 5500/5501, DD 372, DA 3286, DA 5305 and UF 601-210.40.
+**Fetched, round 2 — 2026-10-11:** AR 600-8-19 (Enlisted Promotions and Reductions, eff. 6 Apr 2026),
+AR 621-202 (Army Educational Incentives and Entitlements, 26 Mar 2025), AR 612-201 (Initial
+Entry/Prior Service Trainee Support, 11 Mar 2024), AR 601-141 (Health Professions Scholarship
+Programs, 2006), AR 601-100 (Appointment of Commissioned and Warrant Officers RA, 2006), AR 40-562
+(Immunizations and Chemoprophylaxis, 2013), Army Directive 2022-09 (Soldier Tattoos), NGR 600-7
+(Selected Reserve Incentive Programs, 2014, from ngbpmc.ng.mil), UTP 3-10.6 (Chaplain Recruiting,
+admin revision 21 Aug 2026 — 198 new paragraph citations on its own), DA Form 5500 and 5501 (Body
+Fat Content Worksheets, Male/Female), DD Form 372 (Request for Verification of Birth), DA Form 5305
+(Family Care Plan) and UF 601-210.40 (School Profile Evaluation). 889 new paragraph citations total.
+
+**Found but not a static file:** DA Form 3286 ("Statements for Enlistment") is listed on Army
+Publishing Directorate with Unit of Issue "EGA" (electronically-generated form) — there's no
+downloadable PDF, only DA Form 3286-79 ("Statements for Reenlistment," a different form prescribed
+by AR 601-280, not AR 601-210). Not fetched; if you have a copy from an internal system, send it.
+
+**Fetched but not text-extractable:** DA Form 5305 and UF 601-210.40 are both Adobe XFA/LiveCycle
+dynamic forms — same issue as `NCO_Charge` and `UF_608-6.1` from the earlier gap audit: the static
+layer is just an "upgrade your PDF viewer" placeholder, the real fields are rendered client-side.
+The PDFs are in the library for reference; the catalog correctly shows them as having no
+extractable paragraph structure.
+
+**Still not in the library:**
+- **AR 145-1** (Senior ROTC Program) — no official armypubs.army.mil link found, only third-party
+  mirrors (e.g. a university ROTC site); didn't fetch from a non-canonical source.
+- **USAREC:** generic "USAREC pamphlets" (unnamed, not attempted — no specific document to target).
 
 ## Out of date or conflicting
 

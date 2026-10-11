@@ -30,7 +30,7 @@ CHAP = re.compile(r'^\s*(Chapter|Appendix)\s+([0-9A-Z]{1,3})\s*$')
 
 def authority(doc):
     if doc == "AR_601-210": return 1
-    if doc.startswith(("AR_", "DoDI", "DoDM", "DA_PAM", "AD", "USMEPCOM_")): return 2
+    if doc.startswith(("AR_", "DoDI", "DoDM", "DA_PAM", "AD", "USMEPCOM_", "NGR_")): return 2
     if doc.startswith(("UR_", "UM_", "USAREC_MANUAL", "USAREC_Suppl")): return 3
     return 4
 

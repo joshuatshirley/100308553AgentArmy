@@ -57,6 +57,43 @@
   },
   "gaps": []
  },
+ "AD_2022-09": {
+  "doc_id": "AD_2022-09",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/AD_2022-09",
+  "pdf": "AD_2022-09.pdf",
+  "transform_dir": "Regulations/AD_2022-09/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "S1": {
+    "title": "Full Document",
+    "file": "Regulations/AD_2022-09/.transform/00_Full_Document.md",
+    "paragraphs": {
+     "S1-1": {
+      "title": "References."
+     },
+     "S1-2": {
+      "title": "Purpose. This directive announces a change in policy …"
+     },
+     "S1-3": {
+      "title": "Applicability. The provisions of this directive apply to the Regular Army, Army"
+     },
+     "S1-4": {
+      "title": "Policy."
+     },
+     "S1-5": {
+      "title": "Proponent. The Assistant Secretary of the Army (Manpower and Reserve Affairs) is"
+     },
+     "S1-6": {
+      "title": "Duration. This directive is rescinded on publication of the revised regulation."
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
  "AD_2022-10": {
   "doc_id": "AD_2022-10",
   "category": "Regulations",
@@ -7575,6 +7612,265 @@
   },
   "gaps": []
  },
+ "AR_40-562": {
+  "doc_id": "AR_40-562",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/AR_40-562",
+  "pdf": "AR_40-562.pdf",
+  "transform_dir": "Regulations/AR_40-562/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "Introduction, page 1",
+    "file": null,
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose"
+     },
+     "1-2": {
+      "title": "References"
+     },
+     "1-3": {
+      "title": "Explanation of abbreviations and terms"
+     },
+     "1-4": {
+      "title": "Responsibilities"
+     }
+    }
+   },
+   "2": {
+    "title": "Program Elements and Clinical Considerations, page 2",
+    "file": null,
+    "paragraphs": {
+     "2-1": {
+      "title": "Standards"
+     },
+     "2-2": {
+      "title": "Logistics"
+     },
+     "2-3": {
+      "title": "Storage and handling"
+     },
+     "2-4": {
+      "title": "Hypersensitivity or allergy"
+     },
+     "2-5": {
+      "title": "Immunizing women of childbearing potential"
+     },
+     "2-6": {
+      "title": "Exemptions"
+     },
+     "2-7": {
+      "title": "Immunization and chemoprophylaxis records"
+     },
+     "2-8": {
+      "title": "Jet-injection immunization devices"
+     },
+     "2-9": {
+      "title": "Emergency response requirements"
+     },
+     "2-10": {
+      "title": "Adverse events"
+     },
+     "2-11": {
+      "title": "Program evaluation"
+     },
+     "2-12": {
+      "title": "Blood donation"
+     }
+    }
+   },
+   "3": {
+    "title": "Personnel Subject to Immunization, page 10",
+    "file": null,
+    "paragraphs": {
+     "3-1": {
+      "title": "Military accessions"
+     },
+     "3-2": {
+      "title": "Military personnel"
+     },
+     "3-3": {
+      "title": "Certain civilian employees"
+     },
+     "3-4": {
+      "title": "Contracted workers"
+     },
+     "3-5": {
+      "title": "Department of Defense, U.S. Coast Guard schools, childcare centers and youth programs"
+     },
+     "3-6": {
+      "title": "Other populations"
+     }
+    }
+   },
+   "4": {
+    "title": "Specific Immunization Requirements for Department of Defense and U.S. Coast Guard Personnel, page 13",
+    "file": null,
+    "paragraphs": {
+     "4-1": {
+      "title": "Civilian applicability"
+     },
+     "4-2": {
+      "title": "Adenovirus types 4 and 7"
+     },
+     "4-3": {
+      "title": "Anthrax"
+     },
+     "4-4": {
+      "title": "Haemophilus influenzae serotype b, commonly called Hib"
+     },
+     "4-5": {
+      "title": "Hepatitis A"
+     },
+     "4-6": {
+      "title": "Hepatitis B"
+     },
+     "4-7": {
+      "title": "Influenza"
+     },
+     "4-8": {
+      "title": "Japanese encephalitis"
+     },
+     "4-9": {
+      "title": "Measles, mumps, and rubella (MMR)"
+     },
+     "4-10": {
+      "title": "Meningococcal"
+     },
+     "4-11": {
+      "title": "Pertussis"
+     },
+     "4-12": {
+      "title": "Pneumococcal"
+     },
+     "4-13": {
+      "title": "Poliomyelitis"
+     },
+     "4-14": {
+      "title": "Rabies"
+     },
+     "4-15": {
+      "title": "Smallpox"
+     },
+     "4-16": {
+      "title": "Tetanus, diphtheria, and pertussis"
+     },
+     "4-17": {
+      "title": "Typhoid fever"
+     },
+     "4-18": {
+      "title": "Varicella"
+     },
+     "4-19": {
+      "title": "Yellow fever"
+     }
+    }
+   },
+   "5": {
+    "title": "Chemoprophylaxis, page 18",
+    "file": null,
+    "paragraphs": {
+     "5-1": {
+      "title": "General"
+     },
+     "5-2": {
+      "title": "Anthrax"
+     },
+     "5-3": {
+      "title": "Group A streptococcus"
+     },
+     "5-4": {
+      "title": "Influenza"
+     },
+     "5-5": {
+      "title": "Leptospirosis"
+     },
+     "5-6": {
+      "title": "Malaria"
+     },
+     "5-7": {
+      "title": "Meningococcal disease"
+     },
+     "5-8": {
+      "title": "Plague"
+     },
+     "5-9": {
+      "title": "Scrub typhus"
+     },
+     "5-10": {
+      "title": "Smallpox"
+     },
+     "5-11": {
+      "title": "Traveler’s diarrhea"
+     }
+    }
+   },
+   "6": {
+    "title": "Biological Warfare Defense, page 20",
+    "file": null,
+    "paragraphs": {
+     "6-1": {
+      "title": "Responsibilities"
+     },
+     "6-2": {
+      "title": "Procedures"
+     }
+    }
+   },
+   "7": {
+    "title": "Vaccines and Other Products in Investigational New Drug Status, page 20 Purpose • 7–1, page 20",
+    "file": null,
+    "paragraphs": {
+     "7-1": {
+      "title": "Purpose"
+     },
+     "7-2": {
+      "title": "General guidance on investigational new drug products"
+     },
+     "7-3": {
+      "title": "Health recordkeeping requirements for investigational new drug products"
+     },
+     "7-4": {
+      "title": "Information requirements for investigational new drug products"
+     },
+     "7-5": {
+      "title": "Coordination"
+     }
+    }
+   },
+   "8": {
+    "title": "Vaccines and Other Products Used Under Emergency Use Authorization, page 21 General • 8–1, page 21",
+    "file": null,
+    "paragraphs": {
+     "8-1": {
+      "title": "General"
+     },
+     "8-2": {
+      "title": "Criteria"
+     },
+     "8-3": {
+      "title": "Refusal options"
+     },
+     "8-4": {
+      "title": "Health recordkeeping requirements for emergency use authorization products"
+     },
+     "8-5": {
+      "title": "Information requirements for emergency use authorization products"
+     },
+     "8-6": {
+      "title": "Department of Defense requests for emergency use authorizations"
+     },
+     "8-7": {
+      "title": "Coordination"
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
  "AR_600-20": {
   "doc_id": "AR_600-20",
   "category": "Regulations",
@@ -8141,6 +8437,644 @@
       "title": "Access to the Interactive Personnel Electronic Records management System - Secure"
      }
     }
+   }
+  },
+  "gaps": []
+ },
+ "AR_600-8-19": {
+  "doc_id": "AR_600-8-19",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/AR_600-8-19",
+  "pdf": "AR_600-8-19.pdf",
+  "transform_dir": "Regulations/AR_600-8-19/.transform",
+  "edition_date": "6 March 2026",
+  "effective_date": "6 April 2026",
+  "chapters": {
+   "1": {
+    "title": "Introduction, page 1",
+    "file": "Regulations/AR_600-8-19/.transform/01_Chapter_1.md",
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose",
+      "section": "Section I: Overview"
+     },
+     "1-2": {
+      "title": "References, forms, and explanation of abbreviations",
+      "section": "Section I: Overview"
+     },
+     "1-3": {
+      "title": "Associated publications",
+      "section": "Section I: Overview"
+     },
+     "1-4": {
+      "title": "Responsibilities",
+      "section": "Section I: Overview"
+     },
+     "1-5": {
+      "title": "Records management (recordkeeping) requirements",
+      "section": "Section I: Overview"
+     },
+     "1-6": {
+      "title": "Objectives",
+      "section": "Section I: Overview"
+     },
+     "1-7": {
+      "title": "Levels of work",
+      "section": "Section I: Overview"
+     },
+     "1-8": {
+      "title": "Principles of support",
+      "section": "Section II: Principles and Standards"
+     },
+     "1-9": {
+      "title": "Standards of service",
+      "section": "Section II: Principles and Standards"
+     },
+     "1-10": {
+      "title": "Promotion authorities",
+      "section": "Section III: Policy"
+     },
+     "1-11": {
+      "title": "Non-promotable status (Regular Army and U.S. Army Reserve only)",
+      "section": "Section III: Policy"
+     },
+     "1-12": {
+      "title": "Suspension of favorable personnel actions (Regular Army and U.S. Army Reserve only)",
+      "section": "Section III: Policy"
+     },
+     "1-13": {
+      "title": "Effective date, grade entry date, and rank entry date",
+      "section": "Section III: Policy"
+     },
+     "1-14": {
+      "title": "Establishing a grade entry date upon enlistment",
+      "section": "Section III: Policy"
+     },
+     "1-15": {
+      "title": "Establishing a grade entry date upon subsequent enlistment or reenlistment",
+      "section": "Section III: Policy"
+     },
+     "1-16": {
+      "title": "Establishing a grade entry date when on call, …",
+      "section": "Section III: Policy"
+     },
+     "1-17": {
+      "title": "Establishing a grade entry date for promotion, demotion, or grade restoration",
+      "section": "Section III: Policy"
+     },
+     "1-18": {
+      "title": "Computing time in grade and service",
+      "section": "Section III: Policy"
+     },
+     "1-19": {
+      "title": "Personnel security investigation requirements",
+      "section": "Section III: Policy"
+     },
+     "1-20": {
+      "title": "Erroneous promotions and de facto status",
+      "section": "Section III: Policy"
+     },
+     "1-21": {
+      "title": "Students (Regular Army and U.S. Army Reserve only)",
+      "section": "Section III: Policy"
+     },
+     "1-22": {
+      "title": "Soldiers categorized as missing",
+      "section": "Section III: Policy"
+     },
+     "1-23": {
+      "title": "Promotion of terminally ill Soldiers",
+      "section": "Section III: Policy"
+     },
+     "1-24": {
+      "title": "Promotion of Soldiers in the Disability Evaluation System",
+      "section": "Section III: Policy"
+     },
+     "1-25": {
+      "title": "Soldiers returning for duty from the temporary disability retired list",
+      "section": "Section III: Policy"
+     },
+     "1-26": {
+      "title": "Establishing grade determinations for Soldiers previously promoted in conjunction with",
+      "section": "Section III: Policy"
+     },
+     "1-27": {
+      "title": "Posthumous promotions",
+      "section": "Section III: Policy"
+     },
+     "1-28": {
+      "title": "Consideration of proposals for honorary promotions (whether or not posthumous) and",
+      "section": "Section III: Policy"
+     },
+     "1-29": {
+      "title": "Promotion ceremonies and certificates",
+      "section": "Section III: Policy"
+     },
+     "1-30": {
+      "title": "Declination of promotion (Regular Army and U.S. Army Reserve only)",
+      "section": "Section III: Policy"
+     },
+     "1-31": {
+      "title": "Service remaining requirements (Regular Army and U.S. Army Reserve only)",
+      "section": "Section III: Policy"
+     },
+     "1-32": {
+      "title": "System transactions",
+      "section": "Section III: Policy"
+     },
+     "1-33": {
+      "title": "Counseling of Soldiers not recommended for promotion",
+      "section": "Section III: Policy"
+     },
+     "1-34": {
+      "title": "Noncommissioned Officer Professional Development System requirement for promotion",
+      "section": "Section III: Policy"
+     },
+     "1-35": {
+      "title": "Temporary promotions",
+      "section": "Section III: Policy"
+     },
+     "1-36": {
+      "title": "Battlefield promotions",
+      "section": "Section III: Policy"
+     },
+     "1-37": {
+      "title": "Pay inquiries",
+      "section": "Section III: Policy"
+     },
+     "1-38": {
+      "title": "Promotion eligibility during reclassification",
+      "section": "Section III: Policy"
+     },
+     "1-39": {
+      "title": "Special military occupational specialty alignment promotion",
+      "section": "Section III: Policy"
+     },
+     "1-40": {
+      "title": "Personnel suitability screening",
+      "section": "Section III: Policy"
+     },
+     "1-41": {
+      "title": "Transferring from one component to another",
+      "section": "Section III: Policy"
+     },
+     "1-42": {
+      "title": "Lateral appointment to corporal (Regular Army and U.S. Army Reserve only)",
+      "section": "Section III: Policy"
+     },
+     "1-43": {
+      "title": "Merit promotions",
+      "section": "Section III: Policy"
+     }
+    }
+   },
+   "2": {
+    "title": "Decentralized Promotions, page 29",
+    "file": "Regulations/AR_600-8-19/.transform/02_Chapter_2.md",
+    "paragraphs": {
+     "2-1": {
+      "title": "Policy"
+     },
+     "2-2": {
+      "title": "Eligibility"
+     },
+     "2-3": {
+      "title": "Waiver allocations (Regular Army only)"
+     }
+    }
+   },
+   "3": {
+    "title": "Semi-Centralized Promotions (Recommendations for Promotion to Sergeant and Staff Ser- geant), page 31",
+    "file": "Regulations/AR_600-8-19/.transform/03_Chapter_3.md",
+    "paragraphs": {
+     "3-1": {
+      "title": "Overview",
+      "section": "Section I: Managing Semi-Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "3-2": {
+      "title": "Policy",
+      "section": "Section I: Managing Semi-Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "3-3": {
+      "title": "Identifying Soldiers for promotion recommendation to sergeant and staff sergeant",
+      "section": "Section II: Unit Level Promotion Procedures"
+     },
+     "3-4": {
+      "title": "Soldiers hospitalized because of service-incurred disease, wound, or injury",
+      "section": "Section II: Unit Level Promotion Procedures"
+     },
+     "3-5": {
+      "title": "Geographical separation from the promotion authority",
+      "section": "Section II: Unit Level Promotion Procedures"
+     },
+     "3-6": {
+      "title": "Eligibility criteria for promotion recommendation to sergeant and staff sergeant",
+      "section": "Section III: Promotion Eligibility Criteria"
+     },
+     "3-7": {
+      "title": "Special promotion categories",
+      "section": "Section III: Promotion Eligibility Criteria"
+     },
+     "3-8": {
+      "title": "Unit level promotion boards",
+      "section": "Section IV: Promotion Boards"
+     },
+     "3-9": {
+      "title": "Board frequency",
+      "section": "Section IV: Promotion Boards"
+     },
+     "3-10": {
+      "title": "Board composition",
+      "section": "Section IV: Promotion Boards"
+     },
+     "3-11": {
+      "title": "Board conduct",
+      "section": "Section IV: Promotion Boards"
+     },
+     "3-12": {
+      "title": "Board proceedings",
+      "section": "Section IV: Promotion Boards"
+     },
+     "3-13": {
+      "title": "Processing results of the promotion board",
+      "section": "Section IV: Promotion Boards"
+     },
+     "3-14": {
+      "title": "Computation of promotion points",
+      "section": "Section V: Promotion Points"
+     },
+     "3-15": {
+      "title": "Military training (weapons qualification and Physical Fitness Test)",
+      "section": "Section V: Promotion Points"
+     },
+     "3-16": {
+      "title": "Awards, decorations, and achievements (permanent awards)",
+      "section": "Section V: Promotion Points"
+     },
+     "3-17": {
+      "title": "Military education",
+      "section": "Section V: Promotion Points"
+     },
+     "3-18": {
+      "title": "Civilian education",
+      "section": "Section V: Promotion Points"
+     },
+     "3-19": {
+      "title": "Rules",
+      "section": "Section VI: The Promotion Recommended Roster"
+     },
+     "3-20": {
+      "title": "Removal from the promotion recommended roster",
+      "section": "Section VI: The Promotion Recommended Roster"
+     },
+     "3-21": {
+      "title": "Rules for conducting a removal board for Soldiers …",
+      "section": "Section VI: The Promotion Recommended Roster"
+     },
+     "3-22": {
+      "title": "Rules for reinstating Soldiers into the promotion recommended roster",
+      "section": "Section VI: The Promotion Recommended Roster"
+     },
+     "3-23": {
+      "title": "Rules for processing administrative systems correction"
+     }
+    }
+   },
+   "4": {
+    "title": "Centralized Promotions (Evaluation Boards for Promotion to Sergeant First Class, Master Ser- geant, and Sergeant Major), page 54",
+    "file": "Regulations/AR_600-8-19/.transform/04_Chapter_4.md",
+    "paragraphs": {
+     "4-1": {
+      "title": "Overview",
+      "section": "Section I: Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "4-2": {
+      "title": "Eligibility criteria",
+      "section": "Section I: Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "4-3": {
+      "title": "Evaluation boards",
+      "section": "Section I: Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "4-4": {
+      "title": "Information provided to boards",
+      "section": "Section I: Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "4-5": {
+      "title": "Personal appearance and written communication",
+      "section": "Section I: Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "4-6": {
+      "title": "Rules",
+      "section": "Section I: Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "4-7": {
+      "title": "Board results",
+      "section": "Section I: Centralized Promotions (Regular Army and U.S. Army Reserve)"
+     },
+     "4-8": {
+      "title": "List management",
+      "section": "Section II: Order of Merit List Management"
+     },
+     "4-9": {
+      "title": "Appeals of Order of Merit List modifications",
+      "section": "Section II: Order of Merit List Management"
+     },
+     "4-10": {
+      "title": "Overview",
+      "section": "Section III: Special Band Musicians (Military Occupational Specialty 42S) Evaluation Board"
+     },
+     "4-11": {
+      "title": "Eligibility",
+      "section": "Section III: Special Band Musicians (Military Occupational Specialty 42S) Evaluation Board"
+     },
+     "4-12": {
+      "title": "Information provided to the promotion selection board"
+     },
+     "4-13": {
+      "title": "Board results"
+     }
+    }
+   },
+   "5": {
+    "title": "Promotion Selection and Pin-On to Sergeant through Sergeant Major (Regular Army and U.S. Ar- my Reserve), page 60",
+    "file": "Regulations/AR_600-8-19/.transform/05_Chapter_5.md",
+    "paragraphs": {
+     "5-1": {
+      "title": "Scope",
+      "section": "Section I: Introduction"
+     },
+     "5-2": {
+      "title": "Objective",
+      "section": "Section I: Introduction"
+     },
+     "5-3": {
+      "title": "Constraints",
+      "section": "Section I: Introduction"
+     },
+     "5-4": {
+      "title": "Policy",
+      "section": "Section I: Introduction"
+     },
+     "5-5": {
+      "title": "Promotion time in service/time in grade pin-on eligibility",
+      "section": "Section II: Promotion Pin-on Eligibility and Selection"
+     },
+     "5-6": {
+      "title": "Timeline requirements (Regular Army and U.S. Army Reserve Active Guard Reserve)",
+      "section": "Section II: Promotion Pin-on Eligibility and Selection"
+     },
+     "5-7": {
+      "title": "Timeline requirements (U.S. Army Reserve less Active Guard Reserve)",
+      "section": "Section II: Promotion Pin-on Eligibility and Selection"
+     },
+     "5-8": {
+      "title": "Promotion assignment match",
+      "section": "Section III: Promotion Assignment Match–U.S. Army Reserve (except for Active Guard Reserve)"
+     },
+     "5-9": {
+      "title": "Execute the slate—automated assignment and promotion",
+      "section": "Section III: Promotion Assignment Match–U.S. Army Reserve (except for Active Guard Reserve)"
+     },
+     "5-10": {
+      "title": "Rules for processing promotions upon arrival at gaining organization (in-processing)",
+      "section": "Section III: Promotion Assignment Match–U.S. Army Reserve (except for Active Guard Reserve)"
+     },
+     "5-11": {
+      "title": "U.S. Army Marksmanship Unit",
+      "section": "Section IV: Regular Army Vacancy Based Promotions"
+     },
+     "5-12": {
+      "title": "U.S. Army Parachute Team"
+     },
+     "5-13": {
+      "title": "Special Band Musicians (Military Occupational Specialty 42S)"
+     }
+    }
+   },
+   "6": {
+    "title": "Enlisted Promotions of Army National Guard Personnel, page 66",
+    "file": "Regulations/AR_600-8-19/.transform/06_Chapter_6.md",
+    "paragraphs": {
+     "6-1": {
+      "title": "Scope",
+      "section": "Section I: General"
+     },
+     "6-2": {
+      "title": "Special terms",
+      "section": "Section I: General"
+     },
+     "6-3": {
+      "title": "Convening and promotion authorities",
+      "section": "Section I: General"
+     },
+     "6-4": {
+      "title": "Non-promotable status",
+      "section": "Section II: Policy"
+     },
+     "6-5": {
+      "title": "Delay of promotion due to suspension of favorable personnel actions",
+      "section": "Section II: Policy"
+     },
+     "6-6": {
+      "title": "Establishment of retroactive effective dates",
+      "section": "Section II: Policy"
+     },
+     "6-7": {
+      "title": "Computation of time in grade, time in service, and cumulative enlisted service",
+      "section": "Section II: Policy"
+     },
+     "6-8": {
+      "title": "Service remaining obligation",
+      "section": "Section II: Policy"
+     },
+     "6-9": {
+      "title": "Authorization for Frocking",
+      "section": "Section II: Policy"
+     },
+     "6-10": {
+      "title": "Lateral appointments",
+      "section": "Section II: Policy"
+     },
+     "6-11": {
+      "title": "Promotion instruments",
+      "section": "Section II: Policy"
+     },
+     "6-12": {
+      "title": "Promotion ceremonies and certificates",
+      "section": "Section II: Policy"
+     },
+     "6-13": {
+      "title": "General",
+      "section": "Section III: Special Promotions"
+     },
+     "6-14": {
+      "title": "Promotion to enter training programs",
+      "section": "Section III: Special Promotions"
+     },
+     "6-15": {
+      "title": "Promotion as a part of training programs",
+      "section": "Section III: Special Promotions"
+     },
+     "6-16": {
+      "title": "Promotion based on stripes for skills",
+      "section": "Section III: Special Promotions"
+     },
+     "6-17": {
+      "title": "Promotion based on Army Civilian Acquired Skills Program",
+      "section": "Section III: Special Promotions"
+     },
+     "6-18": {
+      "title": "Promotion based on stripes for buddies",
+      "section": "Section III: Special Promotions"
+     },
+     "6-19": {
+      "title": "Mobilization / Deployment Promotion",
+      "section": "Section III: Special Promotions"
+     },
+     "6-20": {
+      "title": "Criteria",
+      "section": "Section IV: Promotion to Sergeant through Sergeant Major"
+     },
+     "6-21": {
+      "title": "Military occupational specialty conversion",
+      "section": "Section IV: Promotion to Sergeant through Sergeant Major"
+     },
+     "6-22": {
+      "title": "Promotion actions",
+      "section": "Section IV: Promotion to Sergeant through Sergeant Major"
+     },
+     "6-23": {
+      "title": "Noncommissioned Officers Professional Development System requirements for promotion",
+      "section": "Section IV: Promotion to Sergeant through Sergeant Major"
+     },
+     "6-24": {
+      "title": "Courses creditable for the Noncommissioned Officer Professional Development System",
+      "section": "Section IV: Promotion to Sergeant through Sergeant Major"
+     },
+     "6-25": {
+      "title": "Availability of Noncommissioned Officers Professional Development System phase II or",
+      "section": "Section IV: Promotion to Sergeant through Sergeant Major"
+     },
+     "6-26": {
+      "title": "Constructive credit for Noncommissioned Officers Professional Development System",
+      "section": "Section IV: Promotion to Sergeant through Sergeant Major"
+     },
+     "6-27": {
+      "title": "Overview",
+      "section": "Section V: Promotion Process Overview"
+     },
+     "6-28": {
+      "title": "Promotion process",
+      "section": "Section V: Promotion Process Overview"
+     },
+     "6-29": {
+      "title": "Announcement of promotion consideration boards",
+      "section": "Section V: Promotion Process Overview"
+     },
+     "6-30": {
+      "title": "Consideration for promotion",
+      "section": "Section VI: Processing Soldiers for Promotion Consideration"
+     },
+     "6-31": {
+      "title": "Individual Soldier actions",
+      "section": "Section VI: Processing Soldiers for Promotion Consideration"
+     },
+     "6-32": {
+      "title": "Correspondence with the board",
+      "section": "Section VI: Processing Soldiers for Promotion Consideration"
+     },
+     "6-33": {
+      "title": "Denying Soldiers consideration for promotion",
+      "section": "Section VI: Processing Soldiers for Promotion Consideration"
+     },
+     "6-34": {
+      "title": "General",
+      "section": "Section VII: The Evaluation Process"
+     },
+     "6-35": {
+      "title": "Evaluating Soldiers for promotion",
+      "section": "Section VII: The Evaluation Process"
+     },
+     "6-36": {
+      "title": "Promotion lists approval",
+      "section": "Section VIII: Approving and Publishing Promotion Lists"
+     },
+     "6-37": {
+      "title": "Determining selection objective",
+      "section": "Section VIII: Approving and Publishing Promotion Lists"
+     },
+     "6-38": {
+      "title": "Publishing promotion lists",
+      "section": "Section VIII: Approving and Publishing Promotion Lists"
+     },
+     "6-39": {
+      "title": "General",
+      "section": "Section IX: Select Soldiers from Promotion Lists"
+     },
+     "6-40": {
+      "title": "Selecting Soldiers from promotion lists",
+      "section": "Section IX: Select Soldiers from Promotion Lists"
+     },
+     "6-41": {
+      "title": "Selecting or nominating Soldiers to fill first sergeant and command sergeant major",
+      "section": "Section IX: Select Soldiers from Promotion Lists"
+     },
+     "6-42": {
+      "title": "Declining promotion and assignment",
+      "section": "Section IX: Select Soldiers from Promotion Lists"
+     },
+     "6-43": {
+      "title": "Hardship affecting promotion and assignment",
+      "section": "Section IX: Select Soldiers from Promotion Lists"
+     },
+     "6-44": {
+      "title": "Administrative removal",
+      "section": "Section X: Removal of Soldiers from Promotion Lists"
+     },
+     "6-45": {
+      "title": "Command initiated removal",
+      "section": "Section X: Removal of Soldiers from Promotion Lists"
+     },
+     "6-46": {
+      "title": "General",
+      "section": "Section XI: Integrating Soldiers into Promotion Lists"
+     },
+     "6-47": {
+      "title": "Inter-State transfers",
+      "section": "Section XI: Integrating Soldiers into Promotion Lists"
+     },
+     "6-48": {
+      "title": "Soldier reclassification and career progression military occupational specialty changes",
+      "section": "Section XI: Integrating Soldiers into Promotion Lists"
+     },
+     "6-49": {
+      "title": "Standby advisory board",
+      "section": "Section XI: Integrating Soldiers into Promotion Lists"
+     },
+     "6-50": {
+      "title": "Awards, decorations, and badges (maximum points: 145 for …",
+      "section": "Section XII: Sergeant/Staff Sergeant Promotion Points"
+     },
+     "6-51": {
+      "title": "Weapon qualification (maximum points: 160 for promotion to sergeant and 110 for",
+      "section": "Section XII: Sergeant/Staff Sergeant Promotion Points"
+     },
+     "6-52": {
+      "title": "Army Fitness Test (maximum 120 points for promotion …",
+      "section": "Section XII: Sergeant/Staff Sergeant Promotion Points"
+     },
+     "6-53": {
+      "title": "Military Education (maximum points: 240 for promotion to …",
+      "section": "Section XII: Sergeant/Staff Sergeant Promotion Points"
+     }
+    }
+   },
+   "7": {
+    "title": "Demotions, page 98",
+    "file": "Regulations/AR_600-8-19/.transform/07_Chapter_7.md",
+    "paragraphs": {}
    }
   },
   "gaps": []
@@ -10656,6 +11590,333 @@
      },
      "3-18": {
       "title": "Reenlistment and extension criteria"
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
+ "AR_601-100": {
+  "doc_id": "AR_601-100",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/AR_601-100",
+  "pdf": "AR_601-100.pdf",
+  "transform_dir": "Regulations/AR_601-100/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "Introduction, page 1",
+    "file": null,
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose",
+      "section": "Section I: General"
+     },
+     "1-2": {
+      "title": "References",
+      "section": "Section I: General"
+     },
+     "1-3": {
+      "title": "Explanation of abbreviations and terms",
+      "section": "Section I: General"
+     },
+     "1-4": {
+      "title": "Responsibilities",
+      "section": "Section I: General"
+     },
+     "1-5": {
+      "title": "Citizenship",
+      "section": "Section II: Policy"
+     },
+     "1-6": {
+      "title": "Medical and fitness standards",
+      "section": "Section II: Policy"
+     },
+     "1-7": {
+      "title": "Conscientious objector",
+      "section": "Section II: Policy"
+     },
+     "1-8": {
+      "title": "Security clearance",
+      "section": "Section II: Policy"
+     },
+     "1-9": {
+      "title": "Age requirements",
+      "section": "Section II: Policy"
+     },
+     "1-10": {
+      "title": "Educational requirements",
+      "section": "Section II: Policy"
+     },
+     "1-11": {
+      "title": "Loyalty",
+      "section": "Section II: Policy"
+     },
+     "1-12": {
+      "title": "Character",
+      "section": "Section II: Policy"
+     },
+     "1-13": {
+      "title": "Military or civilian court convictions.",
+      "section": "Section II: Policy"
+     },
+     "1-14": {
+      "title": "Ineligibility for appointment",
+      "section": "Section II: Policy"
+     }
+    }
+   },
+   "2": {
+    "title": "Appointment of Commissioned and Warrant Officers in the Regular Army, page 3",
+    "file": null,
+    "paragraphs": {
+     "2-1": {
+      "title": "The Regular Army Integration Program",
+      "section": "Section I: General"
+     },
+     "2-2": {
+      "title": "Source of personnel",
+      "section": "Section I: General"
+     },
+     "2-3": {
+      "title": "Service obligations",
+      "section": "Section I: General"
+     },
+     "2-4": {
+      "title": "Determination of appointment grade",
+      "section": "Section I: General"
+     },
+     "2-5": {
+      "title": "Declining a Regular Army appointment",
+      "section": "Section I: General"
+     },
+     "2-6": {
+      "title": "All-Regular Army Active Duty Force",
+      "section": "Section I: General"
+     },
+     "2-7": {
+      "title": "Appointment of Chaplains",
+      "section": "Section II: Appointment to the Special Branches"
+     },
+     "2-8": {
+      "title": "Appointment to the Judge Advocate General’s Corps",
+      "section": "Section II: Appointment to the Special Branches"
+     },
+     "2-9": {
+      "title": "Appointment to the Corps of the Army Medical Department",
+      "section": "Section II: Appointment to the Special Branches"
+     },
+     "2-10": {
+      "title": "Integration of warrant oficers into the Regular Army",
+      "section": "Section III: Appointment of Commissioned Warrant Officers in the Regular Army"
+     },
+     "2-11": {
+      "title": "Appointment notification",
+      "section": "Section III: Appointment of Commissioned Warrant Officers in the Regular Army"
+     },
+     "2-12": {
+      "title": "Delay in acceptance of appointment",
+      "section": "Section III: Appointment of Commissioned Warrant Officers in the Regular Army"
+     },
+     "2-13": {
+      "title": "Initial active duty assignment orders",
+      "section": "Section III: Appointment of Commissioned Warrant Officers in the Regular Army"
+     },
+     "2-14": {
+      "title": "Consummation of appointment in the Regular Army",
+      "section": "Section III: Appointment of Commissioned Warrant Officers in the Regular Army"
+     }
+    }
+   },
+   "3": {
+    "title": "Posthumous Appointments, page 7",
+    "file": null,
+    "paragraphs": {
+     "3-1": {
+      "title": "Authority to issue appointments",
+      "section": "Section III: Appointment of Commissioned Warrant Officers in the Regular Army"
+     },
+     "3-2": {
+      "title": "Effective date",
+      "section": "Section III: Appointment of Commissioned Warrant Officers in the Regular Army"
+     },
+     "3-3": {
+      "title": "Bonus, gratuity, pay or allowance",
+      "section": "Section III: Appointment of Commissioned Warrant Officers in the Regular Army"
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
+ "AR_601-141": {
+  "doc_id": "AR_601-141",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/AR_601-141",
+  "pdf": "AR_601-141.pdf",
+  "transform_dir": "Regulations/AR_601-141/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "General, page 1",
+    "file": null,
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose"
+     },
+     "1-2": {
+      "title": "References"
+     },
+     "1-3": {
+      "title": "Explanation of abbreviations and terms"
+     },
+     "1-4": {
+      "title": "Responsibilities"
+     }
+    }
+   },
+   "2": {
+    "title": "Health Professions Scholarship Program, page 2",
+    "file": null,
+    "paragraphs": {
+     "2-1": {
+      "title": "Eligibility requirements"
+     },
+     "2-2": {
+      "title": "Entitlements"
+     },
+     "2-3": {
+      "title": "Obligation"
+     },
+     "2-4": {
+      "title": "Annual active duty for training period"
+     },
+     "2-5": {
+      "title": "Appointment"
+     },
+     "2-6": {
+      "title": "Graduate professional education (GPE)"
+     },
+     "2-7": {
+      "title": "Application"
+     },
+     "2-8": {
+      "title": "Processing procedures"
+     },
+     "2-9": {
+      "title": "Determination of creditable service"
+     },
+     "2-10": {
+      "title": "Academic monitoring"
+     },
+     "2-11": {
+      "title": "Administrative waivers"
+     },
+     "2-12": {
+      "title": "Program entry"
+     },
+     "2-13": {
+      "title": "Disenrollment"
+     },
+     "2-14": {
+      "title": "Due process"
+     },
+     "2-15": {
+      "title": "Discharge"
+     }
+    }
+   },
+   "3": {
+    "title": "Financial Assistance Program, page 10",
+    "file": null,
+    "paragraphs": {
+     "3-1": {
+      "title": "Eligibility requirements"
+     },
+     "3-2": {
+      "title": "Entitlements"
+     },
+     "3-3": {
+      "title": "Obligation"
+     },
+     "3-4": {
+      "title": "Active duty for training"
+     },
+     "3-5": {
+      "title": "Appointment"
+     },
+     "3-6": {
+      "title": "Graduate professional education"
+     },
+     "3-7": {
+      "title": "Application"
+     },
+     "3-8": {
+      "title": "Processing procedures"
+     },
+     "3-9": {
+      "title": "Determination of creditable service"
+     },
+     "3-10": {
+      "title": "Academic monitoring"
+     },
+     "3-11": {
+      "title": "Administrative waivers"
+     },
+     "3-12": {
+      "title": "Program entry"
+     },
+     "3-13": {
+      "title": "Disenrollment"
+     },
+     "3-14": {
+      "title": "Due process"
+     },
+     "3-15": {
+      "title": "Discharge"
+     }
+    }
+   },
+   "4": {
+    "title": "Active Duty Health Professions Loan Repayment Program, page 12",
+    "file": null,
+    "paragraphs": {
+     "4-1": {
+      "title": "Eligibility"
+     },
+     "4-2": {
+      "title": "Loan payments"
+     },
+     "4-3": {
+      "title": "Obligation"
+     },
+     "4-4": {
+      "title": "Appointment"
+     },
+     "4-5": {
+      "title": "Graduate professional education"
+     },
+     "4-6": {
+      "title": "Application"
+     },
+     "4-7": {
+      "title": "Application processing"
+     },
+     "4-8": {
+      "title": "Program entry"
+     },
+     "4-9": {
+      "title": "Disenrollment"
+     },
+     "4-10": {
+      "title": "Due process"
+     },
+     "4-11": {
+      "title": "Discharge"
      }
     }
    }
@@ -13510,6 +14771,466 @@
   },
   "gaps": []
  },
+ "AR_612-201": {
+  "doc_id": "AR_612-201",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/AR_612-201",
+  "pdf": "AR_612-201.pdf",
+  "transform_dir": "Regulations/AR_612-201/.transform",
+  "edition_date": "11 March 2024",
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "Introduction, page 1",
+    "file": "Regulations/AR_612-201/.transform/01_Chapter_1.md",
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose",
+      "section": "Section I: General Description of Soldier and Student Processing Functions"
+     },
+     "1-2": {
+      "title": "References",
+      "section": "Section I: General Description of Soldier and Student Processing Functions"
+     },
+     "1-3": {
+      "title": "Explanation of abbreviations and terms",
+      "section": "Section I: General Description of Soldier and Student Processing Functions"
+     },
+     "1-4": {
+      "title": "Deputy Chief of Staff, G–1",
+      "section": "Section II: Responsibilities"
+     },
+     "1-5": {
+      "title": "Chief, Army Reserve",
+      "section": "Section II: Responsibilities"
+     },
+     "1-6": {
+      "title": "Deputy Chief of Staff, G–9",
+      "section": "Section II: Responsibilities"
+     },
+     "1-7": {
+      "title": "Commanding General, U.S. Army Training and Doctrine Command",
+      "section": "Section II: Responsibilities"
+     },
+     "1-8": {
+      "title": "Commanding General, U.S. Army Medical Command",
+      "section": "Section II: Responsibilities"
+     },
+     "1-9": {
+      "title": "Commanding General, U.S. Army Installation Management Command",
+      "section": "Section II: Responsibilities"
+     },
+     "1-10": {
+      "title": "Principles of support",
+      "section": "Section III: Reception Centers and Battalions, Initial Military Soldiers, Prior Service Soldiers, Student Support"
+     },
+     "1-11": {
+      "title": "Standards of service",
+      "section": "Section III: Reception Centers and Battalions, Initial Military Soldiers, Prior Service Soldiers, Student Support"
+     },
+     "1-12": {
+      "title": "Conduct of mandated mission",
+      "section": "Section IV: Overview of Reception Battalions and Processing Centers"
+     },
+     "1-13": {
+      "title": "Processing U.S. Army accessions at U.S. Army reception battalions",
+      "section": "Section IV: Overview of Reception Battalions and Processing Centers"
+     }
+    }
+   },
+   "2": {
+    "title": "Processing at U.S. Army Reception Battalions, page 6",
+    "file": "Regulations/AR_612-201/.transform/02_Chapter_2.md",
+    "paragraphs": {
+     "2-1": {
+      "title": "Goals",
+      "section": "Section I: Peacetime Processing"
+     },
+     "2-2": {
+      "title": "General administration guidance",
+      "section": "Section I: Peacetime Processing"
+     },
+     "2-3": {
+      "title": "Soldier processing guidelines",
+      "section": "Section I: Peacetime Processing"
+     },
+     "2-4": {
+      "title": "Orientation overview",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-5": {
+      "title": "Content of orientations",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-6": {
+      "title": "Prohibited items",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-7": {
+      "title": "Required and optional items",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-8": {
+      "title": "Disposition of civilian clothing",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-9": {
+      "title": "Medical processing",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-10": {
+      "title": "Minimum physical requirements",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-11": {
+      "title": "Waiver of U.S. Department of Veterans Affairs disability pension or compensation",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-12": {
+      "title": "Initiation of records",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-13": {
+      "title": "Records processing",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-14": {
+      "title": "Partial and advance pay",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-15": {
+      "title": "Personnel security investigations",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-16": {
+      "title": "Detailing a Soldier",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-17": {
+      "title": "Disposition of a Soldier",
+      "section": "Section II: Conducting Orientations at the Reception Battalion"
+     },
+     "2-18": {
+      "title": "Requirements",
+      "section": "Section III: Basic Interviews and Required Reporting"
+     },
+     "2-19": {
+      "title": "Purpose of interviews",
+      "section": "Section III: Basic Interviews and Required Reporting"
+     },
+     "2-20": {
+      "title": "Basic interviews",
+      "section": "Section III: Basic Interviews and Required Reporting"
+     },
+     "2-21": {
+      "title": "Interviewer responsibilities",
+      "section": "Section III: Basic Interviews and Required Reporting"
+     },
+     "2-22": {
+      "title": "Disposition of collected interview information",
+      "section": "Section III: Basic Interviews and Required Reporting"
+     },
+     "2-23": {
+      "title": "Scope",
+      "section": "Section IV: Mobilization Processing at U.S. Army Reception Battalions"
+     },
+     "2-24": {
+      "title": "Applicability",
+      "section": "Section IV: Mobilization Processing at U.S. Army Reception Battalions"
+     },
+     "2-25": {
+      "title": "Restrictions",
+      "section": "Section IV: Mobilization Processing at U.S. Army Reception Battalions"
+     },
+     "2-26": {
+      "title": "Reception battalion mobilization processing",
+      "section": "Section IV: Mobilization Processing at U.S. Army Reception Battalions"
+     },
+     "2-27": {
+      "title": "Testing and classification",
+      "section": "Section IV: Mobilization Processing at U.S. Army Reception Battalions"
+     },
+     "2-28": {
+      "title": "Special categories of personnel",
+      "section": "Section IV: Mobilization Processing at U.S. Army Reception Battalions"
+     },
+     "2-29": {
+      "title": "Personal affairs processing",
+      "section": "Section IV: Mobilization Processing at U.S. Army Reception Battalions"
+     },
+     "2-30": {
+      "title": "Individual Ready Reserve processing",
+      "section": "Section IV: Mobilization Processing at U.S. Army Reception Battalions"
+     }
+    }
+   },
+   "3": {
+    "title": "Processing and Reporting by U.S. Army Training Centers, page 29",
+    "file": "Regulations/AR_612-201/.transform/03_Chapter_3.md",
+    "paragraphs": {
+     "3-1": {
+      "title": "Processing and reporting overview",
+      "section": "Section I: Processing During Basic Training"
+     },
+     "3-2": {
+      "title": "Records processing at the U.S. Army Training Center",
+      "section": "Section I: Processing During Basic Training"
+     },
+     "3-3": {
+      "title": "Review of records and screening for special category personnel",
+      "section": "Section I: Processing During Basic Training"
+     },
+     "3-4": {
+      "title": "Unfulfilled enlistment agreements",
+      "section": "Section I: Processing During Basic Training"
+     },
+     "3-5": {
+      "title": "Administrative processing actions",
+      "section": "Section II: Administrative Processing"
+     },
+     "3-6": {
+      "title": "Unit processing actions",
+      "section": "Section III: Unit Processing"
+     },
+     "3-7": {
+      "title": "Prior service personnel",
+      "section": "Section III: Unit Processing"
+     },
+     "3-8": {
+      "title": "Training assignment reports",
+      "section": "Section III: Unit Processing"
+     },
+     "3-9": {
+      "title": "Evaluation during training (basic combat training, advanced individual training, and one",
+      "section": "Section III: Unit Processing"
+     },
+     "3-10": {
+      "title": "Verifying training assignments",
+      "section": "Section IV: Training Assignments"
+     },
+     "3-11": {
+      "title": "Processing and verifying training assignments",
+      "section": "Section IV: Training Assignments"
+     },
+     "3-12": {
+      "title": "Orders preparation",
+      "section": "Section V: Assignment of Personnel from Basic Combat Training"
+     },
+     "3-13": {
+      "title": "Training entries on personnel records",
+      "section": "Section V: Assignment of Personnel from Basic Combat Training"
+     },
+     "3-14": {
+      "title": "Records processing",
+      "section": "Section V: Assignment of Personnel from Basic Combat Training"
+     },
+     "3-15": {
+      "title": "Trainee and/or student processing branch commander",
+      "section": "Section VI: Out Processing from Basic Combat Training"
+     },
+     "3-16": {
+      "title": "Leave",
+      "section": "Section VI: Out Processing from Basic Combat Training"
+     },
+     "3-17": {
+      "title": "Overview",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-18": {
+      "title": "Advanced individual training in-processing",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-19": {
+      "title": "Reserve Component initial active duty for training personnel",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-20": {
+      "title": "Supervised on-the-job training",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-21": {
+      "title": "Assignment reports",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-22": {
+      "title": "Academic recycling and reassignment to complete advanced individual training",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-23": {
+      "title": "Retraining in another military occupational specialty",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-24": {
+      "title": "Awarding military occupational specialty and posting personnel records",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-25": {
+      "title": "Assignment of personnel",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-26": {
+      "title": "Out processing from advanced individual training",
+      "section": "Section VII: Processing During Advanced Individual Training"
+     },
+     "3-27": {
+      "title": "Retraining policy",
+      "section": "Section VIII: Special Processing for Army National Guard of the United States and U.S. Army Reserve"
+     },
+     "3-28": {
+      "title": "Applicatory training",
+      "section": "Section VIII: Special Processing for Army National Guard of the United States and U.S. Army Reserve"
+     },
+     "3-29": {
+      "title": "Out processing",
+      "section": "Section VIII: Special Processing for Army National Guard of the United States and U.S. Army Reserve"
+     },
+     "3-30": {
+      "title": "Overview",
+      "section": "Section IX: Assignment and Strength Accounting at Training Centers"
+     },
+     "3-31": {
+      "title": "Assignment of Soldiers",
+      "section": "Section IX: Assignment and Strength Accounting at Training Centers"
+     }
+    }
+   },
+   "4": {
+    "title": "Control and Distribution of Soldiers, page 44",
+    "file": "Regulations/AR_612-201/.transform/04_Chapter_4.md",
+    "paragraphs": {
+     "4-1": {
+      "title": "Scope"
+     },
+     "4-2": {
+      "title": "Objectives of the report"
+     },
+     "4-3": {
+      "title": "Army Personnel Soldier records"
+     },
+     "4-4": {
+      "title": "Locally provided information"
+     },
+     "4-5": {
+      "title": "Processing during periods of mobilization"
+     }
+    }
+   },
+   "5": {
+    "title": "Management of Losing and Gaining Command Assignments, page 45",
+    "file": "Regulations/AR_612-201/.transform/05_Chapter_5.md",
+    "paragraphs": {
+     "5-1": {
+      "title": "Scope"
+     },
+     "5-2": {
+      "title": "Assignment processing"
+     },
+     "5-3": {
+      "title": "Deletion and deferment"
+     },
+     "5-4": {
+      "title": "Gaining command assignments"
+     }
+    }
+   },
+   "6": {
+    "title": "Special Actions and Programs, page 46",
+    "file": "Regulations/AR_612-201/.transform/06_Chapter_6.md",
+    "paragraphs": {
+     "6-1": {
+      "title": "Scope"
+     },
+     "6-2": {
+      "title": "Reporting of immediately available personnel"
+     },
+     "6-3": {
+      "title": "Exchange assignments"
+     },
+     "6-4": {
+      "title": "Married Army Couples Program"
+     },
+     "6-5": {
+      "title": "Volunteers for airborne, special forces, and ranger training and assignment"
+     },
+     "6-6": {
+      "title": "Assignment requests for extreme Family problems or Exceptional Family Member Program"
+     },
+     "6-7": {
+      "title": "Volunteers for specific assignments"
+     }
+    }
+   },
+   "7": {
+    "title": "English as a Second Language Soldiers, page 49",
+    "file": "Regulations/AR_612-201/.transform/07_Chapter_7.md",
+    "paragraphs": {
+     "7-1": {
+      "title": "Scope"
+     },
+     "7-2": {
+      "title": "Eligibility"
+     },
+     "7-3": {
+      "title": "Processing English as a second language Soldiers"
+     },
+     "7-4": {
+      "title": "Processing while attending English as a second language training"
+     },
+     "7-5": {
+      "title": "The steps required for processing"
+     }
+    }
+   },
+   "8": {
+    "title": "Warrior Training Rehabilitation Program, page 50",
+    "file": "Regulations/AR_612-201/.transform/08_Chapter_8.md",
+    "paragraphs": {
+     "8-1": {
+      "title": "General",
+      "section": "Section I: Program Overview"
+     },
+     "8-2": {
+      "title": "Functions",
+      "section": "Section I: Program Overview"
+     },
+     "8-3": {
+      "title": "Staff coordination",
+      "section": "Section I: Program Overview"
+     },
+     "8-4": {
+      "title": "Operations",
+      "section": "Section I: Program Overview"
+     },
+     "8-5": {
+      "title": "Warrior Training Rehabilitation Program admission criteria",
+      "section": "Section II: Clinical Guidelines"
+     },
+     "8-6": {
+      "title": "Injury severity categorization",
+      "section": "Section II: Clinical Guidelines"
+     },
+     "8-7": {
+      "title": "Convalescent leave",
+      "section": "Section II: Clinical Guidelines"
+     },
+     "8-8": {
+      "title": "Phased approach to rehabilitation",
+      "section": "Section II: Clinical Guidelines"
+     },
+     "8-10": {
+      "title": "Mental skills training",
+      "section": "Section II: Clinical Guidelines"
+     },
+     "8-11": {
+      "title": "Disposition of Soldiers who fail rehabilitation",
+      "section": "Section II: Clinical Guidelines"
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
  "AR_614-200": {
   "doc_id": "AR_614-200",
   "category": "Regulations",
@@ -14335,6 +16056,545 @@
      },
      "10-24": {
       "title": "Enlisted Combat Skills Training Course (600–F29)"
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
+ "AR_621-202": {
+  "doc_id": "AR_621-202",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/AR_621-202",
+  "pdf": "AR_621-202.pdf",
+  "transform_dir": "Regulations/AR_621-202/.transform",
+  "edition_date": "26 March 2025",
+  "effective_date": "26 March 2025",
+  "chapters": {
+   "1": {
+    "title": "Introduction, page 1",
+    "file": "Regulations/AR_621-202/.transform/01_Chapter_1.md",
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose",
+      "section": "Section I: General"
+     },
+     "1-2": {
+      "title": "References, forms, and explanation of abbreviations",
+      "section": "Section I: General"
+     },
+     "1-3": {
+      "title": "Associated publications",
+      "section": "Section I: General"
+     },
+     "1-4": {
+      "title": "Responsibilities",
+      "section": "Section I: General"
+     },
+     "1-5": {
+      "title": "Records management (recordkeeping) requirements",
+      "section": "Section I: General"
+     },
+     "1-6": {
+      "title": "Assistant Secretary of the Army (Manpower and Reserve Affairs)",
+      "section": "Section II: Responsibilities"
+     },
+     "1-7": {
+      "title": "Chief of Public Affairs",
+      "section": "Section II: Responsibilities"
+     },
+     "1-8": {
+      "title": "Deputy Chief of Staff, G–1",
+      "section": "Section II: Responsibilities"
+     },
+     "1-9": {
+      "title": "Deputy Chief of Staff, G–3/5/7",
+      "section": "Section II: Responsibilities"
+     },
+     "1-10": {
+      "title": "Chief, National Guard Bureau",
+      "section": "Section II: Responsibilities"
+     },
+     "1-11": {
+      "title": "Chief, Army Reserve",
+      "section": "Section II: Responsibilities"
+     },
+     "1-12": {
+      "title": "The Judge Advocate General",
+      "section": "Section II: Responsibilities"
+     },
+     "1-13": {
+      "title": "Chief of Chaplains",
+      "section": "Section II: Responsibilities"
+     },
+     "1-14": {
+      "title": "Commanders of Army commands, Army service component commands, and direct",
+      "section": "Section II: Responsibilities"
+     },
+     "1-15": {
+      "title": "Commanding General, U.S. Army Materiel Command",
+      "section": "Section II: Responsibilities"
+     },
+     "1-16": {
+      "title": "Commanding General, U.S. Army Training and Doctrine Command"
+     },
+     "1-17": {
+      "title": "Education services officers"
+     }
+    }
+   },
+   "2": {
+    "title": "The Montgomery GI Bill, The Army College Fund, and Conversion—Regular Army, page 4 Chapter 3",
+    "file": "Regulations/AR_621-202/.transform/02_Chapter_2.md",
+    "paragraphs": {
+     "2-1": {
+      "title": "Authority",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-2": {
+      "title": "Objective",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-3": {
+      "title": "Eligibility",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-4": {
+      "title": "Eligibility exclusions",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-5": {
+      "title": "Duration of eligibility",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-6": {
+      "title": "Extension of eligibility",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-7": {
+      "title": "Processing Montgomery GI Bill eligibles",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-8": {
+      "title": "Resolution of discrepancies",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-9": {
+      "title": "Basic benefits",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-10": {
+      "title": "Public Laws amending the Montgomery GI Bill",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-11": {
+      "title": "In-service use eligibility",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-12": {
+      "title": "Application for benefits",
+      "section": "Section I: The Montgomery GI Bill–Active Duty"
+     },
+     "2-13": {
+      "title": "Authority",
+      "section": "Section II: The Army College Fund"
+     },
+     "2-14": {
+      "title": "Objective",
+      "section": "Section II: The Army College Fund"
+     },
+     "2-15": {
+      "title": "Eligibility",
+      "section": "Section II: The Army College Fund"
+     },
+     "2-16": {
+      "title": "Earning the Army College Fund",
+      "section": "Section II: The Army College Fund"
+     },
+     "2-17": {
+      "title": "Maximum monthly benefits",
+      "section": "Section II: The Army College Fund"
+     },
+     "2-18": {
+      "title": "Expiration of benefits (delimiting date)",
+      "section": "Section II: The Army College Fund"
+     },
+     "2-19": {
+      "title": "Army College Fund eligibility exclusions",
+      "section": "Section II: The Army College Fund"
+     },
+     "2-20": {
+      "title": "Processing Army College Fund eligibles",
+      "section": "Section II: The Army College Fund"
+     },
+     "2-21": {
+      "title": "Authority",
+      "section": "Section III: Conversion of Vietnam-Era GI Bill Eligibles to The Montgomery GI Bill"
+     },
+     "2-22": {
+      "title": "Entitlements",
+      "section": "Section III: Conversion of Vietnam-Era GI Bill Eligibles to The Montgomery GI Bill"
+     },
+     "2-23": {
+      "title": "Eligibility for original entitlement",
+      "section": "Section III: Conversion of Vietnam-Era GI Bill Eligibles to The Montgomery GI Bill"
+     },
+     "2-24": {
+      "title": "Eligibility for conversion from the Vietnam-Era GI Bill …",
+      "section": "Section III: Conversion of Vietnam-Era GI Bill Eligibles to The Montgomery GI Bill"
+     },
+     "2-25": {
+      "title": "Conversion of benefits",
+      "section": "Section III: Conversion of Vietnam-Era GI Bill Eligibles to The Montgomery GI Bill"
+     },
+     "2-26": {
+      "title": "Expiration of benefits (delimiting date)",
+      "section": "Section III: Conversion of Vietnam-Era GI Bill Eligibles to The Montgomery GI Bill"
+     },
+     "2-27": {
+      "title": "Application for benefits",
+      "section": "Section III: Conversion of Vietnam-Era GI Bill Eligibles to The Montgomery GI Bill"
+     }
+    }
+   },
+   "3": {
+    "title": "Montgomery GI Bill–Selected Reserve, Montgomery GI Bill–Selected Reserve Kicker and Reserve Education Assistance Program, page 133",
+    "file": "Regulations/AR_621-202/.transform/03_Chapter_3.md",
+    "paragraphs": {
+     "3-1": {
+      "title": "Authority",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-2": {
+      "title": "Purpose",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-3": {
+      "title": "Scope",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-4": {
+      "title": "Eligibility",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-5": {
+      "title": "Restrictions",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-6": {
+      "title": "Suspension and restoration of entitlement",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-7": {
+      "title": "Required statement of understanding",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-8": {
+      "title": "Service agreements",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-9": {
+      "title": "Notice of basic eligibility",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-10": {
+      "title": "Educational assistance",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-11": {
+      "title": "Duplication of benefits",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-12": {
+      "title": "Individual application procedures",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-13": {
+      "title": "Termination of entitlement",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-14": {
+      "title": "Period of entitlement (delimiting period)",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-15": {
+      "title": "Reaffiliation in the Selected Reserve",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-16": {
+      "title": "Recoupment",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-17": {
+      "title": "Selected Reserve Incentive Program and the Montgomery GI Bill–Selected Reserve",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-18": {
+      "title": "Montgomery GI Bill–Selected Reserve and the mobilized Soldier",
+      "section": "Section I: Montgomery GI Bill–Selected Reserve"
+     },
+     "3-19": {
+      "title": "General",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-20": {
+      "title": "Purpose",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-21": {
+      "title": "Scope",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-22": {
+      "title": "Eligibility",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-23": {
+      "title": "Entitlement",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-24": {
+      "title": "Continued Receipt of Montgomery GI Bill–Selected Reserve Kicker incentive",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-25": {
+      "title": "Suspension",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-26": {
+      "title": "Termination",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-27": {
+      "title": "Recoupment",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-28": {
+      "title": "Funding requirements",
+      "section": "Section II: Montgomery GI Bill–Selected Reserve Kicker"
+     },
+     "3-29": {
+      "title": "Inquiries and comments"
+     }
+    }
+   },
+   "4": {
+    "title": "Post-9/11 GI Bill, page 23",
+    "file": "Regulations/AR_621-202/.transform/04_Chapter_4.md",
+    "paragraphs": {
+     "4-1": {
+      "title": "Authority"
+     },
+     "4-2": {
+      "title": "Objective"
+     },
+     "4-3": {
+      "title": "Soldier eligibility"
+     },
+     "4-4": {
+      "title": "Soldier eligibility exclusions"
+     },
+     "4-5": {
+      "title": "Duration of eligibility"
+     },
+     "4-6": {
+      "title": "Basic benefits"
+     },
+     "4-7": {
+      "title": "Benefits for Soldiers pursuing education on active duty"
+     },
+     "4-8": {
+      "title": "Issues for Soldiers with entitlement to existing education programs"
+     },
+     "4-9": {
+      "title": "Cessation of pay reduction under Montgomery GI Bill"
+     },
+     "4-10": {
+      "title": "Refund of pay reduction under Montgomery GI Bill"
+     },
+     "4-11": {
+      "title": "Treatment of certain contributions under Montgomery GI Bill and Reserve Education"
+     },
+     "4-12": {
+      "title": "Soldiers eligible for Montgomery GI Bill making an …"
+     },
+     "4-13": {
+      "title": "Soldiers who were eligible for benefits under Montgomery …"
+     },
+     "4-14": {
+      "title": "Eligible for Kickers under either Montgomery GI Bill or Montgomery GI Bill–Selected"
+     },
+     "4-15": {
+      "title": "Transferability of unused benefits to dependents"
+     },
+     "4-16": {
+      "title": "Army College Fund and reenlistment Kickers"
+     }
+    }
+   },
+   "5": {
+    "title": "Regular Army Loan Repayment Program, page 35",
+    "file": "Regulations/AR_621-202/.transform/05_Chapter_5.md",
+    "paragraphs": {
+     "5-1": {
+      "title": "Authority"
+     },
+     "5-2": {
+      "title": "Eligibility"
+     },
+     "5-3": {
+      "title": "Processing Loan Repayment Program claims for enlisted Soldiers"
+     },
+     "5-4": {
+      "title": "Student loan deferment and/or forbearance"
+     },
+     "5-5": {
+      "title": "Loans in default"
+     },
+     "5-6": {
+      "title": "Entitlements"
+     },
+     "5-7": {
+      "title": "Special conditions"
+     },
+     "5-8": {
+      "title": "Processing payments"
+     },
+     "5-9": {
+      "title": "Resolution of discrepancies"
+     }
+    }
+   },
+   "6": {
+    "title": "Student Loan Repayment Program Reserve Components (U.S. Army Reserve and Army National Guard), page 40",
+    "file": "Regulations/AR_621-202/.transform/06_Chapter_6.md",
+    "paragraphs": {
+     "6-1": {
+      "title": "Authority"
+     },
+     "6-2": {
+      "title": "Eligibility"
+     },
+     "6-3": {
+      "title": "Counseling"
+     },
+     "6-4": {
+      "title": "Entitlement"
+     },
+     "6-5": {
+      "title": "Payment processing"
+     },
+     "6-6": {
+      "title": "Calculating entitlement and making disbursement"
+     },
+     "6-7": {
+      "title": "Continued receipt of Student Loan Repayment Program incentives"
+     },
+     "6-8": {
+      "title": "Reinstatement of Student Loan Repayment Program incentives"
+     },
+     "6-9": {
+      "title": "Recoupment of Student Loan Repayment Program incentives"
+     },
+     "6-10": {
+      "title": "Administrative contacts—correction of errors"
+     }
+    }
+   },
+   "7": {
+    "title": "Chaplain Loan Repayment Program Reserve Component, page 46",
+    "file": "Regulations/AR_621-202/.transform/07_Chapter_7.md",
+    "paragraphs": {
+     "7-1": {
+      "title": "Authority"
+     },
+     "7-2": {
+      "title": "Eligibility"
+     },
+     "7-3": {
+      "title": "Counseling"
+     },
+     "7-4": {
+      "title": "Entitlement"
+     },
+     "7-5": {
+      "title": "Payment processing"
+     },
+     "7-6": {
+      "title": "Longevity of U.S. Army Reserve and Army National Guard Chaplain Loan Repayment"
+     },
+     "7-7": {
+      "title": "Termination of Chaplain Loan Repayment Program incentives"
+     },
+     "7-8": {
+      "title": "Continued receipt of Chaplain Loan Repayment Program incentives"
+     },
+     "7-9": {
+      "title": "Administrative contacts-correction of errors"
+     }
+    }
+   },
+   "8": {
+    "title": "Selected Reserve Health Professionals Loan Repayment Program, page 50",
+    "file": "Regulations/AR_621-202/.transform/08_Chapter_8.md",
+    "paragraphs": {
+     "8-1": {
+      "title": "General"
+     },
+     "8-2": {
+      "title": "Scope"
+     },
+     "8-3": {
+      "title": "Eligibility"
+     },
+     "8-4": {
+      "title": "Application to participate"
+     },
+     "8-5": {
+      "title": "Entitlement"
+     },
+     "8-6": {
+      "title": "Administration"
+     },
+     "8-7": {
+      "title": "Voluntary Regular Army assignment"
+     },
+     "8-8": {
+      "title": "Specialized Training Assistance Program participants receiving health professionals loan"
+     }
+    }
+   },
+   "9": {
+    "title": "Health Professional Stipend Programs, page 53",
+    "file": "Regulations/AR_621-202/.transform/09_Chapter_9.md",
+    "paragraphs": {
+     "9-1": {
+      "title": "General"
+     },
+     "9-2": {
+      "title": "Scope"
+     },
+     "9-3": {
+      "title": "Eligibility"
+     },
+     "9-4": {
+      "title": "Application and enrollment procedures"
+     },
+     "9-5": {
+      "title": "Participant responsibilities to maintain eligibility"
+     },
+     "9-6": {
+      "title": "Suspension of participation"
+     },
+     "9-7": {
+      "title": "Reinstatement after a period of suspension"
+     },
+     "9-8": {
+      "title": "Termination"
+     },
+     "9-9": {
+      "title": "Medical and Dental Student Stipend Program to Specialized Training Assistance Program"
      }
     }
    }
@@ -17328,6 +19588,525 @@
      "30-22": {
       "title": "The approving authority for DA Form 4170 will …",
       "section": "Section VII: Inventory Losses"
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
+ "NGR_600-7": {
+  "doc_id": "NGR_600-7",
+  "category": "Regulations",
+  "authority_level": 2,
+  "path": "Regulations/NGR_600-7",
+  "pdf": "NGR_600-7.pdf",
+  "transform_dir": "Regulations/NGR_600-7/.transform",
+  "edition_date": "12 August 2014",
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "Introduction",
+    "file": null,
+    "paragraphs": {
+     "1-1": {
+      "title": "Purpose"
+     },
+     "1-2": {
+      "title": "Explanation of abbreviations and terms"
+     },
+     "1-3": {
+      "title": "References"
+     },
+     "1-4": {
+      "title": "Policy"
+     },
+     "1-5": {
+      "title": "Program responsibilities and management controls",
+      "section": "Section I: Responsibilities"
+     },
+     "1-6": {
+      "title": "Personnel status for incentives"
+     },
+     "1-7": {
+      "title": "Authorized number of participants"
+     },
+     "1-8": {
+      "title": "Retroactive provision"
+     },
+     "1-9": {
+      "title": "Position vacancy requirements"
+     },
+     "1-10": {
+      "title": "Education requirements"
+     },
+     "1-11": {
+      "title": "Security Clearance requirements"
+     },
+     "1-12": {
+      "title": "Obligation"
+     },
+     "1-13": {
+      "title": "Required documents"
+     },
+     "1-14": {
+      "title": "Processing instructions"
+     },
+     "1-15": {
+      "title": "Reporting requirements"
+     },
+     "1-16": {
+      "title": "System overrides"
+     },
+     "1-17": {
+      "title": "Personnel movement between ARNG and Army Reserve (USAR)"
+     },
+     "1-18": {
+      "title": "Status of incentives on unit transition."
+     },
+     "1-19": {
+      "title": "Personnel movement between ARNG units"
+     },
+     "1-20": {
+      "title": "Incentive payments"
+     },
+     "1-21": {
+      "title": "Continued receipt of incentives"
+     },
+     "1-22": {
+      "title": "Suspension of incentives"
+     },
+     "1-23": {
+      "title": "Reinstatement of incentives"
+     },
+     "1-24": {
+      "title": "Termination of incentives"
+     },
+     "1-25": {
+      "title": "Termination with recoupment of incentives"
+     },
+     "1-26": {
+      "title": "Termination without recoupment"
+     },
+     "1-27": {
+      "title": "ARNG Exceptions to Policy (ETP) request"
+     },
+     "1-28": {
+      "title": "Claims requiring ABCMR determination"
+     },
+     "1-29": {
+      "title": "Deploying and deployed Soldier"
+     },
+     "1-30": {
+      "title": "Disposition of incentives for deceased members of the ARNG"
+     }
+    }
+   },
+   "2": {
+    "title": "Enlisted Incentives",
+    "file": null,
+    "paragraphs": {
+     "2-1": {
+      "title": "General",
+      "section": "Section I: Non-Prior Service Enlistment Bonus (NPSEB)"
+     },
+     "2-2": {
+      "title": "Entitlement",
+      "section": "Section I: Non-Prior Service Enlistment Bonus (NPSEB)"
+     },
+     "2-3": {
+      "title": "Eligibility",
+      "section": "Section I: Non-Prior Service Enlistment Bonus (NPSEB)"
+     },
+     "2-4": {
+      "title": "Military Entrance Processing Station (MEPS) processing"
+     },
+     "2-5": {
+      "title": "General",
+      "section": "Section II: Prior Service Enlistment Bonus (PSEB)"
+     },
+     "2-6": {
+      "title": "Entitlement",
+      "section": "Section II: Prior Service Enlistment Bonus (PSEB)"
+     },
+     "2-7": {
+      "title": "Eligibility",
+      "section": "Section II: Prior Service Enlistment Bonus (PSEB)"
+     },
+     "2-8": {
+      "title": "Processing"
+     },
+     "2-9": {
+      "title": "General",
+      "section": "Section III: Enlisted Affiliation Bonus (EAB)"
+     },
+     "2-10": {
+      "title": "Entitlement",
+      "section": "Section III: Enlisted Affiliation Bonus (EAB)"
+     },
+     "2-11": {
+      "title": "Eligibility",
+      "section": "Section III: Enlisted Affiliation Bonus (EAB)"
+     },
+     "2-12": {
+      "title": "Processing"
+     },
+     "2-13": {
+      "title": "General",
+      "section": "Section IV: Reenlistment/Extension Bonus (REB)"
+     },
+     "2-14": {
+      "title": "Entitlement",
+      "section": "Section IV: Reenlistment/Extension Bonus (REB)"
+     },
+     "2-15": {
+      "title": "Eligibility"
+     },
+     "2-16": {
+      "title": "Processing"
+     },
+     "2-17": {
+      "title": "Computation of service years"
+     },
+     "2-18": {
+      "title": "General",
+      "section": "Section V: Military Occupational Specialty Conversion Bonus (MOSCB)"
+     },
+     "2-19": {
+      "title": "Entitlement"
+     },
+     "2-20": {
+      "title": "Eligibility"
+     },
+     "2-21": {
+      "title": "Processing"
+     },
+     "2-22": {
+      "title": "Computation of service years"
+     },
+     "2-23": {
+      "title": "General",
+      "section": "Section VII: Student Loan Repayment Program (SLRP)"
+     },
+     "2-24": {
+      "title": "Eligibility",
+      "section": "Section VII: Student Loan Repayment Program (SLRP)"
+     },
+     "2-25": {
+      "title": "Eligible loans"
+     },
+     "2-26": {
+      "title": "Processing"
+     },
+     "2-27": {
+      "title": "Entitlement"
+     },
+     "2-28": {
+      "title": "Soldier responsibilities"
+     },
+     "2-29": {
+      "title": "Incentive Manager Responsibilities"
+     },
+     "2-30": {
+      "title": "Commander responsibilities"
+     },
+     "2-31": {
+      "title": "Administration"
+     },
+     "2-32": {
+      "title": "Continued receipt of incentives",
+      "section": "Section IV: Continued Receipt, Suspension, Reinstatement, and Termination of Enlisted Incentives (NPSEB, PSEB, EAB,"
+     },
+     "2-33": {
+      "title": "Suspension of incentives",
+      "section": "Section IV: Continued Receipt, Suspension, Reinstatement, and Termination of Enlisted Incentives (NPSEB, PSEB, EAB,"
+     },
+     "2-34": {
+      "title": "Reinstatement of incentives",
+      "section": "Section IV: Continued Receipt, Suspension, Reinstatement, and Termination of Enlisted Incentives (NPSEB, PSEB, EAB,"
+     },
+     "2-35": {
+      "title": "Termination of incentives",
+      "section": "Section IV: Continued Receipt, Suspension, Reinstatement, and Termination of Enlisted Incentives (NPSEB, PSEB, EAB,"
+     },
+     "2-36": {
+      "title": "General",
+      "section": "Section VIII: Montgomery GI Bill Selected Reserve (MGIB-SR) Kicker"
+     },
+     "2-37": {
+      "title": "Entitlement"
+     },
+     "2-38": {
+      "title": "Eligibility"
+     },
+     "2-39": {
+      "title": "Processing"
+     },
+     "2-40": {
+      "title": "Suspension"
+     },
+     "2-41": {
+      "title": "Reinstatement"
+     },
+     "2-42": {
+      "title": "Termination"
+     },
+     "2-43": {
+      "title": "Termination with recoupment"
+     },
+     "2-44": {
+      "title": "Termination without recoupment"
+     }
+    }
+   },
+   "3": {
+    "title": "Officer Incentives",
+    "file": null,
+    "paragraphs": {
+     "3-1": {
+      "title": "General",
+      "section": "Section I: Officer Accession Bonus (OAB)"
+     },
+     "3-2": {
+      "title": "Entitlement",
+      "section": "Section I: Officer Accession Bonus (OAB)"
+     },
+     "3-3": {
+      "title": "Eligibility"
+     },
+     "3-4": {
+      "title": "Processing"
+     },
+     "3-5": {
+      "title": "General",
+      "section": "Section II: Officer Affiliation Bonus (OAFB)"
+     },
+     "3-6": {
+      "title": "Entitlement",
+      "section": "Section II: Officer Affiliation Bonus (OAFB)"
+     },
+     "3-7": {
+      "title": "Eligibility",
+      "section": "Section II: Officer Affiliation Bonus (OAFB)"
+     },
+     "3-8": {
+      "title": "Processing"
+     },
+     "3-9": {
+      "title": "General",
+      "section": "Section III: Chaplain Loan Repayment Program (CLRP)"
+     },
+     "3-10": {
+      "title": "Eligibility",
+      "section": "Section III: Chaplain Loan Repayment Program (CLRP)"
+     },
+     "3-11": {
+      "title": "Eligible loans"
+     },
+     "3-12": {
+      "title": "Entitlement"
+     },
+     "3-13": {
+      "title": "Soldier responsibilities"
+     },
+     "3-14": {
+      "title": "Incentive Manager responsibilities"
+     },
+     "3-15": {
+      "title": "Commander responsibilities"
+     },
+     "3-16": {
+      "title": "Administration"
+     },
+     "3-17": {
+      "title": "Continued receipt of incentives",
+      "section": "Section IV: Continued Receipt, Suspension, Reinstatement, and Termination of Officer Incentives (OAB, OAFB and"
+     },
+     "3-18": {
+      "title": "Suspension of incentives",
+      "section": "Section IV: Continued Receipt, Suspension, Reinstatement, and Termination of Officer Incentives (OAB, OAFB and"
+     },
+     "3-19": {
+      "title": "Reinstatement of incentives"
+     },
+     "3-20": {
+      "title": "Termination of incentives"
+     },
+     "3-21": {
+      "title": "General",
+      "section": "Section V: Montgomery GI Bill-Selected Reserves (MGIB-SR) Kicker"
+     },
+     "3-22": {
+      "title": "Entitlement",
+      "section": "Section V: Montgomery GI Bill-Selected Reserves (MGIB-SR) Kicker"
+     },
+     "3-23": {
+      "title": "Eligibility"
+     },
+     "3-24": {
+      "title": "Processing"
+     },
+     "3-25": {
+      "title": "Suspension"
+     },
+     "3-26": {
+      "title": "Continued receipt"
+     },
+     "3-27": {
+      "title": "Termination"
+     },
+     "3-28": {
+      "title": "Termination with recoupment"
+     },
+     "3-29": {
+      "title": "Termination without recoupment"
+     }
+    }
+   },
+   "4": {
+    "title": "Specialty Incentives",
+    "file": null,
+    "paragraphs": {
+     "4-1": {
+      "title": "General",
+      "section": "Section I: Critical Skill Retention Bonus"
+     },
+     "4-2": {
+      "title": "Entitlement",
+      "section": "Section I: Critical Skill Retention Bonus"
+     },
+     "4-3": {
+      "title": "Eligibility",
+      "section": "Section I: Critical Skill Retention Bonus"
+     },
+     "4-4": {
+      "title": "Computation of service years"
+     },
+     "4-5": {
+      "title": "Processing"
+     },
+     "4-6": {
+      "title": "Continued receipt of incentives"
+     },
+     "4-7": {
+      "title": "Suspension of incentives"
+     },
+     "4-8": {
+      "title": "Reinstatement of incentives"
+     },
+     "4-9": {
+      "title": "Termination of incentives"
+     },
+     "4-10": {
+      "title": "General",
+      "section": "Section II: Active Guard Reserve (AGR) Title 10 and Title 32 Selective Reenlistment Bonus (SRB)"
+     },
+     "4-11": {
+      "title": "General",
+      "section": "Section III: Military Technician (Mil Tech) Dual Status Reenlistment Bonus (REB)"
+     }
+    }
+   },
+   "5": {
+    "title": "Settlement Process",
+    "file": null,
+    "paragraphs": {
+     "5-1": {
+      "title": "General",
+      "section": "Section I: Enlisted Incentives, Officer Incentives and SLRP"
+     },
+     "5-2": {
+      "title": "Categories of reviewed contracts",
+      "section": "Section I: Enlisted Incentives, Officer Incentives and SLRP"
+     },
+     "5-3": {
+      "title": "Process to request an ARNG Exception to Policy …",
+      "section": "Section I: Enlisted Incentives, Officer Incentives and SLRP"
+     },
+     "5-4": {
+      "title": "Termination of an incentive contract"
+     },
+     "5-5": {
+      "title": "USPFO actions"
+     },
+     "5-6": {
+      "title": "Army Board for Correction of Military Records (ABCMR)"
+     },
+     "5-7": {
+      "title": "Recordkeeping"
+     },
+     "5-8": {
+      "title": "General",
+      "section": "Section II: MGIB-SR Kicker"
+     },
+     "5-9": {
+      "title": "Categories of reviewed contracts",
+      "section": "Section II: MGIB-SR Kicker"
+     },
+     "5-10": {
+      "title": "Process to request an ARNG Exception to Policy …"
+     },
+     "5-11": {
+      "title": "The ETP Process"
+     },
+     "5-12": {
+      "title": "The Department of Veterans Affairs (DVA) overpayment and debt collection process"
+     },
+     "5-13": {
+      "title": "DFAS Out of Service debt process"
+     },
+     "5-14": {
+      "title": "Recordkeeping"
+     }
+    }
+   },
+   "6": {
+    "title": "Administrative Correction of Addenda/Annex or Written Agreement",
+    "file": null,
+    "paragraphs": {
+     "6-1": {
+      "title": "General"
+     },
+     "6-2": {
+      "title": "Procedures"
+     },
+     "6-3": {
+      "title": "Administrative correction out of service process"
+     },
+     "6-4": {
+      "title": "Recordkeeping"
+     }
+    }
+   },
+   "7": {
+    "title": "Out of Service Process",
+    "file": null,
+    "paragraphs": {
+     "7-1": {
+      "title": "General"
+     },
+     "7-2": {
+      "title": "Procedures"
+     },
+     "7-3": {
+      "title": "Recordkeeping"
+     }
+    }
+   },
+   "8": {
+    "title": "Case Management System (CMS)",
+    "file": null,
+    "paragraphs": {
+     "8-1": {
+      "title": "General"
+     },
+     "8-2": {
+      "title": "Purpose"
+     },
+     "8-3": {
+      "title": "Obtaining a User ID and Password"
+     },
+     "8-4": {
+      "title": "Recordkeeping"
      }
     }
    }
@@ -34953,6 +37732,679 @@
   },
   "gaps": []
  },
+ "UTP_3-10.6": {
+  "doc_id": "UTP_3-10.6",
+  "category": "Guides",
+  "authority_level": 4,
+  "path": "Guides/UTP_3-10.6",
+  "pdf": "UTP_3-10.6.pdf",
+  "transform_dir": "Guides/UTP_3-10.6/.transform",
+  "edition_date": "17 March 2023",
+  "effective_date": null,
+  "chapters": {
+   "1": {
+    "title": "and station commander (SC) do not synchronize, their subordinates know it. Leadership in a geographically dispersed command places a premium on communication and rank maturity. In recruiting, as in combat",
+    "file": "Guides/UTP_3-10.6/.transform/05_Chapter_1.md",
+    "paragraphs": {
+     "1-1": {
+      "title": "Providing the nation's strength requires stakeholders within the …"
+     },
+     "1-2": {
+      "title": "The Medical Recruiting Brigade (MRB) (provisional) was formed …"
+     },
+     "1-3": {
+      "title": "The CRD, located within the MRB at Fort …"
+     },
+     "1-4": {
+      "title": "Chaplain recruiting recruits highly qualified, motivated, and credentialed religious professionals for the"
+     },
+     "1-5": {
+      "title": "The Office of the Chief of Chaplains, U.S. …"
+     },
+     "1-6": {
+      "title": "The most important duty of any recruiting leadership …"
+     },
+     "1-7": {
+      "title": "Advertising and Public Affairs (A&PA). The brigade (BDE) …"
+     },
+     "1-8": {
+      "title": "Market and Mission Analysis (S-2). The BDE S-2 …"
+     },
+     "1-9": {
+      "title": "Operations (S-3). The BDE S-3 develops, coordinates, and …"
+     },
+     "1-10": {
+      "title": "Training. A section of the S-3, these trainers …"
+     },
+     "1-11": {
+      "title": "The trainers provide input and participate in quarterly …"
+     },
+     "1-12": {
+      "title": "Medical recruiting battalions (MRBn) have oversight of the …"
+     },
+     "1-13": {
+      "title": "The S-3 will receive, process, and send packet …"
+     },
+     "1-14": {
+      "title": "Officer in Charge. The OIC holds a TDA …"
+     },
+     "1-15": {
+      "title": "The station OIC is a leadership position in …"
+     },
+     "1-16": {
+      "title": "As the SME, the OIC focuses on relationship …"
+     },
+     "1-17": {
+      "title": "The OIC contacts, interviews, and counsels potential chaplains …"
+     },
+     "1-18": {
+      "title": "Station Commander. The SC is responsible for everything …"
+     },
+     "1-19": {
+      "title": "The SC is responsible for approving all actions …"
+     },
+     "1-20": {
+      "title": "Chaplain recruiters (noncommissioned officers (NCO) and officers). Recruiters conduct recruiting"
+     },
+     "1-21": {
+      "title": "Human Resources Technician (HRT). The chaplain recruiting HRT …"
+     },
+     "1-22": {
+      "title": "The Army’s recruiting mission involves a complex and …"
+     },
+     "1-23": {
+      "title": "The MRB’s mission requires precision recruiting of students, …"
+     },
+     "1-24": {
+      "title": "Chaplain recruiting’s greatest challenge is educating prospective applicants …"
+     },
+     "1-25": {
+      "title": "Furthermore, precision in recruiting production requires precision in performance by leaders and"
+     }
+    }
+   },
+   "2": {
+    "title": "Figure 2–2. Mission by Chaplain Recruiting Station",
+    "file": "Guides/UTP_3-10.6/.transform/06_Chapter_2.md",
+    "paragraphs": {
+     "2-1": {
+      "title": "The Chaplain Corps has two components—the RA and USAR—for chaplain accessions. Chaplain"
+     },
+     "2-2": {
+      "title": "The DACH provides chaplain recruiting requirements to the …"
+     },
+     "2-3": {
+      "title": "The FY Mission Memo is posted in the …"
+     },
+     "2-4": {
+      "title": "The 711 is an internal Excel spreadsheet that …"
+     }
+    }
+   },
+   "3": {
+    "title": "EXTERNAL NETWORK",
+    "file": "Guides/UTP_3-10.6/.transform/07_Chapter_3.md",
+    "paragraphs": {
+     "3-1": {
+      "title": "Recruiting operations require leaders at all levels to …"
+     },
+     "3-2": {
+      "title": "The internal network consists of every Soldier, DA …"
+     },
+     "3-4": {
+      "title": "Enlisted and medical recruiters. Like chaplain recruiters, enlisted …"
+     },
+     "3-5": {
+      "title": "Reserve Officers’ Training Corps (ROTC). ROTC cadre can …"
+     },
+     "3-6": {
+      "title": "TPU. USAR TPU Soldiers are imbedded in and …"
+     },
+     "3-7": {
+      "title": "Reserve Recruiting Partnership Council. The council is a …"
+     },
+     "3-8": {
+      "title": "Future Officers. Future Officers can be a tremendous …"
+     },
+     "3-9": {
+      "title": "External networks are elements external to the Army. …"
+     },
+     "3-10": {
+      "title": "A CP is a person or persons capable …"
+     },
+     "3-11": {
+      "title": "CPs include educators, chief executive officers, ministry administrators, school board members, elected"
+     },
+     "3-12": {
+      "title": "COIs are individuals or groups who can help …"
+     },
+     "3-14": {
+      "title": "CPs are willing to support directly, lead, or …"
+     },
+     "3-15": {
+      "title": "An excellent way to ensure CP educators and …"
+     },
+     "3-16": {
+      "title": "Cultivating a relationship with COIs and CPs is …"
+     },
+     "3-17": {
+      "title": "Social media sites are an excellent way to …"
+     },
+     "3-18": {
+      "title": "It is essential to establish a relationship with …"
+     },
+     "3-20": {
+      "title": "Follow-up goals are to sustain relationships with the …"
+     }
+    }
+   },
+   "4": {
+    "title": "UTC 5–02. This process helps leaders at all levels understand their recruiting market and environment. UTC",
+    "file": "Guides/UTP_3-10.6/.transform/08_Chapter_4.md",
+    "paragraphs": {
+     "4-1": {
+      "title": "The purpose of intelligence is to support commanders, …"
+     },
+     "4-2": {
+      "title": "What is intelligence as defined by the Army? …"
+     },
+     "4-3": {
+      "title": "Recruiters and leaders in USAREC have access to …"
+     },
+     "4-4": {
+      "title": "Strengths, weaknesses, opportunities, and threats (SWOT) analysis (figure 4–1) helps identify"
+     },
+     "4-5": {
+      "title": "IPOE is a process that produces invaluable tools …"
+     },
+     "4-6": {
+      "title": "The BDE starts the IPOE process six months …"
+     },
+     "4-7": {
+      "title": "From the IPOE, the BDE S-2 provides resources …"
+     },
+     "4-8": {
+      "title": "Additionally, information found through the Grant Thornton website provides a holistic intelligence"
+     },
+     "4-9": {
+      "title": "Understanding the individual station’s mission is very different …"
+     },
+     "4-10": {
+      "title": "The focus areas are seminaries and denominational events …"
+     },
+     "4-11": {
+      "title": "Recruiters, SCs, and OICs should develop an intrinsic …"
+     },
+     "4-12": {
+      "title": "Recruiters, SCs, and OICs must be aware of …"
+     },
+     "4-13": {
+      "title": "Chaplain recruiting's operational environment is pervasive and requires …"
+     },
+     "4-14": {
+      "title": "A robust virtual presence for both recruiters and …"
+     }
+    }
+   },
+   "5": {
+    "title": "Figure 5–2. The Operations Process",
+    "file": "Guides/UTP_3-10.6/.transform/09_Chapter_5.md",
+    "paragraphs": {
+     "5-1": {
+      "title": "Mission command is fundamental to both the art …"
+     },
+     "5-2": {
+      "title": "Mission command (figure 5–1) is the Army’s approach …"
+     },
+     "5-3": {
+      "title": "Decisive operations are personal encounters between a recruiter …"
+     },
+     "5-4": {
+      "title": "Shaping operations create and preserve conditions for effective decisive operations. Shaping operations"
+     },
+     "5-5": {
+      "title": "Sustaining operations focus resources to support the commander’s …"
+     },
+     "5-7": {
+      "title": "Virtual efforts greatly enhance our ability to conduct …"
+     },
+     "5-8": {
+      "title": "A key aspect of shaping operations is maintaining …"
+     },
+     "5-9": {
+      "title": "Sustaining operations and virtual activities are far more …"
+     },
+     "5-10": {
+      "title": "Virtual activity is a vital supplement to developing …"
+     },
+     "5-11": {
+      "title": "Consideration must be given to virtual activities when …"
+     },
+     "5-12": {
+      "title": "The intelligence-gathering process within the CRD is different …"
+     },
+     "5-13": {
+      "title": "Planning is essential for success. The CRD’s mission …"
+     },
+     "5-14": {
+      "title": "While developing the plan, keeping balance is the …"
+     },
+     "5-15": {
+      "title": "Issuance of the recruiting mission occurs in the …"
+     },
+     "5-17": {
+      "title": "Leaders must create predictable battle rhythms and set …"
+     },
+     "5-18": {
+      "title": "Every year, DACH publishes the FY’s board schedule …"
+     },
+     "5-19": {
+      "title": "Backward planning is a crucial part of the …"
+     },
+     "5-20": {
+      "title": "Processing begins with establishing a realistic board date …"
+     },
+     "5-21": {
+      "title": "Denominational recruiting plans are much like any other …"
+     },
+     "5-22": {
+      "title": "OICs and recruiters are the SMEs for denominational …"
+     },
+     "5-23": {
+      "title": "The CRD attends select national, large denominational, and …"
+     },
+     "5-24": {
+      "title": "A basic understanding of the operations, beliefs, and …"
+     },
+     "5-25": {
+      "title": "Due to the unique nature of the chaplain …"
+     },
+     "5-26": {
+      "title": "The college recruiting plan provides guidance to the …"
+     },
+     "5-27": {
+      "title": "Regularly conducting events within the station’s AO is …"
+     },
+     "5-28": {
+      "title": "Assets are available for the recruiter's use. The …"
+     },
+     "5-29": {
+      "title": "Events approved by the U.S. Army Marketing and …"
+     },
+     "5-30": {
+      "title": "When setting up a long-term plan, consider working …"
+     },
+     "5-31": {
+      "title": "The MEB supports major national events that the …"
+     },
+     "5-32": {
+      "title": "The CRD conducts the Army Chaplain Experience annually. …"
+     },
+     "5-33": {
+      "title": "ECAR is a DACH-run event and training. The …"
+     },
+     "5-34": {
+      "title": "Chaplain recruiting does not have a specialized institutional …"
+     },
+     "5-35": {
+      "title": "SCs will ensure all recruiters assigned to their …"
+     },
+     "5-36": {
+      "title": "Under the direction of the MRB commander, the …"
+     }
+    }
+   },
+   "6": {
+    "title": "6-8. Recruiters should visit established CPs and COIs to maintain their professional relationships and provide updates regarding chaplaincy programs. This time should also be used to obtain lists, schedule, and confirm",
+    "file": "Guides/UTP_3-10.6/.transform/10_Chapter_6.md",
+    "paragraphs": {
+     "6-1": {
+      "title": "In chaplain recruiting, the recruiting process starts with …"
+     },
+     "6-2": {
+      "title": "Recruiters obtain leads from school lists (colleges and …"
+     },
+     "6-3": {
+      "title": "Referrals, leads furnished to a recruiter by any …"
+     },
+     "6-4": {
+      "title": "Recruiters should contact and visit, when feasible, all …"
+     },
+     "6-5": {
+      "title": "Using social media to highlight the success stories …"
+     },
+     "6-6": {
+      "title": "Social media can generate referrals using influencers. By …"
+     },
+     "6-7": {
+      "title": "Recruiters must be proficient in conducting face-to-face prospecting—a prospecting activity where a"
+     },
+     "6-8": {
+      "title": "Recruiters should visit established CPs and COIs to …"
+     },
+     "6-9": {
+      "title": "Recruiters should visit areas such as seminaries, churches, …"
+     },
+     "6-10": {
+      "title": "Recruiters must conduct follow-ups with all individuals who …"
+     },
+     "6-11": {
+      "title": "Plan and implement telephone prospecting—a prospecting method that …"
+     },
+     "6-12": {
+      "title": "Telephone prospecting requires strategic planning to ensure success. Recruiters must continuously"
+     },
+     "6-13": {
+      "title": "They should introduce themselves and state why they …"
+     },
+     "6-15": {
+      "title": "The primary method of virtual prospecting is email. …"
+     },
+     "6-16": {
+      "title": "When dealing with a highly educated and professional …"
+     },
+     "6-17": {
+      "title": "Virtual prospecting can use professional social networking platforms to generate conversations that"
+     },
+     "6-19": {
+      "title": "In support of virtual prospecting, recruiters can also …"
+     },
+     "6-20": {
+      "title": "A key method of active virtual lead generation …"
+     },
+     "6-21": {
+      "title": "Recruiters can use video to generate new leads …"
+     },
+     "6-22": {
+      "title": "Passive virtual lead generation requires an upfront investment …"
+     },
+     "6-23": {
+      "title": "Conducting a virtual audit by checking on social …"
+     },
+     "6-24": {
+      "title": "A common and effective form of passive lead …"
+     },
+     "6-25": {
+      "title": "Referral generation is another powerful form of passive …"
+     },
+     "6-26": {
+      "title": "Successful recruiters in chaplain recruiting must not merely …"
+     },
+     "6-27": {
+      "title": "Ensure that all posts and correspondence align with …"
+     },
+     "6-28": {
+      "title": "Typical follow-up can include contacting a CP to …"
+     },
+     "6-29": {
+      "title": "Follow up with all individuals who no-showed or …"
+     },
+     "6-30": {
+      "title": "Follow up with applicants as scheduled during the …"
+     }
+    }
+   },
+   "7": {
+    "title": "Figure 7–3. Example Survey of Benefits and Incentives to Join",
+    "file": "Guides/UTP_3-10.6/.transform/11_Chapter_7.md",
+    "paragraphs": {
+     "7-1": {
+      "title": "In chaplain recruiting, the second step of the …"
+     },
+     "7-2": {
+      "title": "Recruiters reference the guidance prescribed below to determine an applicant’s appointment eligibility."
+     },
+     "7-3": {
+      "title": "The Army Interview, a formal meeting between a …"
+     }
+    }
+   },
+   "8": {
+    "title": "the list. Load documents if needed into the ERM (Electronic Records Management) system by clicking the hyperlinks next to the document's name or the drop-down to the screen's right.",
+    "file": "Guides/UTP_3-10.6/.transform/12_Chapter_8.md",
+    "paragraphs": {
+     "8-1": {
+      "title": "In chaplain recruiting, the next step of the …"
+     },
+     "8-2": {
+      "title": "Processing begins when an applicant “Agrees to Process” …"
+     },
+     "8-3": {
+      "title": "During initial processing, also known as pre-board processing, …"
+     },
+     "8-4": {
+      "title": "DCA is the system of record for processing …"
+     },
+     "8-5": {
+      "title": "In DCA, header information, or basic data, located …"
+     },
+     "8-6": {
+      "title": "ACE records allow applicants to access their DCA …"
+     },
+     "8-8": {
+      "title": "All RA 56A, USAR 56A, and 56X applicants …"
+     },
+     "8-9": {
+      "title": "Ecclesiastical endorsement is completed on DD2088. Endorsement is the applicant's responsibility, and"
+     },
+     "8-10": {
+      "title": "Recruiters can advise the applicant of the endorsement …"
+     },
+     "8-11": {
+      "title": "Only the DD2088 approved by the accessions specialist …"
+     },
+     "8-12": {
+      "title": "Receipt of the DD2088 initiates the accessions interview …"
+     },
+     "8-13": {
+      "title": "The accessions interview is completed with a senior …"
+     },
+     "8-14": {
+      "title": "The accessions interview is a chance for the …"
+     },
+     "8-15": {
+      "title": "All RA chaplain applicants must conduct a face-to-face …"
+     },
+     "8-16": {
+      "title": "The accessions officer will attempt to schedule the …"
+     },
+     "8-17": {
+      "title": "All USAR chaplain applicants must conduct a face-to-face …"
+     },
+     "8-18": {
+      "title": "The scroll is the official rank confirmation by …"
+     },
+     "8-19": {
+      "title": "Scheduling and completing a commissioning physical must be …"
+     },
+     "8-20": {
+      "title": "Recruiters understand the integration of both the MEPS …"
+     },
+     "8-21": {
+      "title": "All MTF physicals will require a medical waiver …"
+     },
+     "8-22": {
+      "title": "Collection and scanning into ERM of all required …"
+     },
+     "8-23": {
+      "title": "Currently serving officer applicants will use their current …"
+     },
+     "8-24": {
+      "title": "Request a copy of the local MEPS SOP …"
+     },
+     "8-25": {
+      "title": "Special-category processing will be offered daily; start times …"
+     },
+     "8-26": {
+      "title": "Special-category processing will not typically be scheduled on …"
+     },
+     "8-27": {
+      "title": "A special-category processing applicant must be projected by …"
+     },
+     "8-28": {
+      "title": "A special-category processing applicant may elect to process …"
+     },
+     "8-29": {
+      "title": "Each MEPS commander will establish an appointment time …"
+     },
+     "8-30": {
+      "title": "All RA 56A and USAR 56A applicants are …"
+     },
+     "8-31": {
+      "title": "Sacred Communication is a video recording of a …"
+     },
+     "8-32": {
+      "title": "Recruiters should view the Sacred Communication before submitting …"
+     },
+     "8-33": {
+      "title": "Sacred Communication is submitted through DoD SAFE at https://safe.apps.mil/. Recruiters will log"
+     },
+     "8-34": {
+      "title": "Grade point average (GPA) requirements can be found …"
+     },
+     "8-35": {
+      "title": "Related studies may include degrees in pastoral counseling, …"
+     },
+     "8-37": {
+      "title": "Applicants who completed a post-graduate degree in theological …"
+     },
+     "8-38": {
+      "title": "Applicants of foreign origin may apply if they …"
+     },
+     "8-39": {
+      "title": "Lawful permanent residents, also known as Green Card …"
+     },
+     "8-40": {
+      "title": "Applicants with dual citizenship in the United States …"
+     },
+     "8-41": {
+      "title": "Foreign applicants must meet the educational requirements IAW …"
+     },
+     "8-42": {
+      "title": "QCs are the process by which the recruiter, …"
+     },
+     "8-43": {
+      "title": "Although waiting for a record to be complete …"
+     },
+     "8-45": {
+      "title": "Level 2 WFs are the initial WF in …"
+     },
+     "8-46": {
+      "title": "Level 3 WFs are system-generated and require no …"
+     },
+     "8-47": {
+      "title": "RA applicants who do not meet the conviction/moral …"
+     },
+     "8-48": {
+      "title": "When processing conviction/moral waivers, list all offenses. If …"
+     },
+     "8-49": {
+      "title": "Typical offenses for traffic, non-traffic, misconduct, and major …"
+     },
+     "8-50": {
+      "title": "Every request for a conviction/moral waiver will require …"
+     },
+     "8-51": {
+      "title": "All conviction/moral waivers require the submission of the following documents:"
+     },
+     "8-52": {
+      "title": "In addition to conviction waivers directed by USAREC, …"
+     },
+     "8-53": {
+      "title": "DACH is the approving authority for this waiver …"
+     },
+     "8-54": {
+      "title": "RA and USAR chaplain applicants must complete a …"
+     },
+     "8-55": {
+      "title": "DODMERB will not be utilized unless “Other Commissioning …"
+     },
+     "8-56": {
+      "title": "All chaplain applicants that start a physical at …"
+     },
+     "8-58": {
+      "title": "Age waivers can be submitted and considered for …"
+     },
+     "8-59": {
+      "title": "GPA requirements can be found in AR 165–1. …"
+     },
+     "8-60": {
+      "title": "Applicants not meeting the minimum GPA requirements may …"
+     },
+     "8-61": {
+      "title": "The purpose of the Defense Manpower Data Center …"
+     },
+     "8-62": {
+      "title": "A PS request (USAREC FL 142) will be …"
+     },
+     "8-63": {
+      "title": "The Request for Conditional Release, or DD368, is …"
+     },
+     "8-64": {
+      "title": "USARC tracks approved conditional releases and authorizes them …"
+     }
+    }
+   },
+   "9": {
+    "title": null,
+    "file": "Guides/UTP_3-10.6/.transform/13_Chapter_9.md",
+    "paragraphs": {
+     "9-1": {
+      "title": "In chaplain recruiting, the next step of the …"
+     },
+     "9-2": {
+      "title": "SCs and recruiters should remain in contact with …"
+     },
+     "9-3": {
+      "title": "The OIC and SC must determine the sustainment …"
+     },
+     "9-4": {
+      "title": "DACH handles post-board actions such as commissioning. DACH …"
+     },
+     "9-5": {
+      "title": "Once the Future Officer commissions have accessed, they …"
+     }
+    }
+   },
+   "10": {
+    "title": "Figure 10–2. Chaplain Recruiting Application",
+    "file": "Guides/UTP_3-10.6/.transform/14_Chapter_10.md",
+    "paragraphs": {
+     "10-1": {
+      "title": "For detailed information on how to use IKROme …"
+     },
+     "10-2": {
+      "title": "From the IKROme Home page, click on the …"
+     },
+     "10-3": {
+      "title": "Mission Command contains the following sections:"
+     },
+     "10-4": {
+      "title": "Processing contains the following sections:"
+     },
+     "10-5": {
+      "title": "MRB has created a quick reference app on …"
+     },
+     "10-6": {
+      "title": "This app is a great tool to use …"
+     },
+     "10-7": {
+      "title": "On the IKROme home page, under “Recruiter Resources,” …"
+     }
+    }
+   },
+   "40": {
+    "title": null,
+    "file": null,
+    "paragraphs": {
+     "40-501": {
+      "title": "MEPS will schedule and incur the expense of any required consultations."
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
  "ADP_1": {
   "doc_id": "ADP_1",
   "category": "ADP",
@@ -48254,6 +51706,77 @@
   },
   "gaps": []
  },
+ "DA_5305": {
+  "doc_id": "DA_5305",
+  "category": "Forms",
+  "authority_level": 4,
+  "path": "Forms/DA_5305",
+  "pdf": "DA_5305.pdf",
+  "transform_dir": "Forms/DA_5305/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "S1": {
+    "title": "Full Document",
+    "file": "Forms/DA_5305/.transform/00_Full_Document.md",
+    "paragraphs": {}
+   }
+  },
+  "gaps": [
+   "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
+  ]
+ },
+ "DA_5500": {
+  "doc_id": "DA_5500",
+  "category": "Forms",
+  "authority_level": 4,
+  "path": "Forms/DA_5500",
+  "pdf": "DA_5500.pdf",
+  "transform_dir": "Forms/DA_5500/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "S1": {
+    "title": "Full Document",
+    "file": "Forms/DA_5500/.transform/00_Full_Document.md",
+    "paragraphs": {}
+   }
+  },
+  "gaps": [
+   "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
+  ]
+ },
+ "DA_5501": {
+  "doc_id": "DA_5501",
+  "category": "Forms",
+  "authority_level": 4,
+  "path": "Forms/DA_5501",
+  "pdf": "DA_5501.pdf",
+  "transform_dir": "Forms/DA_5501/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "S1": {
+    "title": "Full Document",
+    "file": "Forms/DA_5501/.transform/00_Full_Document.md",
+    "paragraphs": {
+     "S1-1": {
+      "title": "Measure neck just below level of larynx (Adam's apple)."
+     },
+     "S1-2": {
+      "title": "Measure waist (abdomen) at the point of minimal"
+     },
+     "S1-3": {
+      "title": "Measure hips at point where the gluteus muscles"
+     },
+     "S1-4": {
+      "title": "CALCULATIONS"
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
  "DD_369_PoliceRecord_Check": {
   "doc_id": "DD_369_PoliceRecord_Check",
   "category": "Forms",
@@ -48312,6 +51835,64 @@
      },
      "S1-16": {
       "title": "VERIFIED BY (Signature)"
+     }
+    }
+   }
+  },
+  "gaps": []
+ },
+ "DD_372": {
+  "doc_id": "DD_372",
+  "category": "Forms",
+  "authority_level": 4,
+  "path": "Forms/DD_372",
+  "pdf": "DD_372.pdf",
+  "transform_dir": "Forms/DD_372/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "S1": {
+    "title": "Full Document",
+    "file": "Forms/DD_372/.transform/00_Full_Document.md",
+    "paragraphs": {
+     "S1-2": {
+      "title": "FULL NAME OF CHILD AT TIME OF BIRTH  (Last, First, Middle Names)"
+     },
+     "S1-3": {
+      "title": "SEX  (X)"
+     },
+     "S1-4": {
+      "title": "DATE OF BIRTH"
+     },
+     "S1-5": {
+      "title": "PLACE OF BIRTH"
+     },
+     "S1-6": {
+      "title": "FULL NAME OF FATHER AT TIME OF BIRTH …"
+     },
+     "S1-7": {
+      "title": "FULL NAME OF MOTHER AT TIME OF BIRTH …"
+     },
+     "S1-8": {
+      "title": "RECRUITING REPRESENTATIVE MAKING REQUEST"
+     },
+     "S1-9": {
+      "title": "CORRECTIONS OF ABOVE STATEMENT MADE ACCORDING TO FACTS ON FILE BY:"
+     },
+     "S1-11": {
+      "title": "FILE DATE"
+     },
+     "S1-10": {
+      "title": "CERTIFICATE OR"
+     },
+     "S1-12": {
+      "title": "VERIFIED BY  (Signature)"
+     },
+     "S1-13": {
+      "title": "DATE SIGNED"
+     },
+     "S1-14": {
+      "title": "RECRUITING OFFICE IDENTIFICATION DATA"
      }
     }
    }
@@ -48771,6 +52352,26 @@
    "S1": {
     "title": "Full Document",
     "file": "Forms/UF_601-210.27_Medical_Safety_for_Future_Soldier_Ph/.transform/00_Full_Document.md",
+    "paragraphs": {}
+   }
+  },
+  "gaps": [
+   "no paragraph numbering in source (narrative prose or reference tables); cite by chapter/section"
+  ]
+ },
+ "UF_601-210.40": {
+  "doc_id": "UF_601-210.40",
+  "category": "Forms",
+  "authority_level": 4,
+  "path": "Forms/UF_601-210.40",
+  "pdf": "UF_601-210.40.pdf",
+  "transform_dir": "Forms/UF_601-210.40/.transform",
+  "edition_date": null,
+  "effective_date": null,
+  "chapters": {
+   "S1": {
+    "title": "Full Document",
+    "file": "Forms/UF_601-210.40/.transform/00_Full_Document.md",
     "paragraphs": {}
    }
   },
