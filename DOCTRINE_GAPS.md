@@ -120,6 +120,7 @@ flag, not a gap. See `catalog/source_catalog.json` for the current list.
 - Message 25-019 says UR 601-210 Ch.3 is obsolete.
 - Messages 25-020 and 26-009 share a subject and date header; 26-009 rescinds 25-020.
 - Messages 20-018 → 22-069 and 21-031 → 23-041: the rescission appears only in the machine summary or names an unrelated message. Verify in the PDF.
+- **System status, per station-level confirmation (2026-10-11):** GCRc, Leader Zone (LZ) and the LiveScan/WEBS setup guide are retired with no replacement guide published; Recruiter Zone is still in use but is being phased out in favor of AIE, which has no user guide yet. `40_systems_howto` was updated to say so rather than citing the GCRc/LiveScan guides as current or guessing at AIE's screens. The GCRc/LiveScan PDFs and catalog entries are left in the library as a historical record but are no longer cited by any agent.
 
 ## Cross-reference errors in the source text
 

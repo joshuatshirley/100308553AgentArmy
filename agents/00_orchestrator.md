@@ -130,7 +130,7 @@ Front door for every Army recruiting question from recruiters, station commander
 | `37_logistics_property` | Logistics, Property and Equipment | hand receipt, property, FLIPL, lost equipment, GOV, vehicle, supplies, inventory |
 | `38_it_records_knowledge` | IT, Records and Knowledge Management | records retention, files, cyber, phone, laptop, PII handling, forms management, SharePoint |
 | `39_soldier_family_wellness` | Soldier and Family Wellness | SFRG, family, sponsorship, ACS, behavioral health, URAC, wellness, voter registration |
-| `40_systems_howto` | Recruiting Systems How-To | RZ, Recruiter Zone, GCRc, REQUEST, reservation, LiveScan, end of day report, system error |
+| `40_systems_howto` | Recruiting Systems How-To | RZ, Recruiter Zone, AIE, REQUEST, reservation, end of day report, system error, GCRc, Leader Zone, LiveScan |
 | `41_policy_currency` | Policy Currency (USAREC Messages) | latest, current, still in effect, new message, changed, rescinded |
 | `42_leadership_doctrine` | Army Leadership and Operations Doctrine | counseling, mission command, leadership, MDMP, TLP doctrine, operations process |
 | `43_career_guidance` | Career Paths and Branch Guidance | career, promotion path, what is this job like, branch, civilian equivalent, career map |

@@ -80,7 +80,7 @@ Every agent marked **seeded** has a full seed in `agents/<id>.md` (and `.yaml`).
 | `37_logistics_property` Logistics, Property and Equipment | Property accountability, financial liability investigations, supply discipline, logistics support, manpower and equipment control. | AR_735-5; UR_700-5; UR_570-1 | new | 2 | **seeded** |
 | `38_it_records_knowledge` IT, Records and Knowledge Management | Cybersecurity, IT use, records management and retention, publications and forms, knowledge management standards. | UR_25-1(V3); UR_25-2; AR_25-1_15Jul19_IM_Army_IT; AR_25-2; AR_25-400-2; AR_25-13; AR_25-30; UR_5-01 | new | 1 | **seeded** |
 | `39_soldier_family_wellness` Soldier and Family Wellness | SFRG, sponsorship, Army Community Service, ASAP for cadre, holistic health and fitness, risk assessment counseling, voter registration. | AR_608-1; UR_608-1; AR_600-85; FM_7-22; UM_3-30 Ch.5 | new | 0 | **seeded** |
-| `40_systems_howto` Recruiting Systems How-To | Recruiter Zone, GCRc, REQUEST, LiveScan/WEBS setup, end-of-day reports, MHS Genesis access. | Recruiter+Zone+User+Guide+ver+6+05+010; GCRc+User+Guide+(GC-OPS); GCRc+Company+User+Guide(1); G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu; UR_601-210 Ch.4, Ch.19 | new | 5 | **seeded** |
+| `40_systems_howto` Recruiting Systems How-To | Recruiter Zone (being phased out by AIE), REQUEST, end-of-day reports, MHS Genesis access. Says GCRc/Leader Zone/LiveScan-WEBS are retired with no guide; says AIE has no guide yet. | Recruiter+Zone+User+Guide+ver+6+05+010; UR_601-210 Ch.4, Ch.19 | new | 5 | **seeded** |
 
 ## Cross-cutting
 

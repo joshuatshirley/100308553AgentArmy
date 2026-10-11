@@ -459,12 +459,14 @@ routing_table:
     triggers:
       - RZ
       - Recruiter Zone
-      - GCRc
+      - AIE
       - REQUEST
       - reservation
-      - LiveScan
       - end of day report
       - system error
+      - GCRc
+      - Leader Zone
+      - LiveScan
   - agent: "41_policy_currency"
     name: Policy Currency (USAREC Messages)
     triggers:

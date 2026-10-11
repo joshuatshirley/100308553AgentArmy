@@ -181,9 +181,9 @@ ROSTER = [
          sources=["AR_608-1", "UR_608-1", "AR_600-85", "FM_7-22", "UM_3-30 Ch.5"],
          maps_to="new", triggers=["SFRG", "family", "sponsorship", "ACS", "behavioral health", "URAC", "wellness", "voter registration"]),
     dict(id="40_systems_howto", name="Recruiting Systems How-To", group="Command support",
-         summary="Recruiter Zone, GCRc, REQUEST, LiveScan/WEBS setup, end-of-day reports, MHS Genesis access.",
-         sources=["Recruiter+Zone+User+Guide+ver+6+05+010", "GCRc+User+Guide+(GC-OPS)", "GCRc+Company+User+Guide(1)", "G6_Knowledge_Document_LiveScan_WEBS_2018_Set-up_Gu", "UR_601-210 Ch.4, Ch.19"],
-         maps_to="new", triggers=["RZ", "Recruiter Zone", "GCRc", "REQUEST", "reservation", "LiveScan", "end of day report", "system error"]),
+         summary="Recruiter Zone (being phased out by AIE), REQUEST, end-of-day reports, MHS Genesis access. Says GCRc/Leader Zone/LiveScan-WEBS are retired with no guide; says AIE has no guide yet.",
+         sources=["Recruiter+Zone+User+Guide+ver+6+05+010", "UR_601-210 Ch.4, Ch.19"],
+         maps_to="new", triggers=["RZ", "Recruiter Zone", "AIE", "REQUEST", "reservation", "end of day report", "system error", "GCRc", "Leader Zone", "LiveScan"]),
 
     # ---- cross-cutting ----
     dict(id="41_policy_currency", name="Policy Currency (USAREC Messages)", group="Cross-cutting",
