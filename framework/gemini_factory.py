@@ -180,15 +180,50 @@ class GeminiOrchestrator:
 
 
 class GeminiFactory:
-    """Compiler and runtime factory for the entire AgentArmy on Gemini."""
+    """Compiler and runtime factory for the entire AgentArmy on Gemini.
+    
+    Supports:
+    1. Google Cloud Vertex AI (Government & Military Cloud / FedRAMP / DoD IL4/IL5) via IAM / ADC
+    2. Google AI Studio (Commercial developer API key via GEMINI_API_KEY)
+    3. Dry-run mode for local validation without cloud credentials
+    """
 
-    def __init__(self, repo_root: Optional[str] = None, api_key: Optional[str] = None):
+    def __init__(
+        self,
+        repo_root: Optional[str] = None,
+        api_key: Optional[str] = None,
+        project: Optional[str] = None,
+        location: Optional[str] = None,
+    ):
         self.repo_root = repo_root or REPO_ROOT
         self.api_key = api_key or os.environ.get("GEMINI_API_KEY", "")
+        self.project = project or os.environ.get("GOOGLE_CLOUD_PROJECT") or os.environ.get("VERTEX_PROJECT", "")
+        self.location = location or os.environ.get("GOOGLE_CLOUD_LOCATION") or os.environ.get("VERTEX_LOCATION", "us-central1")
+
         self.retriever = DoctrineRetriever(self.repo_root)
         self.location_mgr = LocationManager(self.repo_root)
         self.specialists: Dict[str, GeminiAgent] = {}
         self.orchestrator: Optional[GeminiOrchestrator] = None
+
+        # Determine cloud provider mode
+        self.mode = "dry_run"
+        self.credentials = None
+
+        # Check for Google Cloud / GovCloud ADC credentials
+        try:
+            import google.auth
+            creds, detected_proj = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
+            if creds:
+                self.credentials = creds
+                if not self.project and detected_proj:
+                    self.project = detected_proj
+                if self.project:
+                    self.mode = "vertex_ai"
+        except Exception:
+            pass
+
+        if self.mode != "vertex_ai" and self.api_key:
+            self.mode = "gemini_api"
 
         self._compile_agents()
 
@@ -218,17 +253,26 @@ class GeminiFactory:
         if orchestrator_spec:
             self.orchestrator = GeminiOrchestrator(orchestrator_spec, self.specialists)
 
+    def _get_vertex_token(self) -> str:
+        """Fetch or refresh OAuth2 Bearer token for Google Cloud Vertex AI."""
+        if not self.credentials:
+            return ""
+        from google.auth.transport.requests import Request
+        if not self.credentials.valid:
+            self.credentials.refresh(Request())
+        return self.credentials.token
+
     def call_gemini_api(self, system_instruction: str, user_content: str, model: str = "gemini-2.0-flash") -> str:
-        """Call Gemini API via REST. If no API key is set, returns simulated grounded answer."""
-        if not self.api_key:
+        """Call Gemini API via REST (Vertex AI GovCloud or Google AI Studio)."""
+        if self.mode == "dry_run":
             return (
-                "[DRY RUN / NO GEMINI_API_KEY SET]\n\n"
+                "[DRY RUN / NO CLOUD CREDENTIALS SET]\n\n"
                 "System Instruction and Grounded Doctrine successfully generated.\n"
-                "To run live inference with Gemini, set the environment variable: GEMINI_API_KEY\n\n"
+                "To run live inference in GovCloud / Vertex AI: set GOOGLE_CLOUD_PROJECT and authenticate via gcloud/service account.\n"
+                "To run live inference via Google AI Studio: set GEMINI_API_KEY.\n\n"
                 f"--- Prompt Preview ---\n{user_content[:500]}..."
             )
 
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={self.api_key}"
         payload = {
             "contents": [
                 {
@@ -246,10 +290,22 @@ class GeminiFactory:
             },
         }
 
+        headers = {"Content-Type": "application/json"}
+
+        if self.mode == "vertex_ai":
+            token = self._get_vertex_token()
+            headers["Authorization"] = f"Bearer {token}"
+            url = (
+                f"https://{self.location}-aiplatform.googleapis.com/v1/"
+                f"projects/{self.project}/locations/{self.location}/publishers/google/models/{model}:generateContent"
+            )
+        else:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={self.api_key}"
+
         req = urllib.request.Request(
             url,
             data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json"},
+            headers=headers,
             method="POST",
         )
 
