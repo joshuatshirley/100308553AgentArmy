@@ -12,6 +12,12 @@ doctrine. Every seed is a draft pending SME review.
 | `ALL_AGENTS.md` | All 44 agents in one file between `<!-- BEGIN AGENT: id -->` / `<!-- END AGENT: id -->` markers |
 | `scripts/split_agents.py` | `python scripts/split_agents.py ALL_AGENTS.md agents/` splits the combined file back into one file per agent |
 | `yaml/<id>.yaml` | The same seeds as structured YAML |
+| `framework/gemini_factory.py` | Compiles all 44 seeds into an active multi-agent web on Gemini (Orchestrator + 43 Specialists) |
+| `framework/doctrine_retriever.py` | Runtime retriever that extracts exact cited paragraphs from `doctrine/*.md` |
+| `framework/location_manager.py` | Manages location overlays for recruiting stations, MEPS SOPs, and state National Guard benefits |
+| `framework/cli.py` | Interactive recruiter CLI (`python framework/cli.py`) with location-aware query routing |
+| `locations/` | Modular location overlays (e.g. `locations/meps/charlotte_meps.md`, `locations/states/NC_guard.md`) |
+| `scripts/ingest_message.py` | Ingests new USAREC/USARD messages, updates catalogs, and links to affected agents |
 | `ROSTER.md` | The roster by group, with primary sources and how each agent maps to the earlier FlorenceTaskingCommand agents |
 | `SCHEMA.yaml` | Field-by-field definition of a seed |
 | `DOCTRINE_GAPS.md` | Where the source library is thin, out of date or not yet converted to text |
@@ -54,6 +60,33 @@ to the author's private library required. `pdf` paths are informational only (th
 for a human to cross-reference against the author's library); the PDFs themselves are not in this repo.
 AR 601-210 in the library is the 20 March 2026 edition, effective 20 April 2026. The newest USAREC
 message is dated 29 December 2025.
+
+## Running the Multi-Agent Framework on Gemini
+
+The repository includes a complete agent factory and runtime in `framework/`:
+
+1. **Interactive Recruiter CLI**:
+   ```bash
+   python framework/cli.py
+   ```
+   Or ask a single query with location context:
+   ```bash
+   python framework/cli.py -q "What is the enlistment age limit?" -l "Charlotte MEPS"
+   ```
+2. **View Compiled Agent Web**:
+   ```bash
+   python framework/cli.py --roster
+   ```
+3. **Live Gemini Inference**:
+   Set `GEMINI_API_KEY` in your environment to run live completions against Gemini models (`gemini-2.0-flash`). If no key is set, the CLI runs in dry-run mode, proving prompt construction, trigger matching, and doctrine grounding.
+
+## Ingesting New Policy Knowledge
+
+When a new USAREC or USARD policy message is released:
+```bash
+python scripts/ingest_message.py --number "26-025" --subject "Updated Medical Prescreen Timeline" --rescinds "24-053" --amends-doc "AR_601-210" --amends-para "2-9"
+```
+This automatically updates `catalog/usarec_message_catalog.json`, marks rescinded messages, and links the new policy to affected agent seeds in `yaml/`.
 
 ## Regenerate
 

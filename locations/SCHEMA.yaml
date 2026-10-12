@@ -1,0 +1,14 @@
+# Location Knowledge Overlay Schema
+# Defines local SOPs, station guidelines, state incentives, and MEPS liaison rules.
+
+id: "location_identifier"       # e.g. "charlotte_meps" or "nc_guard_education"
+title: "Human Readable Title"   # e.g. "Charlotte MEPS Recruiting Station Liaison SOP"
+type: "meps | state_guard | station | battalion | brigade | general"
+applicable_agents: "agent_id_1, agent_id_2" # or "all"
+aliases: "Charlotte, MEPS Charlotte, NC Guard, North Carolina"
+
+# Content body in Markdown follows the YAML front matter:
+# - Operating hours & liaison POCs
+# - Cutoff times and prescreen turnaround
+# - State-specific benefits (e.g. 100% Tuition Assistance)
+# - Local court / law enforcement background check procedures
